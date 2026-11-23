@@ -1573,11 +1573,13 @@ Le logo a été vectorisé à partir du fichier fourni, sans modifier typographi
 | Fichier (à placer dans `public/brand/`) | Usage | Composant Figma |
 | --- | --- | --- |
 | `ziiiilo-logo-couleur.svg` | Header, footer clair, documents | Logo/Couleur `4:7` |
-| `ziiiilo-logo-blanc.svg` | Fonds sombres (hero, footer sombre, CTA) | Logo/Monochrome blanc `39:3944` |
+| `ziiiilo-logo-blanc.svg` | Footer (retenu en v3.1) ; autres fonds sombres (hero, CTA) si besoin | Logo/Monochrome blanc `39:3944` |
 | `ziiiilo-symbole.svg` | Favicon, icône d’application, avatar réseaux | Logo/Symbole `39:3915` |
 | `ziiiilo-logo-couleur-2536px.png`, `ziiiilo-logo-blanc-2536px.png`, `ziiiilo-symbole-1024px.png` | Partage social (`og:image`), e-mails, usages hors web | — |
 
-Règles : ratio 2:1 (viewBox `-1 0 634 317`), toujours inséré en SVG inline ou `<img>` avec `alt="ZIIIILO"`, jamais recoloré en CSS, jamais étiré. Hauteur du logo dans le header : 56 px desktop (112 × 56), 48 px mobile (96 × 48). Le monochrome blanc est une déclinaison proposée séparément, à faire valider par ZIIIILO.
+Règles : ratio 2:1 (viewBox `-1 0 634 317`), toujours inséré en SVG inline ou `<img>` avec `alt="ZIIIILO"`, jamais recoloré en CSS, jamais étiré. Hauteur du logo dans le header : 56 px desktop (112 × 56), 48 px mobile (96 × 48). Le monochrome blanc est validé pour le footer (v3.1).
+
+Footer (v3.1) : la plaque blanche autour du logo est supprimée. Le footer utilise le logo monochrome blanc (Logo/Monochrome blanc, `39:3944`, fichier `ziiiilo-logo-blanc.svg`), validé par ZIIIILO pour cet usage. Taille : 160 × 80 px sur desktop et mobile. Le logo couleur reste celui du header. Une variante couleur pour fond sombre existe (Logo/Couleur sur fond sombre, `430:984`, mention « SARL » éclaircie) mais n’est pas utilisée. Comparaison des options : planche « Comparaison — logo du footer » (`429:1286`, page 01). L’adresse du footer passe sur deux lignes (« Bonamoussadi – Rond-point Maetur » / « BP 8283 Douala »).
 
 ### Icônes
 

@@ -4,7 +4,7 @@ import { cn } from "@/lib/cn";
 /**
  * Logo ZIIIILO (§11) : SVG fournis dans public/brand, jamais redessinés ni recolorés.
  * Ratio 2:1 — header desktop 112 × 56, mobile 96 × 48, minimum 96 px de large.
- * Sur fond sombre : version blanche, ou version couleur sur plaque claire (Figma 4:10).
+ * Sur fond sombre : version monochrome blanche (footer, validée en v3.1).
  */
 export function Logo({
   variant = "color",
@@ -31,11 +31,3 @@ export function Logo({
   );
 }
 
-/** Logo couleur posé sur une plaque claire, pour les fonds bleu nuit (Figma 4:10). */
-export function LogoOnPlate({ width = 144, className }: { width?: number; className?: string }) {
-  return (
-    <span className={cn("inline-flex rounded-lg bg-surface-default px-20 py-12", className)}>
-      <Logo width={width} />
-    </span>
-  );
-}

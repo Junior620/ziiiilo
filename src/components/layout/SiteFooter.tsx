@@ -1,7 +1,7 @@
 import { Mail, MapPin, Phone } from "lucide-react";
 import { getTranslations } from "next-intl/server";
 import type { ComponentProps, ReactNode } from "react";
-import { LogoOnPlate } from "@/components/brand/Logo";
+import { Logo } from "@/components/brand/Logo";
 import { CookieSettingsLink } from "@/components/cookies/CookieSettingsLink";
 import { Button } from "@/components/ui/Button";
 import { FOOTER_SERVICES } from "@/config/navigation";
@@ -28,10 +28,12 @@ export async function SiteFooter() {
   return (
     <footer className="bg-background-inverse text-text-inverse">
       <div className="container flex flex-col gap-40 pt-64 pb-40 desktop:gap-64 desktop:pt-96">
-        <div className="flex flex-col gap-40 desktop:flex-row desktop:justify-between desktop:gap-64">
+        {/* Desktop : marque 340 px et colonnes réparties sur le reste, sans écart fixe (Figma 5:189). */}
+        <div className="flex flex-col gap-40 desktop:flex-row desktop:justify-between desktop:gap-0">
           {/* Marque */}
           <div className="flex flex-col items-start gap-24 desktop:w-340 desktop:shrink-0">
-            <LogoOnPlate width={144} />
+            {/* Logo monochrome blanc, sans plaque, 160 × 80 (Figma 434:114 / 434:164, §11 v3.1). */}
+            <Logo variant="white" width={160} />
             <p className="text-text-inverse-muted text-body-s">{t("tagline")}</p>
             <Button href="/contact" variant="inverse-outline" size="M" className="hidden desktop:inline-flex">
               {nav("startProject")}
@@ -96,7 +98,15 @@ export async function SiteFooter() {
                 <ContactLine icon={Phone} href={site.contact.phoneHref}>
                   {site.contact.phone}
                 </ContactLine>
-                <ContactLine icon={MapPin}>{site.contact.address}</ContactLine>
+                <ContactLine icon={MapPin}>
+                  {/* Adresse sur deux lignes, comme dans Figma. */}
+                  {site.contact.address.split(", ").map((line, i) => (
+                    <span key={line} className="block">
+                      {i > 0 && <span className="sr-only">, </span>}
+                      {line}
+                    </span>
+                  ))}
+                </ContactLine>
               </ul>
               {socials.length > 0 && (
                 <>
@@ -165,7 +175,7 @@ function FooterColumn({
   return (
     <div className={`flex flex-col gap-16 ${className ?? ""}`}>
       <h2 className="text-overline text-text-inverse-muted">{title}</h2>
-      <ul className="flex flex-col gap-4 desktop:gap-12">{children}</ul>
+      <ul className="flex flex-col gap-4 desktop:gap-12 desktop:whitespace-nowrap">{children}</ul>
     </div>
   );
 }
