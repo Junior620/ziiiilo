@@ -10,7 +10,18 @@
     "loading": "Chargement",
     "openMenu": "Ouvrir le menu",
     "closeMenu": "Fermer le menu",
-    "externalLink": "(nouvel onglet)"
+    "externalLink": "(nouvel onglet)",
+    "mainNav": "Navigation principale",
+    "footerNav": "Plan du site",
+    "legalNav": "Informations légales",
+    "breadcrumb": "Fil d’Ariane",
+    "backToTop": "Revenir en haut de la page",
+    "call": "Appeler ZIIIILO",
+    "close": "Fermer",
+    "home": "ZIIIILO — accueil",
+    "readingProgress": "Progression de lecture",
+    "newTab": "(nouvel onglet)",
+    "socialNav": "Réseaux sociaux"
   },
   "nav": {
     "home": "Accueil",
@@ -21,7 +32,12 @@
     "contact": "Contact",
     "faq": "FAQ",
     "startProject": "Démarrer un projet",
-    "languages": { "fr": "Français", "en": "English" }
+    "languages": {
+      "fr": "Français",
+      "en": "English"
+    },
+    "contactDirect": "Contact direct",
+    "language": "Langue"
   },
   "footer": {
     "columns": {
@@ -62,10 +78,293 @@
       "cookieSettings": "Gestion des cookies",
       "cookiePolicy": "Politique de cookies",
       "terms": "Conditions d’utilisation"
+    },
+    "tagline": "ZIIIILO conçoit des solutions numériques et des produits technologiques qui aident les organisations à se transformer et à grandir.",
+    "seeAllServices": "Voir tous les services",
+    "copyright": "© 2026 ZIIIILO SARL. Tous droits réservés.",
+    "mobileCompany": {
+      "solutions": "Solutions",
+      "realisations": "Réalisations",
+      "about": "À propos",
+      "faq": "FAQ",
+      "contact": "Contact"
     }
   },
   "dev": {
     "placeholderTitle": "Étape 1 — fondations en place",
     "placeholderText": "Les composants et les pages arrivent aux étapes suivantes."
+  },
+  "cta": {
+    "title": "Votre prochaine grande idée mérite une solution à la hauteur.",
+    "description": "Parlez-nous de votre projet : nous vous aidons à le clarifier, à le cadrer et à lui donner vie.",
+    "primary": "Discutons de votre projet",
+    "secondary": "Voir nos services"
+  },
+  "cookies": {
+    "bannerTitle": "Gestion des cookies",
+    "bannerText": "Nous utilisons des cookies nécessaires au fonctionnement du site et, avec votre accord, des cookies de mesure d’audience pour améliorer nos contenus. Vous pouvez changer d’avis à tout moment via « Gestion des cookies » en bas de page.",
+    "policyLink": "Politique de cookies",
+    "customize": "Personnaliser",
+    "rejectAll": "Tout refuser",
+    "acceptAll": "Tout accepter",
+    "prefsTitle": "Préférences de cookies",
+    "prefsText": "Choisissez les cookies que vous acceptez. Vous pouvez modifier ce choix à tout moment depuis « Gestion des cookies » en bas de page.",
+    "necessaryTitle": "Cookies nécessaires",
+    "necessaryText": "Indispensables au fonctionnement du site (sécurité, mémorisation de vos choix). Toujours actifs.",
+    "analyticsTitle": "Mesure d’audience",
+    "analyticsText": "Nous aident à comprendre l’utilisation du site pour l’améliorer. Outil utilisé : {tool}.",
+    "toConfigure": "à configurer",
+    "save": "Enregistrer mes choix",
+    "privacyLink": "Politique de confidentialité"
+  },
+  "splash": {
+    "label": "Chargement du site",
+    "skip": "Passer",
+    "init": "Initialisation…",
+    "fonts": "Chargement des polices…",
+    "images": "Chargement des images…",
+    "interface": "Préparation de l’interface…",
+    "welcome": "Bienvenue chez ZIIIILO"
+  },
+  "home": {
+    "hero": {
+      "badge": "Transformation digitale · Produits numériques",
+      "badgeShort": "Transformation digitale · Produits",
+      "title": "Nous imaginons et construisons les solutions numériques de demain.",
+      "subtitle": "ZIIIILO accompagne les entreprises dans leur transformation digitale et conçoit des applications, plateformes et produits technologiques qui transforment les idées en solutions concrètes.",
+      "primary": "Parlons de votre projet",
+      "secondary": "Découvrir nos solutions",
+      "markers": {
+        "web": "Web & mobile",
+        "software": "Logiciels sur mesure",
+        "saas": "Produits SaaS"
+      },
+      "scroll": "Défiler",
+      "techLabel": "Technologies utilisées dans nos projets",
+      "visual": {
+        "platform": "Plateforme",
+        "online": "En ligne",
+        "web": "Web",
+        "mobile": "Mobile",
+        "data": "Données",
+        "book": "Réserver",
+        "api": "API & intégrations",
+        "cloud": "Cloud",
+        "ai": "IA, si pertinent"
+      }
+    },
+    "presentation": {
+      "eyebrow": "Qui sommes-nous",
+      "title": "La technologie au service de vos ambitions.",
+      "p1": "ZIIIILO est une startup technologique spécialisée dans la transformation digitale, la conception de produits numériques et le développement d’applications. Notre ambition : rendre la technologie accessible, utile et performante pour les entreprises, les organisations et les particuliers.",
+      "p2": "Nous développons deux activités complémentaires : l’accompagnement de nos clients dans leurs projets technologiques, et la création de nos propres produits numériques.",
+      "p2Short": "Nous développons deux activités complémentaires : l’accompagnement de nos clients et la création de nos propres produits numériques.",
+      "more": "En savoir plus sur ZIIIILO",
+      "services": {
+        "title": "Prestations & accompagnement numérique",
+        "titleShort": "Prestations & accompagnement",
+        "text": "Nous concevons et développons vos sites, applications et logiciels — de l’idée au déploiement, puis dans la durée.",
+        "textShort": "Sites, applications et logiciels — de l’idée au déploiement.",
+        "link": "Voir nos services"
+      },
+      "products": {
+        "title": "Nos propres produits technologiques",
+        "titleShort": "Nos produits technologiques",
+        "text": "Nous créons des plateformes et applications SaaS qui répondent à des besoins concrets, à commencer par FleetRent.",
+        "textShort": "Des plateformes SaaS pour des besoins concrets, comme FleetRent.",
+        "link": "Voir nos solutions"
+      }
+    },
+    "expertises": {
+      "eyebrow": "Nos expertises",
+      "title": "Des compétences complètes pour concrétiser vos projets numériques",
+      "titleShort": "Des compétences complètes pour vos projets numériques",
+      "description": "De la conception à la mise en production, nous couvrons chaque étape avec la même exigence de qualité.",
+      "linkLabel": "En savoir plus",
+      "all": "Voir tous nos services",
+      "items": {
+        "sites-web": {
+          "title": "Développement web",
+          "titleShort": "Développement web",
+          "text": "Sites professionnels et plateformes web performants, sécurisés et pensés pour vos utilisateurs.",
+          "short": "Sites et plateformes web"
+        },
+        "applications-mobiles": {
+          "title": "Applications mobiles",
+          "titleShort": "Applications mobiles",
+          "text": "Applications Android et iOS fluides, conçues pour l’usage quotidien de vos clients et de vos équipes.",
+          "short": "Android et iOS"
+        },
+        "logiciels-sur-mesure": {
+          "title": "Logiciels et solutions sur mesure",
+          "titleShort": "Logiciels sur mesure",
+          "text": "ERP, CRM, plateformes internes : des outils taillés pour vos processus métiers.",
+          "short": "ERP, CRM, outils internes"
+        },
+        "transformation-digitale": {
+          "title": "Transformation digitale",
+          "titleShort": "Transformation digitale",
+          "text": "Un accompagnement pas à pas pour moderniser votre organisation et vos méthodes de travail.",
+          "short": "Diagnostic et feuille de route"
+        },
+        "ui-ux-design": {
+          "title": "UI/UX Design",
+          "titleShort": "UI/UX Design",
+          "text": "Des interfaces claires et agréables, prototypées et testées avant le développement.",
+          "short": "Maquettes et prototypes"
+        },
+        "automatisation-integration": {
+          "title": "Automatisation et intégration",
+          "titleShort": "Automatisation & intégration",
+          "text": "Automatisation des tâches répétitives et connexion de vos outils via API et services cloud.",
+          "short": "API, cloud, IA si pertinent"
+        }
+      }
+    },
+    "realisations": {
+      "eyebrow": "Nos réalisations",
+      "title": "Des produits ZIIIILO et des solutions métiers",
+      "description": "Deux produits développés par ZIIIILO et neuf réalisations clients. Quatre projets mis en avant ; l’ensemble est présenté dans le portfolio.",
+      "featured": "Quatre réalisations mises en avant",
+      "others": "Autres réalisations",
+      "note": "Maquettes conceptuelles et données d’illustration, sauf STE-SCPB, Golden Beans SA, Agora Film Invest et le site de Ninety One Foot Academy (captures réelles). Écrans MatchLab et CocoaTrack : maquettes à données fictives. Statut de SCPB Commercial à confirmer.",
+      "all": "Voir les {count} réalisations"
+    },
+    "why": {
+      "eyebrow": "Pourquoi choisir ZIIIILO",
+      "title": "Une approche exigeante, centrée sur vos besoins réels",
+      "description": "Nous combinons écoute, vision produit et rigueur technique pour livrer des solutions utiles, durables et évolutives.",
+      "items": {
+        "besoins": {
+          "title": "Approche orientée besoins réels",
+          "text": "Nous partons de vos usages, de vos contraintes et de vos objectifs — pas d’une technologie à la mode."
+        },
+        "mesure": {
+          "title": "Solutions sur mesure",
+          "text": "Chaque solution est conçue pour votre contexte, sans gabarit imposé ni fonctionnalités superflues."
+        },
+        "vision": {
+          "title": "Vision produit à long terme",
+          "text": "Nous pensons chaque projet comme un produit appelé à vivre, à évoluer et à grandir avec vous."
+        },
+        "technologies": {
+          "title": "Technologies adaptées",
+          "text": "Des technologies éprouvées, choisies selon votre projet, votre budget et vos équipes."
+        },
+        "collaboration": {
+          "title": "Collaboration et accompagnement",
+          "text": "Des échanges réguliers, des points d’étape clairs et un suivi après la mise en ligne."
+        },
+        "evolutive": {
+          "title": "Conception évolutive",
+          "text": "Des architectures pensées pour accueillir de nouvelles fonctionnalités sans tout reconstruire."
+        }
+      }
+    },
+    "method": {
+      "eyebrow": "Notre méthode",
+      "title": "Un parcours clair, en cinq étapes",
+      "description": "Une démarche structurée pour avancer avec vous, réduire les risques et livrer une solution qui fonctionne vraiment.",
+      "steps": {
+        "01": {
+          "title": "Découverte et analyse du besoin",
+          "text": "Ateliers et échanges pour comprendre vos enjeux, vos utilisateurs et l’existant."
+        },
+        "02": {
+          "title": "Stratégie et cadrage",
+          "text": "Périmètre, priorités, planning et architecture technique définis ensemble."
+        },
+        "03": {
+          "title": "Design et prototypage",
+          "text": "Parcours, maquettes et prototype interactif validés avec vous avant de coder."
+        },
+        "04": {
+          "title": "Développement et tests",
+          "text": "Développement par itérations, tests réguliers et points d’avancement partagés."
+        },
+        "05": {
+          "title": "Déploiement et évolution",
+          "text": "Mise en ligne accompagnée, suivi, maintenance et nouvelles évolutions."
+        }
+      }
+    }
+  },
+  "portfolio": {
+    "statuts": {
+      "en-developpement": "En développement",
+      "a-confirmer": "Statut à confirmer",
+      "disponible": "Disponible",
+      "en-ligne": "En ligne",
+      "pilote-en-preparation": "Pilote en préparation",
+      "en-production": "En production",
+      "livree-modules-en-evolution": "Plateforme livrée",
+      "solution-metier-interne": "Usage interne"
+    },
+    "cta": {
+      "decouvrirRealisation": "Découvrir la réalisation",
+      "decouvrirProjet": "Découvrir le projet",
+      "voirProjet": "Voir le projet",
+      "visiterSite": "Visiter le site",
+      "voirRealisation": "Voir la réalisation"
+    },
+    "items": {
+      "fleetrent": {
+        "typeBadge": "Produit ZIIIILO",
+        "domains": "MobilityTech · SaaS",
+        "description": "L’écosystème numérique dédié à la location de véhicules : plateforme SaaS pour les agences, sites web et marketplace de réservation.",
+        "cta": "decouvrirRealisation",
+        "imageAlt": "Maquettes conceptuelles de FleetRent : tableau de bord agence et application mobile de réservation (données fictives)."
+      },
+      "cocoatrack": {
+        "typeBadge": "Solution métier",
+        "extraBadge": "Maquettes conceptuelles",
+        "domains": "AgriTech · GeoTech · Traçabilité · Intelligence satellite",
+        "description": "Une plateforme intégrée pour la traçabilité du cacao, la cartographie des parcelles, l’analyse satellite et la gestion des opérations agricoles et industrielles.",
+        "cta": "decouvrirProjet",
+        "imageAlt": "Maquettes conceptuelles de CocoaTrack : tableau de bord et surveillance satellite (données fictives)."
+      },
+      "ste-scpb": {
+        "typeBadge": "Site web corporate international",
+        "domains": "Web Development · B2B · International",
+        "description": "Conception d’une plateforme web corporate multilingue, immersive et orientée conversion pour un exportateur agricole international.",
+        "cta": "voirProjet",
+        "imageAlt": "Captures réelles du site ste-scpb.com : page d’accueil et fiche produit Cacao."
+      },
+      "ninety-one-foot-academy": {
+        "typeBadge": "SportsTech · Web & Mobile",
+        "domains": "SportsTech · Web & Mobile · Sports Analytics",
+        "description": "Un écosystème numérique pour une académie de football, réunissant site bilingue, gestion du club, analyse des performances et application mobile.",
+        "cta": "decouvrirProjet",
+        "imageAlt": "Capture réelle du site de Ninety One Foot Academy (photos floutées) et maquette conceptuelle de MatchLab (données fictives)."
+      },
+      "doccloud": {
+        "domains": "Produit ZIIIILO · CivicTech",
+        "short": "Déclaration, recherche et restitution des documents administratifs perdus."
+      },
+      "scpb-commercial": {
+        "domains": "Solution métier · SalesTech · IA",
+        "short": "Prospection commerciale B2B assistée par l’intelligence artificielle."
+      },
+      "staftrack": {
+        "domains": "Solution métier · RH",
+        "short": "Pointage des employés via WhatsApp et tableau de bord RH."
+      },
+      "previsions-cacao-robusta": {
+        "domains": "Data Science · AgriTech",
+        "short": "Intelligence de marché et prévisions des prix du cacao et du robusta."
+      },
+      "scpb-survey": {
+        "domains": "Application mobile · AgriTech",
+        "short": "Collecte de données terrain sur Android, hors ligne puis synchronisée."
+      },
+      "golden-beans": {
+        "domains": "Site web · Export B2B",
+        "short": "Plateforme web bilingue d’export de cacao et de café."
+      },
+      "agora-film-invest": {
+        "domains": "Site web · CreativeTech",
+        "short": "Refonte de la vitrine d’un producteur cinématographique."
+      }
+    }
   }
 }

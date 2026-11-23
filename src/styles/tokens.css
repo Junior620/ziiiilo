@@ -66,6 +66,47 @@
   --space-120: 120px;
   --space-160: 160px;
 
+  /* Dimensions de composants relevées dans Figma (icônes, pastilles, hauteurs de champ…).
+     Exposées à Tailwind sous les mêmes clés que les espacements : size-44, h-52, px-28… */
+  --size-1: 1px;
+  --size-2: 2px;
+  --size-3: 3px;
+  --size-5: 5px;
+  --size-6: 6px;
+  --size-10: 10px;
+  --size-14: 14px;
+  --size-18: 18px;
+  --size-22: 22px;
+  --size-26: 26px;
+  --size-28: 28px;
+  --size-30: 30px;
+  --size-36: 36px;
+  --size-44: 44px;
+  --size-52: 52px;
+  --size-60: 60px;
+  --size-72: 72px;
+  --size-76: 76px;
+  --size-88: 88px;
+  --size-90: 90px;
+  --size-112: 112px;
+  --size-140: 140px;
+  --size-176: 176px;
+  --size-200: 200px;
+  --size-224: 224px;
+  --size-260: 260px;
+  --size-280: 280px;
+  --size-300: 300px;
+  --size-340: 340px;
+  --size-360: 360px;
+  --size-420: 420px;
+  --size-480: 480px;
+  --size-520: 520px;
+  --size-560: 560px;
+  --size-588: 588px;
+  --size-620: 620px;
+  --size-720: 720px;
+  --border-strong: 1.5px;
+
   /* Effets */
   --halo-cyan: 0 0 56px rgb(46 188 228 / 0.35);
   --focus-ring: 0 0 0 4px rgb(25 150 206 / 0.28);
@@ -76,6 +117,14 @@
   --gradient-cta: linear-gradient(135deg, #06123f 0%, #0a1d66 55%, #3a1450 100%);
   --gradient-page-header: linear-gradient(135deg, #f0f8fd 0%, #f8fafd 60%, #f7f1f8 100%);
   --gradient-doccloud: linear-gradient(135deg, #0a1d66 0%, #0f766e 100%);
+  /* Visuel de la carte produit (6:327) */
+  --gradient-product: linear-gradient(156deg, #06123f 0%, #0a1d66 60%, #1996ce 100%);
+  /* Section sombre « Nos réalisations » (12:305) et vignette de la carte mobile du hero (7:292) */
+  --gradient-dark-section: linear-gradient(180deg, #020a24 0%, #06123f 100%);
+  --gradient-hero-app: linear-gradient(145deg, #1996ce 0%, #641b62 100%);
+  /* Verre des cartes du visuel hero (7:253) et des puces (7:303) */
+  --glass-card: blur(12px);
+  --glass-chip: blur(8px);
   /* §8 n° 02 (barre de lecture) et n° 13 (lien animé) */
   --gradient-reading: linear-gradient(90deg, var(--primitive-cyan-400), var(--primitive-blue-500));
   --gradient-link: linear-gradient(90deg, #f7ad21, #94a538, #1996ce, #641b62);
@@ -151,6 +200,30 @@
   --color-glass-nav-compact: rgb(2 10 36 / 0.72);
   --color-glass-inverse: rgb(255 255 255 / 0.08);
   --color-glass-inverse-border: rgb(255 255 255 / 0.14);
+  /* Sur fond sombre (Figma 4:542, 4:565, 5:188) : survol 12 %, bordures 18–20 %, contour de bouton 35 % */
+  --color-inverse-hover: rgb(255 255 255 / 0.12);
+  --color-inverse-line: rgb(255 255 255 / 0.18);
+  --color-inverse-line-soft: rgb(255 255 255 / 0.2);
+  --color-inverse-outline: rgb(255 255 255 / 0.35);
+  /* Bordure du verre clair du header (5:70) et voile des modales (bleu nuit 60 %, 10:443) */
+  --color-glass-nav-border: rgb(255 255 255 / 0.9);
+  --color-overlay: rgb(2 10 36 / 0.6);
+  /* Cartes sur fond sombre : réalisations vedettes (101:2087), puces du hero (7:303), teintes cyan */
+  --color-glass-card: rgb(255 255 255 / 0.04);
+  --color-glass-card-border: rgb(255 255 255 / 0.1);
+  --color-glass-navy: rgb(6 18 63 / 0.72);
+  --color-accent-cyan-tint: rgb(46 188 228 / 0.16);
+  --color-accent-cyan-wash: rgb(46 188 228 / 0.14);
+  /* Carte « code » du visuel hero (7:281) : coloration syntaxique et pastilles de fenêtre */
+  --color-code-keyword: #c792ea;
+  --color-code-text: #e6edf7;
+  --color-code-punct: var(--primitive-gray-400);
+  --color-code-call: var(--primitive-cyan-400);
+  --color-code-method: var(--primitive-gold-400);
+  --color-code-success: #7fd49a;
+  --color-window-red: #f26b6b;
+  --color-window-yellow: #f7c548;
+  --color-window-green: #4cc38a;
 
   /* Rayons (Figma : Rayons) */
   --radius-xs: 6px;
@@ -169,6 +242,16 @@
   --shadow-nav: 0 10px 30px -10px rgb(6 18 63 / 0.1);
   --shadow-halo-cyan: var(--halo-cyan);
   --shadow-focus: var(--focus-ring);
+  /* Section CTA (6:265), bouton clair sur CTA, carte service au survol (6:283) */
+  --shadow-cta: 0 0 64px rgb(46 188 228 / 0.13);
+  --shadow-glow: 0 0 16px rgb(46 188 228 / 0.22);
+  --shadow-card-hover:
+    0 0 24px rgb(46 188 228 / 0.16), 0 16px 40px rgb(11 22 48 / 0.16), 0 2px 4px rgb(11 22 48 / 0.04);
+
+  /* Cartes flottantes du visuel hero (7:253, 7:281, 7:290) */
+  --shadow-hero-card: 0 24px 48px -16px rgb(2 10 36 / 0.45);
+  --shadow-hero-cyan: 0 0 26px rgb(46 188 228 / 0.22), 0 24px 48px -16px rgb(2 10 36 / 0.45);
+  --shadow-hero-violet: 0 0 26px rgb(142 42 138 / 0.22), 0 24px 48px -16px rgb(2 10 36 / 0.45);
 
   /* Mouvement (§8) */
   --ease-reveal: cubic-bezier(0, 0, 0.58, 1);

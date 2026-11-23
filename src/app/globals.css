@@ -35,6 +35,45 @@
   --spacing-96: var(--space-96);
   --spacing-120: var(--space-120);
   --spacing-160: var(--space-160);
+  /* Dimensions de composants (tokens.css, --size-*) */
+  --spacing-1: var(--size-1);
+  --spacing-2: var(--size-2);
+  --spacing-3: var(--size-3);
+  --spacing-5: var(--size-5);
+  --spacing-6: var(--size-6);
+  --spacing-10: var(--size-10);
+  --spacing-14: var(--size-14);
+  --spacing-18: var(--size-18);
+  --spacing-22: var(--size-22);
+  --spacing-26: var(--size-26);
+  --spacing-28: var(--size-28);
+  --spacing-30: var(--size-30);
+  --spacing-36: var(--size-36);
+  --spacing-44: var(--size-44);
+  --spacing-52: var(--size-52);
+  --spacing-60: var(--size-60);
+  --spacing-72: var(--size-72);
+  --spacing-76: var(--size-76);
+  --spacing-88: var(--size-88);
+  --spacing-90: var(--size-90);
+  --spacing-112: var(--size-112);
+  --spacing-140: var(--size-140);
+  --spacing-176: var(--size-176);
+  --spacing-200: var(--size-200);
+  --spacing-224: var(--size-224);
+  --spacing-260: var(--size-260);
+  --spacing-280: var(--size-280);
+  --spacing-300: var(--size-300);
+  --spacing-340: var(--size-340);
+  --spacing-360: var(--size-360);
+  --spacing-420: var(--size-420);
+  --spacing-480: var(--size-480);
+  --spacing-520: var(--size-520);
+  --spacing-560: var(--size-560);
+  --spacing-588: var(--size-588);
+  --spacing-620: var(--size-620);
+  --spacing-720: var(--size-720);
+
   --spacing-gutter: var(--container-gutter);
   --spacing-header: var(--header-height);
   --spacing-touch: 44px; /* zone tactile minimale (§5, §10) */
@@ -190,4 +229,366 @@
     transition-duration: 1ms !important;
     scroll-behavior: auto !important;
   }
+}
+
+/* ——— Motion (§8) : boucles en CSS pur, révélations par motion ——— */
+@keyframes cursor-blink {
+  50% {
+    opacity: 0;
+  }
+}
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes float {
+  from {
+    transform: translateY(-6px);
+  }
+  to {
+    transform: translateY(6px);
+  }
+}
+@keyframes pulse-dot {
+  from {
+    box-shadow: 0 0 0 0 color-mix(in srgb, currentColor 35%, transparent);
+  }
+  to {
+    box-shadow: 0 0 0 6px color-mix(in srgb, currentColor 0%, transparent);
+  }
+}
+@keyframes pulse-fab {
+  from {
+    box-shadow: 0 0 0 0 rgb(14 116 176 / 0.45);
+  }
+  to {
+    box-shadow: 0 0 0 16px rgb(14 116 176 / 0);
+  }
+}
+@keyframes marquee {
+  to {
+    transform: translateX(-50%);
+  }
+}
+@keyframes shimmer {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(100%);
+  }
+}
+@keyframes shake {
+  20% {
+    transform: translateX(-6px);
+  }
+  40% {
+    transform: translateX(6px);
+  }
+  60% {
+    transform: translateX(-4px);
+  }
+  80% {
+    transform: translateX(4px);
+  }
+}
+@keyframes scan-sweep {
+  to {
+    background-position: 0 0;
+  }
+}
+@keyframes halo-drift {
+  from {
+    transform: translate(-8%, -6%);
+  }
+  to {
+    transform: translate(8%, 6%);
+  }
+}
+@keyframes scroll-cue {
+  0% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  70% {
+    transform: translateY(8px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 0;
+  }
+}
+
+/* Avant hydratation, les blocs animés restent visibles sans JavaScript ;
+   le script inline pose `.js` sur <html> pour masquer l'état initial. */
+.js .reveal-pending {
+  opacity: 0;
+}
+
+.decode-glyph {
+  color: var(--color-accent-cyan);
+  font-family: var(--font-mono);
+  text-shadow: 0 0 16px rgb(46 188 228 / 0.55);
+}
+.motion-cursor {
+  display: inline-block;
+  width: 0.07em;
+  height: 0.78em;
+  margin-left: 0.12em;
+  vertical-align: -0.04em;
+  background: var(--color-accent-cyan);
+  animation: cursor-blink 1s steps(1) infinite;
+}
+.motion-cursor--block {
+  width: 0.62em;
+  height: 1.1em;
+  vertical-align: -0.2em;
+  background: var(--color-primary-brand);
+}
+
+.scan-text {
+  --scan-base: var(--color-text-inverse);
+  color: transparent;
+  background: linear-gradient(
+      100deg,
+      var(--scan-base) 0 42%,
+      var(--primitive-cyan-300) 50%,
+      var(--scan-base) 58% 100%
+    )
+    100% 0 / 250% 100% no-repeat;
+  -webkit-background-clip: text;
+  background-clip: text;
+  animation: scan-sweep 1.2s var(--ease-sweep) var(--scan-delay, 0.4s) both;
+}
+
+.link-animated {
+  background: var(--gradient-link) no-repeat left bottom / 0% 2px;
+  transition: background-size 250ms ease-out;
+  &:hover,
+  &:focus-visible {
+    background-size: 100% 2px;
+  }
+}
+
+.spinner {
+  animation: spin 0.9s linear infinite;
+}
+.skeleton {
+  position: relative;
+  overflow: hidden;
+  background: var(--color-background-muted);
+  &::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(90deg, transparent, rgb(255 255 255 / 0.7), transparent);
+    animation: shimmer 1.4s ease-in-out infinite;
+  }
+}
+.status-dot--pulse {
+  animation: pulse-dot 2s ease-out infinite;
+}
+.field-shake {
+  animation: shake 0.35s ease-in-out;
+}
+.hero-ring {
+  animation: spin 60s linear infinite;
+}
+.hero-card {
+  animation: float 6s ease-in-out infinite alternate;
+}
+.tech-track {
+  animation: marquee 40s linear infinite;
+}
+.tech-strip:hover .tech-track,
+.tech-strip:focus-within .tech-track {
+  animation-play-state: paused;
+}
+.cta-halo {
+  animation: halo-drift 8s ease-in-out infinite alternate;
+}
+.scroll-cue-dot {
+  animation: scroll-cue 1.6s ease-in-out infinite;
+}
+.call-fab-pulse {
+  animation: pulse-fab 1.2s ease-out 5s 3;
+}
+/* Boucles mises en pause hors écran (data-paused posé par useInViewLoop) */
+[data-paused="true"],
+[data-paused="true"] * {
+  animation-play-state: paused !important;
+}
+
+/* Bords en fondu du bandeau des technologies */
+.mask-fade-x {
+  mask-image: linear-gradient(90deg, transparent, black 10%, black 90%, transparent);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .motion-cursor,
+  .scroll-cue-dot {
+    display: none;
+  }
+  .scan-text {
+    animation: none;
+    background: none;
+    color: var(--scan-base);
+  }
+  .spinner,
+  .skeleton::after,
+  .status-dot--pulse,
+  .hero-ring,
+  .hero-card,
+  .tech-track,
+  .cta-halo,
+  .call-fab-pulse,
+  .field-shake {
+    animation: none !important;
+  }
+  .js .reveal-pending {
+    opacity: 1;
+  }
+}
+@media (forced-colors: active) {
+  .scan-text {
+    color: CanvasText;
+    background: none;
+  }
+}
+
+/* Splash (§8 v2.8) : couvre la page dès le premier rendu, avant le montage du composant */
+html.splash-pending body::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: 60;
+  background: var(--primitive-navy-950);
+}
+
+/* Sans JavaScript, les blocs animés restent lisibles */
+@media (scripting: none) {
+  .motion-reveal {
+    opacity: 1 !important;
+    transform: none !important;
+    filter: none !important;
+  }
+}
+
+/*
+ * Chorégraphie du hero de l'accueil (§8, timeline 11:2 / 22:2), en CSS pour ne rien bloquer.
+ * Les animations restent en pause tant que le splash couvre la page (splash-pending / splash-active).
+ */
+@keyframes hero-in {
+  from {
+    opacity: 0;
+    transform: translateY(var(--hero-in-y, 8px)) scale(var(--hero-in-scale, 1));
+  }
+}
+@keyframes hero-fade {
+  from {
+    opacity: 0;
+  }
+}
+.hero-in {
+  animation: hero-in var(--hero-in-dur, 0.4s) var(--ease-reveal) var(--hero-in-delay, 0s) both;
+}
+.hero-in--badge {
+  --hero-in-delay: 0.05s;
+}
+.hero-in--action-1 {
+  --hero-in-y: 16px;
+  --hero-in-dur: 0.4s;
+  --hero-in-delay: 1.7s;
+}
+.hero-in--action-2 {
+  --hero-in-y: 16px;
+  --hero-in-dur: 0.4s;
+  --hero-in-delay: 1.82s;
+}
+.hero-in--marker-1,
+.hero-in--marker-2,
+.hero-in--marker-3 {
+  --hero-in-dur: 0.35s;
+}
+.hero-in--marker-1 {
+  --hero-in-delay: 2s;
+}
+.hero-in--marker-2 {
+  --hero-in-delay: 2.1s;
+}
+.hero-in--marker-3 {
+  --hero-in-delay: 2.2s;
+}
+.hero-in--visual {
+  --hero-in-y: 24px;
+  --hero-in-scale: 0.97;
+  --hero-in-dur: 0.8s;
+  --hero-in-delay: 1.9s;
+}
+.hero-in--scroll {
+  --hero-in-delay: 2.4s;
+}
+.hero-grid-in {
+  animation: hero-fade 1.4s var(--ease-reveal) both;
+}
+@media (min-width: 75rem) {
+  /* Desktop : boutons ensemble, visuel dès 0,25 s */
+  .hero-in--action-2 {
+    --hero-in-delay: 1.7s;
+  }
+  .hero-in--visual {
+    --hero-in-dur: 1s;
+    --hero-in-delay: 0.25s;
+  }
+}
+html.splash-pending :is(.hero-in, .hero-grid-in),
+html.splash-active :is(.hero-in, .hero-grid-in) {
+  animation-play-state: paused;
+}
+@media (prefers-reduced-motion: reduce) {
+  .hero-in,
+  .hero-grid-in {
+    animation: none;
+  }
+}
+
+/* Visuel hero (7:246) : 1em = 1/62 de la largeur, toutes les cotes Figma en em (620 × 600) */
+.hero-visual-scale {
+  container-type: inline-size;
+}
+.hero-visual-scale > .hero-visual-canvas {
+  font-size: calc(100cqw / 62);
+}
+.hero-parallax {
+  transform: translate3d(
+    calc(var(--hero-px, 0) * var(--hero-amp-x)),
+    calc(var(--hero-py, 0) * var(--hero-amp-y)),
+    0
+  );
+}
+.hero-card--2 {
+  animation-delay: -1.5s;
+}
+.hero-card--3 {
+  animation-delay: -3s;
+}
+.hero-card--4 {
+  animation-delay: -4.5s;
+}
+
+/* Indicateur de défilement (407:830) : disparaît au premier défilement */
+.scroll-cue[data-hidden="true"] {
+  opacity: 0;
+  pointer-events: none;
+}
+/* §8 n° 04 : parallaxe du visuel hero (anneau ±16 / ±12 px, cartes ±8 px) */
+.hero-parallax--ring {
+  --hero-amp-x: 16px;
+  --hero-amp-y: 12px;
+}
+.hero-parallax--card {
+  --hero-amp-x: 8px;
+  --hero-amp-y: 8px;
 }

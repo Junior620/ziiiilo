@@ -66,6 +66,17 @@ export const site = {
     cocoatrack: true,
   },
 
+  /**
+   * Splash d'ouverture (§8 v2.8) : première visite de la session, sur l'accueil uniquement.
+   * Durée validée le 23/11/2026 : ≈ 13,8 s ; « Passer » visible dès 30 %.
+   */
+  splash: {
+    enabled: true,
+    durationMs: 13800,
+    /** Au-delà, ouverture même si le chargement réel n'est pas fini. */
+    maxLoadMs: 12000,
+  },
+
   form: {
     /** Fourchettes de budget et délais : à valider par ZIIIILO (§9). */
     budgets: [] as string[],

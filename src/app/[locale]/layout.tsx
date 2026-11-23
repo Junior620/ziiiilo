@@ -1,8 +1,14 @@
 import type { Metadata, Viewport } from "next";
 import { NextIntlClientProvider } from "next-intl";
 import { getLocale, getTranslations } from "next-intl/server";
+import { ConsentProvider } from "@/components/cookies/Consent";
+import { FloatingActions } from "@/components/layout/PageAids";
+import { SiteFooter } from "@/components/layout/SiteFooter";
+import { SiteHeader } from "@/components/layout/SiteHeader";
+import { bootScript } from "@/components/splash/boot";
+import { SplashLoader } from "@/components/splash/SplashLoader";
 import { site } from "@/config/site";
-import { publishedLocales } from "@/i18n/routing";
+import { publishedLocales, routing } from "@/i18n/routing";
 import { fontVariables } from "../fonts";
 import "../globals.css";
 
@@ -38,15 +44,30 @@ export default async function LocaleLayout({ children }: LayoutProps<"/[locale]"
   const t = await getTranslations("a11y");
 
   return (
-    <html lang={locale} className={fontVariables}>
+    <html lang={locale} className={fontVariables} suppressHydrationWarning>
+      <head>
+        {/* Pose `js` (animations) et `splash-pending` (1re visite) avant le premier rendu */}
+        <script dangerouslySetInnerHTML={{ __html: bootScript(routing.locales) }} />
+        <noscript>
+          <style>
+            {".motion-reveal{opacity:1!important;transform:none!important;filter:none!important}"}
+          </style>
+        </noscript>
+      </head>
       <body>
         <a href="#contenu" className="skip-link">
           {t("skipToContent")}
         </a>
         <NextIntlClientProvider>
-          <main id="contenu" tabIndex={-1} className="outline-none">
-            {children}
-          </main>
+          <ConsentProvider>
+            <SiteHeader />
+            <main id="contenu" tabIndex={-1} className="outline-none">
+              {children}
+            </main>
+            <SiteFooter />
+            <FloatingActions />
+            <SplashLoader />
+          </ConsentProvider>
         </NextIntlClientProvider>
       </body>
     </html>
