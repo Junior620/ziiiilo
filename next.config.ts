@@ -7,6 +7,16 @@ const nextConfig: NextConfig = {
   cacheComponents: true,
   partialPrefetching: true,
   poweredByHeader: false,
+  // Fichiers lus par les images de partage (/og/…), embarqués dans la fonction Vercel
+  // au cas où une image serait rendue à la demande et non au build.
+  outputFileTracingIncludes: {
+    "/og/[lang]/[image]": [
+      "./src/assets/og-fonts/*.ttf",
+      "./src/styles/tokens.css",
+      "./public/brand/*.svg",
+      "./public/media/**/*.webp",
+    ],
+  },
   images: {
     formats: ["image/avif", "image/webp"],
   },

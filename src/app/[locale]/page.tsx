@@ -11,10 +11,13 @@ import { buildMetadata } from "@/lib/seo";
 
 export async function generateMetadata(): Promise<Metadata> {
   const t = await getTranslations("meta");
+  const hero = await getTranslations("home.hero");
   return buildMetadata({
     title: { absolute: t("defaultTitle") },
     description: t("defaultDescription"),
     href: "/",
+    // Titre fort des aperçus de partage : le titre du hero (Figma 11:2).
+    shareTitle: `${hero("title").replace(/\.$/, "")} — ${t("siteName")}`,
   });
 }
 

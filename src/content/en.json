@@ -3,7 +3,11 @@
     "siteName": "ZIIIILO",
     "titleTemplate": "%s — ZIIIILO",
     "defaultTitle": "ZIIIILO — Tech studio in Douala",
-    "defaultDescription": "We imagine and build the digital solutions of tomorrow."
+    "defaultDescription": "ZIIIILO, a tech studio in Douala: web and mobile app development, SaaS solutions, artificial intelligence and digital transformation for businesses."
+  },
+  "og": {
+    "tagline": "Apps · SaaS · AI · Digital transformation",
+    "alt": "{title} — ZIIIILO"
   },
   "a11y": {
     "skipToContent": "Skip to content",
@@ -21,7 +25,10 @@
     "contact": "Contact",
     "faq": "FAQ",
     "startProject": "Start a project",
-    "languages": { "fr": "Français", "en": "English" }
+    "languages": {
+      "fr": "Français",
+      "en": "English"
+    }
   },
   "footer": {
     "columns": {

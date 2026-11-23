@@ -47,7 +47,18 @@ Sans `RESEND_API_KEY` et `CONTACT_FROM_EMAIL`, le formulaire répond « service 
 - Aucun cookie de mesure : aucun outil d'audience n'est branché.
 - Fichiers `.env*` ignorés par git (sauf `.env.example`).
 
-## 5. Vérifications après la mise en ligne
+## 5. Aperçus de partage (Open Graph, X, LinkedIn, WhatsApp)
+
+- Chaque page a sa propre image 1200 × 630 en JPEG, générée au build par `next/og` : `/og/fr/<page>.jpg`. Exemples : `/og/fr/accueil.jpg`, `/og/fr/etude-golden-beans.jpg`. Le gabarit est dans `src/lib/og/render.tsx` et le contenu de chaque image dans `src/lib/og/pages.ts`.
+- Les balises `og:*` et `twitter:*` utilisent des URL absolues construites à partir de `NEXT_PUBLIC_SITE_URL` : la variable doit valoir `https://ziiiilo.tech` en production.
+- Après la mise en ligne, vérifier et rafraîchir le cache de chaque réseau :
+  - Facebook / WhatsApp : <https://developers.facebook.com/tools/debug/> (« Scrape Again ») ;
+  - LinkedIn : <https://www.linkedin.com/post-inspector/> ;
+  - X : publier un brouillon avec le lien ; l’aperçu utilise `twitter:card = summary_large_image`.
+- WhatsApp garde un aperçu en cache longtemps : tester avec une URL jamais partagée, par exemple en ajoutant `?v=1`.
+- Cloudflare : ne pas bloquer les robots des réseaux sociaux (`facebookexternalhit`, `LinkedInBot`, `Twitterbot`, `WhatsApp`). Avec « Bot Fight Mode » actif, vérifier que les aperçus passent toujours.
+
+## 6. Vérifications après la mise en ligne
 
 - `https://ziiiilo.tech` s'ouvre, `www` redirige, certificat valide.
 - `/robots.txt` et `/sitemap.xml` utilisent bien `https://ziiiilo.tech`.
@@ -55,6 +66,6 @@ Sans `RESEND_API_KEY` et `CONTACT_FROM_EMAIL`, le formulaire répond « service 
 - Formulaire de contact : une vraie demande arrive dans la boîte de réception.
 - Lighthouse mobile ≥ 90 sur l'accueil, Services, Réalisations et Contact.
 
-## 6. Avant d'annoncer le site
+## 7. Avant d’annoncer le site
 
 Toujours à fournir par ZIIIILO : clés Resend, listes budget et délai, numéro RCCM complet, fonction du directeur de la publication, durées de conservation, droit applicable, date de mise à jour des pages juridiques, adresses des réseaux sociaux, relecture juridique. La page CocoaTrack reste soumise à l'accord de STE-SCPB (`publication.cocoatrack` dans `src/config/site.ts`).

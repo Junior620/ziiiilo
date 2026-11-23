@@ -82,13 +82,17 @@ test.describe("contact", () => {
     await page.getByLabel("Nom et prénom").fill("Test Playwright");
     await page.getByLabel("Adresse e-mail").fill("test@example.com");
     await page.getByRole("checkbox", { name: "Site web" }).check({ force: true });
-    await page.getByLabel("Description du besoin").fill("Projet de test automatisé, assez long pour la validation.");
+    await page
+      .getByLabel("Description du besoin")
+      .fill("Projet de test automatisé, assez long pour la validation.");
     await page.getByRole("checkbox", { name: /J’accepte/ }).check();
     await page.getByRole("button", { name: "Envoyer ma demande" }).click();
 
     const dialog = page.getByRole("dialog");
     await expect(dialog).toBeVisible();
-    await expect(dialog.getByRole("heading", { name: "Merci, votre demande est bien envoyée" })).toBeFocused();
+    await expect(
+      dialog.getByRole("heading", { name: "Merci, votre demande est bien envoyée" }),
+    ).toBeFocused();
     await page.keyboard.press("Escape");
     await expect(dialog).toBeHidden();
     await expect(page.getByLabel("Nom et prénom")).toHaveValue("");
@@ -146,4 +150,21 @@ test("SEO : canonique, sitemap, robots", async ({ page, request }) => {
   expect(sitemap).not.toContain("/en/");
   const robots = await (await request.get("/robots.txt")).text();
   expect(robots).toContain("Sitemap:");
+});
+
+test("partage : Open Graph, carte X et image de la page", async ({ page, request }) => {
+  await page.goto("/realisations/golden-beans");
+  const meta = (key: string) => page.locator(`meta[property="${key}"], meta[name="${key}"]`).first();
+  await expect(meta("og:url")).toHaveAttribute("content", /^https:\/\/.+\/realisations\/golden-beans$/);
+  await expect(meta("og:type")).toHaveAttribute("content", "website");
+  await expect(meta("og:image:width")).toHaveAttribute("content", "1200");
+  await expect(meta("og:image:alt")).toHaveAttribute("content", /Golden Beans/);
+  await expect(meta("twitter:card")).toHaveAttribute("content", "summary_large_image");
+  const imageUrl = await meta("og:image").getAttribute("content");
+  expect(imageUrl).toMatch(/^https:\/\/.+\/og\/fr\/etude-golden-beans\.jpg$/);
+  const image = await request.get(new URL(imageUrl!).pathname);
+  expect(image.status()).toBe(200);
+  expect(image.headers()["content-type"]).toBe("image/jpeg");
+  expect((await image.body()).length).toBeLessThan(300_000);
+  expect((await request.get("/og/fr/inconnue.jpg")).status()).toBe(404);
 });

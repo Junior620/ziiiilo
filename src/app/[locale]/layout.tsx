@@ -9,7 +9,8 @@ import { SiteHeader } from "@/components/layout/SiteHeader";
 import { bootScript } from "@/components/splash/boot";
 import { SplashLoader } from "@/components/splash/SplashLoader";
 import { site } from "@/config/site";
-import { publishedLocales, routing } from "@/i18n/routing";
+import { publishedLocales, routing, type Locale } from "@/i18n/routing";
+import { ogImage } from "@/lib/seo";
 import { fontVariables } from "../fonts";
 import "../globals.css";
 
@@ -20,6 +21,8 @@ export function generateStaticParams() {
 export async function generateMetadata(): Promise<Metadata> {
   const locale = await getLocale();
   const t = await getTranslations("meta");
+  // Image par défaut des pages sans métadonnées propres (404…) : celle de l’accueil.
+  const image = await ogImage("accueil", locale as Locale);
   return {
     metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL ?? site.url),
     title: { default: t("defaultTitle"), template: t("titleTemplate") },
@@ -29,8 +32,9 @@ export async function generateMetadata(): Promise<Metadata> {
       siteName: site.name,
       locale: locale === "fr" ? "fr_FR" : "en_US",
       type: "website",
-      images: [{ url: "/brand/ziiiilo-logo-couleur-2536px.png", alt: site.name }],
+      images: [image],
     },
+    twitter: { card: "summary_large_image", images: [{ url: image.url, alt: image.alt }] },
     formatDetection: { telephone: false, email: false, address: false },
   };
 }

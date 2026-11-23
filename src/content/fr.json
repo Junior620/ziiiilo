@@ -3,7 +3,11 @@
     "siteName": "ZIIIILO",
     "titleTemplate": "%s — ZIIIILO",
     "defaultTitle": "ZIIIILO — Studio tech à Douala",
-    "defaultDescription": "Nous imaginons et construisons les solutions numériques de demain."
+    "defaultDescription": "ZIIIILO, studio tech à Douala : développement d’applications web et mobiles, solutions SaaS, intelligence artificielle et transformation digitale pour les entreprises."
+  },
+  "og": {
+    "tagline": "Applications · SaaS · IA · Transformation digitale",
+    "alt": "{title} — ZIIIILO"
   },
   "a11y": {
     "skipToContent": "Aller au contenu",
