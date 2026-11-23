@@ -5,14 +5,17 @@ import * as rootParams from "next/root-params";
 import fr from "../content/fr.json";
 import { publishedLocales, routing, type Locale } from "./routing";
 
-type Messages = { [key: string]: string | Messages };
+/** Listes (puces, étapes, questions…) lues avec `t.raw()`. */
+type Messages = { [key: string]: string | readonly unknown[] | Messages };
 
-/** Fusion profonde : les clés absentes de `override` retombent sur `base`. */
+const isObject = (v: unknown): v is Messages => typeof v === "object" && v !== null && !Array.isArray(v);
+
+/** Fusion profonde : les clés absentes de `override` retombent sur `base` (les listes sont remplacées). */
 function withFallback(base: Messages, override: Messages): Messages {
   const out: Messages = { ...base };
   for (const [key, value] of Object.entries(override)) {
     const prev = out[key];
-    out[key] = typeof value === "object" && typeof prev === "object" ? withFallback(prev, value) : value;
+    out[key] = isObject(value) && isObject(prev) ? withFallback(prev, value) : value;
   }
   return out;
 }

@@ -366,5 +366,2491 @@
         "short": "Refonte de la vitrine d’un producteur cinématographique."
       }
     }
+  },
+  "services": {
+    "meta": {
+      "title": "Services",
+      "description": "Sites, applications, logiciels, automatisation : nous concevons des solutions utiles et durables, adaptées à votre activité et à vos utilisateurs."
+    },
+    "header": {
+      "eyebrow": "Nos services",
+      "title": "Des services numériques complets, de l’idée à la mise en production",
+      "lead": "Sites, applications, logiciels, automatisation : nous concevons des solutions utiles et durables, adaptées à votre activité et à vos utilisateurs.",
+      "leadShort": "Sites, applications, logiciels, automatisation : des solutions utiles et durables, adaptées à votre activité.",
+      "primary": "Demander un devis",
+      "secondary": "Découvrir notre méthode"
+    },
+    "nav": {
+      "label": "Accès rapide aux services"
+    },
+    "listTitle": "Nos services",
+    "hint": "Touchez un service pour afficher le détail.",
+    "labels": {
+      "number": "Service {number}",
+      "need": "Le besoin",
+      "deliver": "Ce que nous réalisons",
+      "benefits": "Vos bénéfices",
+      "quote": "Demander un devis",
+      "detail": "Voir le détail du service",
+      "example": "Exemple de réalisation",
+      "skills": "Savoir-faire mobilisés :",
+      "seeRealisation": "Voir la réalisation"
+    },
+    "items": {
+      "sites-web": {
+        "title": "Sites web & plateformes web",
+        "chip": "Sites web",
+        "chipShort": "Sites web",
+        "need": "Votre présence en ligne ne reflète plus votre activité, se charge lentement ou ne génère pas de demandes.",
+        "deliver": [
+          "Sites vitrines et institutionnels",
+          "Plateformes web et portails clients",
+          "Refonte, performance et référencement naturel"
+        ],
+        "benefits": [
+          "Une image professionnelle et cohérente",
+          "Un site rapide, sécurisé et simple à faire évoluer",
+          "Davantage de demandes qualifiées"
+        ]
+      },
+      "applications-mobiles": {
+        "title": "Applications mobiles Android & iOS",
+        "chip": "Applications mobiles Android",
+        "chipShort": "Applications mobiles",
+        "need": "Vos clients ou vos équipes ont besoin d’accéder à vos services partout, simplement, depuis leur téléphone.",
+        "deliver": [
+          "Applications clientes Android et iOS",
+          "Applications métiers pour les équipes terrain",
+          "Publication sur les stores et suivi"
+        ],
+        "benefits": [
+          "Une expérience fluide et engageante",
+          "Un lien direct avec vos utilisateurs",
+          "Des usages mesurables pour mieux décider"
+        ]
+      },
+      "logiciels-sur-mesure": {
+        "title": "Logiciels & solutions de gestion sur mesure",
+        "chip": "Logiciels",
+        "chipShort": "Logiciels sur mesure",
+        "need": "Vos processus reposent sur des fichiers dispersés ou des outils qui ne correspondent pas à votre façon de travailler.",
+        "deliver": [
+          "Applications web et logiciels métiers",
+          "ERP, CRM et plateformes internes",
+          "Tableaux de bord et outils de pilotage"
+        ],
+        "benefits": [
+          "Des outils adaptés à vos processus",
+          "Des données centralisées et fiables",
+          "Un gain de temps au quotidien"
+        ]
+      },
+      "transformation-digitale": {
+        "title": "Transformation digitale",
+        "chip": "Transformation digitale",
+        "chipShort": "Transformation digitale",
+        "need": "Vous souhaitez moderniser votre organisation sans savoir par où commencer ni quoi prioriser.",
+        "deliver": [
+          "Diagnostic de l’existant et des usages",
+          "Feuille de route numérique priorisée",
+          "Accompagnement au changement des équipes"
+        ],
+        "benefits": [
+          "Une vision claire et des priorités partagées",
+          "Des investissements mieux ciblés",
+          "Des équipes embarquées dans le projet"
+        ]
+      },
+      "ui-ux-design": {
+        "title": "UI/UX Design & prototypage",
+        "chip": "UI/UX Design",
+        "chipShort": "UI/UX Design",
+        "need": "Votre produit est difficile à prendre en main, ou vous voulez valider une idée avant d’investir dans le développement.",
+        "deliver": [
+          "Recherche utilisateur et parcours",
+          "Maquettes, design system et prototypes interactifs",
+          "Tests d’usage et itérations"
+        ],
+        "benefits": [
+          "Des interfaces claires et agréables",
+          "Des décisions validées avant le développement",
+          "Moins d’allers-retours, plus d’efficacité"
+        ]
+      },
+      "automatisation-integration": {
+        "title": "Automatisation & intégration",
+        "chip": "Automatisation",
+        "chipShort": "Automatisation",
+        "need": "Des tâches répétitives mobilisent vos équipes et vos outils ne communiquent pas entre eux.",
+        "deliver": [
+          "Automatisation de processus métiers",
+          "Intégration d’API et de services cloud",
+          "Pipelines de données et traitements planifiés"
+        ],
+        "benefits": [
+          "Moins de saisies manuelles et d’erreurs",
+          "Des outils connectés entre eux",
+          "Des équipes recentrées sur l’essentiel"
+        ]
+      },
+      "conseil-architecture": {
+        "title": "Conseil, architecture & accompagnement technique",
+        "chip": "Conseil & architecture",
+        "chipShort": "Conseil & architecture",
+        "need": "Vous devez faire des choix techniques structurants et souhaitez un regard expérimenté pour les sécuriser.",
+        "deliver": [
+          "Conseil technologique et choix de solutions",
+          "Architecture logicielle et cloud",
+          "Accompagnement de vos équipes techniques"
+        ],
+        "benefits": [
+          "Des décisions éclairées",
+          "Une architecture solide et évolutive",
+          "Des risques techniques maîtrisés"
+        ]
+      },
+      "maintenance-evolution": {
+        "title": "Maintenance, évolution & modernisation",
+        "chip": "Maintenance",
+        "chipShort": "Maintenance",
+        "need": "Votre application vieillit, accumule les correctifs ou ne suit plus le rythme de votre activité.",
+        "deliver": [
+          "Maintenance corrective et évolutive",
+          "Mises à jour et sécurité",
+          "Modernisation d’applications existantes"
+        ],
+        "benefits": [
+          "Un produit fiable dans la durée",
+          "Des évolutions au rythme de vos besoins",
+          "Une dette technique maîtrisée"
+        ]
+      },
+      "data-science-ia": {
+        "title": "Data Science & Intelligence artificielle",
+        "chip": "Data Science & IA",
+        "chipShort": "Data Science & IA",
+        "need": "Vos données sont nombreuses, mais difficiles à transformer en indicateurs fiables et en aide à la décision.",
+        "deliver": [
+          "Analyse de données et modèles prédictifs",
+          "Systèmes d’aide à la décision",
+          "Évaluation des modèles avant leur utilisation"
+        ],
+        "benefits": [
+          "Des décisions mieux informées",
+          "Des résultats évalués, pas des promesses",
+          "Une démarche transparente et traçable"
+        ]
+      },
+      "tableaux-de-bord-bi": {
+        "title": "Tableaux de bord & Business Intelligence",
+        "chip": "Tableaux de bord & BI",
+        "chipShort": "Tableaux de bord & BI",
+        "need": "Vos indicateurs sont dispersés entre plusieurs fichiers et outils, et leur suivi prend du temps.",
+        "deliver": [
+          "Interfaces de visualisation des données",
+          "Suivi des indicateurs métiers",
+          "Tableaux de bord connectés à vos sources"
+        ],
+        "benefits": [
+          "Une vision centralisée de l’activité",
+          "Des indicateurs à jour et partagés",
+          "Moins de consolidation manuelle"
+        ]
+      }
+    },
+    "examples": {
+      "ste-scpb": {
+        "title": "STE-SCPB — site web corporate international",
+        "text": "Site corporate en français, anglais et russe pour un exportateur agricole : catalogue de produits, demande de devis export, pages EUDR et contenus gérés en autonomie.",
+        "chips": [
+          "Développement web avancé",
+          "Expériences digitales immersives",
+          "Sites multilingues",
+          "Digitalisation commerciale",
+          "Gestion autonome des contenus",
+          "Performance et référencement"
+        ],
+        "skills": "développement web avancé · expériences digitales immersives · sites multilingues · digitalisation commerciale · gestion autonome des contenus · performance et référencement.",
+        "imageAlt": "Capture réelle de la page d’accueil du site STE-SCPB"
+      },
+      "ninety-one-foot-academy": {
+        "title": "Ninety One Foot Academy — écosystème web et mobile",
+        "text": "N91 MatchLab sur web et en application mobile V1 (React Native, Expo) : effectif, évaluations par poste, terrain tactique, saisie de match hors connexion et rapports PDF.",
+        "chips": [
+          "Applications mobiles iOS et Android",
+          "Mode hors connexion et synchronisation",
+          "Applications métier sur mesure",
+          "Données et visualisation",
+          "Accès par rôle",
+          "Exports PDF, Excel, CSV"
+        ],
+        "skills": "applications mobiles iOS et Android, hors connexion, applications métier, données, accès par rôle, exports.",
+        "imageAlt": "Capture réelle de la page d’accueil du site Ninety One Foot Academy"
+      },
+      "cocoatrack": {
+        "title": "CocoaTrack — plateforme de traçabilité du cacao",
+        "text": "Solution métier interne réalisée pour STE-SCPB : registre des producteurs, cartographie des parcelles, achats avec lecture OCR, analyse satellite, module usine et passeport lot.",
+        "textShort": "Solution métier interne pour STE-SCPB : producteurs, parcelles, achats et OCR, analyse satellite, module usine et passeport lot.",
+        "chips": [
+          "Logiciels métiers",
+          "Systèmes géospatiaux",
+          "Automatisation documentaire",
+          "Data Engineering",
+          "Applications terrain",
+          "Solutions industrielles"
+        ],
+        "skills": "logiciels métiers, systèmes géospatiaux, automatisation documentaire, data engineering, applications terrain, solutions industrielles.",
+        "imageAlt": "Maquette conceptuelle du tableau de bord CocoaTrack — données fictives",
+        "caption": "Maquette conceptuelle — données fictives"
+      },
+      "agora-film-invest": {
+        "title": "Agora Film Invest — refonte d’une vitrine cinématographique",
+        "text": "Refonte d’un site one-page de production audiovisuelle : harmonisation des couleurs, titres, boutons, menu mobile, accessibilité, images optimisées, favicon et image de partage.",
+        "chips": [
+          "Direction artistique digitale",
+          "UI/UX Design",
+          "Responsive et menu mobile",
+          "Accessibilité",
+          "Performance des images",
+          "SEO et image de partage"
+        ],
+        "skills": "direction artistique, UI/UX, responsive, accessibilité, performance, SEO.",
+        "imageAlt": "Capture réelle de la page d’accueil du site Agora Film Invest"
+      },
+      "golden-beans": {
+        "title": "Golden Beans SA — plateforme web B2B bilingue",
+        "text": "Veille de marché automatisée : n8n déclenche la collecte, OpenAI assiste la rédaction, des contrôles détectent les doublons, Sanity publie et Resend diffuse la newsletter.",
+        "chips": [
+          "Automatisation par IA",
+          "Intégration de CMS",
+          "Plateformes multilingues",
+          "Parcours de conversion",
+          "Cartographie et données",
+          "SEO et performance"
+        ],
+        "skills": "automatisation par IA, intégration de CMS, plateformes multilingues, parcours de conversion, cartographie, SEO.",
+        "imageAlt": "Capture réelle de la page d’accueil du site Golden Beans SA"
+      }
+    },
+    "cta": {
+      "title": "Un projet en tête ? Parlons-en.",
+      "description": "Décrivez-nous votre besoin : nous revenons vers vous pour en discuter et vous proposer une démarche adaptée.",
+      "descriptionShort": "Décrivez-nous votre besoin : nous revenons vers vous pour en discuter.",
+      "primary": "Discutons de votre projet",
+      "secondary": "Voir nos services"
+    }
+  },
+  "serviceDetail": {
+    "crumbHome": "Accueil",
+    "crumbServices": "Services",
+    "breadcrumbLabel": "Fil d’Ariane",
+    "eyebrow": "Service",
+    "quote": "Demander un devis",
+    "talk": "Parlons de votre projet",
+    "needsEyebrow": "Le besoin",
+    "needsTitle": "Les situations dans lesquelles nous intervenons",
+    "deliverEyebrow": "Ce que nous réalisons",
+    "benefitsEyebrow": "Vos bénéfices",
+    "methodEyebrow": "Notre démarche",
+    "methodTitle": "Cinq étapes pour avancer sereinement",
+    "faqEyebrow": "Questions fréquentes",
+    "faqTitle": "Vos questions sur ce service",
+    "ctaDescription": "Décrivez votre projet : nous revenons vers vous pour un premier échange et une proposition adaptée.",
+    "ctaPrimary": "Discutons de votre projet",
+    "ctaSecondary": "Voir nos services",
+    "items": {
+      "sites-web": {
+        "crumb": "Sites web",
+        "title": "Sites web & plateformes web",
+        "lead": "Des sites et des plateformes web rapides, clairs et faciles à faire évoluer, pensés pour présenter votre activité et générer des demandes.",
+        "needsDescription": "Un site web doit servir un objectif précis : informer, convaincre, vendre ou simplifier un service. Voici les cas les plus fréquents.",
+        "needs": [
+          {
+            "title": "Moderniser votre présence en ligne",
+            "text": "Votre site actuel ne reflète plus votre activité ou n’est pas adapté au mobile."
+          },
+          {
+            "title": "Proposer un service en ligne",
+            "text": "Espace client, prise de rendez-vous, catalogue ou portail : un service accessible à tout moment."
+          },
+          {
+            "title": "Lancer une nouvelle activité",
+            "text": "Présenter une offre, un produit ou un événement avec un site rapide à mettre en ligne."
+          }
+        ],
+        "deliverTitle": "Du site vitrine à la plateforme web",
+        "deliverDescription": "Nous prenons en charge la conception, le développement et la mise en ligne.",
+        "deliver": [
+          {
+            "title": "Conception UX/UI",
+            "text": "Arborescence, maquettes et prototype."
+          },
+          {
+            "title": "Développement",
+            "text": "Sites vitrines, plateformes et portails clients."
+          },
+          {
+            "title": "Contenus et référencement",
+            "text": "Structure, performance et bonnes pratiques SEO."
+          },
+          {
+            "title": "Mise en ligne et suivi",
+            "text": "Hébergement, sécurité et évolutions."
+          }
+        ],
+        "benefitsTitle": "Un site qui travaille pour votre activité",
+        "benefitsDescription": "Un site utile se mesure à ce qu’il apporte : de la crédibilité, des contacts et du temps gagné.",
+        "benefits": [
+          "Une image professionnelle et cohérente",
+          "Un site rapide, sécurisé et adapté au mobile",
+          "Des contenus simples à mettre à jour",
+          "Une base prête à accueillir de nouvelles fonctionnalités"
+        ],
+        "steps": [
+          {
+            "title": "Découverte",
+            "text": "Comprendre votre activité et vos visiteurs."
+          },
+          {
+            "title": "Cadrage",
+            "text": "Arborescence, contenus et planning."
+          },
+          {
+            "title": "Design",
+            "text": "Maquettes et prototype validés ensemble."
+          },
+          {
+            "title": "Développement",
+            "text": "Intégration, tests et recette."
+          },
+          {
+            "title": "Mise en ligne",
+            "text": "Publication, suivi et évolutions."
+          }
+        ],
+        "faq": [
+          {
+            "question": "Pourrai-je modifier moi-même les contenus du site ?",
+            "answer": "Oui, si vous le souhaitez. Nous mettons en place une interface d’administration adaptée et vous montrons comment l’utiliser."
+          },
+          {
+            "question": "Pouvez-vous reprendre un site existant ?",
+            "answer": "Oui. Nous analysons d’abord l’existant pour vous proposer une refonte ou des améliorations ciblées."
+          },
+          {
+            "question": "Le site sera-t-il adapté aux téléphones ?",
+            "answer": "Oui. Chaque page est conçue pour s’afficher correctement sur mobile, tablette et ordinateur."
+          }
+        ],
+        "ctaTitle": "Parlons de votre site web."
+      },
+      "applications-mobiles": {
+        "crumb": "Applications mobiles",
+        "title": "Applications mobiles Android & iOS",
+        "lead": "Des applications fluides et fiables pour rester proche de vos clients et équiper vos équipes sur le terrain.",
+        "needsDescription": "Une application mobile n’est utile que si elle répond à un usage précis. Voici les cas les plus fréquents.",
+        "needs": [
+          {
+            "title": "Rester proche de vos clients",
+            "text": "Offrir un service accessible à tout moment : réservation, suivi, paiement, notifications."
+          },
+          {
+            "title": "Équiper vos équipes terrain",
+            "text": "Remplacer les fiches papier par une application simple, utilisable même en mobilité."
+          },
+          {
+            "title": "Lancer un nouveau service",
+            "text": "Transformer une idée en application et la tester rapidement auprès de vrais utilisateurs."
+          }
+        ],
+        "deliverTitle": "Du prototype à la publication sur les stores",
+        "deliverDescription": "Nous prenons en charge l’ensemble du cycle de vie de votre application.",
+        "deliver": [
+          {
+            "title": "Conception UX/UI",
+            "text": "Parcours, maquettes et prototype testable."
+          },
+          {
+            "title": "Développement",
+            "text": "Applications Android et iOS, back-office et API."
+          },
+          {
+            "title": "Publication",
+            "text": "Mise en ligne sur les stores et suivi des versions."
+          },
+          {
+            "title": "Maintenance",
+            "text": "Mises à jour, sécurité et évolutions."
+          }
+        ],
+        "benefitsTitle": "Une application utile, adoptée et durable",
+        "benefitsDescription": "Notre objectif n’est pas de livrer une application, mais un outil que vos utilisateurs ont plaisir à utiliser.",
+        "benefits": [
+          "Une expérience fluide, pensée pour l’usage réel",
+          "Une base technique solide, prête à évoluer",
+          "Un accompagnement de la conception à la maintenance",
+          "Des choix technologiques adaptés à votre budget"
+        ],
+        "steps": [
+          {
+            "title": "Découverte",
+            "text": "Comprendre vos utilisateurs et vos objectifs."
+          },
+          {
+            "title": "Cadrage",
+            "text": "Fonctionnalités prioritaires et planning."
+          },
+          {
+            "title": "Design",
+            "text": "Maquettes et prototype interactif."
+          },
+          {
+            "title": "Développement",
+            "text": "Itérations, tests et recette."
+          },
+          {
+            "title": "Publication",
+            "text": "Mise en ligne et évolutions."
+          }
+        ],
+        "faq": [
+          {
+            "question": "Faut-il développer pour Android et iOS en même temps ?",
+            "answer": "Cela dépend de vos utilisateurs et de votre budget. Nous vous aidons à choisir l’approche la plus adaptée lors du cadrage."
+          },
+          {
+            "question": "Pouvez-vous reprendre une application existante ?",
+            "answer": "Oui. Nous commençons par un audit de l’existant pour proposer des évolutions ou une modernisation progressive."
+          },
+          {
+            "question": "Qui publie l’application sur les stores ?",
+            "answer": "Nous pouvons vous accompagner dans la publication et le suivi des versions sur les stores."
+          }
+        ],
+        "ctaTitle": "Parlons de votre application."
+      },
+      "logiciels-sur-mesure": {
+        "crumb": "Logiciels sur mesure",
+        "title": "Logiciels & solutions de gestion sur mesure",
+        "lead": "Des outils de gestion conçus autour de vos processus pour centraliser vos données et simplifier le travail de vos équipes.",
+        "needsDescription": "Un logiciel sur mesure se justifie lorsque les outils existants ne correspondent plus à votre façon de travailler.",
+        "needs": [
+          {
+            "title": "Sortir des fichiers dispersés",
+            "text": "Rassembler des données éparpillées dans des tableurs et des messageries."
+          },
+          {
+            "title": "Adapter l’outil à vos processus",
+            "text": "Un logiciel qui suit votre organisation, plutôt que l’inverse."
+          },
+          {
+            "title": "Piloter votre activité",
+            "text": "Disposer d’indicateurs fiables pour décider plus vite."
+          }
+        ],
+        "deliverTitle": "Des outils pensés pour le quotidien de vos équipes",
+        "deliverDescription": "Nous concevons, développons et faisons évoluer vos solutions de gestion.",
+        "deliver": [
+          {
+            "title": "Logiciels métiers",
+            "text": "Applications web adaptées à vos processus."
+          },
+          {
+            "title": "ERP et CRM",
+            "text": "Gestion commerciale, stocks, clients et opérations."
+          },
+          {
+            "title": "Tableaux de bord",
+            "text": "Indicateurs et rapports pour piloter l’activité."
+          },
+          {
+            "title": "Intégrations",
+            "text": "Connexion avec vos outils existants."
+          }
+        ],
+        "benefitsTitle": "Des outils adaptés, des données fiables",
+        "benefitsDescription": "L’objectif : un outil adopté par vos équipes et qui leur fait gagner du temps.",
+        "benefits": [
+          "Des outils adaptés à vos processus",
+          "Des données centralisées et fiables",
+          "Moins de tâches répétitives au quotidien",
+          "Une solution qui évolue avec votre organisation"
+        ],
+        "steps": [
+          {
+            "title": "Découverte",
+            "text": "Analyser vos processus et vos besoins."
+          },
+          {
+            "title": "Cadrage",
+            "text": "Fonctionnalités prioritaires et planning."
+          },
+          {
+            "title": "Design",
+            "text": "Écrans et parcours validés avec les utilisateurs."
+          },
+          {
+            "title": "Développement",
+            "text": "Itérations, tests et recette."
+          },
+          {
+            "title": "Déploiement",
+            "text": "Mise en service, prise en main et évolutions."
+          }
+        ],
+        "faq": [
+          {
+            "question": "Pouvez-vous reprendre nos données existantes ?",
+            "answer": "Oui. Nous étudions vos fichiers et vos outils actuels pour prévoir une reprise des données adaptée."
+          },
+          {
+            "question": "Le logiciel pourra-t-il évoluer ?",
+            "answer": "Oui. L’architecture est pensée pour ajouter de nouvelles fonctionnalités au fil de vos besoins."
+          },
+          {
+            "question": "Faut-il former les équipes ?",
+            "answer": "Nous prévoyons une prise en main accompagnée pour faciliter l’adoption de l’outil."
+          }
+        ],
+        "ctaTitle": "Parlons de votre outil de gestion."
+      },
+      "transformation-digitale": {
+        "crumb": "Transformation digitale",
+        "title": "Transformation digitale",
+        "lead": "Un accompagnement pour moderniser votre organisation étape par étape, avec des priorités claires et des équipes impliquées.",
+        "needsDescription": "La transformation digitale commence par une question simple : par où commencer ? Voici les situations les plus fréquentes.",
+        "needs": [
+          {
+            "title": "Faire le point sur l’existant",
+            "text": "Comprendre vos outils, vos usages et vos points de blocage."
+          },
+          {
+            "title": "Définir des priorités",
+            "text": "Choisir les chantiers qui apportent le plus de valeur."
+          },
+          {
+            "title": "Embarquer vos équipes",
+            "text": "Accompagner le changement pour que les nouveaux outils soient adoptés."
+          }
+        ],
+        "deliverTitle": "Un accompagnement de bout en bout",
+        "deliverDescription": "Du diagnostic à la mise en œuvre, nous avançons avec vous.",
+        "deliver": [
+          {
+            "title": "Diagnostic",
+            "text": "Analyse des processus, des outils et des usages."
+          },
+          {
+            "title": "Feuille de route",
+            "text": "Chantiers priorisés et planning réaliste."
+          },
+          {
+            "title": "Mise en œuvre",
+            "text": "Choix, déploiement ou développement des solutions."
+          },
+          {
+            "title": "Accompagnement",
+            "text": "Prise en main et suivi des équipes."
+          }
+        ],
+        "benefitsTitle": "Une modernisation maîtrisée",
+        "benefitsDescription": "Avancer par étapes permet de limiter les risques et de mesurer les résultats.",
+        "benefits": [
+          "Une vision claire et des priorités partagées",
+          "Des investissements mieux ciblés",
+          "Des équipes embarquées dans le projet",
+          "Des outils qui communiquent entre eux"
+        ],
+        "steps": [
+          {
+            "title": "Écoute",
+            "text": "Comprendre votre organisation et vos objectifs."
+          },
+          {
+            "title": "Diagnostic",
+            "text": "Analyser l’existant et les usages."
+          },
+          {
+            "title": "Feuille de route",
+            "text": "Prioriser les chantiers."
+          },
+          {
+            "title": "Mise en œuvre",
+            "text": "Déployer les solutions par étapes."
+          },
+          {
+            "title": "Suivi",
+            "text": "Mesurer, ajuster et accompagner."
+          }
+        ],
+        "faq": [
+          {
+            "question": "Par où commencer une transformation digitale ?",
+            "answer": "Par un diagnostic de l’existant : il permet d’identifier les priorités avant d’investir."
+          },
+          {
+            "question": "Faut-il tout changer en même temps ?",
+            "answer": "Non. Nous privilégions une démarche progressive, chantier par chantier."
+          },
+          {
+            "question": "Travaillez-vous avec nos outils actuels ?",
+            "answer": "Oui. Nous partons de l’existant et ne remplaçons un outil que lorsque c’est utile."
+          }
+        ],
+        "ctaTitle": "Parlons de votre transformation digitale."
+      },
+      "ui-ux-design": {
+        "crumb": "UI/UX Design",
+        "title": "UI/UX Design & prototypage",
+        "lead": "Des interfaces claires et agréables, conçues avec vos utilisateurs et validées avant le développement.",
+        "needsDescription": "Le design intervient dès qu’un produit doit être compris, utilisé et apprécié.",
+        "needs": [
+          {
+            "title": "Valider une idée",
+            "text": "Tester un concept avec un prototype avant d’investir dans le développement."
+          },
+          {
+            "title": "Simplifier un produit existant",
+            "text": "Rendre une application plus facile à prendre en main."
+          },
+          {
+            "title": "Harmoniser vos interfaces",
+            "text": "Créer une identité visuelle cohérente sur tous vos écrans."
+          }
+        ],
+        "deliverTitle": "De la recherche au prototype interactif",
+        "deliverDescription": "Nous concevons des parcours et des interfaces centrés sur l’usage.",
+        "deliver": [
+          {
+            "title": "Recherche utilisateur",
+            "text": "Entretiens, parcours et besoins réels."
+          },
+          {
+            "title": "Maquettes",
+            "text": "Écrans web et mobile, du filaire au détaillé."
+          },
+          {
+            "title": "Prototypes",
+            "text": "Parcours interactifs à tester et à présenter."
+          },
+          {
+            "title": "Design system",
+            "text": "Composants et règles pour des interfaces cohérentes."
+          }
+        ],
+        "benefitsTitle": "Des interfaces qui facilitent l’usage",
+        "benefitsDescription": "Un bon design réduit les erreurs, les questions et les allers-retours.",
+        "benefits": [
+          "Des interfaces claires et agréables",
+          "Des décisions validées avant le développement",
+          "Moins d’allers-retours, plus d’efficacité",
+          "Une cohérence visuelle sur tous vos écrans"
+        ],
+        "steps": [
+          {
+            "title": "Découverte",
+            "text": "Comprendre vos utilisateurs et leurs besoins."
+          },
+          {
+            "title": "Parcours",
+            "text": "Organiser les écrans et les fonctionnalités."
+          },
+          {
+            "title": "Maquettes",
+            "text": "Concevoir les interfaces."
+          },
+          {
+            "title": "Prototype",
+            "text": "Tester et ajuster avec les utilisateurs."
+          },
+          {
+            "title": "Transmission",
+            "text": "Remettre des maquettes prêtes à développer."
+          }
+        ],
+        "faq": [
+          {
+            "question": "Pouvez-vous travailler sur un design existant ?",
+            "answer": "Oui. Nous partons de vos écrans actuels pour les améliorer ou les harmoniser."
+          },
+          {
+            "question": "À quoi sert un prototype ?",
+            "answer": "Il permet de tester un parcours avant le développement et d’éviter des corrections coûteuses."
+          },
+          {
+            "question": "Les maquettes sont-elles prêtes pour les développeurs ?",
+            "answer": "Oui. Nous livrons des maquettes organisées, avec les composants et les règles nécessaires."
+          }
+        ],
+        "ctaTitle": "Parlons de vos interfaces."
+      },
+      "automatisation-integration": {
+        "crumb": "Automatisation",
+        "title": "Automatisation & intégration",
+        "lead": "Automatiser les tâches répétitives et connecter vos outils pour que vos équipes se concentrent sur l’essentiel.",
+        "needsDescription": "L’automatisation est utile dès qu’une tâche se répète ou qu’une information doit être ressaisie.",
+        "needs": [
+          {
+            "title": "Supprimer les ressaisies",
+            "text": "Éviter de copier les mêmes informations d’un outil à l’autre."
+          },
+          {
+            "title": "Connecter vos outils",
+            "text": "Faire communiquer vos logiciels, vos formulaires et vos services en ligne."
+          },
+          {
+            "title": "Gagner en réactivité",
+            "text": "Déclencher automatiquement notifications, relances et rapports."
+          }
+        ],
+        "deliverTitle": "Des processus connectés et automatisés",
+        "deliverDescription": "Nous identifions les tâches à automatiser et mettons en place des flux fiables.",
+        "deliver": [
+          {
+            "title": "Automatisation de processus",
+            "text": "Validation, relances, génération de documents."
+          },
+          {
+            "title": "Intégration d’API",
+            "text": "Connexion entre vos outils et des services tiers."
+          },
+          {
+            "title": "Services cloud",
+            "text": "Stockage, synchronisation et traitements en ligne."
+          },
+          {
+            "title": "Intelligence artificielle",
+            "text": "Lorsque c’est pertinent pour votre besoin."
+          }
+        ],
+        "benefitsTitle": "Moins de tâches manuelles, plus de temps utile",
+        "benefitsDescription": "Des flux automatisés réduisent les erreurs et libèrent du temps pour vos équipes.",
+        "benefits": [
+          "Moins de saisies manuelles et d’erreurs",
+          "Des outils connectés entre eux",
+          "Des équipes recentrées sur l’essentiel",
+          "Des processus suivis et traçables"
+        ],
+        "steps": [
+          {
+            "title": "Découverte",
+            "text": "Identifier les tâches répétitives."
+          },
+          {
+            "title": "Analyse",
+            "text": "Cartographier les outils et les flux."
+          },
+          {
+            "title": "Conception",
+            "text": "Définir les automatisations prioritaires."
+          },
+          {
+            "title": "Mise en place",
+            "text": "Développer, tester et sécuriser."
+          },
+          {
+            "title": "Suivi",
+            "text": "Surveiller et faire évoluer les flux."
+          }
+        ],
+        "faq": [
+          {
+            "question": "Quelles tâches peut-on automatiser ?",
+            "answer": "Les tâches répétitives et bien définies : saisies, relances, notifications, rapports ou transferts de données."
+          },
+          {
+            "question": "L’intelligence artificielle est-elle nécessaire ?",
+            "answer": "Pas toujours. Nous ne la proposons que lorsqu’elle apporte un réel bénéfice."
+          },
+          {
+            "question": "Nos outils actuels peuvent-ils être connectés ?",
+            "answer": "Souvent, selon les possibilités d’intégration de chaque outil. Nous le vérifions lors de l’analyse."
+          }
+        ],
+        "ctaTitle": "Parlons de vos processus."
+      },
+      "conseil-architecture": {
+        "crumb": "Conseil & architecture",
+        "title": "Conseil, architecture & accompagnement technique",
+        "lead": "Un regard technique pour sécuriser vos choix, concevoir une architecture solide et accompagner vos équipes.",
+        "needsDescription": "Certaines décisions techniques engagent un projet pour longtemps : mieux vaut les préparer.",
+        "needs": [
+          {
+            "title": "Choisir une technologie",
+            "text": "Comparer les options avant de vous engager."
+          },
+          {
+            "title": "Concevoir une architecture",
+            "text": "Préparer une base solide pour un nouveau produit."
+          },
+          {
+            "title": "Renforcer vos équipes",
+            "text": "Apporter un appui technique ponctuel ou régulier."
+          }
+        ],
+        "deliverTitle": "Un accompagnement technique sur mesure",
+        "deliverDescription": "Nous intervenons en amont ou en cours de projet, selon vos besoins.",
+        "deliver": [
+          {
+            "title": "Conseil technologique",
+            "text": "Choix de solutions et de technologies."
+          },
+          {
+            "title": "Architecture",
+            "text": "Logicielle, données et cloud."
+          },
+          {
+            "title": "Revue technique",
+            "text": "Analyse de l’existant et recommandations."
+          },
+          {
+            "title": "Accompagnement",
+            "text": "Appui à vos équipes techniques."
+          }
+        ],
+        "benefitsTitle": "Des choix techniques éclairés",
+        "benefitsDescription": "Prendre les bonnes décisions au bon moment évite des corrections coûteuses.",
+        "benefits": [
+          "Des décisions éclairées",
+          "Une architecture solide et évolutive",
+          "Des risques techniques maîtrisés",
+          "Des équipes appuyées dans leurs choix"
+        ],
+        "steps": [
+          {
+            "title": "Écoute",
+            "text": "Comprendre votre contexte et vos contraintes."
+          },
+          {
+            "title": "Analyse",
+            "text": "Étudier l’existant et les options."
+          },
+          {
+            "title": "Recommandations",
+            "text": "Proposer des choix argumentés."
+          },
+          {
+            "title": "Conception",
+            "text": "Définir l’architecture cible."
+          },
+          {
+            "title": "Accompagnement",
+            "text": "Suivre la mise en œuvre."
+          }
+        ],
+        "faq": [
+          {
+            "question": "Intervenez-vous sur des projets déjà commencés ?",
+            "answer": "Oui. Une revue technique permet de faire le point et de proposer des ajustements."
+          },
+          {
+            "question": "Travaillez-vous avec nos équipes internes ?",
+            "answer": "Oui. Nous pouvons accompagner vos équipes, sans nous substituer à elles."
+          },
+          {
+            "question": "Proposez-vous des interventions ponctuelles ?",
+            "answer": "Oui, selon votre besoin : un avis sur une décision précise ou un accompagnement dans la durée."
+          }
+        ],
+        "ctaTitle": "Parlons de vos choix techniques."
+      },
+      "maintenance-evolution": {
+        "crumb": "Maintenance & évolution",
+        "title": "Maintenance, évolution & modernisation",
+        "lead": "Maintenir, sécuriser et faire évoluer vos applications pour qu’elles restent fiables et adaptées à votre activité.",
+        "needsDescription": "Une application vit après sa mise en ligne : elle doit être suivie, corrigée et améliorée.",
+        "needs": [
+          {
+            "title": "Assurer la continuité",
+            "text": "Corriger les anomalies et garder un service disponible."
+          },
+          {
+            "title": "Sécuriser l’application",
+            "text": "Appliquer les mises à jour et renforcer la sécurité."
+          },
+          {
+            "title": "Moderniser l’existant",
+            "text": "Faire évoluer une application devenue difficile à maintenir."
+          }
+        ],
+        "deliverTitle": "Un suivi dans la durée",
+        "deliverDescription": "Nous prenons en charge vos applications existantes, y compris celles développées par un autre prestataire.",
+        "deliver": [
+          {
+            "title": "Maintenance corrective",
+            "text": "Diagnostic et correction des anomalies."
+          },
+          {
+            "title": "Mises à jour et sécurité",
+            "text": "Dépendances, correctifs et sauvegardes."
+          },
+          {
+            "title": "Évolutions",
+            "text": "Nouvelles fonctionnalités selon vos besoins."
+          },
+          {
+            "title": "Modernisation",
+            "text": "Refonte technique d’applications existantes."
+          }
+        ],
+        "benefitsTitle": "Une application fiable dans la durée",
+        "benefitsDescription": "Un suivi régulier évite les interruptions et prolonge la vie de votre application.",
+        "benefits": [
+          "Un produit fiable dans la durée",
+          "Des évolutions au rythme de vos besoins",
+          "Une dette technique maîtrisée",
+          "Un interlocuteur qui connaît votre application"
+        ],
+        "steps": [
+          {
+            "title": "Audit",
+            "text": "Faire le point sur l’application existante."
+          },
+          {
+            "title": "Priorités",
+            "text": "Classer les corrections et les évolutions."
+          },
+          {
+            "title": "Mise à niveau",
+            "text": "Sécuriser et stabiliser l’application."
+          },
+          {
+            "title": "Évolutions",
+            "text": "Ajouter les fonctionnalités prévues."
+          },
+          {
+            "title": "Suivi",
+            "text": "Assurer un suivi régulier."
+          }
+        ],
+        "faq": [
+          {
+            "question": "Pouvez-vous reprendre une application développée par un autre prestataire ?",
+            "answer": "Oui. Nous commençons par un audit pour comprendre le code et l’état de l’application."
+          },
+          {
+            "question": "Comment sont traitées les demandes de correction ?",
+            "answer": "Les modalités de suivi sont définies ensemble lors du cadrage, selon vos besoins."
+          },
+          {
+            "question": "Peut-on moderniser sans tout reconstruire ?",
+            "answer": "Souvent, oui. Nous privilégions une modernisation progressive lorsque c’est possible."
+          }
+        ],
+        "ctaTitle": "Parlons du suivi de votre application."
+      }
+    }
+  },
+  "solutions": {
+    "meta": {
+      "title": "Nos solutions",
+      "description": "Des produits numériques conçus et développés par ZIIIILO : FleetRent, DocCloud, et des solutions métiers conçues pour des besoins concrets."
+    },
+    "header": {
+      "eyebrow": "Nos solutions",
+      "title": "Des produits numériques conçus et développés par ZIIIILO",
+      "titleShort": "Des produits numériques conçus par ZIIIILO",
+      "lead": "Au-delà de nos prestations, nous créons nos propres plateformes pour répondre à des besoins concrets. Un portefeuille appelé à s’agrandir.",
+      "leadShort": "Nous créons nos propres plateformes pour répondre à des besoins concrets. Un portefeuille appelé à s’agrandir.",
+      "primary": "Explorer FleetRent",
+      "secondary": "Nous contacter"
+    },
+    "catalogue": {
+      "label": "Catalogue des produits",
+      "filtersLabel": "Filtrer les produits",
+      "filters": {
+        "tous": "Tous les produits",
+        "commercialises": "Commercialisés",
+        "en-developpement": "En développement"
+      },
+      "legend": "Statuts :",
+      "legendItems": {
+        "commercialise": "Commercialisé",
+        "en-developpement": "En développement",
+        "a-venir": "À venir"
+      },
+      "count": "{count, plural, =0 {Aucun produit affiché} one {# produit affiché} other {# produits affichés}}",
+      "empty": "Aucun produit commercialisé pour le moment.",
+      "allTitle": "Tous nos produits",
+      "note": "Seuls les produits officiellement annoncés apparaissent ici. Les prochains produits ZIIIILO y seront ajoutés dès leur lancement.",
+      "noteShort": "Seuls les produits officiellement annoncés apparaissent ici."
+    },
+    "labels": {
+      "targets": "Pour qui ?",
+      "features": "Fonctionnalités principales",
+      "contact": "Nous contacter",
+      "discoverProduct": "Découvrir le produit",
+      "discoverRealisation": "Découvrir la réalisation",
+      "officialSite": "Site officiel FleetRent",
+      "mockup": "Maquette conceptuelle — données fictives"
+    },
+    "featureStatus": {
+      "en-developpement": "En développement",
+      "prevu": "Prévu",
+      "en-conception": "En conception"
+    },
+    "products": {
+      "fleetrent": {
+        "badge": "Une solution développée par ZIIIILO",
+        "badgeShort": "Développée par ZIIIILO",
+        "description": "L’écosystème numérique qui simplifie la location de véhicules : une plateforme de gestion pour les agences, des sites web dédiés et une marketplace pour réserver en ligne.",
+        "descriptionShort": "L’écosystème qui simplifie la location de véhicules : gestion des agences, sites web dédiés et marketplace de réservation.",
+        "targets": [
+          {
+            "label": "Agences de location"
+          },
+          {
+            "label": "Gestionnaires de flotte"
+          },
+          {
+            "label": "Clients particuliers et professionnels",
+            "short": "Clients"
+          }
+        ],
+        "features": [
+          {
+            "label": "Gestion des flottes, réservations et contrats",
+            "short": "Flottes, réservations, contrats",
+            "status": "en-developpement"
+          },
+          {
+            "label": "Sites web pour les agences",
+            "short": "Sites web des agences",
+            "status": "en-developpement"
+          },
+          {
+            "label": "Marketplace de réservation",
+            "status": "en-developpement"
+          },
+          {
+            "label": "Géolocalisation et automatisations",
+            "short": "Géolocalisation, automatisations",
+            "status": "prevu"
+          }
+        ],
+        "cta": "Explorer FleetRent",
+        "imageAlt": "Maquettes conceptuelles de FleetRent : tableau de bord d’une agence et application mobile de réservation (données fictives).",
+        "card": {
+          "description": "Écosystème numérique dédié à la location de véhicules : gestion des agences, sites web et marketplace de réservation.",
+          "tags": "SaaS · Marketplace · Web"
+        }
+      },
+      "doccloud": {
+        "badge": "Une solution développée par ZIIIILO",
+        "badgeShort": "Développée par ZIIIILO",
+        "description": "DocCloud simplifie la déclaration, la recherche et la restitution des documents perdus et retrouvés : un parcours numérique sécurisé qui relie trouveurs, propriétaires et points de collecte.",
+        "descriptionShort": "DocCloud simplifie la déclaration, la recherche et la restitution sécurisée des documents perdus et retrouvés.",
+        "targets": [
+          {
+            "label": "Personnes ayant trouvé un document"
+          },
+          {
+            "label": "Propriétaires de documents perdus"
+          },
+          {
+            "label": "Points de collecte habilités"
+          }
+        ],
+        "features": [
+          {
+            "label": "Recherche protégée des documents perdus",
+            "status": "en-conception"
+          },
+          {
+            "label": "Déclaration numérique et code de dépôt",
+            "status": "en-conception"
+          },
+          {
+            "label": "Suivi du dossier et notifications",
+            "status": "en-conception"
+          },
+          {
+            "label": "Récompense du trouveur",
+            "status": "en-conception"
+          }
+        ],
+        "cta": "Découvrir DocCloud",
+        "imageAlt": "Visuel conceptuel de DocCloud : documents fictifs marqués « spécimen » et suivi du dossier sur mobile (données fictives).",
+        "card": {
+          "description": "Plateforme numérique de recherche, de déclaration et de restitution des documents perdus.",
+          "descriptionShort": "Déclarer, rechercher et restituer les documents perdus, en sécurité.",
+          "tags": "CivicTech · Gestion documentaire · Mobile"
+        }
+      }
+    },
+    "business": {
+      "eyebrow": "Solutions métiers",
+      "title": "Des solutions métiers conçues pour des besoins concrets",
+      "description": "Au-delà de ses produits propres, ZIIIILO conçoit des plateformes pour répondre aux besoins spécifiques d’entreprises. Ces réalisations ne sont pas des produits ZIIIILO commercialisés.",
+      "descriptionShort": "Des plateformes conçues pour des entreprises ; elles ne sont pas des produits ZIIIILO commercialisés.",
+      "items": {
+        "scpb-commercial": {
+          "badge": "Solution métier · client SCPB",
+          "description": "SCPB Commercial automatise une grande partie de la prospection internationale — recherche d’acheteurs, qualification, emails personnalisés par IA et suivi — tout en conservant une approbation humaine sur chaque premier contact.",
+          "targets": ["Équipes commerciales", "Commerce international", "Cacao et café (besoin initial)"],
+          "features": [
+            "Recherche et qualification des prospects",
+            "Emails individualisés par IA",
+            "Validation humaine avant envoi",
+            "Suivi des réponses et des campagnes"
+          ],
+          "imageAlt": "Maquettes conceptuelles de SCPB Commercial : tableau de bord commercial et écran de validation humaine (données fictives)."
+        },
+        "staftrack": {
+          "badge": "Solution métier · client SCPB",
+          "description": "StafTrack remplace la feuille de présence : les employés pointent sur WhatsApp, chaque pointage est vérifié par la position du téléphone, et le service RH suit tout en direct sur un tableau de bord web.",
+          "descriptionShort": "Les employés pointent sur WhatsApp, chaque pointage est vérifié par la position du téléphone, et la RH suit tout en direct.",
+          "targets": ["Services RH", "Employés", "Entreprises multi-sites"],
+          "features": [
+            "Pointage sur WhatsApp, vérifié par la position",
+            "Tableau de bord RH en direct",
+            "Heures sup., absences, missions et stagiaires",
+            "Rapports mensuels pour la paie"
+          ],
+          "imageAlt": "Maquettes conceptuelles de StafTrack : tableau de bord RH et conversation de pointage sur WhatsApp (données fictives)."
+        },
+        "previsions-cacao-robusta": {
+          "badge": "Solution métier · client SCPB",
+          "description": "Une plateforme d’intelligence de marché qui suit le cacao et le café robusta, construit des séries historiques continues, exécute plusieurs modèles prédictifs et publie leurs résultats avec un statut de validation explicite.",
+          "targets": [
+            "Exportateurs",
+            "Négociants",
+            "Acheteurs de matières premières",
+            "Acteurs de la filière",
+            "Analystes de marchés"
+          ],
+          "features": [
+            "Suivi des cours du cacao et du café robusta",
+            "Prévisions de modèle à J+1, J+7, J+14 et J+30, avec statut",
+            "Évaluation face au dernier cours connu",
+            "Journal et traçabilité des prévisions"
+          ],
+          "imageAlt": "Maquette conceptuelle — données fictives : tableau de bord du marché du cacao et courbe de prévision."
+        },
+        "scpb-survey": {
+          "badge": "Solution métier · client SCPB",
+          "description": "Une application Android de collecte terrain : registre des planteurs, géolocalisation des parcelles, consentement et enquêtes ménage, scolarisation et exploitation. Elle fonctionne sans réseau et se synchronise avec un serveur central.",
+          "targets": ["Coopératives de cacao", "Agents terrain", "Équipes durabilité", "Auditeurs"],
+          "features": [
+            "Registre des planteurs et consentement unique",
+            "Enquêtes ménage, scolarisation et exploitation",
+            "Relevé GPS des parcelles (en test)",
+            "Saisie hors ligne et partage par site"
+          ],
+          "imageAlt": "Maquette conceptuelle — données fictives : écrans de l’application SCPB Survey (accueil agent, fiche planteur, relevé de parcelle)."
+        }
+      }
+    },
+    "approach": {
+      "eyebrow": "Notre approche produit",
+      "title": "Des produits nés de besoins concrets",
+      "description": "Nous appliquons à nos propres produits la même exigence que pour nos clients.",
+      "items": [
+        {
+          "title": "Partir d’un problème réel",
+          "text": "Chaque produit répond à une difficulté identifiée sur le terrain, dans un secteur précis.",
+          "short": "Chaque produit répond à une difficulté identifiée sur le terrain."
+        },
+        {
+          "title": "Construire avec les utilisateurs",
+          "text": "Nous testons tôt, écoutons les retours et ajustons avant d’ajouter des fonctionnalités.",
+          "short": "Tester tôt, écouter, ajuster."
+        },
+        {
+          "title": "Faire évoluer en continu",
+          "text": "Nos produits sont pensés pour grandir : nouvelles fonctionnalités, nouveaux marchés, nouveaux usages.",
+          "short": "Des produits pensés pour grandir."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Une idée de produit numérique ? Construisons-la ensemble.",
+      "titleShort": "Une idée de produit ? Construisons-la.",
+      "description": "Nous vous aidons à passer de l’idée au produit : cadrage, design, développement et lancement.",
+      "descriptionShort": "Cadrage, design, développement et lancement : nous vous accompagnons.",
+      "primary": "Discutons de votre projet",
+      "secondary": "Voir nos services"
+    }
+  },
+  "about": {
+    "meta": {
+      "title": "À propos",
+      "description": "ZIIIILO, entreprise technologique basée à Douala : notre histoire, notre mission, nos valeurs et notre manière d’innover."
+    },
+    "header": {
+      "eyebrow": "À propos de ZIIIILO",
+      "title": "Une entreprise technologique en construction, avec une vision durable",
+      "lead": "ZIIIILO est née d’une conviction : la technologie doit être accessible, utile et performante pour toutes celles et ceux qui veulent avancer.",
+      "leadShort": "ZIIIILO est née d’une conviction : la technologie doit être accessible, utile et performante.",
+      "primary": "Démarrer un projet",
+      "secondary": "Découvrir nos solutions"
+    },
+    "story": {
+      "eyebrow": "Notre histoire",
+      "title": "Transformer des idées en outils qui simplifient le quotidien",
+      "paragraphs": [
+        "ZIIIILO est une startup technologique qui conçoit des solutions numériques pour les entreprises, les organisations et les particuliers. Nous exerçons deux métiers complémentaires : accompagner nos clients dans leurs projets technologiques et développer nos propres produits.",
+        "Notre raison d’être est simple : partir de besoins concrets pour créer des outils numériques qui font gagner du temps, de la clarté et de la valeur à ceux qui les utilisent."
+      ],
+      "short": "ZIIIILO conçoit des solutions numériques pour les entreprises, les organisations et les particuliers, et développe ses propres produits."
+    },
+    "mission": {
+      "eyebrow": "Notre mission",
+      "text": "Rendre la technologie accessible, utile et performante pour les entreprises, les organisations et les particuliers."
+    },
+    "vision": {
+      "eyebrow": "Notre vision",
+      "text": "Construire un portefeuille de solutions et de produits numériques capables d’accompagner durablement la croissance de nos clients, ici et à l’international."
+    },
+    "values": {
+      "eyebrow": "Nos valeurs",
+      "title": "Ce qui guide chacune de nos décisions",
+      "titleShort": "Ce qui guide nos décisions",
+      "items": [
+        {
+          "title": "Utilité",
+          "text": "Créer des solutions qui répondent à de vrais besoins, plutôt que des fonctionnalités superflues.",
+          "short": "Des solutions qui répondent à de vrais besoins."
+        },
+        {
+          "title": "Exigence",
+          "text": "Soigner la conception, la qualité du code et l’expérience utilisateur, à chaque étape.",
+          "short": "Soin de la conception, du code et de l’expérience."
+        },
+        {
+          "title": "Transparence",
+          "text": "Communiquer clairement sur les choix, les délais, les coûts et l’avancement.",
+          "short": "Clarté sur les choix, les délais et les coûts."
+        },
+        {
+          "title": "Engagement",
+          "text": "S’impliquer dans la réussite de chaque projet comme s’il était le nôtre.",
+          "short": "Impliqués dans la réussite de chaque projet."
+        },
+        {
+          "title": "Curiosité",
+          "text": "Explorer de nouvelles approches quand elles apportent une vraie valeur.",
+          "short": "De nouvelles approches quand elles apportent de la valeur."
+        },
+        {
+          "title": "Durabilité",
+          "text": "Concevoir des solutions maintenables, évolutives et pensées pour durer.",
+          "short": "Des solutions maintenables et évolutives."
+        }
+      ]
+    },
+    "innovation": {
+      "eyebrow": "Innovation",
+      "title": "Innover avec méthode, pas par effet de mode",
+      "description": "L’innovation n’a de sens que si elle sert un usage. Nous testons tôt, mesurons et ajustons avant d’aller plus loin.",
+      "steps": [
+        {
+          "title": "Observer",
+          "text": "Comprendre les usages, les irritants et le contexte de chaque projet.",
+          "short": "Comprendre les usages et le contexte."
+        },
+        {
+          "title": "Prototyper",
+          "text": "Matérialiser rapidement les idées pour les confronter à la réalité.",
+          "short": "Matérialiser rapidement les idées."
+        },
+        {
+          "title": "Itérer",
+          "text": "Améliorer en continu à partir des retours et des données d’usage.",
+          "short": "Améliorer à partir des retours."
+        }
+      ]
+    },
+    "ambitions": {
+      "eyebrow": "Nos ambitions",
+      "title": "Grandir avec nos clients et nos produits",
+      "items": [
+        {
+          "label": "Développer un portefeuille de produits SaaS utiles"
+        },
+        {
+          "label": "Accompagner des organisations de toutes tailles"
+        },
+        {
+          "label": "Porter nos solutions au-delà de nos frontières"
+        }
+      ]
+    },
+    "work": {
+      "eyebrow": "Notre manière de travailler",
+      "title": "Un cadre clair, du premier échange au suivi",
+      "items": [
+        {
+          "label": "Un dialogue direct avec l’équipe projet"
+        },
+        {
+          "label": "Des points d’étape réguliers et des livrables concrets",
+          "short": "Des points d’étape et des livrables concrets"
+        },
+        {
+          "label": "Un accompagnement après la mise en ligne"
+        }
+      ]
+    },
+    "team": {
+      "eyebrow": "L’équipe",
+      "title": "Les personnes derrière ZIIIILO"
+    },
+    "cta": {
+      "title": "Construisons ensemble votre prochain projet.",
+      "description": "Une idée, un besoin, une question ? Parlons-en simplement.",
+      "descriptionShort": "Une idée, un besoin, une question ? Parlons-en.",
+      "primary": "Discutons de votre projet",
+      "secondary": "Voir nos services"
+    }
+  },
+  "realisations": {
+    "meta": {
+      "title": "Réalisations",
+      "description": "Les projets conçus par ZIIIILO : produits internes, solutions métiers, sites web et applications mobiles."
+    },
+    "header": {
+      "eyebrow": "Réalisations",
+      "title": "Nos réalisations et nos produits",
+      "lead": "Découvrez les projets conçus par ZIIIILO : nos produits internes et, bientôt, les réalisations menées pour nos clients.",
+      "leadShort": "Nos produits internes et, bientôt, les réalisations menées pour nos clients."
+    },
+    "filters": {
+      "label": "Filtrer les réalisations par catégorie",
+      "tous": "Tous les projets",
+      "produits-ziiiilo": "Produits ZIIIILO",
+      "sites-web": "Sites web",
+      "applications-mobiles": "Applications mobiles",
+      "solutions-metiers": "Solutions métiers",
+      "intelligence-artificielle": "Intelligence artificielle",
+      "data-science": "Data Science",
+      "creativetech": "CreativeTech",
+      "saas": "SaaS"
+    },
+    "count": "{count, plural, =0 {Aucun projet affiché} one {# projet affiché} other {# projets affichés}}",
+    "others": "Autres réalisations",
+    "empty": {
+      "title": "D’autres réalisations clients à venir",
+      "text": "Les projets menés avec nos clients seront présentés ici, avec leur accord.",
+      "reset": "Voir tous les projets",
+      "cta": "Démarrer un projet avec nous"
+    },
+    "visit": "Visiter le site",
+    "newTab": "nouvel onglet",
+    "items": {
+      "fleetrent": {
+        "title": "FleetRent — l’écosystème de location de véhicules",
+        "featured": {
+          "badges": [
+            {
+              "label": "Produit ZIIIILO",
+              "tone": "product"
+            },
+            {
+              "label": "Application web",
+              "tone": "neutral"
+            },
+            {
+              "label": "Application mobile",
+              "tone": "neutral"
+            },
+            {
+              "label": "Solution métier",
+              "tone": "neutral"
+            }
+          ],
+          "text": "Plateforme SaaS pour les agences, sites web dédiés et marketplace de réservation : un produit conçu et développé en interne par ZIIIILO.",
+          "sheet": [
+            {
+              "label": "Notre rôle",
+              "value": "Stratégie produit, UX/UI, développement"
+            },
+            {
+              "label": "Type",
+              "value": "Produit interne ZIIIILO"
+            },
+            {
+              "label": "Statut",
+              "value": "En développement"
+            }
+          ],
+          "cta": "Voir le projet"
+        },
+        "mobile": {
+          "badges": [
+            {
+              "label": "Produit ZIIIILO",
+              "tone": "product"
+            },
+            {
+              "label": "Web",
+              "tone": "neutral"
+            },
+            {
+              "label": "Mobile",
+              "tone": "neutral"
+            }
+          ],
+          "text": "Produit conçu et développé en interne par ZIIIILO. Rôle : stratégie produit, UX/UI, développement. Statut : en développement.",
+          "cta": "Voir le projet"
+        },
+        "coverAlt": "Maquettes conceptuelles de FleetRent : tableau de bord d’une agence et application mobile de réservation (données fictives)."
+      },
+      "cocoatrack": {
+        "title": "CocoaTrack — traçabilité de la parcelle au produit fini",
+        "featured": {
+          "badges": [
+            {
+              "label": "Solution métier",
+              "tone": "neutral"
+            },
+            {
+              "label": "AgriTech · GeoTech",
+              "tone": "neutral"
+            },
+            {
+              "label": "Traçabilité",
+              "tone": "neutral"
+            },
+            {
+              "label": "Usage interne",
+              "tone": "neutral"
+            }
+          ],
+          "text": "Plateforme métier interne de STE-SCPB : producteurs, parcelles, achats avec lecture OCR, analyse satellite, module usine et passeport lot.",
+          "sheet": [
+            {
+              "label": "Client",
+              "value": "STE-SCPB"
+            },
+            {
+              "label": "Rôle de ZIIIILO",
+              "value": "Conception et développement"
+            },
+            {
+              "label": "Catégorie",
+              "value": "Solutions métiers · Data Science"
+            },
+            {
+              "label": "Statut",
+              "value": "Solution métier interne"
+            }
+          ],
+          "cta": "Découvrir le projet"
+        },
+        "mobile": {
+          "badges": [
+            {
+              "label": "Solution métier",
+              "tone": "neutral"
+            },
+            {
+              "label": "AgriTech · GeoTech",
+              "tone": "neutral"
+            },
+            {
+              "label": "Traçabilité",
+              "tone": "neutral"
+            },
+            {
+              "label": "Usage interne",
+              "tone": "neutral"
+            }
+          ],
+          "text": "Plateforme métier interne de STE-SCPB : producteurs, parcelles, achats et OCR, analyse satellite, module usine et passeport lot.",
+          "cta": "Découvrir le projet"
+        },
+        "coverAlt": "Maquettes conceptuelles de CocoaTrack : tableau de bord et passeport lot (données fictives)."
+      },
+      "ste-scpb": {
+        "title": "STE-SCPB — site web corporate international",
+        "featured": {
+          "badges": [
+            {
+              "label": "Solution métier",
+              "tone": "neutral"
+            },
+            {
+              "label": "Application web",
+              "tone": "neutral"
+            },
+            {
+              "label": "Site corporate international",
+              "tone": "neutral"
+            },
+            {
+              "label": "En production",
+              "tone": "available"
+            }
+          ],
+          "text": "Conception d’une plateforme web corporate multilingue, immersive et orientée conversion pour un exportateur agricole international.",
+          "sheet": [
+            {
+              "label": "Client",
+              "value": "STE-SCPB (exportateur de produits agricoles)"
+            },
+            {
+              "label": "Rôle de ZIIIILO",
+              "value": "Conception et développement web"
+            },
+            {
+              "label": "Catégorie",
+              "value": "Web Development · B2B · International"
+            },
+            {
+              "label": "Statut",
+              "value": "En production"
+            }
+          ],
+          "cta": "Découvrir la réalisation"
+        },
+        "mobile": {
+          "badges": [
+            {
+              "label": "Solution métier",
+              "tone": "neutral"
+            },
+            {
+              "label": "Application web",
+              "tone": "neutral"
+            },
+            {
+              "label": "Site corporate international",
+              "tone": "neutral"
+            },
+            {
+              "label": "En production",
+              "tone": "available"
+            }
+          ],
+          "text": "Conception d’une plateforme web corporate multilingue, immersive et orientée conversion pour un exportateur agricole international.",
+          "cta": "Découvrir la réalisation"
+        },
+        "coverAlt": "Captures réelles du site ste-scpb.com : page d’accueil et fiche produit Cacao."
+      },
+      "ninety-one-foot-academy": {
+        "title": "Ninety One Foot Academy — écosystème web et mobile",
+        "featured": {
+          "badges": [
+            {
+              "label": "Site web",
+              "tone": "neutral"
+            },
+            {
+              "label": "Application mobile",
+              "tone": "neutral"
+            },
+            {
+              "label": "SportsTech",
+              "tone": "neutral"
+            },
+            {
+              "label": "Site en production",
+              "tone": "available"
+            }
+          ],
+          "text": "Site bilingue du club, espace privé et N91 MatchLab sur web et mobile : effectif, évaluations, terrain tactique, saisie hors connexion et rapports PDF.",
+          "sheet": [
+            {
+              "label": "Client",
+              "value": "Ninety One Foot Academy (Douala)"
+            },
+            {
+              "label": "Rôle de ZIIIILO",
+              "value": "Conception et développement"
+            },
+            {
+              "label": "Catégorie",
+              "value": "Sites web · Applications mobiles"
+            },
+            {
+              "label": "Statut",
+              "value": "Site public en production"
+            }
+          ],
+          "cta": "Découvrir la réalisation"
+        },
+        "mobile": {
+          "badges": [
+            {
+              "label": "Solution métier",
+              "tone": "neutral"
+            },
+            {
+              "label": "Web & mobile",
+              "tone": "neutral"
+            },
+            {
+              "label": "SportsTech",
+              "tone": "neutral"
+            },
+            {
+              "label": "Plateforme livrée",
+              "tone": "available"
+            }
+          ],
+          "text": "Un écosystème numérique pour une académie de football, réunissant site bilingue, gestion du club, analyse des performances et application mobile.",
+          "cta": "Découvrir la réalisation"
+        },
+        "coverAlt": "Capture réelle du site de Ninety One Foot Academy et maquette de N91 MatchLab (données fictives)."
+      },
+      "doccloud": {
+        "title": "DocCloud — retrouver et restituer les documents perdus",
+        "card": {
+          "badge": {
+            "label": "Produit ZIIIILO",
+            "tone": "product"
+          },
+          "text": "Plateforme de déclaration, de recherche et de restitution des documents perdus, conçue par ZIIIILO.",
+          "cta": "Voir le projet"
+        },
+        "mobile": {
+          "badges": [
+            {
+              "label": "Produit ZIIIILO",
+              "tone": "product"
+            },
+            {
+              "label": "CivicTech",
+              "tone": "neutral"
+            },
+            {
+              "label": "En développement",
+              "tone": "development"
+            }
+          ],
+          "text": "Une plateforme numérique pour retrouver et restituer les documents perdus en toute sécurité. Produit conçu par ZIIIILO, en développement.",
+          "cta": "Découvrir le projet"
+        },
+        "coverAlt": "Visuel conceptuel de DocCloud : documents fictifs marqués « spécimen » et suivi du dossier sur mobile (données fictives)."
+      },
+      "scpb-commercial": {
+        "title": "SCPB Commercial — structurer la prospection B2B internationale",
+        "card": {
+          "badge": {
+            "label": "Solution métier · IA",
+            "tone": "neutral"
+          },
+          "text": "Plateforme intelligente de prospection B2B internationale, conçue pour l’entreprise SCPB.",
+          "cta": "Voir la réalisation"
+        },
+        "mobile": {
+          "badges": [
+            {
+              "label": "Solution métier",
+              "tone": "neutral"
+            },
+            {
+              "label": "Intelligence artificielle",
+              "tone": "neutral"
+            },
+            {
+              "label": "Application web",
+              "tone": "neutral"
+            },
+            {
+              "label": "Statut à confirmer",
+              "tone": "neutral"
+            }
+          ],
+          "text": "Une plateforme intelligente qui automatise la prospection B2B internationale, de l’identification des acheteurs au suivi des réponses. Client : SCPB · rôle de ZIIIILO à confirmer.",
+          "cta": "Découvrir la réalisation"
+        },
+        "coverAlt": "Maquette conceptuelle du tableau de bord commercial de SCPB Commercial (données fictives)."
+      },
+      "staftrack": {
+        "title": "StafTrack — le pointage RH sur WhatsApp",
+        "card": {
+          "badge": {
+            "label": "Solution métier · RH",
+            "tone": "neutral"
+          },
+          "text": "Pointage des employés sur WhatsApp, vérifié par la position, avec tableau de bord RH, conçu pour l’entreprise SCPB.",
+          "cta": "Voir la réalisation"
+        },
+        "mobile": {
+          "badges": [
+            {
+              "label": "Solution métier",
+              "tone": "neutral"
+            },
+            {
+              "label": "Ressources humaines",
+              "tone": "neutral"
+            },
+            {
+              "label": "Application web",
+              "tone": "neutral"
+            },
+            {
+              "label": "Disponible",
+              "tone": "available"
+            }
+          ],
+          "text": "Le pointage des employés sur WhatsApp, vérifié par la position du téléphone, et un tableau de bord RH en direct pour les retards, absences, heures sup., missions et rapports de paie. Client : SCPB · conception et développement : ZIIIILO.",
+          "cta": "Découvrir la réalisation"
+        },
+        "coverAlt": "Maquette conceptuelle du tableau de bord RH de StafTrack (données fictives)."
+      },
+      "previsions-cacao-robusta": {
+        "title": "Prévisions Cacao & Robusta — l’intelligence de marché",
+        "card": {
+          "badge": {
+            "label": "Solution métier · Data Science · IA",
+            "tone": "neutral"
+          },
+          "text": "Une plateforme d’intelligence de marché combinant données boursières, modèles prédictifs et évaluation statistique pour analyser les prix du cacao et du café robusta.",
+          "cta": "Voir la réalisation"
+        },
+        "mobile": {
+          "badges": [
+            {
+              "label": "Solution métier",
+              "tone": "neutral"
+            },
+            {
+              "label": "Data Science",
+              "tone": "neutral"
+            },
+            {
+              "label": "Intelligence artificielle",
+              "tone": "neutral"
+            },
+            {
+              "label": "En ligne",
+              "tone": "available"
+            }
+          ],
+          "text": "Une plateforme d’intelligence de marché combinant données boursières, modèles prédictifs et évaluation statistique pour analyser les prix du cacao et du café robusta.",
+          "cta": "Découvrir la réalisation"
+        },
+        "coverAlt": "Maquette conceptuelle du tableau de bord du marché du cacao (données fictives)."
+      },
+      "scpb-survey": {
+        "title": "SCPB Survey — la collecte terrain, même sans réseau",
+        "card": {
+          "badge": {
+            "label": "Solution métier · Application mobile",
+            "tone": "neutral"
+          },
+          "text": "Application Android de collecte terrain pour la filière cacao : planteurs, parcelles, consentement et enquêtes, même sans réseau.",
+          "cta": "Voir la réalisation"
+        },
+        "mobile": {
+          "badges": [
+            {
+              "label": "Solution métier",
+              "tone": "neutral"
+            },
+            {
+              "label": "Application mobile",
+              "tone": "neutral"
+            },
+            {
+              "label": "Collecte terrain",
+              "tone": "neutral"
+            },
+            {
+              "label": "Pilote en préparation",
+              "tone": "development"
+            }
+          ],
+          "text": "Une application Android pour enregistrer planteurs et parcelles, recueillir le consentement et faire passer les enquêtes ménage, scolarisation et exploitation, avec synchronisation au retour du réseau.",
+          "cta": "Découvrir la réalisation"
+        },
+        "coverAlt": "Maquettes conceptuelles des écrans de l’application SCPB Survey (données fictives)."
+      },
+      "golden-beans": {
+        "title": "Golden Beans SA — plateforme web B2B bilingue",
+        "card": {
+          "badge": {
+            "label": "Plateforme web B2B · En production",
+            "tone": "neutral"
+          },
+          "text": "Plateforme web B2B bilingue pour l’export de cacao et de café : catalogue, traçabilité, CMS et automatisations IA.",
+          "cta": "Voir la réalisation"
+        },
+        "mobile": {
+          "badges": [
+            {
+              "label": "Solution métier",
+              "tone": "neutral"
+            },
+            {
+              "label": "Application web",
+              "tone": "neutral"
+            },
+            {
+              "label": "Plateforme B2B bilingue",
+              "tone": "neutral"
+            },
+            {
+              "label": "En production",
+              "tone": "available"
+            }
+          ],
+          "text": "Conception d’une plateforme web B2B bilingue pour l’exportation de cacao et de café, intégrant catalogue, traçabilité, gestion de contenu et automatisations intelligentes.",
+          "cta": "Découvrir la réalisation"
+        },
+        "coverAlt": "Captures réelles du site de Golden Beans SA."
+      },
+      "agora-film-invest": {
+        "title": "Agora Film Invest — vitrine cinématographique",
+        "card": {
+          "badge": {
+            "label": "CreativeTech · Refonte web · En production",
+            "tone": "neutral"
+          },
+          "text": "Production cinématographique (Guadeloupe) : refonte d’un site one-page, identité prune et sable.",
+          "cta": "Voir la réalisation"
+        },
+        "mobile": {
+          "badges": [
+            {
+              "label": "Site web",
+              "tone": "neutral"
+            },
+            {
+              "label": "Refonte ZIIIILO",
+              "tone": "neutral"
+            },
+            {
+              "label": "CreativeTech",
+              "tone": "neutral"
+            },
+            {
+              "label": "En production",
+              "tone": "available"
+            }
+          ],
+          "text": "Refonte et valorisation d’une expérience web cinématographique : identité visuelle, productions, présentation institutionnelle et responsive.",
+          "cta": "Découvrir la réalisation"
+        },
+        "coverAlt": "Captures réelles du site d’Agora Film Invest."
+      }
+    },
+    "cta": {
+      "title": "Et si votre projet était le prochain ?",
+      "description": "Parlez-nous de votre besoin : nous serons ravis d’en discuter avec vous.",
+      "descriptionShort": "Parlez-nous de votre besoin.",
+      "primary": "Discutons de votre projet",
+      "secondary": "Voir nos services"
+    }
+  },
+  "contact": {
+    "meta": {
+      "title": "Contact",
+      "description": "Parlez-nous de votre projet : site web, application mobile, logiciel sur mesure ou transformation digitale. ZIIIILO, Douala."
+    },
+    "header": {
+      "eyebrow": "Démarrer un projet",
+      "title": "Parlons de ce que nous pouvons construire ensemble.",
+      "lead": "Décrivez votre projet en quelques lignes. Nous revenons vers vous pour en discuter et vous proposer une démarche adaptée.",
+      "leadShort": "Décrivez votre projet en quelques lignes : nous revenons vers vous pour en discuter."
+    },
+    "direct": {
+      "title": "Contact direct",
+      "email": "E-mail",
+      "write": "Écrire",
+      "phone": "Téléphone",
+      "call": "Appeler",
+      "whatsapp": "WhatsApp",
+      "note": "Vous pouvez aussi nous écrire à {email} ou nous appeler au {phone}."
+    },
+    "next": {
+      "title": "Ce qui se passe ensuite",
+      "steps": [
+        "Nous étudions votre demande",
+        "Nous organisons un premier échange",
+        "Nous vous proposons une démarche et un devis"
+      ]
+    },
+    "form": {
+      "title": "Votre projet",
+      "required": "Tous les champs sont obligatoires, sauf mention « facultatif ».",
+      "optional": "(facultatif)",
+      "name": {
+        "label": "Nom et prénom",
+        "placeholder": "Ex. : Marie Dupont"
+      },
+      "company": {
+        "label": "Entreprise / organisation",
+        "placeholder": "Nom de votre structure"
+      },
+      "email": {
+        "label": "Adresse e-mail",
+        "placeholder": "nom@entreprise.com"
+      },
+      "phone": {
+        "label": "Téléphone",
+        "placeholder": "Votre numéro"
+      },
+      "projectTypes": {
+        "legend": "Type de projet",
+        "options": {
+          "web": "Site web",
+          "mobile": "Application mobile",
+          "software": "Logiciel sur mesure",
+          "transformation": "Transformation digitale",
+          "automation": "Automatisation",
+          "consulting": "Conseil technologique",
+          "other": "Autre"
+        }
+      },
+      "budget": {
+        "label": "Budget estimatif",
+        "placeholder": "Sélectionnez une fourchette"
+      },
+      "timeline": {
+        "label": "Délai souhaité",
+        "placeholder": "Sélectionnez un délai"
+      },
+      "message": {
+        "label": "Description du besoin",
+        "placeholder": "Décrivez votre projet, vos objectifs et vos contraintes…",
+        "help": "Contexte, utilisateurs visés, fonctionnalités clés, existant éventuel…"
+      },
+      "consent": {
+        "before": "J’accepte que ZIIIILO utilise ces informations pour répondre à ma demande, conformément à la ",
+        "link": "politique de confidentialité",
+        "after": "."
+      },
+      "honeypot": "Ne pas remplir ce champ",
+      "submit": "Envoyer ma demande",
+      "sending": "Envoi en cours…",
+      "errors": {
+        "summaryTitle": "Certains champs sont à compléter",
+        "summaryText": "Vérifiez les champs signalés en rouge avant d’envoyer votre demande.",
+        "name": "Veuillez indiquer votre nom.",
+        "email": "Veuillez saisir une adresse e-mail valide.",
+        "phone": "Veuillez saisir un numéro de téléphone valide (format international, ex. +237…).",
+        "projectTypes": "Veuillez sélectionner au moins un type de projet.",
+        "timeline": "Veuillez choisir un délai.",
+        "message": "Merci de décrire votre besoin (20 caractères minimum).",
+        "consent": "Votre accord est nécessaire pour envoyer la demande.",
+        "network": "L’envoi n’a pas abouti. Vos informations sont conservées : réessayez dans un instant ou écrivez-nous à {email}.",
+        "rateLimit": "Vous avez envoyé plusieurs demandes en peu de temps. Réessayez dans quelques minutes ou écrivez-nous à {email}."
+      }
+    },
+    "success": {
+      "title": "Merci, votre demande est bien envoyée",
+      "text": "Nous avons bien reçu votre message. Notre équipe l’étudie et revient vers vous rapidement pour organiser un premier échange.",
+      "home": "Retour à l’accueil",
+      "solutions": "Découvrir nos solutions",
+      "close": "Fermer"
+    }
+  },
+  "faq": {
+    "meta": {
+      "title": "FAQ",
+      "description": "Les réponses aux questions que l’on nous pose le plus souvent : démarrage d’un projet, déroulement, devis, accompagnement après le lancement."
+    },
+    "header": {
+      "eyebrow": "FAQ",
+      "title": "Questions fréquentes",
+      "lead": "Les réponses aux questions que l’on nous pose le plus souvent. Vous ne trouvez pas la vôtre ? Écrivez-nous.",
+      "leadShort": "Les réponses aux questions que l’on nous pose le plus souvent."
+    },
+    "listLabel": "Questions et réponses",
+    "items": [
+      {
+        "q": "Comment démarrer un projet avec ZIIIILO ?",
+        "a": "Décrivez votre besoin via le formulaire de contact ou par e-mail. Nous revenons vers vous pour organiser un premier échange, comprendre vos objectifs et vous proposer une démarche adaptée."
+      },
+      {
+        "q": "Comment se déroule le développement ?",
+        "a": "Nous avançons en cinq étapes : découverte, cadrage, design et prototypage, développement et tests, puis déploiement et évolution. Vous êtes associé à chaque étape grâce à des points réguliers."
+      },
+      {
+        "q": "Peut-on demander une solution entièrement sur mesure ?",
+        "a": "Oui. Nos solutions sont conçues à partir de votre contexte, de vos processus et de vos utilisateurs, sans gabarit imposé."
+      },
+      {
+        "q": "Comment sont établis les devis ?",
+        "a": "Chaque devis est établi après un échange sur votre besoin, en fonction du périmètre fonctionnel, de la complexité technique et des délais souhaités."
+      },
+      {
+        "q": "Proposez-vous un accompagnement après le lancement ?",
+        "a": "Nous proposons un accompagnement après la mise en ligne : maintenance, mises à jour et évolutions. Ses modalités sont définies avec vous, selon vos besoins."
+      },
+      {
+        "q": "Peut-on faire évoluer une application existante ?",
+        "a": "Oui. Nous commençons par analyser l’existant, puis nous proposons des évolutions ou une modernisation progressive, adaptées à vos priorités."
+      }
+    ],
+    "help": {
+      "title": "Une autre question ?",
+      "text": "Notre équipe vous répond volontiers. Décrivez-nous votre situation, même si votre projet n’est pas encore défini.",
+      "textShort": "Notre équipe vous répond volontiers.",
+      "cta": "Nous contacter"
+    },
+    "cta": {
+      "title": "Prêt à démarrer votre projet ?",
+      "description": "Parlez-nous de votre besoin : nous vous aidons à le clarifier et à lui donner vie.",
+      "primary": "Discutons de votre projet",
+      "secondary": "Voir nos services"
+    }
+  },
+  "legal": {
+    "toc": "Sur cette page",
+    "toConfigure": "À configurer",
+    "alert": {
+      "title": "Modèle à compléter",
+      "text": "Ce texte doit être relu et validé par un professionnel du droit avant publication. Les champs « À configurer » sont à renseigner par ZIIIILO."
+    },
+    "cookieButton": "Gestion des cookies"
+  },
+  "legalNotice": {
+    "meta": {
+      "title": "Mentions légales",
+      "description": "Éditeur, directeur de la publication et hébergement du site ziiiilo.tech."
+    },
+    "header": {
+      "eyebrow": "Informations légales",
+      "title": "Mentions légales",
+      "lead": "Les informations relatives à l’éditeur et à l’hébergeur du site. Les éléments signalés « À configurer » doivent être complétés par ZIIIILO avant la mise en ligne."
+    },
+    "sections": [
+      {
+        "id": "editeur",
+        "title": "1. Éditeur du site",
+        "rows": [
+          {
+            "label": "Dénomination sociale",
+            "from": "companyName"
+          },
+          {
+            "label": "Forme juridique",
+            "value": "Société à responsabilité limitée (SARL)"
+          },
+          {
+            "label": "Capital social",
+            "from": "capital"
+          },
+          {
+            "label": "Siège social",
+            "from": "headOffice"
+          },
+          {
+            "label": "Numéro d’immatriculation",
+            "from": "rccm"
+          },
+          {
+            "label": "Identifiant fiscal",
+            "from": "niu"
+          },
+          {
+            "label": "Adresse e-mail",
+            "from": "email"
+          },
+          {
+            "label": "Téléphone",
+            "from": "phone"
+          }
+        ]
+      },
+      {
+        "id": "directeur",
+        "title": "2. Directeur de la publication",
+        "rows": [
+          {
+            "label": "Nom et fonction",
+            "from": "publisher"
+          }
+        ]
+      },
+      {
+        "id": "hebergement",
+        "title": "3. Hébergement",
+        "text": "Le site est hébergé par :",
+        "rows": [
+          {
+            "label": "Hébergeur",
+            "from": "hostNames"
+          },
+          {
+            "label": "Adresse",
+            "from": "hostAddresses"
+          },
+          {
+            "label": "Contact",
+            "value": "vercel.com · cloudflare.com"
+          }
+        ]
+      },
+      {
+        "id": "propriete",
+        "title": "4. Propriété intellectuelle",
+        "text": "L’ensemble des contenus de ce site (textes, visuels, logo, interfaces) est la propriété de ZIIIILO SARL, sauf mention contraire. Toute reproduction ou réutilisation sans autorisation préalable est interdite."
+      },
+      {
+        "id": "responsabilite",
+        "title": "5. Responsabilité",
+        "text": "Les informations publiées sur ce site sont fournies à titre indicatif et peuvent évoluer. ZIIIILO s’efforce de les tenir exactes et à jour, sans pouvoir garantir l’absence d’erreur."
+      },
+      {
+        "id": "liens",
+        "title": "6. Liens externes",
+        "text": "Le site peut contenir des liens vers d’autres sites. ZIIIILO n’exerce aucun contrôle sur leur contenu et ne peut en être tenue responsable."
+      },
+      {
+        "id": "droit",
+        "title": "7. Droit applicable",
+        "text": "Le droit applicable et la juridiction compétente sont à préciser.",
+        "rows": [
+          {
+            "label": "Droit applicable et juridiction",
+            "from": "governingLaw"
+          }
+        ]
+      },
+      {
+        "id": "contact",
+        "title": "8. Contact",
+        "text": "Pour toute question concernant le site, écrivez-nous depuis la <contact>page Contact</contact> ou à l’adresse e-mail indiquée ci-dessus."
+      }
+    ]
+  },
+  "privacy": {
+    "meta": {
+      "title": "Politique de confidentialité",
+      "description": "Comment ZIIIILO collecte et utilise les informations transmises via le site ziiiilo.tech."
+    },
+    "header": {
+      "eyebrow": "Données personnelles",
+      "title": "Politique de confidentialité",
+      "lead": "Comment ZIIIILO collecte et utilise les informations transmises via ce site. Les éléments signalés « À configurer » doivent être complétés avant la mise en ligne."
+    },
+    "sections": [
+      {
+        "id": "responsable",
+        "title": "1. Responsable du traitement",
+        "rows": [
+          {
+            "label": "Responsable",
+            "from": "companyName"
+          },
+          {
+            "label": "Adresse",
+            "from": "headOffice"
+          },
+          {
+            "label": "Contact pour les données personnelles",
+            "from": "email"
+          }
+        ]
+      },
+      {
+        "id": "donnees",
+        "title": "2. Données collectées",
+        "text": "Lorsque vous utilisez le formulaire de contact, nous recevons les informations que vous saisissez :",
+        "bullets": [
+          "Nom et prénom, adresse e-mail",
+          "Entreprise et téléphone (facultatifs)",
+          "Type de projet, budget estimatif (facultatif) et délai souhaité",
+          "Description de votre besoin"
+        ]
+      },
+      {
+        "id": "finalites",
+        "title": "3. Finalités",
+        "text": "Ces informations servent uniquement à :",
+        "bullets": [
+          "Répondre à votre demande et organiser un premier échange",
+          "Vous adresser une proposition, si vous le souhaitez",
+          "Assurer le suivi de nos échanges"
+        ]
+      },
+      {
+        "id": "base-legale",
+        "title": "4. Base légale",
+        "text": "Le traitement repose sur votre consentement, donné en cochant la case prévue dans le formulaire. Vous pouvez le retirer à tout moment.",
+        "rows": [
+          {
+            "label": "Réglementation de référence",
+            "from": "governingLaw"
+          }
+        ]
+      },
+      {
+        "id": "conservation",
+        "title": "5. Durée de conservation",
+        "rows": [
+          {
+            "label": "Durée de conservation des demandes",
+            "from": "retention"
+          }
+        ]
+      },
+      {
+        "id": "destinataires",
+        "title": "6. Destinataires",
+        "text": "Les données sont destinées à ZIIIILO. Des prestataires techniques peuvent les traiter pour le fonctionnement du site :",
+        "rows": [
+          {
+            "label": "Hébergeur",
+            "from": "hostNames"
+          },
+          {
+            "label": "Service d’envoi d’e-mails",
+            "from": "emailService"
+          }
+        ]
+      },
+      {
+        "id": "securite",
+        "title": "7. Transferts et sécurité",
+        "rows": [
+          {
+            "label": "Localisation des serveurs et transferts éventuels",
+            "from": "serverLocation"
+          },
+          {
+            "label": "Mesures de sécurité mises en œuvre",
+            "from": "securityMeasures"
+          }
+        ]
+      },
+      {
+        "id": "droits",
+        "title": "8. Vos droits",
+        "text": "Selon la réglementation applicable, vous pouvez demander l’accès à vos données, leur rectification ou leur suppression, et retirer votre consentement. Pour exercer ces droits, écrivez à l’adresse indiquée ci-dessus."
+      },
+      {
+        "id": "cookies",
+        "title": "9. Cookies",
+        "text": "Le site utilise des cookies nécessaires à son fonctionnement. Les cookies de mesure d’audience ne sont déposés qu’avec votre accord, via le bandeau prévu à cet effet.",
+        "rows": [
+          {
+            "label": "Outil de mesure d’audience",
+            "from": "analyticsTool"
+          }
+        ]
+      },
+      {
+        "id": "mise-a-jour",
+        "title": "10. Mise à jour",
+        "rows": [
+          {
+            "label": "Date de dernière mise à jour",
+            "from": "updatedAt"
+          }
+        ]
+      }
+    ]
+  },
+  "cookiePolicy": {
+    "meta": {
+      "title": "Politique de cookies",
+      "description": "Comment ZIIIILO utilise les cookies sur le site ziiiilo.tech et comment gérer vos choix."
+    },
+    "header": {
+      "eyebrow": "Données personnelles",
+      "title": "Politique de cookies",
+      "lead": "Comment ZIIIILO utilise les cookies sur ce site et comment gérer vos choix. Les éléments signalés « À configurer » doivent être complétés avant la mise en ligne."
+    },
+    "sections": [
+      {
+        "id": "definition",
+        "title": "1. Qu’est-ce qu’un cookie ?",
+        "text": "Un cookie est un petit fichier déposé sur votre appareil lors de la visite d’un site. Il permet par exemple de mémoriser vos choix ou de mesurer la fréquentation."
+      },
+      {
+        "id": "categories",
+        "title": "2. Cookies utilisés",
+        "text": "Le site utilise deux catégories de cookies :",
+        "bullets": [
+          "<b>Nécessaires</b> : fonctionnement du site, sécurité, mémorisation de vos choix de cookies et de langue. Toujours actifs.",
+          "<b>Mesure d’audience</b> : comprendre l’utilisation du site pour l’améliorer. Déposés uniquement avec votre accord."
+        ]
+      },
+      {
+        "id": "detail",
+        "title": "3. Détail des cookies",
+        "rows": [
+          {
+            "label": "Choix de cookies (nécessaire)",
+            "from": "cookieConsent"
+          },
+          {
+            "label": "Langue (nécessaire)",
+            "from": "cookieLocale"
+          },
+          {
+            "label": "Outil de mesure d’audience",
+            "from": "analyticsTool"
+          },
+          {
+            "label": "Durée de conservation du consentement",
+            "from": "consentDuration"
+          }
+        ]
+      },
+      {
+        "id": "consentement",
+        "title": "4. Votre consentement",
+        "text": "Lors de votre première visite, un bandeau vous permet d’accepter, de refuser ou de personnaliser les cookies non nécessaires. Refuser est aussi simple qu’accepter, et le site reste entièrement utilisable."
+      },
+      {
+        "id": "modifier",
+        "title": "5. Modifier vos choix",
+        "text": "À tout moment, le lien « Gestion des cookies » en pied de page rouvre le panneau des préférences. Vous pouvez aussi supprimer les cookies depuis les réglages de votre navigateur.",
+        "action": "cookies"
+      },
+      {
+        "id": "contact",
+        "title": "6. Contact",
+        "rows": [
+          {
+            "label": "Adresse e-mail",
+            "from": "email"
+          },
+          {
+            "label": "Adresse",
+            "from": "headOffice"
+          }
+        ]
+      },
+      {
+        "id": "mise-a-jour",
+        "title": "7. Mise à jour",
+        "rows": [
+          {
+            "label": "Date de dernière mise à jour",
+            "from": "updatedAt"
+          }
+        ]
+      }
+    ]
+  },
+  "terms": {
+    "meta": {
+      "title": "Conditions générales d’utilisation",
+      "description": "Règles d’accès et d’utilisation du site ziiiilo.tech, édité par ZIIIILO SARL."
+    },
+    "header": {
+      "eyebrow": "Données personnelles",
+      "title": "Conditions générales d’utilisation",
+      "lead": "Règles d’accès et d’utilisation du site ziiiilo.tech. Les éléments signalés « À configurer » doivent être complétés avant la mise en ligne."
+    },
+    "sections": [
+      {
+        "id": "objet",
+        "title": "1. Objet",
+        "text": "Les présentes conditions définissent les modalités d’accès et d’utilisation du site ziiiilo.tech, édité par ZIIIILO SARL. En naviguant sur le site, vous les acceptez."
+      },
+      {
+        "id": "editeur",
+        "title": "2. Éditeur",
+        "text": "Les informations complètes figurent dans les <notice>mentions légales</notice>.",
+        "rows": [
+          {
+            "label": "Dénomination sociale",
+            "from": "companyName"
+          },
+          {
+            "label": "Siège social",
+            "from": "headOffice"
+          },
+          {
+            "label": "Téléphone",
+            "from": "phone"
+          },
+          {
+            "label": "Adresse e-mail",
+            "from": "email"
+          }
+        ]
+      },
+      {
+        "id": "acces",
+        "title": "3. Accès au site",
+        "text": "Le site est accessible gratuitement, hors frais de connexion. ZIIIILO peut en suspendre l’accès pour maintenance ou mise à jour, sans garantie de disponibilité permanente."
+      },
+      {
+        "id": "demandes",
+        "title": "4. Demandes de contact et de devis",
+        "bullets": [
+          "Les informations transmises doivent être exactes et vous concerner.",
+          "Une demande de devis n’engage ni ZIIIILO ni le demandeur tant qu’une proposition n’a pas été acceptée par écrit.",
+          "Les données transmises sont traitées selon la <privacy>politique de confidentialité</privacy>."
+        ]
+      },
+      {
+        "id": "propriete",
+        "title": "5. Propriété intellectuelle",
+        "text": "Textes, visuels, logo, maquettes et code du site appartiennent à ZIIIILO, sauf mention contraire. Toute reproduction sans autorisation écrite est interdite."
+      },
+      {
+        "id": "clients",
+        "title": "6. Réalisations et marques des clients",
+        "text": "Les noms, logos, captures et contenus des réalisations présentées appartiennent à leurs titulaires respectifs et ne peuvent pas être réutilisés sans leur accord. Les maquettes conceptuelles utilisent des données fictives."
+      },
+      {
+        "id": "responsabilite",
+        "title": "7. Responsabilité",
+        "text": "ZIIIILO veille à l’exactitude des informations publiées sans pouvoir garantir l’absence d’erreur. Les descriptions de services et de produits sont indicatives et ne constituent pas une offre contractuelle."
+      },
+      {
+        "id": "liens",
+        "title": "8. Liens externes",
+        "text": "Le site peut renvoyer vers des sites tiers (sites de clients, réseaux sociaux). ZIIIILO n’est pas responsable de leur contenu."
+      },
+      {
+        "id": "donnees",
+        "title": "9. Données personnelles et cookies",
+        "text": "Voir la <privacy>politique de confidentialité</privacy> et la <cookies>politique de cookies</cookies>."
+      },
+      {
+        "id": "droit",
+        "title": "10. Droit applicable",
+        "rows": [
+          {
+            "label": "Droit applicable et juridiction compétente",
+            "from": "governingLaw"
+          }
+        ]
+      },
+      {
+        "id": "modification",
+        "title": "11. Modification des conditions",
+        "rows": [
+          {
+            "label": "Date de dernière mise à jour",
+            "from": "updatedAt"
+          }
+        ]
+      }
+    ]
+  },
+  "notFound": {
+    "meta": {
+      "title": "Page introuvable"
+    },
+    "eyebrow": "Erreur 404",
+    "title": "Cette page est introuvable",
+    "lead": "Le lien est peut-être incorrect, ou la page a été déplacée. Voici quelques pistes pour continuer.",
+    "home": "Retour à l’accueil",
+    "contact": "Nous contacter",
+    "usefulTitle": "Pages utiles",
+    "access": "Accéder",
+    "links": {
+      "services": {
+        "title": "Nos services",
+        "text": "Découvrir nos expertises, du site web au logiciel sur mesure."
+      },
+      "solutions": {
+        "title": "Nos solutions",
+        "text": "FleetRent et les produits conçus par ZIIIILO."
+      },
+      "realisations": {
+        "title": "Réalisations",
+        "text": "Nos projets et nos produits."
+      },
+      "faq": {
+        "title": "Questions fréquentes",
+        "text": "Les réponses aux questions les plus courantes."
+      }
+    }
   }
 }

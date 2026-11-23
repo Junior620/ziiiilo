@@ -1,0 +1,6 @@
+import { EtudeStub } from "@/components/etudes/EtudeStub";
+
+/** Étude cocoatrack — bouchon du socle, remplacé par la session de la phase B (maquette Figma). */
+export default function EtudePage() {
+  return <EtudeStub slug="cocoatrack" parent="realisations" />;
+}

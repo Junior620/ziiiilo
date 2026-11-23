@@ -8,6 +8,7 @@ import { useLoopPause } from "@/components/motion/effects";
 import { Button } from "@/components/ui/Button";
 import { RingMotif } from "@/components/ui/RingMotif";
 import { Link } from "@/i18n/navigation";
+import { cn } from "@/lib/cn";
 
 type Href = ComponentProps<typeof Link>["href"];
 
@@ -18,12 +19,17 @@ type Href = ComponentProps<typeof Link>["href"];
  */
 export function CtaSection({
   title,
+  titleShort,
   description,
+  descriptionShort,
   primary,
   secondary,
 }: {
   title?: string;
+  /** Variantes raccourcies des maquettes mobile (sous 768 px). */
+  titleShort?: string;
   description?: string;
+  descriptionShort?: string;
   primary?: { label: string; href: Href };
   secondary?: { label: string; href: Href } | null;
 }) {
@@ -48,15 +54,38 @@ export function CtaSection({
           </div>
           <div className="flex flex-col gap-24 tablet:items-center tablet:gap-32 tablet:text-center">
             <h2 className="max-w-[51rem] text-h1 text-text-inverse desktop:text-display-l">
-              <RevealScan text={heading} preset="cta" trigger={inView} scanAt={1900} />
+              {titleShort ? (
+                <>
+                  <span className="max-tablet:hidden">
+                    <RevealScan text={heading} preset="cta" trigger={inView} scanAt={1900} />
+                  </span>
+                  <span className="tablet:hidden">
+                    <RevealScan text={titleShort} preset="cta" trigger={inView} scanAt={1900} />
+                  </span>
+                </>
+              ) : (
+                <RevealScan text={heading} preset="cta" trigger={inView} scanAt={1900} />
+              )}
             </h2>
             <RevealLines
               text={description ?? t("description")}
               preset="description"
               delay={950}
               trigger={inView}
-              className="max-w-[40rem] text-body-l text-text-inverse-muted"
+              className={cn(
+                "max-w-[40rem] text-body-l text-text-inverse-muted",
+                descriptionShort && "max-tablet:hidden",
+              )}
             />
+            {descriptionShort && (
+              <RevealLines
+                text={descriptionShort}
+                preset="description"
+                delay={950}
+                trigger={inView}
+                className="text-body-l text-text-inverse-muted tablet:hidden"
+              />
+            )}
             <Reveal
               trigger={inView}
               delay={1200}

@@ -34,19 +34,23 @@ export function Accordion({
   items,
   defaultOpen = 0,
   headingLevel = 3,
+  size = "M",
   className,
 }: {
   items: readonly AccordionItem[];
   /** Index ouvert au départ (−1 : tous fermés). */
   defaultOpen?: number;
   headingLevel?: 2 | 3 | 4;
+  /** L : accordéon FAQ (19:4488) — marge 24, bouton 36 px, réponse Body M. */
+  size?: "M" | "L";
   className?: string;
 }) {
+  const large = size === "L";
   const [open, setOpen] = useState<string | null>(items[defaultOpen]?.id ?? null);
   const base = useId();
   const Heading = `h${headingLevel}` as const;
   return (
-    <div className={cn("flex flex-col gap-16", className)}>
+    <div className={cn("flex flex-col", large ? "gap-12" : "gap-16", className)}>
       {items.map((item) => {
         const isOpen = open === item.id;
         const btnId = `${base}-${item.id}-btn`;
@@ -57,6 +61,7 @@ export function Accordion({
             className={cn(
               "rounded-lg border border-border-default bg-surface-default transition-shadow duration-200",
               isOpen && "shadow-sm",
+              isOpen && large && "border-border-strong",
             )}
           >
             <Heading className="text-h5">
@@ -66,17 +71,25 @@ export function Accordion({
                 aria-expanded={isOpen}
                 aria-controls={panelId}
                 onClick={() => setOpen(isOpen ? null : item.id)}
-                className="flex w-full items-center justify-between gap-16 rounded-lg px-20 py-20 text-left text-text-primary tablet:px-24"
+                className={cn(
+                  "flex w-full items-center justify-between rounded-lg text-left text-text-primary",
+                  large ? "gap-24 p-20 tablet:p-24" : "gap-16 px-20 py-20 tablet:px-24",
+                )}
               >
                 <span>{item.question}</span>
                 <span
                   aria-hidden
                   className={cn(
-                    "flex size-28 shrink-0 items-center justify-center rounded-full transition-colors duration-200",
+                    "flex shrink-0 items-center justify-center rounded-full transition-colors duration-200",
+                    large ? "size-36" : "size-28",
                     isOpen ? "bg-secondary-dark text-text-inverse" : "bg-background-muted text-text-primary",
                   )}
                 >
-                  {isOpen ? <Minus size={16} strokeWidth={2} /> : <Plus size={16} strokeWidth={2} />}
+                  {isOpen ? (
+                    <Minus size={large ? 18 : 16} strokeWidth={2} />
+                  ) : (
+                    <Plus size={large ? 18 : 16} strokeWidth={2} />
+                  )}
                 </span>
               </button>
             </Heading>
@@ -90,7 +103,14 @@ export function Accordion({
               )}
             >
               <div className="overflow-hidden" inert={!isOpen}>
-                <div className="px-20 pb-20 text-text-secondary text-body-s tablet:px-24">{item.answer}</div>
+                <div
+                  className={cn(
+                    "px-20 pb-20 text-text-secondary tablet:px-24",
+                    large ? "text-body-m tablet:pb-24" : "text-body-s",
+                  )}
+                >
+                  {item.answer}
+                </div>
               </div>
             </div>
           </div>
@@ -208,7 +228,7 @@ export function Dialog({
 
   if (!open) return null;
   return (
-    <div className="fixed inset-0 z-50 flex items-end justify-center p-16 tablet:items-center">
+    <div className="fixed inset-0 z-60 flex items-end justify-center p-16 tablet:items-center">
       <div aria-hidden className="absolute inset-0 bg-overlay" onClick={onClose} />
       <div
         ref={panel}

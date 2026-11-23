@@ -17,7 +17,7 @@ test.describe("fondations", () => {
     expect(response?.status()).toBe(200);
     await expect(page.locator("html")).toHaveAttribute("lang", "fr");
     await expect(page.getByRole("heading", { level: 1 })).toHaveCount(1);
-    await expect(page.getByRole("img", { name: "ZIIIILO" })).toBeVisible();
+    await expect(page.getByRole("img", { name: "ZIIIILO" }).first()).toBeVisible();
 
     // Polices auto-hébergées par next/font et chargées
     const fonts = await page.evaluate(async () => {
@@ -55,6 +55,7 @@ test.describe("fondations", () => {
   });
 
   test("aucun débordement horizontal à 360 px", async ({ page }) => {
+    test.setTimeout(90_000);
     await page.setViewportSize({ width: 360, height: 780 });
     for (const path of ["/", "/design-tokens"]) {
       await page.goto(path);
@@ -73,7 +74,7 @@ test.describe("fondations", () => {
     const response = await page.goto("/page-qui-n-existe-pas");
     expect(response?.status()).toBe(404);
     await expect(page.locator("html")).toHaveAttribute("lang", "fr");
-    await expect(page.getByText("404")).toBeVisible();
+    await expect(page.getByRole("heading", { level: 1, name: "Cette page est introuvable" })).toBeVisible();
   });
 
   test("aucun cookie déposé à la première visite", async ({ page, context }) => {

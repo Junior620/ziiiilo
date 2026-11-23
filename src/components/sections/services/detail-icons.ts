@@ -1,0 +1,85 @@
+import {
+  Activity,
+  Bell,
+  Briefcase,
+  Bug,
+  CalendarCheck,
+  ChartLine,
+  ClipboardList,
+  Cloud,
+  Code,
+  Compass,
+  Component,
+  FileSearch,
+  FolderOpen,
+  Hammer,
+  Handshake,
+  LayoutDashboard,
+  LayoutTemplate,
+  Layers,
+  Lightbulb,
+  Link2,
+  ListChecks,
+  Map,
+  MapPin,
+  MonitorSmartphone,
+  MousePointer2,
+  MousePointerClick,
+  Network,
+  Palette,
+  PenTool,
+  Plug,
+  RefreshCw,
+  Repeat,
+  Rocket,
+  ScanSearch,
+  Search,
+  Send,
+  Server,
+  Settings2,
+  ShieldCheck,
+  ShoppingBag,
+  Sparkles,
+  Users,
+  Workflow,
+  type LucideIcon,
+} from "lucide-react";
+
+/**
+ * Icônes des pages de détail (« icônes adaptées », §7 v1.3) : 3 situations, 4 réalisations,
+ * dans l'ordre des contenus de `serviceDetail.items.<slug>`.
+ */
+export const DETAIL_ICONS: Record<string, { needs: LucideIcon[]; deliver: LucideIcon[] }> = {
+  "sites-web": {
+    needs: [MonitorSmartphone, CalendarCheck, Rocket],
+    deliver: [PenTool, Code, Search, Server],
+  },
+  "applications-mobiles": {
+    needs: [Users, MapPin, ShoppingBag],
+    deliver: [PenTool, Code, Send, ShieldCheck],
+  },
+  "logiciels-sur-mesure": {
+    needs: [FolderOpen, Settings2, ChartLine],
+    deliver: [Layers, Briefcase, LayoutDashboard, Plug],
+  },
+  "transformation-digitale": {
+    needs: [ScanSearch, ListChecks, Users],
+    deliver: [ClipboardList, Map, Rocket, Handshake],
+  },
+  "ui-ux-design": {
+    needs: [Lightbulb, MousePointerClick, Palette],
+    deliver: [Users, LayoutTemplate, MousePointer2, Component],
+  },
+  "automatisation-integration": {
+    needs: [Repeat, Link2, Bell],
+    deliver: [Workflow, Plug, Cloud, Sparkles],
+  },
+  "conseil-architecture": {
+    needs: [Compass, Network, Users],
+    deliver: [Lightbulb, Network, FileSearch, Handshake],
+  },
+  "maintenance-evolution": {
+    needs: [Activity, ShieldCheck, RefreshCw],
+    deliver: [Bug, ShieldCheck, Sparkles, Hammer],
+  },
+};

@@ -45,6 +45,6 @@ export default defineConfig({
         url: baseURL,
         reuseExistingServer: !process.env.CI,
         timeout: 240_000,
-        env: { ZIIIILO_DEV_PAGES: "1" },
+        env: { ZIIIILO_DEV_PAGES: "1", CONTACT_SIMULATE: "1" },
       },
 });

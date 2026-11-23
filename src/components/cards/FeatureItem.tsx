@@ -13,6 +13,7 @@ export function FeatureItem({
   text,
   theme = "light",
   layout = "column",
+  glass = false,
   headingLevel: Heading = "h3",
   className,
 }: {
@@ -21,6 +22,8 @@ export function FeatureItem({
   text: string;
   theme?: "light" | "dark";
   layout?: "column" | "row" | "responsive";
+  /** Sombre : carte en verre sur une section déjà sombre (détail service 13:2161). */
+  glass?: boolean;
   headingLevel?: "h3" | "h4";
   className?: string;
 }) {
@@ -32,7 +35,8 @@ export function FeatureItem({
         layout === "column" && "flex-col",
         layout === "row" && "flex-row items-start",
         layout === "responsive" && "flex-row items-start tablet:flex-col",
-        dark && "rounded-lg bg-background-inverse p-24",
+        dark && "rounded-lg p-24",
+        dark && (glass ? "border border-glass-card-border bg-glass-card" : "bg-background-inverse"),
         className,
       )}
     >

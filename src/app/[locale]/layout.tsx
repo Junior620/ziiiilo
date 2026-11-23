@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from "next";
 import { NextIntlClientProvider } from "next-intl";
 import { getLocale, getTranslations } from "next-intl/server";
 import { ConsentProvider } from "@/components/cookies/Consent";
+import { OrganizationJsonLd } from "@/components/layout/OrganizationJsonLd";
 import { FloatingActions } from "@/components/layout/PageAids";
 import { SiteFooter } from "@/components/layout/SiteFooter";
 import { SiteHeader } from "@/components/layout/SiteHeader";
@@ -58,6 +59,7 @@ export default async function LocaleLayout({ children }: LayoutProps<"/[locale]"
         <a href="#contenu" className="skip-link">
           {t("skipToContent")}
         </a>
+        <OrganizationJsonLd />
         <NextIntlClientProvider>
           <ConsentProvider>
             <SiteHeader />

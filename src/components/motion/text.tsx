@@ -372,6 +372,7 @@ export function Reveal({
   trigger?: boolean | "mount";
   className?: string;
   id?: string;
+  "aria-labelledby"?: string;
 }) {
   const reduce = useReducedMotion();
   const ref = useRef<HTMLElement>(null);

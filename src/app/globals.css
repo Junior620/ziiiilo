@@ -167,6 +167,14 @@
   }
 }
 
+/* Rangées défilantes (accès rapide, filtres mobiles) : défilement sans barre visible */
+@utility scrollbar-none {
+  scrollbar-width: none;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
 /* ——— Conteneur (§5) ——— */
 @utility container {
   width: 100%;
@@ -591,4 +599,99 @@ html.splash-active :is(.hero-in, .hero-grid-in) {
 .hero-parallax--card {
   --hero-amp-x: 8px;
   --hero-amp-y: 8px;
+}
+
+/* Confirmation d'envoi (21:5009) : coche tracée à l'ouverture de la modale */
+.success-check {
+  stroke-dasharray: 24;
+  stroke-dashoffset: 24;
+  animation: draw-check 500ms var(--ease-ui) 200ms forwards;
+}
+@keyframes draw-check {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .success-check {
+    animation: none;
+    stroke-dashoffset: 0;
+  }
+}
+
+/* Page 404 (75:9346, planche 12) : « 404 » caractère par caractère (montée 24 px, flou 14 px),
+   curseur dès 1,15 s ; anneau qui pivote à l'arrivée puis flotte (±4 px, 4 s). */
+.code-404 {
+  display: inline-flex;
+  align-items: center;
+  font-family: var(--font-mono);
+  font-weight: 500;
+  font-size: clamp(5.5rem, 14vw, 12.5rem);
+  line-height: 1;
+  letter-spacing: -0.04em;
+}
+.code-404-char {
+  display: inline-block;
+  color: transparent;
+  background: linear-gradient(90deg, var(--primitive-blue-500), var(--primitive-cyan-400)) 0 0 / 1.8em 100%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  animation: code-char-in 900ms var(--ease-ui) both;
+}
+.code-404-char:nth-child(2) {
+  background-position-x: -0.6em;
+}
+.code-404-char:nth-child(3) {
+  background-position-x: -1.2em;
+}
+.code-404-cursor {
+  display: inline-block;
+  width: 0.08em;
+  height: 0.9em;
+  margin-left: 0.08em;
+  background: var(--color-accent-cyan);
+  opacity: 0;
+  animation:
+    code-cursor-in 1ms linear 1150ms forwards,
+    cursor-blink 1s steps(1) 1150ms infinite;
+}
+.ring-404 {
+  animation:
+    ring-404-in 1.2s var(--ease-ui) both,
+    ring-404-float 4s ease-in-out 1.2s infinite alternate;
+}
+@keyframes code-char-in {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+    filter: blur(14px);
+  }
+}
+@keyframes code-cursor-in {
+  to {
+    opacity: 1;
+  }
+}
+@keyframes ring-404-in {
+  from {
+    transform: rotate(-90deg);
+  }
+}
+@keyframes ring-404-float {
+  from {
+    translate: 0 -4px;
+  }
+  to {
+    translate: 0 4px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .code-404-char,
+  .ring-404 {
+    animation: none;
+  }
+  .code-404-cursor {
+    animation: none;
+    opacity: 1;
+  }
 }
