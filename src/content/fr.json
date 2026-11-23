@@ -119,7 +119,6 @@
   },
   "splash": {
     "label": "Chargement du site",
-    "skip": "Passer",
     "init": "Initialisation…",
     "fonts": "Chargement des polices…",
     "images": "Chargement des images…",

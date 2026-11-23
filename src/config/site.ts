@@ -68,7 +68,7 @@ export const site = {
 
   /**
    * Splash d'ouverture (§8 v2.8) : première visite de la session, sur l'accueil uniquement.
-   * Durée validée le 23/11/2026 : ≈ 13,8 s ; « Passer » visible dès 30 %.
+   * Durée validée le 23/11/2026 : ≈ 13,8 s, sans bouton « Passer ».
    */
   splash: {
     enabled: true,

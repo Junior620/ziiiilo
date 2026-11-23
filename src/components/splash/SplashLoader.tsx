@@ -11,7 +11,7 @@ import { SPLASH_KEY } from "./boot";
  * Splash d'ouverture — Figma 394:299 → 394:1115 (desktop), 394:1346 → 394:1994 (mobile), §8 v2.8.
  * Couche posée sur la page déjà rendue (SSR) : elle ne bloque ni le référencement ni le LCP.
  * Le compteur suit le chargement réel (polices, image du hero, hydratation) sans jamais le dépasser,
- * par paliers de 10 % ; pause à 100 %, ouverture en deux temps, fondu final. « Passer » dès 30 %.
+ * par paliers de 10 % ; pause à 100 %, ouverture en deux temps, fondu final. Pas de bouton « Passer » (retiré à la demande de ZIIIILO).
  */
 
 const R = 136; // rayon de l'anneau (280 px de diamètre, trait 4)
@@ -235,16 +235,6 @@ export function SplashLoader() {
           />
         </motion.div>
       </div>
-
-      {shown >= 30 && !opening && (
-        <button
-          type="button"
-          onClick={() => setPhase("fade")}
-          className="absolute top-24 right-24 flex min-h-touch items-center rounded-full px-16 text-text-inverse-muted text-label-m hover:text-text-inverse"
-        >
-          {t("skip")}
-        </button>
-      )}
     </motion.div>
   );
 }
