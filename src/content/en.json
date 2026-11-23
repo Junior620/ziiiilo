@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "siteName": "ZIIIILO",
+    "titleTemplate": "%s — ZIIIILO",
+    "defaultTitle": "ZIIIILO — Tech studio in Douala",
+    "defaultDescription": "We imagine and build the digital solutions of tomorrow."
+  },
+  "a11y": {
+    "skipToContent": "Skip to content",
+    "loading": "Loading",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "externalLink": "(opens in a new tab)"
+  },
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "solutions": "Solutions",
+    "realisations": "Work",
+    "about": "About",
+    "contact": "Contact",
+    "faq": "FAQ",
+    "startProject": "Start a project",
+    "languages": { "fr": "Français", "en": "English" }
+  },
+  "footer": {
+    "columns": {
+      "services": "Services",
+      "solutions": "Solutions",
+      "company": "Company",
+      "contact": "Contact",
+      "follow": "Follow us"
+    },
+    "services": {
+      "sites-web": "Web development",
+      "applications-mobiles": "Mobile apps",
+      "logiciels-sur-mesure": "Custom software",
+      "transformation-digitale": "Digital transformation",
+      "ui-ux-design": "UI/UX Design",
+      "automatisation-integration": "Automation & integration"
+    },
+    "solutions": {
+      "fleetrent": "FleetRent",
+      "doccloud": "DocCloud",
+      "allProducts": "All our products",
+      "realisations": "Work"
+    },
+    "company": {
+      "about": "About",
+      "method": "Our method",
+      "faq": "FAQ",
+      "contact": "Contact"
+    },
+    "social": {
+      "linkedin": "LinkedIn",
+      "facebook": "Facebook",
+      "instagram": "Instagram"
+    },
+    "legal": {
+      "notice": "Legal notice",
+      "privacy": "Privacy policy",
+      "cookieSettings": "Cookie settings",
+      "cookiePolicy": "Cookie policy",
+      "terms": "Terms of use"
+    }
+  },
+  "dev": {
+    "placeholderTitle": "Step 1 — foundations in place",
+    "placeholderText": "Components and pages come in the next steps."
+  }
+}

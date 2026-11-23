@@ -1,0 +1,190 @@
+/*
+ * ZIIIILO — Design tokens (docs/DESIGN.md §4, §8).
+ * Source : variables Figma (collections Primitives, Couleurs, Espacements, Rayons),
+ * fichier G9fhCfbvi9MiIgojXaZ54w. Ne pas modifier sans mise à jour du guide.
+ * Les composants n'utilisent que les tokens sémantiques ; les primitives ne servent
+ * qu'à les définir. Ce fichier est le seul endroit où des valeurs brutes sont permises.
+ */
+:root {
+  /* Primitives (tirées du logo) */
+  --primitive-navy-950: #020a24;
+  --primitive-navy-900: #06123f;
+  --primitive-navy-800: #0a1d66;
+  --primitive-navy-700: #011d8b;
+  --primitive-blue-700: #0a5e91;
+  --primitive-blue-600: #0e74b0;
+  --primitive-blue-500: #1996ce;
+  --primitive-blue-100: #e3f3fb;
+  --primitive-blue-50: #f0f8fd;
+  --primitive-cyan-400: #2ebce4;
+  --primitive-cyan-300: #6fd3ee;
+  --primitive-cyan-100: #ddf4fb;
+  --primitive-violet-700: #4e1550;
+  --primitive-violet-600: #641b62;
+  --primitive-violet-100: #f4e8f3;
+  --primitive-orange-500: #f7ad28;
+  --primitive-orange-100: #fef2dc;
+  --primitive-gold-400: #feda3e;
+  --primitive-gray-0: #ffffff;
+  --primitive-gray-25: #f8fafd;
+  --primitive-gray-50: #f2f5fa;
+  --primitive-gray-100: #e7ecf3;
+  --primitive-gray-200: #d5dde8;
+  --primitive-gray-300: #b6c1d2;
+  --primitive-gray-400: #8c99b0;
+  --primitive-gray-500: #5f6c86;
+  --primitive-gray-600: #4a5670;
+  --primitive-gray-700: #313c55;
+  --primitive-gray-800: #1c2640;
+  --primitive-gray-900: #0b1630;
+  --primitive-green-600: #0e7a50;
+  --primitive-green-100: #dff5ec;
+  --primitive-amber-700: #8f5400;
+  --primitive-amber-100: #fff3d6;
+  --primitive-red-600: #c8323f;
+  --primitive-red-100: #fce6e8;
+  /* Univers DocCloud (v1.4) */
+  --primitive-teal-500: #14b8a6;
+  --primitive-teal-700: #0f766e;
+  --primitive-teal-100: #d5f5f0;
+
+  /* Espacements (Figma : Espacements) */
+  --space-0: 0px;
+  --space-4: 4px;
+  --space-8: 8px;
+  --space-12: 12px;
+  --space-16: 16px;
+  --space-20: 20px;
+  --space-24: 24px;
+  --space-32: 32px;
+  --space-40: 40px;
+  --space-48: 48px;
+  --space-56: 56px;
+  --space-64: 64px;
+  --space-80: 80px;
+  --space-96: 96px;
+  --space-120: 120px;
+  --space-160: 160px;
+
+  /* Effets */
+  --halo-cyan: 0 0 56px rgb(46 188 228 / 0.35);
+  --focus-ring: 0 0 0 4px rgb(25 150 206 / 0.28);
+  --glass-nav: blur(20px); /* + --shadow-nav, fond --color-glass-nav (blanc 86 %) */
+
+  /* Dégradés */
+  --gradient-hero: linear-gradient(135deg, #020a24 0%, #06123f 55%, #0a1d66 100%);
+  --gradient-cta: linear-gradient(135deg, #06123f 0%, #0a1d66 55%, #3a1450 100%);
+  --gradient-page-header: linear-gradient(135deg, #f0f8fd 0%, #f8fafd 60%, #f7f1f8 100%);
+  --gradient-doccloud: linear-gradient(135deg, #0a1d66 0%, #0f766e 100%);
+  /* §8 n° 02 (barre de lecture) et n° 13 (lien animé) */
+  --gradient-reading: linear-gradient(90deg, var(--primitive-cyan-400), var(--primitive-blue-500));
+  --gradient-link: linear-gradient(90deg, #f7ad21, #94a538, #1996ce, #641b62);
+
+  --duration-fast: 150ms;
+  --duration-ui: 200ms;
+  --duration-card: 240ms;
+  --duration-accordion: 280ms;
+
+  /* Mise en page (§5) */
+  --header-height: 88px;
+  --container-max: 1200px;
+  --container-gutter: var(--space-20);
+}
+
+/*
+ * Tokens sémantiques exposés à Tailwind (mêmes noms que Figma et que le §4).
+ * `static` : toutes les variables sont émises dans :root, même inutilisées.
+ */
+@theme static {
+  --color-*: initial;
+  --radius-*: initial;
+  --shadow-*: initial;
+  --ease-*: initial;
+
+  /* Sémantiques — couleurs */
+  --color-primary-default: var(--primitive-blue-600);
+  --color-primary-hover: var(--primitive-blue-700);
+  --color-primary-brand: var(--primitive-blue-500);
+  --color-primary-subtle: var(--primitive-blue-50);
+  --color-primary-soft: var(--primitive-blue-100);
+  --color-secondary-default: var(--primitive-navy-700);
+  --color-secondary-dark: var(--primitive-navy-900);
+  --color-accent-cyan: var(--primitive-cyan-400);
+  --color-accent-cyan-soft: var(--primitive-cyan-100);
+  --color-accent-violet: var(--primitive-violet-600);
+  --color-accent-violet-soft: var(--primitive-violet-100);
+  --color-accent-orange: var(--primitive-orange-500);
+  --color-accent-orange-soft: var(--primitive-orange-100);
+  --color-accent-gold: var(--primitive-gold-400);
+  --color-accent-teal: var(--primitive-teal-500);
+  --color-accent-teal-strong: var(--primitive-teal-700);
+  --color-accent-teal-soft: var(--primitive-teal-100);
+  --color-background-default: var(--primitive-gray-0);
+  --color-background-subtle: var(--primitive-gray-25);
+  --color-background-muted: var(--primitive-gray-50);
+  --color-background-inverse: var(--primitive-navy-950);
+  --color-background-inverse-raised: var(--primitive-navy-900);
+  --color-surface-default: var(--primitive-gray-0);
+  --color-surface-sunken: var(--primitive-gray-50);
+  --color-surface-inverse: var(--primitive-navy-900);
+  --color-surface-inverse-raised: var(--primitive-navy-800);
+  --color-text-primary: var(--primitive-gray-900);
+  --color-text-secondary: var(--primitive-gray-600);
+  --color-text-muted: var(--primitive-gray-500);
+  --color-text-inverse: var(--primitive-gray-0);
+  --color-text-inverse-muted: var(--primitive-gray-300);
+  --color-text-link: var(--primitive-blue-600);
+  --color-text-accent-on-dark: var(--primitive-cyan-400);
+  --color-border-default: var(--primitive-gray-100);
+  --color-border-strong: var(--primitive-gray-200);
+  --color-border-input: var(--primitive-gray-300);
+  --color-border-focus: var(--primitive-blue-500);
+  --color-border-inverse: var(--primitive-navy-800);
+  --color-success-default: var(--primitive-green-600);
+  --color-success-subtle: var(--primitive-green-100);
+  --color-warning-default: var(--primitive-amber-700);
+  --color-warning-subtle: var(--primitive-amber-100);
+  --color-error-default: var(--primitive-red-600);
+  --color-error-subtle: var(--primitive-red-100);
+  /* Verre (§4, §8) : header clair 86 %, header compacté, surfaces sur fond sombre 4–12 % / bordure 10–18 % */
+  --color-glass-nav: rgb(255 255 255 / 0.86);
+  --color-glass-nav-compact: rgb(2 10 36 / 0.72);
+  --color-glass-inverse: rgb(255 255 255 / 0.08);
+  --color-glass-inverse-border: rgb(255 255 255 / 0.14);
+
+  /* Rayons (Figma : Rayons) */
+  --radius-xs: 6px;
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-xl: 24px;
+  --radius-2xl: 32px;
+  --radius-full: 999px;
+
+  /* Ombres */
+  --shadow-xs: 0 1px 2px rgb(11 22 48 / 0.06);
+  --shadow-sm: 0 1px 2px rgb(11 22 48 / 0.04), 0 4px 12px -2px rgb(11 22 48 / 0.06);
+  --shadow-md: 0 2px 4px rgb(11 22 48 / 0.04), 0 16px 40px -12px rgb(11 22 48 / 0.16);
+  --shadow-lg: 0 4px 8px rgb(6 18 63 / 0.04), 0 32px 72px -20px rgb(6 18 63 / 0.28);
+  --shadow-nav: 0 10px 30px -10px rgb(6 18 63 / 0.1);
+  --shadow-halo-cyan: var(--halo-cyan);
+  --shadow-focus: var(--focus-ring);
+
+  /* Mouvement (§8) */
+  --ease-reveal: cubic-bezier(0, 0, 0.58, 1);
+  --ease-sweep: cubic-bezier(0.42, 0, 0.58, 1);
+  --ease-ui: cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+@media (min-width: 768px) {
+  :root {
+    --container-gutter: var(--space-40);
+  }
+}
+
+@media (min-width: 1200px) {
+  :root {
+    --header-height: 104px;
+    --container-gutter: var(--space-0);
+  }
+}

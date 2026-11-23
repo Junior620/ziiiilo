@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "siteName": "ZIIIILO",
+    "titleTemplate": "%s — ZIIIILO",
+    "defaultTitle": "ZIIIILO — Studio tech à Douala",
+    "defaultDescription": "Nous imaginons et construisons les solutions numériques de demain."
+  },
+  "a11y": {
+    "skipToContent": "Aller au contenu",
+    "loading": "Chargement",
+    "openMenu": "Ouvrir le menu",
+    "closeMenu": "Fermer le menu",
+    "externalLink": "(nouvel onglet)"
+  },
+  "nav": {
+    "home": "Accueil",
+    "services": "Services",
+    "solutions": "Solutions",
+    "realisations": "Réalisations",
+    "about": "À propos",
+    "contact": "Contact",
+    "faq": "FAQ",
+    "startProject": "Démarrer un projet",
+    "languages": { "fr": "Français", "en": "English" }
+  },
+  "footer": {
+    "columns": {
+      "services": "Services",
+      "solutions": "Solutions",
+      "company": "Entreprise",
+      "contact": "Contact",
+      "follow": "Suivez-nous"
+    },
+    "services": {
+      "sites-web": "Développement web",
+      "applications-mobiles": "Applications mobiles",
+      "logiciels-sur-mesure": "Logiciels sur mesure",
+      "transformation-digitale": "Transformation digitale",
+      "ui-ux-design": "UI/UX Design",
+      "automatisation-integration": "Automatisation & intégration"
+    },
+    "solutions": {
+      "fleetrent": "FleetRent",
+      "doccloud": "DocCloud",
+      "allProducts": "Tous nos produits",
+      "realisations": "Réalisations"
+    },
+    "company": {
+      "about": "À propos",
+      "method": "Notre méthode",
+      "faq": "FAQ",
+      "contact": "Contact"
+    },
+    "social": {
+      "linkedin": "LinkedIn",
+      "facebook": "Facebook",
+      "instagram": "Instagram"
+    },
+    "legal": {
+      "notice": "Mentions légales",
+      "privacy": "Politique de confidentialité",
+      "cookieSettings": "Gestion des cookies",
+      "cookiePolicy": "Politique de cookies",
+      "terms": "Conditions d’utilisation"
+    }
+  },
+  "dev": {
+    "placeholderTitle": "Étape 1 — fondations en place",
+    "placeholderText": "Les composants et les pages arrivent aux étapes suivantes."
+  }
+}
