@@ -14,7 +14,9 @@ import { cn } from "@/lib/cn";
 export function SectionHeader({
   eyebrow,
   title,
+  titleShort,
   description,
+  descriptionShort,
   align = "left",
   theme = "light",
   as: Heading = "h2",
@@ -27,7 +29,11 @@ export function SectionHeader({
 }: {
   eyebrow?: string;
   title: string;
+  /** Titre raccourci de la maquette mobile (sous 768 px). */
+  titleShort?: string;
   description?: string;
+  /** Description raccourcie de la maquette mobile (sous 768 px). */
+  descriptionShort?: string;
   align?: "left" | "center";
   theme?: "light" | "dark";
   as?: "h1" | "h2";
@@ -44,6 +50,12 @@ export function SectionHeader({
   const ref = useRef<HTMLDivElement>(null);
   const inView = useInView(ref, { once: true, amount: 0.4 });
   const dark = theme === "dark";
+  const renderTitle = (text: string) =>
+    dark ? (
+      <RevealScan text={text} preset="h2" trigger={inView} scanAt={1300} />
+    ) : (
+      <RevealLines as="span" text={text} preset="h2" trigger={inView} />
+    );
   return (
     <div
       ref={ref}
@@ -71,10 +83,13 @@ export function SectionHeader({
           titleClassName,
         )}
       >
-        {dark ? (
-          <RevealScan text={title} preset="h2" trigger={inView} scanAt={1300} />
+        {titleShort ? (
+          <>
+            <span className="max-tablet:hidden">{renderTitle(title)}</span>
+            <span className="tablet:hidden">{renderTitle(titleShort)}</span>
+          </>
         ) : (
-          <RevealLines as="span" text={title} preset="h2" trigger={inView} />
+          renderTitle(title)
         )}
       </Heading>
       {circuit && <CircuitUnderline className={align === "center" ? "mx-auto" : undefined} />}
@@ -86,8 +101,17 @@ export function SectionHeader({
           className={cn(
             "text-body-l",
             dark ? "text-text-inverse-muted" : "text-text-secondary",
+            descriptionShort && "max-tablet:hidden",
             descriptionClassName,
           )}
+        />
+      )}
+      {descriptionShort && (
+        <RevealLines
+          text={descriptionShort}
+          preset="description"
+          trigger={inView}
+          className={cn("text-body-l tablet:hidden", dark ? "text-text-inverse-muted" : "text-text-secondary")}
         />
       )}
       {children}

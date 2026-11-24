@@ -1,6 +1,6 @@
-import { EtudeStub } from "@/components/etudes/EtudeStub";
+import { EtudeRenderer } from "@/components/etudes/EtudeRenderer";
 
-/** Étude staftrack — bouchon du socle, remplacé par la session de la phase B (maquette Figma). */
+/** StafTrack — Figma desktop 126:14817, mobile 131:14099 (§7, v1.7). */
 export default function EtudePage() {
-  return <EtudeStub slug="staftrack" parent="realisations" />;
+  return <EtudeRenderer slug="staftrack" />;
 }

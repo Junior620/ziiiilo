@@ -1,6 +1,6 @@
-import { EtudeStub } from "@/components/etudes/EtudeStub";
+import { EtudeRenderer } from "@/components/etudes/EtudeRenderer";
 
-/** Étude scpb-commercial — bouchon du socle, remplacé par la session de la phase B (maquette Figma). */
+/** SCPB Commercial — Figma desktop 103:11672, mobile 111:11199 (§7, v1.5). */
 export default function EtudePage() {
-  return <EtudeStub slug="scpb-commercial" parent="realisations" />;
+  return <EtudeRenderer slug="scpb-commercial" />;
 }

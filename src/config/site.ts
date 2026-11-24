@@ -60,6 +60,11 @@ export const site = {
     showEnglish: false,
   },
 
+  /** Sites officiels des produits ZIIIILO : à configurer (le bouton « Visiter le site » reste masqué). */
+  products: {
+    fleetrentUrl: "",
+  },
+
   /** Publication soumise à validation du client. */
   publication: {
     /** CocoaTrack : soumis à l'accord de STE-SCPB. Passer à false pour masquer page et cartes. */

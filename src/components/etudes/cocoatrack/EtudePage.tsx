@@ -1,6 +1,10 @@
-import { EtudeStub } from "@/components/etudes/EtudeStub";
+import { EtudeRenderer } from "@/components/etudes/EtudeRenderer";
 
-/** Étude cocoatrack — bouchon du socle, remplacé par la session de la phase B (maquette Figma). */
+/**
+ * CocoaTrack — Figma desktop 319:1014, mobile 325:1796 (§7, v2.6).
+ * Présentation privée : page et cartes masquées si `site.publication.cocoatrack` vaut false.
+ * Aucun lien vers l'application ; les annotations « Statut à confirmer » restent internes.
+ */
 export default function EtudePage() {
-  return <EtudeStub slug="cocoatrack" parent="realisations" />;
+  return <EtudeRenderer slug="cocoatrack" />;
 }

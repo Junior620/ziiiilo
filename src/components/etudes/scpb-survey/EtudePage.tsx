@@ -1,6 +1,6 @@
-import { EtudeStub } from "@/components/etudes/EtudeStub";
+import { EtudeRenderer } from "@/components/etudes/EtudeRenderer";
 
-/** Étude scpb-survey — bouchon du socle, remplacé par la session de la phase B (maquette Figma). */
+/** SCPB Survey — Figma desktop 200:23564, mobile 204:16328 (§7). */
 export default function EtudePage() {
-  return <EtudeStub slug="scpb-survey" parent="realisations" />;
+  return <EtudeRenderer slug="scpb-survey" />;
 }

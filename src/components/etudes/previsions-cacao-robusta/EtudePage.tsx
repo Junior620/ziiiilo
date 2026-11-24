@@ -1,6 +1,6 @@
-import { EtudeStub } from "@/components/etudes/EtudeStub";
+import { EtudeRenderer } from "@/components/etudes/EtudeRenderer";
 
-/** Étude previsions-cacao-robusta — bouchon du socle, remplacé par la session de la phase B (maquette Figma). */
+/** Prévisions Cacao & Robusta — Figma desktop 149:20336, mobile 157:17634 (§7, v1.9). */
 export default function EtudePage() {
-  return <EtudeStub slug="previsions-cacao-robusta" parent="realisations" />;
+  return <EtudeRenderer slug="previsions-cacao-robusta" />;
 }

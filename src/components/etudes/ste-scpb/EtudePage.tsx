@@ -1,6 +1,6 @@
-import { EtudeStub } from "@/components/etudes/EtudeStub";
+import { EtudeRenderer } from "@/components/etudes/EtudeRenderer";
 
-/** Étude ste-scpb — bouchon du socle, remplacé par la session de la phase B (maquette Figma). */
+/** STE-SCPB — Figma desktop 233:23711, mobile 240:19126 (§7, v2.1). */
 export default function EtudePage() {
-  return <EtudeStub slug="ste-scpb" parent="realisations" />;
+  return <EtudeRenderer slug="ste-scpb" />;
 }

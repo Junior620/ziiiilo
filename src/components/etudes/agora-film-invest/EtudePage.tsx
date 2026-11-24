@@ -1,6 +1,6 @@
-import { EtudeStub } from "@/components/etudes/EtudeStub";
+import { EtudeRenderer } from "@/components/etudes/EtudeRenderer";
 
-/** Étude agora-film-invest — bouchon du socle, remplacé par la session de la phase B (maquette Figma). */
+/** Agora Film Invest — Figma desktop 297:27498, mobile 300:22316 (§7, v2.4–2.5). */
 export default function EtudePage() {
-  return <EtudeStub slug="agora-film-invest" parent="realisations" />;
+  return <EtudeRenderer slug="agora-film-invest" />;
 }

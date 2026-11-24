@@ -1,6 +1,6 @@
-import { EtudeStub } from "@/components/etudes/EtudeStub";
+import { EtudeRenderer } from "@/components/etudes/EtudeRenderer";
 
-/** Étude ninety-one-foot-academy — bouchon du socle, remplacé par la session de la phase B (maquette Figma). */
+/** Ninety One Foot Academy — Figma desktop 278:25463, mobile 281:20482 (§7, v2.3). */
 export default function EtudePage() {
-  return <EtudeStub slug="ninety-one-foot-academy" parent="realisations" />;
+  return <EtudeRenderer slug="ninety-one-foot-academy" />;
 }

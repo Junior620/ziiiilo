@@ -4,7 +4,14 @@ import { cn } from "@/lib/cn";
  * Badge de statut — Figma 4:565 (Disponible / En développement / Prévu / Produit ZIIIILO /
  * Neutre / Sur fond sombre). La pastille pulse pour les statuts actifs (§8 n° 16).
  */
-export type BadgeTone = "available" | "development" | "planned" | "product" | "neutral" | "dark";
+export type BadgeTone =
+  | "available"
+  | "development"
+  | "planned"
+  | "product"
+  | "neutral"
+  | "teal"
+  | "dark";
 
 const tones: Record<BadgeTone, string> = {
   available: "bg-success-subtle text-success-default",
@@ -12,6 +19,8 @@ const tones: Record<BadgeTone, string> = {
   planned: "bg-accent-violet-soft text-accent-violet",
   product: "bg-primary-soft text-primary-hover",
   neutral: "bg-background-muted text-text-secondary",
+  /** Statuts DocCloud « Disponible pour restitution » (83:739). */
+  teal: "bg-accent-teal-soft text-accent-teal-strong",
   dark: "border border-inverse-line bg-secondary-dark text-text-accent-on-dark",
 };
 

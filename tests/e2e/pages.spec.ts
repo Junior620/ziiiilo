@@ -18,8 +18,17 @@ const PAGES = [
   ["confidentialite", "/confidentialite"],
   ["politique-cookies", "/politique-cookies"],
   ["conditions-utilisation", "/conditions-utilisation"],
-  ["etude-staftrack", "/realisations/staftrack"],
   ["produit-fleetrent", "/solutions/fleetrent"],
+  ["produit-doccloud", "/solutions/doccloud"],
+  ["etude-scpb-commercial", "/realisations/scpb-commercial"],
+  ["etude-staftrack", "/realisations/staftrack"],
+  ["etude-previsions-cacao-robusta", "/realisations/previsions-cacao-robusta"],
+  ["etude-scpb-survey", "/realisations/scpb-survey"],
+  ["etude-ste-scpb", "/realisations/ste-scpb"],
+  ["etude-golden-beans", "/realisations/golden-beans"],
+  ["etude-ninety-one-foot-academy", "/realisations/ninety-one-foot-academy"],
+  ["etude-agora-film-invest", "/realisations/agora-film-invest"],
+  ["etude-cocoatrack", "/realisations/cocoatrack"],
 ] as const;
 
 async function expectNoHorizontalOverflow(page: Page) {
@@ -59,7 +68,7 @@ for (const [name, path] of PAGES) {
 }
 
 test("aucun débordement horizontal à 360 px", async ({ page }) => {
-  test.setTimeout(180_000);
+  test.setTimeout(360_000);
   await page.setViewportSize({ width: 360, height: 780 });
   for (const [, path] of PAGES) {
     await page.goto(path);

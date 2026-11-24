@@ -1,6 +1,6 @@
-import { EtudeStub } from "@/components/etudes/EtudeStub";
+import { EtudeRenderer } from "@/components/etudes/EtudeRenderer";
 
-/** Étude golden-beans — bouchon du socle, remplacé par la session de la phase B (maquette Figma). */
+/** Golden Beans SA — Figma desktop 262:24524, mobile 266:19740 (§7, v2.2). */
 export default function EtudePage() {
-  return <EtudeStub slug="golden-beans" parent="realisations" />;
+  return <EtudeRenderer slug="golden-beans" />;
 }
