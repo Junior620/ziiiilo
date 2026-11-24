@@ -104,7 +104,8 @@ export function ProjectFeature({
       </div>
       <div className="flex min-w-0 flex-1 flex-col gap-20 p-48">
         <Badges badges={badges} />
-        <h3 className="text-h2 text-text-primary">{title}</h3>
+        {/* h2 : les projets à la une suivent directement le H1 de la page Réalisations. */}
+        <h2 className="text-h2 text-text-primary">{title}</h2>
         <p className="text-text-secondary text-body-l">{text}</p>
         <dl className="flex flex-col gap-12 rounded-lg bg-background-subtle p-20">
           {sheet.map((row) => (

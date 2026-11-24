@@ -1,6 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import { NextIntlClientProvider } from "next-intl";
-import { getLocale, getTranslations } from "next-intl/server";
+import { getLocale, getMessages, getTranslations } from "next-intl/server";
 import { ConsentProvider } from "@/components/cookies/Consent";
 import { OrganizationJsonLd } from "@/components/layout/OrganizationJsonLd";
 import { FloatingActions } from "@/components/layout/PageAids";
@@ -44,9 +44,25 @@ export const viewport: Viewport = {
   colorScheme: "light",
 };
 
+/**
+ * Textes transmis aux composants client : seulement les espaces de noms qu'ils lisent
+ * (`useTranslations` dans un fichier "use client"). Sans ce filtre, tout fr.json
+ * (études comprises, ≈ 430 Ko) serait sérialisé dans chaque page.
+ */
+const CLIENT_NAMESPACES = ["nav", "a11y", "cookies", "cta", "splash", "contact", "realisations"] as const;
+
+async function getClientMessages() {
+  const all = (await getMessages()) as Record<string, Record<string, unknown>>;
+  const picked: Record<string, unknown> = Object.fromEntries(CLIENT_NAMESPACES.map((ns) => [ns, all[ns]]));
+  picked.home = { hero: all.home?.hero };
+  picked.solutions = { catalogue: all.solutions?.catalogue };
+  return picked as Awaited<ReturnType<typeof getMessages>>;
+}
+
 export default async function LocaleLayout({ children }: LayoutProps<"/[locale]">) {
   const locale = await getLocale();
   const t = await getTranslations("a11y");
+  const clientMessages = await getClientMessages();
 
   return (
     <html lang={locale} className={fontVariables} suppressHydrationWarning>
@@ -64,7 +80,7 @@ export default async function LocaleLayout({ children }: LayoutProps<"/[locale]"
           {t("skipToContent")}
         </a>
         <OrganizationJsonLd />
-        <NextIntlClientProvider>
+        <NextIntlClientProvider messages={clientMessages}>
           <ConsentProvider>
             <SiteHeader />
             <main id="contenu" tabIndex={-1} className="outline-none">

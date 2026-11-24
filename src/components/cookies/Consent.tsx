@@ -3,6 +3,7 @@
 import { useTranslations } from "next-intl";
 import { createContext, useCallback, useContext, useEffect, useId, useState, type ReactNode } from "react";
 import { Button } from "@/components/ui/Button";
+import { CONSENT_COOKIE as COOKIE } from "@/components/splash/boot";
 import { Dialog, Switch } from "@/components/ui/Interactive";
 import { isConfigured, site } from "@/config/site";
 import { Link } from "@/i18n/navigation";
@@ -15,7 +16,6 @@ import { Link } from "@/i18n/navigation";
  */
 type Consent = { analytics: boolean; date: string };
 
-const COOKIE = "ziiiilo-consent";
 const MAX_AGE = 60 * 60 * 24 * 180; // 6 mois
 
 function readConsent(): Consent | null {
@@ -62,7 +62,9 @@ export function ConsentProvider({ children }: { children: ReactNode }) {
   return (
     <ConsentContext.Provider value={{ consent, openPreferences }}>
       {children}
-      {ready && !consent && !prefsOpen && (
+      {/* Rendu dès le serveur (avant lecture du cookie) pour peindre avec la page ;
+          le script de démarrage le masque déjà si un choix existe (html.has-consent). */}
+      {(!ready || (!consent && !prefsOpen)) && (
         <CookieBanner
           onAccept={() => save(true)}
           onReject={() => save(false)}
@@ -93,7 +95,7 @@ function CookieBanner({
   return (
     <section
       aria-labelledby={titleId}
-      className="fixed inset-x-16 bottom-16 z-50 mx-auto flex max-w-[65rem] flex-col gap-16 rounded-lg border border-border-default bg-surface-default p-20 shadow-lg tablet:flex-row tablet:items-center tablet:gap-32 tablet:p-24"
+      className="[.has-consent_&]:hidden fixed inset-x-16 bottom-16 z-50 mx-auto flex max-w-[65rem] flex-col gap-16 rounded-lg border border-border-default bg-surface-default p-20 shadow-lg tablet:flex-row tablet:items-center tablet:gap-32 tablet:p-24"
     >
       <div className="flex flex-1 flex-col gap-6">
         <h2 id={titleId} className="text-text-primary text-label-l">
