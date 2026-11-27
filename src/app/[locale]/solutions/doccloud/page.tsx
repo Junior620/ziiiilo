@@ -45,7 +45,15 @@ const STEP_ICONS = [FileText, Building2, Search, CircleCheck];
 const FEATURE_ICONS = [Search, FileText, Sparkles, Building2, MessageCircle, ShieldCheck];
 const SECURITY_ICONS = [ShieldCheck, Layers, Users, Clock, Eye, CircleCheck];
 /** Couleurs des 7 statuts du dossier (DS DocCloud 83:739). */
-const STATUS_TONES: BadgeTone[] = ["neutral", "development", "product", "planned", "teal", "product", "available"];
+const STATUS_TONES: BadgeTone[] = [
+  "neutral",
+  "development",
+  "product",
+  "planned",
+  "teal",
+  "product",
+  "available",
+];
 
 export async function generateMetadata(): Promise<Metadata> {
   const t = await getTranslations("products.doccloud");
@@ -72,6 +80,7 @@ export default async function DocCloudPage() {
     <>
       <ReadingProgress />
       <ProductHero
+        product
         breadcrumb={
           <Breadcrumb
             theme="dark"
@@ -93,9 +102,9 @@ export default async function DocCloudPage() {
                 width={40}
                 height={40}
                 unoptimized
-                className="size-36 tablet:size-40"
+                className="size-44 desktop:size-52"
               />
-              <span className="text-h3 text-text-inverse">
+              <span className="text-text-inverse text-h3">
                 Doc<span className="text-accent-cyan">Cloud</span>
               </span>
             </span>
@@ -115,7 +124,7 @@ export default async function DocCloudPage() {
                 {t("contact")}
               </Button>
             </div>
-            <p className="text-body-xs text-text-inverse-muted">
+            <p className="text-text-inverse-muted text-body-xs">
               <Short full={t("note")} short={t("noteShort")} />
             </p>
           </div>
@@ -164,7 +173,7 @@ export default async function DocCloudPage() {
                   headingClassName="text-h5"
                   flatOnMobile
                 >
-                  <p className="text-body-s text-text-secondary">{item.text}</p>
+                  <p className="text-text-secondary text-body-s">{item.text}</p>
                 </IconCard>
               </Reveal>
             ))}
@@ -185,8 +194,14 @@ export default async function DocCloudPage() {
           <ul className="grid gap-16 tablet:grid-cols-3 tablet:gap-24">
             {actors.map((item, i) => (
               <Reveal as="li" key={item.title} delay={i * 100}>
-                <IconCard icon={ACTOR_ICONS[i]} tone={ACTOR_TONES[i]} title={item.title} headingClassName="text-h4">
-                  <p className="text-body-s text-text-secondary tablet:hidden">{item.short}</p>
+                <IconCard
+                  icon={ACTOR_ICONS[i]}
+                  tone={ACTOR_TONES[i]}
+                  title={item.title}
+                  headingClassName="max-tablet:text-h5 tablet:text-h4"
+                  largeTile
+                >
+                  <p className="text-text-secondary text-body-s tablet:hidden">{item.short}</p>
                   <CheckList items={item.points} className="max-tablet:hidden" />
                 </IconCard>
               </Reveal>
@@ -228,7 +243,7 @@ export default async function DocCloudPage() {
                   <span className="flex items-center gap-16 max-tablet:self-start">
                     <span
                       aria-hidden
-                      className="relative flex size-36 shrink-0 items-center justify-center rounded-full bg-secondary-dark font-mono text-label-s text-accent-cyan"
+                      className="relative flex size-36 shrink-0 items-center justify-center rounded-full bg-secondary-dark font-mono text-accent-cyan text-label-s"
                     >
                       {number}
                     </span>
@@ -237,13 +252,13 @@ export default async function DocCloudPage() {
                       className="hidden h-2 flex-1 bg-linear-to-r from-accent-teal to-transparent tablet:block"
                     />
                   </span>
-                  <span className="flex min-w-0 flex-col gap-12 tablet:gap-16">
+                  <span className="flex min-w-0 flex-col gap-4 tablet:gap-16">
                     <IconTile icon={STEP_ICONS[i]} tone="blue" size="M" className="max-tablet:hidden" />
                     <h3 className="text-h4 text-text-primary">
                       <span className="sr-only">{number}. </span>
                       {step.title}
                     </h3>
-                    <p className="text-body-s text-text-secondary">
+                    <p className="text-text-secondary text-body-s">
                       <Short full={step.text} short={step.short} />
                     </p>
                   </span>
@@ -252,7 +267,7 @@ export default async function DocCloudPage() {
             })}
           </ol>
           <Reveal className="flex flex-col gap-16 rounded-lg border border-border-default bg-surface-default p-16 tablet:p-24">
-            <h3 className="text-label-l text-text-primary">
+            <h3 className="text-text-primary text-label-l">
               <Short full={t("steps.statusesTitle")} short={t("steps.statusesTitleShort")} />
             </h3>
             <ol className="flex flex-wrap items-center gap-x-8 gap-y-12">
@@ -288,7 +303,7 @@ export default async function DocCloudPage() {
             description={t("features.description")}
             descriptionShort={t("features.descriptionShort")}
           />
-          <ul className="grid grid-cols-1 gap-12 tablet:grid-cols-2 tablet:gap-16 desktop:grid-cols-3 desktop:gap-20">
+          <ul className="grid grid-cols-1 gap-10 tablet:grid-cols-2 tablet:gap-16 desktop:grid-cols-3 desktop:gap-20">
             {features.map((item, i) => (
               <Reveal as="li" key={item.title} delay={(i % 3) * 80}>
                 <StatusFeatureCard
@@ -305,7 +320,7 @@ export default async function DocCloudPage() {
               </Reveal>
             ))}
           </ul>
-          <p className="text-body-xs text-text-inverse-muted">
+          <p className="text-text-inverse-muted text-body-xs">
             <Short full={t("features.note")} short={t("features.noteShort")} />
           </p>
         </div>
@@ -321,6 +336,7 @@ export default async function DocCloudPage() {
             title={t("preview.title")}
             description={t("preview.description")}
             descriptionShort={t("preview.descriptionShort")}
+            descriptionClassName="max-tablet:text-body-s"
             className="max-tablet:mx-0 max-tablet:items-start max-tablet:text-left"
           />
           <Reveal as="div" distance={24}>
@@ -341,7 +357,7 @@ export default async function DocCloudPage() {
                 sizes="(min-width: 48rem) 1px, 100vw"
                 className="h-auto w-full rounded-xl tablet:hidden"
               />
-              <figcaption className="text-body-s text-text-secondary tablet:text-center">
+              <figcaption className="text-text-secondary text-body-s tablet:text-center">
                 <Short full={t("preview.caption")} short={t("preview.captionShort")} />
               </figcaption>
             </figure>
@@ -359,7 +375,7 @@ export default async function DocCloudPage() {
             description={t("security.description")}
             descriptionClassName="hidden tablet:block"
           />
-          <ul className="grid gap-32 tablet:grid-cols-2 tablet:gap-24 desktop:grid-cols-3">
+          <ul className="grid gap-16 tablet:grid-cols-2 tablet:gap-24 desktop:grid-cols-3">
             {security.map((item, i) => (
               <Reveal as="li" key={item.title} delay={(i % 3) * 100}>
                 <IconCard
@@ -369,22 +385,22 @@ export default async function DocCloudPage() {
                   headingClassName="text-h5"
                   flatOnMobile
                 >
-                  <p className="text-body-s text-text-secondary">
+                  <p className="text-text-secondary text-body-s">
                     <Short full={item.text} short={item.short} />
                   </p>
                 </IconCard>
               </Reveal>
             ))}
           </ul>
-          <p className="text-body-xs text-text-muted">
+          <p className="text-text-muted text-body-xs">
             <Short full={t("security.note")} short={t("security.noteShort")} />
           </p>
         </div>
       </section>
 
       {/* Vision du projet */}
-      <section aria-labelledby="vision-title" className="pb-64 desktop:pb-120">
-        <div className="container grid gap-16 tablet:gap-32 desktop:grid-cols-2 desktop:gap-96">
+      <section aria-labelledby="vision-title" className="py-64 desktop:py-120">
+        <div className="container grid gap-16 tablet:gap-32 desktop:grid-cols-[minmax(0,31.25rem)_minmax(0,1fr)] desktop:gap-96">
           <div className="flex flex-col gap-16">
             <Eyebrowed eyebrow={t("vision.eyebrow")} />
             <h2 id="vision-title" className="text-h2 text-text-primary">
