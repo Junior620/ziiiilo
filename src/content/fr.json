@@ -13355,5 +13355,1968 @@
       "secondary": "Démarrer un projet avec ZIIIILO",
       "descriptionShort": "Golden Beans illustre l’approche de ZIIIILO : réunir design, ingénierie logicielle, données et automatisation pour construire des plateformes adaptées aux besoins des entreprises."
     }
+  },
+  "etude-ninety-one-foot-academy": {
+    "hero": {
+      "crumb": "Ninety One Foot Academy",
+      "crumbShort": "Ninety One",
+      "badges": [
+        {
+          "text": "SportsTech · Web & Mobile · Digital Transformation",
+          "textShort": "SportsTech · Web & Mobile"
+        },
+        {
+          "text": "Plateforme livrée"
+        },
+        {
+          "text": "Certains modules en évolution",
+          "textShort": "Modules en évolution"
+        }
+      ],
+      "title": "Un écosystème numérique pour accompagner la nouvelle génération de talents du football.",
+      "lead": "ZIIIILO a réalisé pour Ninety One Foot Academy une plateforme digitale intégrant site institutionnel bilingue, gestion administrative et N91 MatchLab, un outil d’analyse et de suivi sportif sur web et mobile.",
+      "leadShort": "Site institutionnel bilingue, gestion administrative et N91 MatchLab, un outil d’analyse et de suivi sportif sur web et mobile, réalisés par ZIIIILO pour Ninety One Foot Academy.",
+      "primary": "Visiter le site officiel",
+      "secondary": "Découvrir les réalisations ZIIIILO",
+      "secondaryShort": "Découvrir nos réalisations",
+      "note": "Réalisation ZIIIILO SARL pour Ninety One Foot Academy (Douala) · site public : ninetyonefootacademy.com",
+      "noteShort": "Réalisation ZIIIILO SARL pour Ninety One Foot Academy (Douala) · ninetyonefootacademy.com",
+      "laptopAlt": "Capture réelle de l’accueil du site Ninety One Foot Academy en français, photos de joueurs floutées",
+      "phoneAlt": "Maquette conceptuelle de MatchLab mobile : saisie d’un match en direct avec des données fictives",
+      "chipLaptop": "Capture réelle - photos floutées",
+      "chipPhone": "MatchLab mobile : maquette conceptuelle",
+      "chipShort": "Site réel (photos floutées) · MatchLab conceptuel"
+    },
+    "contexte": {
+      "eyebrow": "Le contexte",
+      "title": "Digitaliser les opérations d’une académie de football.",
+      "description": "Communication, candidatures, joueurs, catégories, calendrier, évaluations, préparations tactiques, rapports, documents et autorisations parentales : des outils dispersés rendent le suivi complexe. L’enjeu : centraliser l’information pour mieux accompagner le développement sportif.",
+      "descriptionShort": "Des outils dispersés compliquent le suivi : l’enjeu est de centraliser l’information pour mieux accompagner le développement sportif.",
+      "items": [
+        {
+          "title": "Communication et recrutement",
+          "text": "Présenter l’académie aux familles et partenaires, recevoir les candidatures.",
+          "textShort": "Présenter l’académie et recevoir les candidatures."
+        },
+        {
+          "title": "Administration",
+          "text": "Comptes, rôles, dossiers et documents traités au même endroit.",
+          "textShort": "Comptes, rôles, dossiers et documents."
+        },
+        {
+          "title": "Formation et évaluation",
+          "text": "Suivre chaque joueur selon sa catégorie et son poste.",
+          "textShort": "Suivre chaque joueur selon son poste."
+        },
+        {
+          "title": "Analyse sportive",
+          "text": "Préparer les matchs, observer, évaluer et produire des rapports.",
+          "textShort": "Préparer, observer, évaluer, rapporter."
+        }
+      ],
+      "note": "Chaque intervenant accède aux fonctions nécessaires selon ses responsabilités. Ces enjeux décrivent le besoin, pas des résultats mesurés.",
+      "noteShort": "Ces enjeux décrivent le besoin, pas des résultats mesurés."
+    },
+    "piliers": {
+      "eyebrow": "Trois piliers",
+      "title": "Trois solutions, un écosystème.",
+      "description": "Un site public bilingue, un espace privé pour l’administration du club et N91 MatchLab pour le staff sportif. Les deux espaces sécurisés ont chacun leur propre authentification.",
+      "descriptionShort": "Site public, espace privé du club et N91 MatchLab, avec des authentifications distinctes.",
+      "label": "Schéma fonctionnel — comptes et authentifications distincts",
+      "labelShort": "Schéma fonctionnel — comptes distincts",
+      "blocks": [
+        {
+          "title": "Site officiel",
+          "text": "Communication, contenus et candidatures, en français et en anglais.",
+          "textShort": "Communication, contenus, candidatures."
+        },
+        {
+          "title": "Espace privé",
+          "text": "Gestion des comptes, des rôles et des dossiers de candidature.",
+          "textShort": "Comptes, rôles, dossiers de candidature."
+        },
+        {
+          "title": "N91 MatchLab",
+          "text": "Préparation, observation, évaluation et analyse sportive, sur web et mobile.",
+          "textShort": "Analyse sportive, web et mobile."
+        }
+      ],
+      "items": [
+        {
+          "title": "Le candidat dépose son dossier",
+          "text": "Le site transmet la candidature à l’espace privé, où l’administration la traite.",
+          "textShort": "L’administration le traite dans l’espace privé."
+        },
+        {
+          "title": "Des comptes distincts",
+          "text": "L’espace privé et MatchLab ne partagent pas les mêmes identifiants.",
+          "textShort": "Espace privé et MatchLab : identifiants séparés."
+        },
+        {
+          "title": "Des accès selon le rôle",
+          "text": "Chaque profil ne voit que les fonctions et données qui le concernent.",
+          "textShort": "Chacun ne voit que ce qui le concerne."
+        }
+      ]
+    },
+    "sitePublic": {
+      "eyebrow": "Site public",
+      "title": "Une vitrine bilingue à l’image des ambitions du club.",
+      "description": "Accueil, club, saison, équipes U14 à U18, formation, médias, partenaires et candidatures : un site responsive en français et en anglais, orienté candidature.",
+      "descriptionShort": "Club, saison, équipes U14 à U18, formation, médias, partenaires et candidatures, en français et en anglais.",
+      "accueil": {
+        "url": "ninetyonefootacademy.com/fr/accueil",
+        "alt": "Capture réelle de la page d’accueil en français du site Ninety One Foot Academy, photos de joueurs floutées",
+        "caption": "Capture réelle — accueil (photos de joueurs floutées)",
+        "captionShort": "Capture réelle — accueil (photos floutées)"
+      },
+      "equipes": {
+        "url": "ninetyonefootacademy.com/fr/equipes",
+        "alt": "Capture réelle de la page des équipes U-14, U-16 et U-18, photos floutées",
+        "caption": "Capture réelle — équipes U-14, U-16, U-18 (photos floutées)"
+      },
+      "programme": {
+        "url": "ninetyonefootacademy.com/fr/programme",
+        "alt": "Capture réelle de la page Programme 2026–2029 présentant un parcours en cinq étapes",
+        "caption": "Capture réelle — programme 2026–2029, parcours en 5 étapes"
+      },
+      "actualites": {
+        "url": "ninetyonefootacademy.com/fr/actualites",
+        "alt": "Capture réelle de la page Actualités avec recherche, rubriques et archives",
+        "caption": "Capture réelle — actualités : recherche, rubriques, archives"
+      },
+      "points": [
+        {
+          "title": "Bilingue",
+          "text": "Chaque page existe en français et en anglais.",
+          "textShort": "Chaque page en français et en anglais."
+        },
+        {
+          "title": "Actualités et saison",
+          "text": "Recherche, rubriques et archives ; calendrier et résultats affichés une fois confirmés.",
+          "textShort": "Résultats affichés une fois confirmés."
+        },
+        {
+          "title": "Orienté candidature",
+          "text": "Le bouton « Rejoindre » reste visible sur toutes les pages.",
+          "textShort": "« Rejoindre » toujours visible."
+        }
+      ]
+    },
+    "candidature": {
+      "eyebrow": "Candidature numérique",
+      "title": "Simplifier le parcours de candidature des jeunes joueurs.",
+      "description": "Un formulaire en cinq étapes guide le candidat et sa famille. L’application génère une fiche PDF, stocke le dossier de manière privée et envoie un accusé de réception ; l’administration le traite depuis son espace.",
+      "descriptionShort": "Formulaire en cinq étapes, fiche PDF générée, dossier stocké de manière privée, accusé de réception.",
+      "steps": [
+        {
+          "title": "Découverte",
+          "text": "Le candidat découvre l’académie et ses conditions.",
+          "textShort": "Conditions et programme."
+        },
+        {
+          "title": "Formulaire",
+          "text": "Informations du joueur, contacts et parcours sportif.",
+          "textShort": "Joueur, contacts, parcours."
+        },
+        {
+          "title": "Pièces justificatives",
+          "text": "Photo, documents, déclaration et autorisations.",
+          "textShort": "Photo, documents, autorisations."
+        },
+        {
+          "title": "Fiche PDF",
+          "text": "Dossier généré et stocké de manière privée.",
+          "textShort": "Générée et stockée en privé."
+        },
+        {
+          "title": "Validation administrative",
+          "titleShort": "Validation",
+          "text": "Examen du dossier par l’administration.",
+          "textShort": "Examen par l’administration."
+        }
+      ],
+      "highlight": "Étape clé · traitement",
+      "capture": {
+        "url": "ninetyonefootacademy.com/fr/rejoindre",
+        "alt": "Capture réelle de la fiche d’enregistrement en cinq étapes, formulaire vide sans donnée de candidat",
+        "caption": "Capture réelle — « Fiche d’enregistrement » en 5 étapes, formulaire vide (aucune donnée de candidat)",
+        "captionShort": "Capture réelle — formulaire vide en 5 étapes (aucune donnée de candidat)"
+      },
+      "fieldsTitle": "Étapes du formulaire",
+      "fields": [
+        {
+          "text": "Photo & joueur"
+        },
+        {
+          "text": "Contacts"
+        },
+        {
+          "text": "Parcours"
+        },
+        {
+          "text": "Santé"
+        },
+        {
+          "text": "Documents & déclaration",
+          "textShort": "Documents"
+        }
+      ],
+      "afterTitle": "Après l’envoi",
+      "after": [
+        {
+          "title": "Fiche PDF générée",
+          "text": "Le dossier complet est mis en forme automatiquement.",
+          "textShort": "Dossier mis en forme automatiquement."
+        },
+        {
+          "title": "Stockage privé",
+          "text": "Pièces et photo ne sont pas publiques.",
+          "textShort": "Pièces et photo non publiques."
+        },
+        {
+          "title": "Accusé de réception",
+          "text": "La famille reçoit une confirmation par e-mail.",
+          "textShort": "Confirmation envoyée par e-mail."
+        }
+      ],
+      "note": "Représentation anonymisée : formulaire vide, aucune donnée de candidat. Le site affiche ses conditions, dont l’autorisation parentale.",
+      "noteShort": "Représentation anonymisée : formulaire vide, aucune donnée de candidat."
+    },
+    "administration": {
+      "eyebrow": "Espace privé",
+      "title": "Centraliser les opérations essentielles.",
+      "description": "Inscription soumise à validation administrative, comptes associés à des rôles, examen des candidatures et consultation des dossiers PDF.",
+      "descriptionShort": "Validation des inscriptions, rôles, examen des candidatures et consultation des dossiers PDF.",
+      "mockupAlt": "Maquette conceptuelle de l’espace privé : liste de candidatures fictives avec catégorie, pièces, fiche PDF et statut",
+      "items": [
+        {
+          "title": "Comptes",
+          "text": "Demandes de compte consultées et validées par l’administration.",
+          "textShort": "Demandes validées par l’administration."
+        },
+        {
+          "title": "Candidatures",
+          "text": "Dossiers reçus examinés, PDF associés consultables.",
+          "textShort": "Dossiers et PDF consultables."
+        },
+        {
+          "title": "Rôles",
+          "text": "Chaque compte est associé à un rôle et à ses droits.",
+          "textShort": "Droits associés à chaque compte."
+        },
+        {
+          "title": "Documents",
+          "text": "Pièces et fiches stockées de manière privée.",
+          "textShort": "Stockés de manière privée."
+        }
+      ],
+      "note": "Opérationnel : administration des comptes et des candidatures. Vues parent, joueur et coach : maquettes fonctionnelles avec données d’exemple, connexion aux données réelles prévue ultérieurement.",
+      "noteShort": "Opérationnel : comptes et candidatures. Vues parent, joueur et coach : maquettes avec données d’exemple, connexion aux données réelles prévue."
+    },
+    "matchlab": {
+      "eyebrow": "N91 MatchLab",
+      "title": "La donnée au service de l’analyse sportive.",
+      "description": "Observer. Analyser. Comprendre. Faire progresser. MatchLab accompagne le cycle complet d’un match : préparation, observation, évaluation, analyse, rapport, progression.",
+      "descriptionShort": "Observer. Analyser. Comprendre. Faire progresser. Le cycle complet d’un match, de la préparation au rapport.",
+      "mockupAlt": "Maquette conceptuelle du tableau de bord N91 MatchLab avec des matchs, joueurs et rapports fictifs",
+      "caption": "Maquette conceptuelle — tableau de bord, données fictives",
+      "items": [
+        {
+          "title": "Cycle complet du match",
+          "text": "Matchs, effectif, salle d’analyse, cellule tactique, rapports, analytique, vidéothèque, dossiers clubs.",
+          "textShort": "Matchs, effectif, analyse, tactique, rapports, vidéothèque."
+        },
+        {
+          "title": "Aide à la décision",
+          "text": "La recommandation aide au tri. La décision reste au staff."
+        },
+        {
+          "title": "Assistant à règles",
+          "text": "Un assistant local prépare certaines actions, sans rien modifier sans validation.",
+          "textShort": "Prépare certaines actions, sans rien modifier sans validation."
+        }
+      ],
+      "note": "Maquette conceptuelle avec des données fictives : MatchLab est un espace privé, non capturé. Aucun moteur d’intelligence artificielle externe n’est activé.",
+      "noteShort": "MatchLab est un espace privé : écran conceptuel, données fictives. Aucun moteur d’IA externe n’est activé."
+    },
+    "analyse": {
+      "eyebrow": "Analyse des performances",
+      "title": "Des évaluations structurées, compréhensibles et traçables.",
+      "description": "Chaque joueur est évalué selon son poste, avec des critères pondérés, des observations et un historique : le calcul reste transparent pour le staff.",
+      "descriptionShort": "Critères par poste, pondérations, observations et historique, avec un calcul transparent.",
+      "items": [
+        {
+          "title": "Évaluation par poste",
+          "text": "Questions communes et questions propres au poste du joueur.",
+          "textShort": "Questions communes et propres au poste."
+        },
+        {
+          "title": "Critères pondérés",
+          "text": "40 % de questions communes, 60 % de questions du poste.",
+          "textShort": "40 % communs, 60 % poste."
+        },
+        {
+          "title": "Note sur 10",
+          "text": "La note individuelle est ramenée sur 10.",
+          "textShort": "Note individuelle ramenée sur 10."
+        },
+        {
+          "title": "« Non observé » exclu",
+          "text": "Un critère non observé ne pèse pas dans le calcul.",
+          "textShort": "Ne pèse pas dans le calcul."
+        },
+        {
+          "title": "Statut de confiance",
+          "text": "Moins de cinq joueurs évalués : performance « À confirmer ».",
+          "textShort": "Moins de 5 joueurs évalués : « À confirmer »."
+        },
+        {
+          "title": "Contexte du match",
+          "text": "Les circonstances éclairent le rapport sans modifier les notes.",
+          "textShort": "Éclaire le rapport, sans modifier les notes."
+        }
+      ],
+      "mockupAlt": "Maquette conceptuelle d’une fiche joueur fictive avec une évaluation pondérée par critère, note sur 10 et progression",
+      "caption": "Maquette conceptuelle — joueur fictif, notes fictives, méthode de calcul réelle",
+      "captionShort": "Maquette conceptuelle — joueur fictif, méthode de calcul réelle"
+    },
+    "direct": {
+      "eyebrow": "Match en direct",
+      "title": "Une application pensée pour le bord du terrain.",
+      "description": "Sur téléphone ou tablette, le staff saisit les actions, prend des notes et prépare les synthèses, même sans connexion.",
+      "descriptionShort": "Actions, notes et synthèses saisies sur téléphone ou tablette, même hors connexion.",
+      "liveAlt": "Maquette conceptuelle de MatchLab mobile : saisie rapide des actions d’un match fictif, hors connexion",
+      "squadAlt": "Maquette conceptuelle de MatchLab mobile : effectif U16 composé de joueurs fictifs",
+      "caption": "Maquettes conceptuelles — données fictives ; le mode direct n’enregistre pas de vidéo",
+      "captionShort": "Maquettes conceptuelles — données fictives, sans enregistrement vidéo",
+      "listTitle": "Au bord du terrain",
+      "items": [
+        {
+          "title": "Saisie des actions",
+          "text": "Tir, passe clé, récupération, perte, duel, faute : en un geste.",
+          "textShort": "Tir, passe clé, récupération, duel…"
+        },
+        {
+          "title": "Notes et observations",
+          "text": "Horodatées pendant la rencontre.",
+          "textShort": "Horodatées pendant le match."
+        },
+        {
+          "title": "Synthèses",
+          "text": "À la mi-temps et en fin de match.",
+          "textShort": "Mi-temps et fin de match."
+        },
+        {
+          "title": "Hors connexion",
+          "text": "Actions mises en attente puis synchronisées au retour du réseau.",
+          "textShort": "Synchronisation au retour du réseau."
+        }
+      ],
+      "note": "Le mode direct n’enregistre pas la vidéo. Écrans présentés : maquettes conceptuelles avec des données fictives.",
+      "noteShort": "Le mode direct n’enregistre pas la vidéo."
+    },
+    "tactique": {
+      "eyebrow": "Terrain tactique",
+      "title": "Préparer les scénarios avant de les vivre sur le terrain.",
+      "description": "Positionner les joueurs, organiser une composition, simuler des déplacements, dessiner passes et tirs, puis comparer des scénarios.",
+      "descriptionShort": "Positionner, composer, simuler des déplacements, dessiner passes et tirs, comparer des scénarios.",
+      "mockupAlt": "Maquette conceptuelle du terrain tactique : composition 4-3-3 et scénario de pressing haut avec des équipes fictives",
+      "caption": "Maquette conceptuelle — équipes et joueurs fictifs (format paysage)",
+      "items": [
+        {
+          "title": "Positionner les joueurs",
+          "text": "Placer et déplacer chaque joueur sur le terrain.",
+          "textShort": "Placer et déplacer chaque joueur."
+        },
+        {
+          "title": "Compositions",
+          "text": "Organiser un système de jeu et le modifier.",
+          "textShort": "Organiser un système de jeu."
+        },
+        {
+          "title": "Passes, déplacements, tirs",
+          "text": "Flèches tactiques pour représenter les actions.",
+          "textShort": "Flèches tactiques."
+        },
+        {
+          "title": "Scénarios",
+          "text": "Préparer et comparer plusieurs plans de jeu.",
+          "textShort": "Préparer et comparer des plans."
+        },
+        {
+          "title": "Catégorie supérieure",
+          "text": "Simuler un joueur dans une catégorie supérieure, sans effet sur l’effectif.",
+          "textShort": "Simuler un joueur en catégorie supérieure."
+        }
+      ],
+      "note": "Équipes, joueurs et scénarios fictifs. Format paysage pour la lisibilité du terrain.",
+      "noteShort": "Équipes, joueurs et scénarios fictifs."
+    },
+    "webMobile": {
+      "eyebrow": "Web et mobile",
+      "title": "Une même plateforme, sur le terrain comme au bureau.",
+      "description": "MatchLab fonctionne sur le web et dispose d’une première version mobile iOS et Android (React Native, Expo), compatible tablette, qui exploite la même infrastructure et les mêmes règles métier.",
+      "descriptionShort": "MatchLab web et une première version mobile iOS et Android (React Native, Expo), compatible tablette, sur la même infrastructure.",
+      "web": "Web · tableau de bord",
+      "tablet": "Tablette · terrain tactique",
+      "phone": "Smartphone · V1 mobile",
+      "note": "V1 mobile : authentification, tableau de bord, effectif, fiches joueurs, préparation de match, terrain tactique, évaluations par poste, clôture de match, rapports, hors connexion avec synchronisation sans écraser les modifications concurrentes. V2 prévue (non livrée) : vidéo, notifications, partage des PDF, assistant. Écrans : maquettes conceptuelles.",
+      "noteShort": "V1 : authentification, tableau de bord, effectif, fiches joueurs, préparation de match, terrain tactique, évaluations, clôture de match, rapports, hors connexion. V2 prévue, non livrée : vidéo, notifications, partage des PDF, assistant."
+    },
+    "rapports": {
+      "eyebrow": "Rapports sportifs",
+      "title": "Transformer les observations en rapports exploitables.",
+      "description": "Fiches de match, rapports collectifs et individuels, exports PDF A4, et dossiers de présentation validés par la direction avant tout envoi à un club.",
+      "descriptionShort": "Fiches de match, rapports collectifs et individuels, exports PDF A4 et dossiers validés pour les clubs.",
+      "steps": [
+        {
+          "title": "Fiche match",
+          "text": "Informations de rencontre et notes collectives.",
+          "textShort": "Infos et notes collectives."
+        },
+        {
+          "title": "Rapport collectif",
+          "text": "Note collective et axes d’évaluation.",
+          "textShort": "Note et axes."
+        },
+        {
+          "title": "Rapport individuel",
+          "text": "Points forts, axes d’amélioration, temps de jeu.",
+          "textShort": "Forces, axes, minutes."
+        },
+        {
+          "title": "Export PDF A4",
+          "text": "Document prêt à partager en interne.",
+          "textShort": "Partage interne."
+        },
+        {
+          "title": "Dossier préparé",
+          "text": "Le staff prépare le dossier d’un joueur.",
+          "textShort": "Par le staff."
+        },
+        {
+          "title": "Approbation",
+          "text": "La direction valide le dossier.",
+          "textShort": "Par la direction."
+        },
+        {
+          "title": "Export pour un club",
+          "text": "PDF destiné à un club identifié.",
+          "textShort": "Club identifié."
+        },
+        {
+          "title": "Sans accès MatchLab",
+          "titleShort": "Sans accès",
+          "text": "Le club reçoit le PDF, pas d’accès à l’application.",
+          "textShort": "Pas d’accès à MatchLab."
+        }
+      ],
+      "highlight": "Étape clé · validation",
+      "mockupAlt": "Maquette conceptuelle d’un rapport de match fictif au format A4 : note collective, axes d’évaluation, joueurs",
+      "caption": "Maquette conceptuelle — rapport de match fictif au format A4",
+      "captionShort": "Maquette conceptuelle — rapport fictif au format A4",
+      "formatsTitle": "Formats d’export",
+      "formats": ["PDF A4", "Excel", "CSV", "Journal d’audit"],
+      "contentTitle": "Contenu d’un rapport",
+      "content": [
+        {
+          "title": "Note collective et axes",
+          "text": "Synthèse de l’équipe sur la rencontre.",
+          "textShort": "Synthèse de l’équipe."
+        },
+        {
+          "title": "Joueurs et temps de jeu",
+          "text": "Évaluations individuelles et minutes jouées.",
+          "textShort": "Évaluations et minutes."
+        },
+        {
+          "title": "Points forts et axes d’amélioration",
+          "titleShort": "Forces et axes d’amélioration",
+          "text": "Lecture qualitative du staff.",
+          "textShort": "Lecture du staff."
+        },
+        {
+          "title": "Références vidéo et historique",
+          "titleShort": "Vidéo et historique",
+          "text": "Séquences vérifiées et versions successives.",
+          "textShort": "Séquences vérifiées, versions."
+        }
+      ],
+      "note": "Rapports et dossiers fictifs : aucun dossier réel de joueur. Le club destinataire reçoit un PDF validé, sans accès à MatchLab.",
+      "noteShort": "Rapports et dossiers fictifs. Le club destinataire reçoit un PDF validé, sans accès à MatchLab."
+    },
+    "securite": {
+      "eyebrow": "Sécurité et confidentialité",
+      "title": "Protéger les données des jeunes talents dès la conception.",
+      "description": "Authentification, contrôle des rôles vérifié côté serveur, accès limités aux catégories et saisons attribuées, médias privés, journalisation des actions sensibles et exports contrôlés.",
+      "descriptionShort": "Rôles vérifiés côté serveur, accès par catégorie et saison, médias privés, journalisation et exports contrôlés.",
+      "items": [
+        {
+          "title": "Trois niveaux d’accès",
+          "text": "Direction : administration et validation. Staff : catégories et saisons attribuées. Lecteur : éléments partagés uniquement.",
+          "textShort": "Direction, staff (catégories attribuées), lecteur (éléments partagés)."
+        },
+        {
+          "title": "Données et médias privés",
+          "text": "Photos, vidéos et documents ne sont pas publics ; la consultation est contrôlée.",
+          "textShort": "Consultation contrôlée."
+        },
+        {
+          "title": "Consentement",
+          "text": "Le représentant légal donne son accord pour les usages concernés.",
+          "textShort": "Accord du représentant légal pour les usages concernés."
+        },
+        {
+          "title": "Traçabilité et exports",
+          "text": "Actions sensibles journalisées ; exports autorisés et contrôlés.",
+          "textShort": "Actions sensibles journalisées, exports contrôlés."
+        }
+      ],
+      "note": "Aucune certification de sécurité n’est revendiquée. Aucune donnée n’est transmise à un service d’IA externe : aucun moteur n’est activé. Les mécanismes internes ne sont pas détaillés publiquement.",
+      "noteShort": "Aucune certification revendiquée ; aucune donnée transmise à une IA externe (aucun moteur activé)."
+    },
+    "architecture": {
+      "eyebrow": "Architecture technologique",
+      "title": "Une architecture commune pour le web et le mobile.",
+      "description": "Le site officiel et MatchLab web passent par les services applicatifs ; l’application mobile MatchLab passe par l’API MatchLab. Les deux interfaces MatchLab exploitent les mêmes données et règles métier, dans Supabase.",
+      "descriptionShort": "Site et MatchLab web → services applicatifs → Supabase ; mobile → API MatchLab → Supabase. Mêmes données et règles métier.",
+      "rows": [
+        {
+          "title": "Site et MatchLab web",
+          "chips": [
+            "Next.js 16",
+            "React 19",
+            "TypeScript",
+            {
+              "text": "Tailwind CSS 4",
+              "textShort": "Tailwind 4"
+            },
+            "next-intl"
+          ]
+        },
+        {
+          "title": "MatchLab mobile",
+          "chips": [
+            "React Native",
+            "Expo SDK 58",
+            {
+              "text": "iOS · Android · tablette",
+              "desktopOnly": true
+            }
+          ]
+        },
+        {
+          "title": "Données",
+          "chips": [
+            "Supabase",
+            "PostgreSQL",
+            {
+              "text": "Authentification",
+              "textShort": "Auth"
+            },
+            "Stockage privé"
+          ]
+        },
+        {
+          "title": "Hébergement",
+          "chips": [
+            "Vercel",
+            {
+              "text": "Région Paris",
+              "textShort": "Paris"
+            }
+          ]
+        },
+        {
+          "title": "Communication",
+          "chips": ["Resend"]
+        },
+        {
+          "title": "Documents et médias",
+          "chips": [
+            "PDF",
+            "Excel",
+            "CSV",
+            {
+              "text": "MediaPipe (opérations locales)",
+              "textShort": "MediaPipe"
+            }
+          ]
+        },
+        {
+          "title": "Laboratoire IA",
+          "chips": [
+            {
+              "text": "Architecture préparée",
+              "textShort": "Préparé"
+            },
+            "Aucun moteur activé"
+          ]
+        }
+      ],
+      "note": "Flux : site officiel + MatchLab web → services applicatifs → Supabase ; MatchLab mobile → API MatchLab → Supabase. Espace privé du club et MatchLab ont des authentifications distinctes. Technologies du projet, pas des partenaires de ZIIIILO.",
+      "noteShort": "Espace privé et MatchLab : authentifications distinctes. Technologies du projet, pas des partenaires de ZIIIILO."
+    },
+    "etat": {
+      "eyebrow": "État du projet",
+      "title": "Une plateforme livrée, pensée pour évoluer.",
+      "description": "Statuts réels de chaque volet, sans confondre la première version mobile et les évolutions prévues.",
+      "descriptionShort": "Statut réel de chaque volet.",
+      "statuses": [
+        {
+          "text": "Site officiel : en production"
+        },
+        {
+          "text": "Espace privé : comptes et candidatures opérationnels ; vues parent, joueur, coach en maquette"
+        },
+        {
+          "text": "MatchLab web : livré"
+        },
+        {
+          "text": "MatchLab mobile : première version livrée dans le périmètre décrit",
+          "textShort": "MatchLab mobile : V1 livrée (périmètre décrit)"
+        },
+        {
+          "text": "Laboratoire IA : architecture préparée, aucun moteur activé",
+          "textShort": "Laboratoire IA : préparé, aucun moteur activé"
+        },
+        {
+          "text": "V2 mobile prévue : vidéo, notifications, partage des PDF, assistant",
+          "textShort": "V2 mobile prévue : vidéo, notifications, PDF, assistant"
+        }
+      ],
+      "line": "Client : Ninety One Foot Academy · Réalisation : ZIIIILO SARL · Douala, Cameroun",
+      "lineShort": "Client : Ninety One Foot Academy · Réalisation : ZIIIILO SARL",
+      "visuals": "Visuels : captures réelles des pages publiques (photos floutées) et maquettes conceptuelles de MatchLab (données fictives).",
+      "visualsShort": "Visuels : pages publiques (photos floutées) et maquettes MatchLab (données fictives).",
+      "action": "Visiter le site officiel",
+      "note": "Laboratoire IA : dix pistes documentées (analyse vidéo, préparation de match, synthèse de rapport, tendances, charge et minutes, adversaires, entraînements, notes vocales, profils recherchés, assistant évolué), non connectées.",
+      "noteShort": "Laboratoire IA : dix pistes documentées, non connectées."
+    },
+    "cta": {
+      "title": "Quand l’ingénierie logicielle rencontre la performance sportive.",
+      "description": "Cette réalisation illustre la capacité de ZIIIILO à concevoir des écosystèmes numériques réunissant expérience web, applications mobiles, processus métier, données et sécurité.",
+      "descriptionShort": "Cette réalisation illustre la capacité de ZIIIILO à concevoir des écosystèmes numériques réunissant web, mobile, processus métier, données et sécurité.",
+      "primary": "Découvrir nos réalisations",
+      "secondary": "Démarrer un projet avec ZIIIILO"
+    }
+  },
+  "etude-agora-film-invest": {
+    "hero": {
+      "crumb": "Agora Film Invest",
+      "badges": [
+        {
+          "text": "CreativeTech · Web Design · Cinéma & Audiovisuel",
+          "textShort": "CreativeTech · Cinéma"
+        },
+        {
+          "text": "Site en production"
+        },
+        {
+          "text": "Refonte réalisée par ZIIIILO",
+          "textShort": "Refonte ZIIIILO"
+        }
+      ],
+      "title": "Une expérience digitale à la hauteur d’une ambition cinématographique internationale.",
+      "lead": "Pour Agora Film Invest, société de production et de promotion cinématographique basée en Guadeloupe, ZIIIILO a réalisé la refonte du site : identité artistique, valorisation des productions et expérience responsive.",
+      "leadShort": "ZIIIILO a réalisé la refonte du site d’Agora Film Invest, société de production cinématographique basée en Guadeloupe.",
+      "primary": "Visiter Agora Film Invest",
+      "secondary": "Voir toutes nos réalisations",
+      "note": "Refonte du site réalisée par ZIIIILO SARL (novembre 2026). Le pied de page public mentionne encore « Site réalisé par Fastgraphiste » (capture non retouchée).",
+      "noteShort": "Refonte du site réalisée par ZIIIILO. Le pied de page public mentionne encore Fastgraphiste.",
+      "laptopAlt": "Capture réelle de l’accueil d’agorafilminvest.com sur ordinateur : bandeau cinématographique et navigation fixe",
+      "phoneAlt": "Capture réelle de l’accueil d’agorafilminvest.com sur smartphone, rendu à 390 px",
+      "chipLaptop": "Capture réelle - agorafilminvest.com",
+      "chipPhone": "Vue mobile : rendu réel à 390 px",
+      "chipShort": "Captures réelles · agorafilminvest.com"
+    },
+    "contexte": {
+      "eyebrow": "Le contexte",
+      "title": "Mettre en lumière une identité cinématographique singulière.",
+      "description": "Agora Film Invest produit, coproduit et promeut des œuvres entre la Caraïbe, l’Afrique, l’Europe et les Amériques. Son site s’adresse aux auteurs, réalisateurs, coproducteurs, diffuseurs, festivals et partenaires : il doit refléter sa personnalité artistique et sa crédibilité professionnelle.",
+      "descriptionShort": "Une société tournée vers la Caraïbe, l’Afrique, l’Europe et les Amériques, qui doit refléter sa personnalité artistique et sa crédibilité.",
+      "items": [
+        {
+          "title": "Valoriser les productions",
+          "text": "Films, documentaires et projets présentés sous une forme attractive.",
+          "textShort": "Films et projets présentés de façon attractive."
+        },
+        {
+          "title": "Renforcer l’identité",
+          "text": "Une expérience fidèle au logo et à l’univers de la société.",
+          "textShort": "Fidèle au logo et à l’univers de la société."
+        },
+        {
+          "title": "Faciliter les partenariats",
+          "text": "Activités, productions, équipe et coordonnées faciles à trouver.",
+          "textShort": "Activités, équipe, coordonnées accessibles."
+        },
+        {
+          "title": "Informer et rester accessible",
+          "titleShort": "Informer, sur tous les écrans",
+          "text": "Actualités, festivals et distinctions, sur tous les écrans.",
+          "textShort": "Actualités, festivals, distinctions."
+        }
+      ],
+      "note": "Message : traduire une identité artistique en une expérience digitale professionnelle. Ces objectifs ne sont pas des résultats mesurés.",
+      "noteShort": "Objectifs du projet, pas des résultats mesurés."
+    },
+    "identite": {
+      "eyebrow": "Identité visuelle",
+      "title": "Une direction artistique inspirée de l’univers du cinéma.",
+      "description": "Prune, sable et noir issus du logo, typographie Raleway, titres en majuscules soulignés d’un trait sable, sections contrastées, photographies de tournage et affiches.",
+      "descriptionShort": "Prune, sable et noir issus du logo, Raleway, titres en majuscules soulignés d’un trait sable.",
+      "capture": {
+        "url": "agorafilminvest.com/#realisations",
+        "alt": "Capture réelle de la section « Nos réalisations » : cartes noires, titres sable et affiches de films",
+        "caption": "Capture réelle — section « Nos réalisations » : cartes noires, titres sable, affiches",
+        "captionShort": "Capture réelle — cartes noires, titres sable, affiches"
+      },
+      "paletteTitle": "Palette du site Agora Film Invest",
+      "swatches": [
+        {
+          "name": "Prune",
+          "hex": "#35203A"
+        },
+        {
+          "name": "Sable",
+          "hex": "#D8C39D"
+        },
+        {
+          "name": "Sable foncé",
+          "hex": "#B89B6A"
+        },
+        {
+          "name": "Vert",
+          "hex": "#007F59"
+        },
+        {
+          "name": "Noir",
+          "hex": "#000000"
+        }
+      ],
+      "paletteNote": "Typographie : Raleway, pour les titres et les textes. Couleurs issues du logo ; le vert existant colore la section « Nos produits ».",
+      "paletteNoteShort": "Typographie : Raleway. Le vert colore la section « Nos produits ».",
+      "items": [
+        {
+          "title": "Titres en majuscules",
+          "text": "Typographie forte, soulignée d’un trait sable.",
+          "textShort": "Soulignés d’un trait sable."
+        },
+        {
+          "title": "Sections contrastées",
+          "text": "Alternance de fonds clairs, noirs et verts pour rythmer la lecture.",
+          "textShort": "Fonds clairs, noirs et verts."
+        },
+        {
+          "title": "Images de cinéma",
+          "text": "Photographies de tournage, affiches et galerie au premier plan.",
+          "textShort": "Tournages, affiches et galerie."
+        }
+      ],
+      "note": "Charte du client Agora Film Invest, montrée comme caractéristique du site : elle ne remplace pas la charte ZIIIILO, et seuls les éléments confirmés sont attribués à ZIIIILO.",
+      "noteShort": "Charte du client, distincte de la charte ZIIIILO."
+    },
+    "onePage": {
+      "eyebrow": "Expérience one-page",
+      "title": "Une navigation fluide pour raconter l’histoire d’Agora Film Invest.",
+      "description": "Une seule page, des sections reliées par une navigation fixe et des liens d’ancrage : le visiteur parcourt l’histoire de la société sans se disperser.",
+      "descriptionShort": "Une seule page, une navigation fixe et des liens d’ancrage.",
+      "steps": [
+        {
+          "title": "Accueil",
+          "text": "Hero, accroche et accès aux réalisations.",
+          "textShort": "Hero et accroche."
+        },
+        {
+          "title": "Présentation",
+          "text": "Qui sommes-nous et à propos.",
+          "textShort": "Qui sommes-nous."
+        },
+        {
+          "title": "Réalisations",
+          "text": "Films, affiches, projet en développement.",
+          "textShort": "Films et projet."
+        },
+        {
+          "title": "Produits",
+          "text": "Vidéo et affiche en grand format.",
+          "textShort": "Vidéo et affiche."
+        },
+        {
+          "title": "Actualités",
+          "text": "Festivals, distinctions, événements.",
+          "textShort": "Festivals, distinctions."
+        },
+        {
+          "title": "Équipe",
+          "text": "Les talents derrière les productions.",
+          "textShort": "Les talents."
+        },
+        {
+          "title": "Contact",
+          "text": "E-mail, téléphone, formulaire.",
+          "textShort": "E-mail, formulaire."
+        }
+      ],
+      "capture": {
+        "url": "agorafilminvest.com",
+        "alt": "Capture réelle de l’accueil d’agorafilminvest.com avec la navigation fixe vers les sections",
+        "caption": "Capture réelle — navigation fixe vers les sections du site",
+        "captionShort": "Capture réelle — navigation fixe vers les sections"
+      },
+      "items": [
+        {
+          "title": "Navigation fixe",
+          "text": "Le menu reste accessible pendant tout le défilement.",
+          "textShort": "Menu accessible pendant le défilement."
+        },
+        {
+          "title": "Accès rapide",
+          "text": "Liens d’ancrage vers chaque section."
+        },
+        {
+          "title": "Hiérarchie claire",
+          "text": "Titres en majuscules et sections bien séparées.",
+          "textShort": "Titres forts, sections séparées."
+        },
+        {
+          "title": "Lecture progressive",
+          "text": "Apparitions discrètes au défilement."
+        },
+        {
+          "title": "Adaptation mobile",
+          "text": "Menu mobile dédié et sections empilées.",
+          "textShort": "Menu mobile dédié."
+        }
+      ],
+      "note": "Le site est en français ; un sélecteur de langue est présent dans l’en-tête.",
+      "noteShort": "Site en français, sélecteur de langue dans l’en-tête."
+    },
+    "films": {
+      "eyebrow": "Valorisation des films",
+      "title": "Mettre les productions au premier plan.",
+      "description": "Affiches, auteurs, coproducteurs, formats et synopsis : chaque production est présentée dans une carte éditoriale. « Tout le monde est là (Here We Are) », « Le cinéma de Guizmo & MrClap » et le projet en développement « L’autre clef ».",
+      "descriptionShort": "Affiches, auteurs, coproducteurs, formats et synopsis dans des cartes éditoriales.",
+      "realisations": {
+        "url": "agorafilminvest.com/#realisations",
+        "alt": "Capture réelle de la section « Nos réalisations » : affiche, distinction, format, coproduction et auteur du film",
+        "caption": "Capture réelle — « Nos réalisations » : affiche, distinction du film, format, coproduction, auteur",
+        "captionShort": "Capture réelle — « Tout le monde est là (Here We Are) »"
+      },
+      "projet": {
+        "url": "agorafilminvest.com/#realisations",
+        "alt": "Capture réelle de la fiche « L’autre clef », présentée comme projet en développement",
+        "caption": "Capture réelle — « L’autre clef », présenté comme projet en développement",
+        "captionShort": "Capture réelle — « L’autre clef », projet en développement"
+      },
+      "points": [
+        {
+          "title": "Affiches et informations de production",
+          "titleShort": "Informations de production",
+          "text": "Format, durée, coproducteurs et auteur pour chaque film.",
+          "textShort": "Format, durée, coproduction, auteur."
+        },
+        {
+          "title": "Statuts respectés",
+          "text": "« L’autre clef » reste présenté comme un projet en développement.",
+          "textShort": "« L’autre clef » reste un projet en développement."
+        },
+        {
+          "title": "Distinctions des films",
+          "text": "Affichées pour les œuvres concernées, sans lien avec le travail web.",
+          "textShort": "Sans lien avec le travail web."
+        }
+      ]
+    },
+    "multimedia": {
+      "eyebrow": "Multimédia et galerie",
+      "title": "Donner une place centrale aux images et aux récits.",
+      "description": "Mosaïque de photographies de tournage et d’événements, vidéo YouTube, affiches en grand format et agrandissement des visuels.",
+      "descriptionShort": "Mosaïque photo, vidéo YouTube, affiches en grand format, agrandissement des visuels.",
+      "galerie": {
+        "url": "agorafilminvest.com/#galerie",
+        "alt": "Capture réelle de la section « Agora Film Invest en images » : mosaïque de photographies de tournage",
+        "caption": "Capture réelle — « Agora Film Invest en images » : mosaïque photographique",
+        "captionShort": "Capture réelle — « Agora Film Invest en images »"
+      },
+      "produits": {
+        "url": "agorafilminvest.com/#produits",
+        "alt": "Capture réelle de la section « Nos produits » : vidéo YouTube et affiche en grand format",
+        "caption": "Capture réelle — « Nos produits » : vidéo YouTube et affiche en grand format",
+        "captionShort": "Capture réelle — vidéo et affiche"
+      },
+      "note": "Agrandissement des visuels avec fermeture au clavier. Photos, affiches et vidéos appartiennent à Agora Film Invest et à leurs ayants droit ; elles sont montrées pour représenter fidèlement le site.",
+      "noteShort": "Visuels d’Agora Film Invest et de leurs ayants droit, montrés pour représenter le site."
+    },
+    "actualites": {
+      "eyebrow": "Actualités",
+      "title": "Une vitrine vivante pour les actualités et les distinctions.",
+      "description": "Une actualité à la une sur fond noir, puis des cartes pour les festivals, projections, lancements et événements.",
+      "descriptionShort": "Une actualité à la une, puis des cartes pour les festivals, projections et événements.",
+      "items": [
+        {
+          "title": "Actualité à la une",
+          "text": "Carte noire, affiche, date et lieu mis en avant.",
+          "textShort": "Carte noire, affiche, date et lieu."
+        },
+        {
+          "title": "Festivals",
+          "text": "Présence à Cannes 2026 et autres rendez-vous.",
+          "textShort": "Cannes 2026 et autres rendez-vous."
+        },
+        {
+          "title": "Distinctions des films",
+          "text": "Meilleur documentaire au LEKKIFEST 2026 pour « Tout le monde est là ».",
+          "textShort": "LEKKIFEST 2026 pour « Tout le monde est là »."
+        },
+        {
+          "title": "Productions et lancements",
+          "titleShort": "Productions",
+          "text": "Annonces liées aux œuvres de la société.",
+          "textShort": "Annonces liées aux œuvres."
+        },
+        {
+          "title": "Lien vers le film",
+          "text": "Bouton « Découvrir le film » depuis l’actualité.",
+          "textShort": "« Découvrir le film »."
+        },
+        {
+          "title": "Traitement graphique",
+          "text": "Badges sable, titres forts, hiérarchie lisible.",
+          "textShort": "Badges sable, titres forts."
+        }
+      ],
+      "capture": {
+        "url": "agorafilminvest.com/#actualites",
+        "alt": "Capture réelle de l’actualité à la une : distinction du film « Tout le monde est là » au LEKKIFEST 2026",
+        "caption": "Capture réelle — actualité à la une ; la distinction récompense le film, pas le travail web de ZIIIILO",
+        "captionShort": "Capture réelle — la distinction récompense le film, pas le travail web"
+      }
+    },
+    "equipe": {
+      "eyebrow": "Équipe et partenaires",
+      "title": "Donner un visage aux talents derrière les productions.",
+      "description": "Dix-sept membres présentés avec photographie, nom et fonction, sur fond noir, et un bandeau « Ils nous ont fait confiance » pour les partenaires de la société.",
+      "descriptionShort": "Dix-sept membres avec photo, nom et fonction, et les partenaires de la société.",
+      "capture": {
+        "url": "agorafilminvest.com/#equipe",
+        "alt": "Capture réelle de la section « Notre équipe » : portraits circulaires, noms et fonctions",
+        "caption": "Capture réelle — « Notre équipe » : portraits circulaires, nom et fonction",
+        "captionShort": "Capture réelle — portraits, nom et fonction"
+      },
+      "listTitle": "Ce que présente la section",
+      "items": [
+        {
+          "title": "17 membres",
+          "text": "Photographie, nom et fonction de chacun.",
+          "textShort": "Photo, nom, fonction."
+        },
+        {
+          "title": "Grille responsive",
+          "text": "Quatre colonnes sur ordinateur, deux sur mobile.",
+          "textShort": "Deux portraits par ligne sur mobile."
+        },
+        {
+          "title": "Partenaires",
+          "text": "Logos des organisations associées à la société.",
+          "textShort": "Logos des organisations associées."
+        },
+        {
+          "title": "Métiers du cinéma",
+          "text": "Production, réalisation, image, marketing, finance.",
+          "textShort": "Production, réalisation, image…"
+        }
+      ],
+      "note": "Les partenaires, productions et distinctions sont ceux d’Agora Film Invest : ce ne sont ni des clients, ni des partenaires, ni des récompenses de ZIIIILO.",
+      "noteShort": "Partenaires, productions et distinctions d’Agora Film Invest, pas de ZIIIILO."
+    },
+    "refonte": {
+      "eyebrow": "Refonte",
+      "title": "Une expérience repensée jusque dans les détails.",
+      "description": "Choix de conception de la refonte réalisée par ZIIIILO (novembre 2026).",
+      "descriptionShort": "Choix de conception de la refonte ZIIIILO (novembre 2026).",
+      "items": [
+        {
+          "text": "Harmonisation des couleurs"
+        },
+        {
+          "text": "Lisibilité du logo"
+        },
+        {
+          "text": "Refonte des titres"
+        },
+        {
+          "text": "Amélioration des boutons"
+        },
+        {
+          "text": "Recomposition de certaines cartes",
+          "textShort": "Recomposition de cartes"
+        },
+        {
+          "text": "Menu mobile"
+        },
+        {
+          "text": "Correction des débordements",
+          "textShort": "Débordements corrigés"
+        },
+        {
+          "text": "Navigation réparée"
+        },
+        {
+          "text": "Optimisation des images"
+        },
+        {
+          "text": "Améliorations de l’accessibilité",
+          "textShort": "Accessibilité améliorée"
+        },
+        {
+          "text": "Nouveau favicon"
+        },
+        {
+          "text": "Nouvelle image de partage"
+        }
+      ],
+      "line": "Avant / après : aucune capture de l’ancienne version n’est disponible.",
+      "lineShort": "Avant / après : aucune capture de l’ancienne version disponible.",
+      "visuals": "La page montre la version actuelle et la liste des améliorations documentées ; aucune fausse capture historique.",
+      "visualsShort": "Version actuelle et liste des améliorations documentées.",
+      "action": "Voir le site actuel",
+      "note": "Périmètre : refonte du site réalisée par ZIIIILO SARL ; la mention Fastgraphiste visible dans le pied de page public n’a pas été retirée des captures.",
+      "noteShort": "Refonte réalisée par ZIIIILO."
+    },
+    "responsive": {
+      "eyebrow": "Responsive",
+      "title": "Une expérience cinématographique sur tous les écrans.",
+      "description": "Navigation, cartes de films, actualités et équipe se réorganisent du grand écran au smartphone, avec un menu mobile dédié.",
+      "descriptionShort": "Navigation, cartes de films, actualités et équipe s’adaptent au smartphone.",
+      "desktopAlt": "Capture réelle de l’accueil d’agorafilminvest.com sur ordinateur",
+      "realisationsAlt": "Capture réelle de la section « Nos réalisations » sur smartphone, à 390 px",
+      "actualitesAlt": "Capture réelle de la section « Actualités » sur smartphone, à 390 px",
+      "caption": "Captures réelles — accueil en desktop, réalisations et actualités à 390 px",
+      "captionShort": "Captures réelles — desktop et 390 px",
+      "screensTitle": "Écrans vérifiés",
+      "screens": ["Ordinateur", "Tablette", "Mobile 390 px", "Menu mobile"],
+      "adaptTitle": "Ce qui s’adapte",
+      "items": [
+        {
+          "title": "Navigation",
+          "text": "Menu fixe sur ordinateur, menu mobile plein écran.",
+          "textShort": "Menu mobile plein écran."
+        },
+        {
+          "title": "Cartes de films",
+          "text": "Affiche au-dessus du texte sur mobile.",
+          "textShort": "Affiche au-dessus du texte."
+        },
+        {
+          "title": "Actualités",
+          "text": "Carte à la une empilée, badges conservés.",
+          "textShort": "Carte à la une empilée."
+        },
+        {
+          "title": "Équipe",
+          "text": "Grille de deux portraits par ligne.",
+          "textShort": "Deux portraits par ligne."
+        }
+      ],
+      "note": "Captures réelles en desktop et à 390 px. Le site a été vérifié sur tablette ; aucune capture tablette n’est présentée ici.",
+      "noteShort": "Site vérifié sur tablette ; aucune capture tablette présentée."
+    },
+    "performance": {
+      "eyebrow": "Performance et accessibilité",
+      "title": "L’expérience visuelle sans sacrifier la fluidité.",
+      "description": "Des images lourdes au cœur du propos, un site pré-généré et des animations légères, avec une attention portée au clavier et aux préférences de mouvement.",
+      "descriptionShort": "Images optimisées, site pré-généré, animations légères, navigation au clavier.",
+      "items": [
+        {
+          "title": "Images optimisées",
+          "text": "WebP, AVIF et tailles adaptées ; exemple ponctuel : une image réduite de 17 Mo à environ 850 Ko.",
+          "textShort": "WebP, AVIF ; une image réduite de 17 Mo à environ 850 Ko."
+        },
+        {
+          "title": "Site pré-généré",
+          "text": "Pages statiques servies rapidement, sans base de données.",
+          "textShort": "Pages statiques, sans base de données."
+        },
+        {
+          "title": "Animations légères",
+          "text": "Apparitions au défilement, réduites si l’utilisateur le demande.",
+          "textShort": "Réduites si l’utilisateur le demande."
+        },
+        {
+          "title": "Accessibilité",
+          "text": "Clavier, focus visible, lien d’accès direct au contenu, textes alternatifs.",
+          "textShort": "Clavier, focus visible, accès direct au contenu."
+        }
+      ],
+      "note": "Aucun score Lighthouse n’est revendiqué. La réduction de 17 Mo à 850 Ko concerne une image, selon la documentation du projet.",
+      "noteShort": "Aucun score Lighthouse revendiqué ; l’exemple de 17 Mo concerne une seule image."
+    },
+    "seo": {
+      "eyebrow": "SEO et image de marque",
+      "title": "Une présence digitale pensée pour être trouvée et partagée.",
+      "description": "Métadonnées, sitemap, robots.txt, données structurées, image Open Graph, favicon et QR code : le site se présente correctement dans les moteurs et sur les réseaux.",
+      "descriptionShort": "Métadonnées, sitemap, robots.txt, données structurées, image Open Graph, favicon et QR code.",
+      "label": "Chaîne de référencement et de partage",
+      "labelShort": "Référencement et partage",
+      "blocks": [
+        {
+          "title": "Métadonnées",
+          "text": "Titre, description et données structurées de la société.",
+          "textShort": "Titre, description, données structurées."
+        },
+        {
+          "title": "Sitemap et robots.txt",
+          "text": "Les moteurs trouvent et explorent la page.",
+          "textShort": "Exploration par les moteurs."
+        },
+        {
+          "title": "Partage",
+          "text": "Image Open Graph, favicon et QR code du site.",
+          "textShort": "Image Open Graph, favicon, QR code."
+        }
+      ],
+      "ogAlt": "Image Open Graph réelle d’agorafilminvest.com",
+      "ogDomain": "AGORAFILMINVEST.COM",
+      "ogTitle": "Agora Film Invest — Production & promotion cinéma (Caraïbe, Afrique, Europe)",
+      "iconAlt": "Icône réelle du site agorafilminvest.com",
+      "iconCaption": "Icône du site (fichier réel)",
+      "ogNote": "Aperçu de partage simulé : l’image et le titre sont ceux publiés par le site ; la mise en forme varie selon le réseau.",
+      "ogNoteShort": "Aperçu simulé ; image et titre réels du site.",
+      "items": [
+        {
+          "title": "Données structurées",
+          "text": "La société est décrite de façon lisible pour les moteurs.",
+          "textShort": "Société décrite pour les moteurs."
+        },
+        {
+          "title": "QR code",
+          "text": "Un accès direct au site depuis les supports imprimés.",
+          "textShort": "Accès direct depuis l’imprimé."
+        },
+        {
+          "title": "Identité cohérente",
+          "text": "Favicon et image de partage aux couleurs du logo.",
+          "textShort": "Favicon et partage aux couleurs du logo."
+        }
+      ]
+    },
+    "architecture": {
+      "eyebrow": "Architecture technologique",
+      "title": "Un socle technique moderne et maintenable.",
+      "description": "Contenus et médias → Next.js / React → génération statique → Vercel → visiteurs. Un site pré-généré, sans base de données, avec des couches d’animation, de SEO, de performance et de mesure.",
+      "descriptionShort": "Contenus → Next.js / React → génération statique → Vercel → visiteurs. Sans base de données.",
+      "rows": [
+        {
+          "title": "Contenus et médias",
+          "chips": [
+            "Textes",
+            "Affiches",
+            {
+              "text": "Photographies",
+              "textShort": "Photos"
+            },
+            {
+              "text": "Vidéos YouTube",
+              "textShort": "YouTube"
+            }
+          ]
+        },
+        {
+          "title": "Interface",
+          "chips": [
+            "Next.js 16",
+            "React 19",
+            "TypeScript",
+            {
+              "text": "Tailwind CSS",
+              "textShort": "Tailwind"
+            }
+          ]
+        },
+        {
+          "title": "Animations",
+          "chips": [
+            "GSAP",
+            {
+              "text": "Réduction des mouvements",
+              "desktopOnly": true
+            }
+          ]
+        },
+        {
+          "title": "Génération",
+          "chips": [
+            {
+              "text": "Site statique pré-généré",
+              "textShort": "Statique"
+            },
+            "Sans base de données"
+          ]
+        },
+        {
+          "title": "Images",
+          "chips": [
+            "WebP",
+            "AVIF",
+            {
+              "text": "Tailles adaptées",
+              "desktopOnly": true
+            }
+          ]
+        },
+        {
+          "title": "Hébergement et code",
+          "chips": [
+            "Vercel",
+            "HTTPS",
+            {
+              "text": "Déploiement automatisé",
+              "desktopOnly": true
+            },
+            "Git"
+          ]
+        },
+        {
+          "title": "Mesure",
+          "chips": [
+            {
+              "text": "Vercel Analytics",
+              "textShort": "Analytics"
+            },
+            "Speed Insights"
+          ]
+        }
+      ],
+      "note": "Aucun CMS ni microservice : le site est statique. Technologies du projet, présentées comme une architecture intégrée, pas comme des partenaires de ZIIIILO.",
+      "noteShort": "Aucun CMS ni microservice. Technologies du projet, pas des partenaires de ZIIIILO."
+    },
+    "contact": {
+      "eyebrow": "Contact et conversion",
+      "title": "Faciliter les échanges avec les professionnels du cinéma.",
+      "description": "Bouton « Nous contacter » toujours visible, e-mail et téléphone cliquables, et un formulaire qui prépare le message dans la messagerie du visiteur.",
+      "descriptionShort": "E-mail et téléphone cliquables, formulaire qui prépare le message dans la messagerie du visiteur.",
+      "steps": [
+        {
+          "title": "Visiteur",
+          "text": "Découvre les productions et l’équipe.",
+          "textShort": "Découvre les productions."
+        },
+        {
+          "title": "Nous contacter",
+          "text": "Accès direct depuis l’en-tête et le hero.",
+          "textShort": "Accès depuis l’en-tête."
+        },
+        {
+          "title": "E-mail ou téléphone",
+          "text": "Liens cliquables."
+        },
+        {
+          "title": "Formulaire",
+          "text": "Prénom, nom, e-mail, téléphone, objet, message.",
+          "textShort": "Prénom, nom, objet, message."
+        },
+        {
+          "title": "Messagerie du visiteur",
+          "text": "Le message s’ouvre pré-rempli, prêt à envoyer.",
+          "textShort": "Message pré-rempli."
+        }
+      ],
+      "highlight": "Étape clé · message pré-rempli",
+      "capture": {
+        "url": "agorafilminvest.com/#contact",
+        "alt": "Capture réelle de la section contact : coordonnées et formulaire",
+        "caption": "Capture réelle — « Le bouton ouvre votre messagerie avec le message pré-rempli. »"
+      },
+      "fieldsTitle": "Champs du formulaire",
+      "fields": ["Prénom", "Nom", "E-mail", "Téléphone", "Objet"],
+      "howTitle": "Fonctionnement réel",
+      "how": [
+        {
+          "title": "Message préparé dans la messagerie",
+          "titleShort": "Message dans la messagerie",
+          "text": "Le bouton ouvre le logiciel de messagerie du visiteur.",
+          "textShort": "Le visiteur l’envoie lui-même."
+        },
+        {
+          "title": "Aucun stockage serveur",
+          "text": "Pas de base de demandes, de CRM ni de notification automatique.",
+          "textShort": "Ni CRM, ni notification automatique."
+        },
+        {
+          "title": "E-mail et téléphone cliquables",
+          "text": "Contact direct depuis ordinateur ou mobile.",
+          "textShort": "Contact direct depuis le mobile."
+        }
+      ],
+      "note": "Le formulaire ne transmet rien à un serveur : il prépare un e-mail que le visiteur envoie lui-même.",
+      "noteShort": "Le formulaire ne transmet rien à un serveur."
+    },
+    "resultat": {
+      "eyebrow": "Résultat",
+      "title": "Une vitrine digitale au service d’une identité culturelle et artistique.",
+      "description": "Les caractéristiques du site en production, décrites par leur périmètre fonctionnel.",
+      "descriptionShort": "Caractéristiques du site en production.",
+      "items": [
+        {
+          "text": "Site one-page en production"
+        },
+        {
+          "text": "Treize sections"
+        },
+        {
+          "text": "Présentation des productions",
+          "textShort": "Productions"
+        },
+        {
+          "text": "Présentation de l’équipe",
+          "textShort": "Équipe"
+        },
+        {
+          "text": "Galerie"
+        },
+        {
+          "text": "Actualités"
+        },
+        {
+          "text": "Contact"
+        },
+        {
+          "text": "Navigation responsive"
+        },
+        {
+          "text": "Images optimisées"
+        },
+        {
+          "text": "SEO"
+        },
+        {
+          "text": "Améliorations d’accessibilité",
+          "textShort": "Accessibilité améliorée"
+        },
+        {
+          "text": "Hébergement Vercel"
+        }
+      ],
+      "line": "Client : Agora Film Invest (Guadeloupe) · Refonte du site : ZIIIILO SARL",
+      "lineShort": "Client : Agora Film Invest · Refonte du site : ZIIIILO SARL",
+      "visuals": "Visuels : captures réelles d’agorafilminvest.com (22/11/2026) · le pied de page public mentionne encore Fastgraphiste (capture non retouchée).",
+      "visualsShort": "Captures réelles (22/11/2026) · mention Fastgraphiste du pied de page non retouchée.",
+      "note": "Périmètre fonctionnel, pas des résultats commerciaux mesurés. Aucune statistique ni avis client n’est présenté.",
+      "noteShort": "Périmètre fonctionnel, pas des résultats commerciaux."
+    },
+    "cta": {
+      "title": "La technologie au service des industries créatives.",
+      "description": "À travers ses interventions sur des projets comme Agora Film Invest, ZIIIILO met ses compétences en développement web, design numérique et optimisation d’expérience utilisateur au service d’organisations aux univers et besoins variés.",
+      "descriptionShort": "À travers ses interventions sur des projets comme Agora Film Invest, ZIIIILO met le développement web, le design numérique et l’optimisation de l’expérience utilisateur au service d’univers variés.",
+      "primary": "Voir nos réalisations",
+      "secondary": "Confiez-nous votre projet"
+    }
+  },
+  "etude-cocoatrack": {
+    "hero": {
+      "crumb": "CocoaTrack",
+      "badges": [
+        {
+          "text": "AgriTech · GeoTech · Enterprise Software"
+        },
+        {
+          "text": "Solution métier interne"
+        },
+        {
+          "text": "Maquettes conceptuelles"
+        }
+      ],
+      "title": "De la parcelle au produit fini : une nouvelle dimension de la traçabilité agricole.",
+      "lead": "CocoaTrack est une plateforme développée par ZIIIILO pour STE-SCPB afin de centraliser les données agricoles, cartographier les parcelles, surveiller les risques environnementaux et suivre les produits jusqu’aux opérations industrielles.",
+      "leadShort": "CocoaTrack, développée par ZIIIILO pour STE-SCPB, centralise les données agricoles, cartographie les parcelles, surveille les risques environnementaux et suit les produits jusqu’à l’usine.",
+      "primary": "Découvrir les modules",
+      "secondary": "Parler de votre projet",
+      "note": "Présentation privée — étude détaillée de CocoaTrack, solution métier interne de STE-SCPB. Publication et niveau de détail public soumis à validation. Visuels : maquettes conceptuelles, données fictives.",
+      "noteShort": "Présentation privée — solution métier interne de STE-SCPB. Publication soumise à validation. Maquettes conceptuelles, données fictives.",
+      "chip": "Maquettes conceptuelles — données fictives",
+      "dashboardAlt": "Maquette conceptuelle du tableau de bord CocoaTrack, données fictives",
+      "passportAlt": "Maquette conceptuelle du passeport lot CocoaTrack, données fictives",
+      "fieldAlt": "Maquette conceptuelle de l’application terrain hors connexion, données fictives",
+      "mockupCaption": "Maquette conceptuelle — données fictives"
+    },
+    "defi": {
+      "eyebrow": "Le défi",
+      "title": "Connecter une chaîne de valeur historiquement fragmentée.",
+      "description": "Dans la filière cacao, les informations circulent entre coopératives, agents de terrain, acheteurs et usine. Elles sont souvent réparties entre supports papier, tableurs et relevés isolés.",
+      "descriptionShort": "Les informations de la filière sont souvent réparties entre supports papier, tableurs et relevés isolés.",
+      "fragmented": {
+        "title": "Processus fragmenté",
+        "text": "Plusieurs sources de données, des transferts manuels et des informations séparées.",
+        "textShort": "Plusieurs sources, des transferts manuels, des informations séparées.",
+        "sources": [
+          {
+            "text": "Cahiers de collecte"
+          },
+          {
+            "text": "Tableurs"
+          },
+          {
+            "text": "Fiches producteurs"
+          },
+          {
+            "text": "Relevés GPS"
+          },
+          {
+            "text": "Factures papier"
+          },
+          {
+            "text": "Bordereaux de livraison",
+            "textShort": "Bordereaux"
+          },
+          {
+            "text": "Documents de contrôle"
+          },
+          {
+            "text": "Registres de production"
+          },
+          {
+            "text": "Rapports de certification"
+          }
+        ]
+      },
+      "approach": {
+        "title": "Approche CocoaTrack",
+        "text": "Une plateforme structurée reliant acteurs, parcelles, transactions et opérations industrielles.",
+        "textShort": "Une plateforme structurée qui relie acteurs, parcelles, transactions et opérations industrielles.",
+        "hub": "CocoaTrack",
+        "domains": ["Producteurs", "Parcelles", "Achats", "Satellite", "Usine", "Lots"]
+      },
+      "difficultiesTitle": "Ce que la fragmentation complique",
+      "difficulties": [
+        "Identifier l’origine des lots",
+        "Vérifier les transactions",
+        "Surveiller les risques environnementaux",
+        "Tracer les transformations",
+        "Préparer les dossiers demandés par les acheteurs",
+        "Piloter les opérations"
+      ],
+      "note": "Message central : une chaîne de valeur complexe mérite une information centralisée et traçable. Aucun gain chiffré n’est revendiqué.",
+      "noteShort": "Une chaîne de valeur complexe mérite une information centralisée et traçable. Aucun gain chiffré n’est revendiqué."
+    },
+    "solution": {
+      "eyebrow": "La solution",
+      "title": "Une plateforme, une chaîne d’information continue.",
+      "description": "Sept domaines fonctionnels partagent les mêmes référentiels (producteurs, parcelles, lots, documents) pour conserver le lien entre chaque étape.",
+      "descriptionShort": "Sept domaines partagent les mêmes référentiels : producteurs, parcelles, lots et documents.",
+      "pillars": [
+        {
+          "title": "Gestion des producteurs",
+          "features": [
+            "Registre des planteurs",
+            "Coopératives et chefs-planteurs",
+            "Profils producteurs",
+            "Affectation des parcelles",
+            "Historique des livraisons",
+            "Alertes de suivi"
+          ],
+          "summary": "Registre des planteurs, coopératives, chefs-planteurs, profils, affectation des parcelles, historique des livraisons, alertes."
+        },
+        {
+          "title": "Cartographie agricole",
+          "features": [
+            "Parcelles géolocalisées",
+            "Contours GPS et surfaces",
+            "Carte interactive",
+            "Import de fichiers géospatiaux",
+            "Association producteurs / parcelles"
+          ],
+          "summary": "Parcelles géolocalisées, contours GPS, surfaces, carte interactive, import de fichiers géospatiaux."
+        },
+        {
+          "title": "Achats et documents",
+          "features": [
+            "Livraisons et pesées",
+            "Qualité et prix",
+            "Reçus et factures",
+            "Lecture OCR des reçus",
+            "Vérification des doublons"
+          ],
+          "summary": "Livraisons, pesées, qualité, prix, reçus, factures, OCR, vérification des doublons."
+        },
+        {
+          "title": "Intelligence satellite",
+          "features": [
+            "Surveillance des parcelles",
+            "Changements de couverture végétale",
+            "Indices de végétation",
+            "Stress hydrique",
+            "Priorisation des visites"
+          ],
+          "summary": "Surveillance des parcelles, couverture végétale, indices, stress hydrique, priorisation des visites."
+        },
+        {
+          "title": "Traçabilité et préparation EUDR",
+          "features": [
+            "Géolocalisation",
+            "Analyse du risque de déforestation",
+            "Documents justificatifs",
+            "Historique des lots",
+            "Rapports et exports"
+          ],
+          "summary": "Géolocalisation, risque de déforestation, documents justificatifs, historique des lots, rapports."
+        },
+        {
+          "title": "Gestion industrielle",
+          "features": [
+            "Réception et lots",
+            "Qualité et stocks",
+            "Production et cuves",
+            "Expéditions",
+            "Généalogie des lots"
+          ],
+          "summary": "Réception, lots, qualité, stocks, production, cuves, expéditions, généalogie des lots."
+        },
+        {
+          "title": "Pilotage opérationnel",
+          "features": [
+            "Tableaux de bord et rapports",
+            "Utilisateurs et rôles",
+            "Alertes et exports",
+            "Journal d’audit",
+            "Synchronisation hors ligne"
+          ],
+          "summary": "Tableaux de bord, rapports, rôles, alertes, exports, journal d’audit, synchronisation hors ligne."
+        }
+      ],
+      "thread": {
+        "title": "Un fil conducteur",
+        "text": "Les identifiants producteur, parcelle et lot relient la collecte, les analyses et la transformation dans un même historique.",
+        "chips": ["Producteur", "Parcelle", "Livraison", "Lot"]
+      },
+      "note": "Fonctionnalités décrites d’après la documentation du projet ; le statut de déploiement de chaque module reste à confirmer.",
+      "noteShort": "Fonctionnalités décrites d’après la documentation du projet ; statut de déploiement à confirmer."
+    },
+    "planteurs": {
+      "eyebrow": "Planteurs et coopératives",
+      "title": "Un registre unique pour chaque producteur et ses parcelles.",
+      "description": "La fiche « Planteur 360 » rassemble l’identité du producteur, sa coopérative, son chef-planteur, ses parcelles, ses livraisons, ses alertes et la complétude de ses informations.",
+      "descriptionShort": "La fiche « Planteur 360 » rassemble identité, coopérative, chef-planteur, parcelles, livraisons, alertes et complétude.",
+      "hierarchyTitle": "Hiérarchie opérationnelle",
+      "levels": ["Coopérative", "Chef-planteur", "Producteur", "Parcelles et livraisons"],
+      "example": "Exemple de structure. Profils, noms et identifiants fictifs.",
+      "mockupAlt": "Maquette conceptuelle de la fiche Planteur 360 : producteur, coopérative, parcelles et livraisons fictifs",
+      "note": "Aucune véritable donnée personnelle n’est utilisée : profil, coopérative et parcelles sont fictifs.",
+      "noteShort": "Profil, coopérative et parcelles fictifs. Aucune donnée personnelle réelle."
+    },
+    "cartographie": {
+      "eyebrow": "Cartographie",
+      "title": "Chaque parcelle possède une identité géographique.",
+      "description": "Contours GPS, surfaces et statuts de suivi sont rattachés au producteur sur une carte interactive. Les relevés de terrain peuvent être importés depuis plusieurs formats.",
+      "descriptionShort": "Contours GPS, surfaces et statuts de suivi rattachés au producteur sur une carte interactive.",
+      "mockupAlt": "Maquette conceptuelle de la carte interactive : parcelles et contours fictifs, une parcelle en alerte",
+      "formatsTitle": "Formats de relevés pris en charge",
+      "formats": ["KML", "KMZ", "Shapefile", "GeoJSON", "CSV"],
+      "features": [
+        "Association producteur / parcelle",
+        "Calcul des surfaces",
+        "Statuts de suivi par parcelle"
+      ],
+      "note": "Carte et contours fictifs : aucune coordonnée réelle de parcelle n’est représentée.",
+      "noteShort": "Carte et contours fictifs : aucune coordonnée réelle."
+    },
+    "achats": {
+      "eyebrow": "Achats et documents",
+      "title": "Fiabiliser les opérations dès la collecte.",
+      "description": "Livraisons, pesées, qualité, reçus et factures sont centralisés. La lecture automatique des reçus accélère la saisie, sous le contrôle d’un responsable.",
+      "descriptionShort": "Livraisons, pesées, qualité, reçus et factures sont centralisés ; la lecture automatique des reçus accélère la saisie.",
+      "steps": [
+        {
+          "title": "Document numérisé",
+          "text": "Le reçu est photographié ou scanné."
+        },
+        {
+          "title": "Extraction OCR",
+          "text": "Numéro, date, vendeur, acheteur, lieu et mode de paiement sont proposés.",
+          "textShort": "Numéro, date, vendeur, acheteur, lieu, mode de paiement."
+        },
+        {
+          "title": "Vérification humaine",
+          "text": "Un responsable confirme ou corrige chaque champ."
+        },
+        {
+          "title": "Enregistrement",
+          "text": "Le reçu est rattaché à la livraison et au producteur ; les doublons sont signalés.",
+          "textShort": "Reçu rattaché à la livraison ; doublons signalés."
+        }
+      ],
+      "dataTitle": "Données d’une livraison",
+      "data": ["Producteur", "Origine", "Poids", "Humidité", "Grade", "Prix au kg", "Date", "Référence"],
+      "mockupAlt": "Maquette conceptuelle de la lecture des reçus : champs extraits à vérifier, document et données fictifs",
+      "note": "L’OCR (AWS Textract) est une assistance à la saisie, pas une garantie d’exactitude : chaque extraction est vérifiée avant validation.",
+      "noteShort": "L’OCR (AWS Textract) assiste la saisie ; il ne garantit pas l’exactitude des données."
+    },
+    "satellite": {
+      "eyebrow": "Intelligence satellite",
+      "title": "Observer les parcelles au-delà des visites terrain.",
+      "description": "CocoaTrack exploite des données Sentinel-2 traitées avec Google Earth Engine, des données météorologiques et des indices de végétation pour suivre l’évolution des parcelles et prioriser les contrôles.",
+      "descriptionShort": "Données Sentinel-2 traitées avec Google Earth Engine, données météorologiques et indices de végétation.",
+      "mockupAlt": "Maquette conceptuelle de la surveillance satellite : parcelles fictives, indices de végétation simulés",
+      "indices": [
+        {
+          "name": "NDVI",
+          "text": "Indice de végétation"
+        },
+        {
+          "name": "EVI",
+          "text": "Indice amélioré de végétation"
+        },
+        {
+          "name": "NDRE",
+          "text": "Lié à certaines caractéristiques de la végétation"
+        },
+        {
+          "name": "NDMI",
+          "text": "Humidité de la végétation"
+        },
+        {
+          "name": "NDWI",
+          "text": "Eau ou humidité, selon la formulation"
+        },
+        {
+          "name": "SAVI",
+          "text": "Végétation ajustée au sol"
+        }
+      ],
+      "analyzeTitle": "Ce que les données aident à analyser",
+      "analyze": [
+        "Tendances de végétation",
+        "Variations saisonnières",
+        "Risques de stress hydrique",
+        "Changements suspects",
+        "Priorités de contrôle terrain"
+      ],
+      "analyzeShort": "Tendances de végétation, variations saisonnières, risques de stress hydrique, changements suspects, priorités de contrôle terrain.",
+      "reference": {
+        "title": "Date de référence : 31 décembre 2020",
+        "text": "La plateforme prévoit de comparer les informations géospatiales à cette date de référence. Une alerte satellite ne constitue pas, à elle seule, une preuve juridique de déforestation ou de conformité EUDR : elle identifie une parcelle à vérifier.",
+        "textShort": "Une alerte satellite ne constitue pas, à elle seule, une preuve juridique de déforestation ou de conformité EUDR : elle identifie une parcelle à vérifier."
+      },
+      "note": "Imagerie et résultats simulés à des fins d’illustration : aucune analyse réelle n’est présentée.",
+      "noteShort": "Imagerie et résultats simulés à des fins d’illustration."
+    },
+    "eudr": {
+      "eyebrow": "Traçabilité EUDR",
+      "title": "Structurer les preuves et les contrôles de traçabilité.",
+      "description": "Des données structurées pour renforcer la transparence et la diligence raisonnée, dans le contexte du règlement européen contre la déforestation.",
+      "descriptionShort": "Des données structurées pour renforcer la transparence et la diligence raisonnée.",
+      "functions": [
+        "Origine des produits",
+        "Parcelles géolocalisées",
+        "Données environnementales",
+        "Historique des livraisons",
+        "Chaîne des lots",
+        "Rapports par parcelle",
+        "Exports",
+        "Statuts de vérification"
+      ],
+      "caution": {
+        "title": "Ce que CocoaTrack ne promet pas",
+        "text": "La plateforme fournit des données, des analyses et des outils de documentation. Elle ne garantit pas automatiquement la conformité EUDR : celle-ci dépend aussi de la fiabilité des données, des vérifications nécessaires, des obligations applicables et des procédures de chaque opérateur.",
+        "textShort": "La plateforme fournit des données, des analyses et des outils de documentation. Elle ne garantit pas automatiquement la conformité EUDR, qui dépend aussi des données, des vérifications, des obligations applicables et des procédures de chaque opérateur."
+      }
+    },
+    "usine": {
+      "eyebrow": "Module usine",
+      "title": "Prolonger la traçabilité jusqu’à la transformation industrielle.",
+      "description": "CocoaTrack ne s’arrête pas à l’achat du cacao : le module usine suit les produits de la réception jusqu’à l’expédition, en conservant le lien avec leur origine.",
+      "descriptionShort": "Le module usine suit les produits de la réception jusqu’à l’expédition, en conservant le lien avec leur origine.",
+      "agriLabel": "Traçabilité agricole",
+      "indusLabel": "Traçabilité industrielle",
+      "chain": [
+        "Parcelle",
+        "Producteur",
+        "Livraison",
+        "Réception usine",
+        "Stock",
+        "Transformation",
+        "Produit fini",
+        "Expédition"
+      ],
+      "chainNote": "Le système conserve les identifiants (producteur, parcelle, livraison, lot) à chaque étape pour relier le produit expédié à son origine.",
+      "modules": [
+        {
+          "title": "Réception",
+          "text": "Livraisons réceptionnées et associées à des lots."
+        },
+        {
+          "title": "Qualité",
+          "text": "Grade, humidité, décisions, historique et libération des lots."
+        },
+        {
+          "title": "Stocks",
+          "text": "Fèves, zones, emplacements, conditionnement et mouvements."
+        },
+        {
+          "title": "Production",
+          "text": "Recettes, ordres de fabrication, entrées, sorties, paramètres et pertes."
+        },
+        {
+          "title": "Cuves",
+          "text": "Contenus et mouvements des produits intermédiaires."
+        },
+        {
+          "title": "Expéditions",
+          "text": "Préparation et suivi des lots expédiés."
+        }
+      ],
+      "mockupAlt": "Maquette conceptuelle du module usine : lots, cuves et ordres de fabrication fictifs",
+      "note": "Lots, cuves, quantités et ordres de fabrication fictifs. Aucune information stratégique de production n’est représentée.",
+      "noteShort": "Lots, cuves et quantités fictifs.",
+      "chainShort": [
+        "Parcelle",
+        "Producteur",
+        "Livraison — traçabilité agricole",
+        "Réception usine — traçabilité industrielle",
+        "Stock",
+        "Transformation",
+        "Produit fini",
+        "Expédition"
+      ]
+    },
+    "passeport": {
+      "eyebrow": "Passeport lot",
+      "title": "Retrouver l’histoire d’un produit à partir de son lot.",
+      "description": "Une fiche centralisée rassemble l’origine, les parcelles, les livraisons, la qualité, les transformations, le conditionnement et les statuts documentaires et environnementaux.",
+      "descriptionShort": "Origine, parcelles, livraisons, qualité, transformations, conditionnement et statuts réunis dans une fiche.",
+      "mockupAlt": "Maquette conceptuelle du passeport lot : généalogie, références et statuts fictifs",
+      "statusAlt": "Détail recadré des statuts documentaires et environnementaux du passeport lot, données fictives",
+      "chips": [
+        "Origine",
+        "Parcelles",
+        "Livraisons",
+        "Qualité",
+        "Transformations",
+        "Conditionnement",
+        "Statuts documentaires",
+        "Statuts environnementaux"
+      ],
+      "note": "Généalogie, références et statuts fictifs."
+    },
+    "terrain": {
+      "eyebrow": "Application terrain",
+      "title": "Une plateforme pensée pour fonctionner même sans réseau.",
+      "description": "Dans les zones où la connexion est limitée, certaines opérations peuvent être réalisées depuis un téléphone ou une tablette, puis synchronisées au retour du réseau.",
+      "descriptionShort": "Certaines opérations peuvent être réalisées sans connexion, puis synchronisées au retour du réseau.",
+      "functions": [
+        "Installation comme application web",
+        "Consultation des données disponibles localement",
+        "Saisie hors ligne",
+        "Mise en attente des opérations",
+        "Synchronisation au retour du réseau",
+        "Détection des conflits"
+      ],
+      "functionsShort": [
+        "Installation comme application web",
+        "Consultation des données disponibles localement",
+        "Saisie hors ligne et mise en attente",
+        "Synchronisation au retour du réseau",
+        "Détection des conflits"
+      ],
+      "offline": "État 1 — Hors connexion",
+      "offlineShort": "Hors connexion",
+      "online": "État 2 — Connexion rétablie",
+      "onlineShort": "Connexion rétablie",
+      "offlineAlt": "Maquette conceptuelle de l’application terrain hors connexion : nouvelle livraison enregistrée sur l’appareil, données fictives",
+      "onlineAlt": "Maquette conceptuelle de l’application terrain à la reconnexion : synchronisation et conflit à résoudre, données fictives",
+      "note": "Écrans mobiles conceptuels et données de démonstration."
+    },
+    "pilotage": {
+      "eyebrow": "Pilotage et analytique",
+      "title": "Transformer les opérations en informations de pilotage.",
+      "description": "Tableaux de bord, rapports, alertes et exports offrent une vue d’ensemble des activités agricoles et industrielles, selon les droits de chaque utilisateur.",
+      "descriptionShort": "Tableaux de bord, rapports, alertes et exports, selon les droits de chaque utilisateur.",
+      "indicators": [
+        "Volumes",
+        "Livraisons",
+        "Parcelles",
+        "Alertes",
+        "Statuts documentaires",
+        "Activités usine"
+      ],
+      "mockupAlt": "Maquette conceptuelle du tableau de bord CocoaTrack : indicateurs d’exemple, données fictives",
+      "note": "Tableau de bord conceptuel : aucune statistique interne réelle n’est utilisée.",
+      "noteShort": "Tableau de bord conceptuel : aucune statistique interne réelle."
+    },
+    "architecture": {
+      "eyebrow": "Architecture",
+      "title": "Une architecture connectant opérations métiers et données géospatiales.",
+      "description": "Principales briques décrites dans la documentation du projet. Aucun composant non documenté n’est ajouté.",
+      "descriptionShort": "Principales briques décrites dans la documentation du projet.",
+      "branches": [
+        {
+          "label": "Cœur applicatif",
+          "blocks": [
+            {
+              "title": "Applications web et terrain",
+              "text": "Next.js · React · interface responsive · PWA hors ligne"
+            },
+            {
+              "title": "Backend et services applicatifs",
+              "text": "Services cloud · calculs géospatiaux · cache des opérations coûteuses · monitoring"
+            },
+            {
+              "title": "Base de données",
+              "text": "PostgreSQL · Supabase · droits appliqués au niveau des données · stockage documentaire sécurisé"
+            }
+          ],
+          "summary": "Applications web et terrain (Next.js, React, PWA) → services applicatifs (cloud, calculs géospatiaux, cache, monitoring) → base de données (PostgreSQL, Supabase, droits au niveau des données)."
+        },
+        {
+          "label": "Branche satellite",
+          "blocks": [
+            {
+              "title": "Données satellite",
+              "text": "Sentinel-2 · Google Earth Engine · données météorologiques"
+            },
+            {
+              "title": "Analyse géospatiale",
+              "text": "Indices de végétation · comparaison à la référence du 31/12/2020"
+            },
+            {
+              "title": "Parcelles et alertes",
+              "text": "Statuts de vigilance · priorités de visite"
+            }
+          ],
+          "summary": "Sentinel-2 et Google Earth Engine → analyse géospatiale → parcelles et alertes."
+        },
+        {
+          "label": "Branche documentaire",
+          "blocks": [
+            {
+              "title": "Documents scannés",
+              "text": "Reçus et factures"
+            },
+            {
+              "title": "OCR",
+              "text": "AWS Textract"
+            },
+            {
+              "title": "Validation humaine",
+              "text": "Contrôle par un responsable"
+            },
+            {
+              "title": "Achats et factures",
+              "text": "Livraisons enregistrées"
+            }
+          ],
+          "summary": "Documents scannés → OCR (AWS Textract) → validation humaine → achats et factures."
+        },
+        {
+          "label": "Continuité",
+          "blocks": [
+            {
+              "title": "Données agricoles",
+              "text": "Producteurs · parcelles · livraisons"
+            },
+            {
+              "title": "Module usine",
+              "text": "Réception · stocks · production · expéditions"
+            },
+            {
+              "title": "Passeport lot",
+              "text": "Généalogie et statuts"
+            }
+          ],
+          "summary": "Données agricoles → module usine → passeport lot."
+        }
+      ],
+      "branchNote": "Les branches satellite et documentaire alimentent la même base de données que le cœur applicatif.",
+      "techs": [
+        "Next.js",
+        "React",
+        "PWA",
+        "PostgreSQL",
+        "Supabase",
+        "Google Earth Engine",
+        "Sentinel-2",
+        "AWS Textract"
+      ]
+    },
+    "securite": {
+      "eyebrow": "Sécurité",
+      "title": "Des données sensibles protégées à chaque étape.",
+      "description": "Les utilisateurs accèdent uniquement aux fonctionnalités et aux données qui leur sont autorisées. Mécanismes présentés à un niveau non confidentiel.",
+      "descriptionShort": "Chaque utilisateur accède uniquement aux fonctionnalités et aux données autorisées.",
+      "mechanisms": [
+        "Authentification nominative",
+        "Contrôle des rôles",
+        "Cloisonnement des coopératives",
+        "Autorisations au niveau des données",
+        "Connexions chiffrées",
+        "Accès temporaire aux documents",
+        "Traçabilité des modifications",
+        "Surveillance des erreurs",
+        "Contrôles applicatifs",
+        "Tests logiciels"
+      ],
+      "rolesTitle": "Rôles",
+      "roles": [
+        {
+          "title": "Administrateur",
+          "text": "Paramétrage et gestion des accès"
+        },
+        {
+          "title": "Responsable",
+          "text": "Validation et pilotage"
+        },
+        {
+          "title": "Agent",
+          "text": "Saisie et collecte terrain"
+        },
+        {
+          "title": "Lecteur",
+          "text": "Consultation selon autorisations"
+        }
+      ],
+      "rolesNote": "Répartition des rôles donnée à titre d’exemple.",
+      "note": "Pour ce portfolio : aucun nom réel de producteur, numéro de document, coordonnée GPS, prix d’achat, volume interne, identifiant de parcelle ni capture de session authentifiée n’est publié.",
+      "noteShort": "Aucun nom réel, numéro de document, coordonnée GPS, prix, volume interne ni capture authentifiée n’est publié."
+    },
+    "associees": {
+      "eyebrow": "Même contexte métier",
+      "title": "Réalisations associées pour STE-SCPB",
+      "description": "Ces projets répondent au même contexte métier. Ils ne sont pas présentés comme techniquement interconnectés.",
+      "descriptionShort": "Projets du même contexte métier, sans interconnexion technique revendiquée.",
+      "links": [
+        {
+          "slug": "ste-scpb",
+          "category": "Web Engineering · Export B2B",
+          "title": "STE-SCPB",
+          "text": "Site corporate international",
+          "textShort": "Site corporate international · Web Engineering"
+        },
+        {
+          "slug": "previsions-cacao-robusta",
+          "category": "Data Science · AgriTech",
+          "title": "Prévisions Cacao & Robusta",
+          "text": "Intelligence de marché et prévisions",
+          "textShort": "Data Science · AgriTech"
+        },
+        {
+          "slug": "scpb-commercial",
+          "category": "SalesTech · IA",
+          "title": "SCPB Commercial",
+          "text": "Prospection commerciale B2B assistée par IA",
+          "textShort": "Prospection B2B assistée par IA"
+        }
+      ],
+      "linkLabel": "Voir la réalisation",
+      "mentions": "Client : STE-SCPB · Réalisation : ZIIIILO SARL · Statut : solution métier interne · Visuels : maquettes conceptuelles, données fictives.",
+      "mentionsShort": "Client : STE-SCPB · Réalisation : ZIIIILO SARL · Solution métier interne · Maquettes conceptuelles, données fictives."
+    },
+    "cta": {
+      "title": "L’ingénierie numérique au service de la traçabilité agricole.",
+      "description": "CocoaTrack illustre la capacité de ZIIIILO à concevoir des plateformes métiers complexes combinant gestion opérationnelle, données géographiques, automatisation documentaire et suivi industriel.",
+      "primary": "Voir nos réalisations",
+      "secondary": "Parler de votre projet avec ZIIIILO"
+    }
   }
 }
