@@ -11840,6 +11840,1522 @@
       "secondary": "Découvrir nos autres réalisations"
     }
   },
+  "etude-scpb-survey": {
+    "hero": {
+      "crumb": "SCPB Survey",
+      "name": "SCPB Survey",
+      "product": "Collecte terrain",
+      "logoAlt": "SCPB Survey — Collecte terrain (représentation provisoire)",
+      "badges": ["Application mobile Android · Collecte terrain", "Pilote en préparation", "Solution métier"],
+      "title": "La collecte terrain du cacao, même sans réseau.",
+      "lead": "Les agents enregistrent les planteurs et leurs parcelles, recueillent leur consentement et font passer les enquêtes ménage, scolarisation et exploitation. Tout est synchronisé dès que le réseau revient.",
+      "primary": "Voir le parcours terrain",
+      "secondary": "Retour aux réalisations",
+      "note": "Solution réalisée par ZIIIILO pour l’entreprise SCPB · écrans conceptuels : noms, identifiants et chiffres fictifs.",
+      "visualLabel": "Maquette conceptuelle — données fictives",
+      "visualAlt": "Maquette conceptuelle de SCPB Survey sur téléphone Android : accueil de l’agent avec la campagne en cours, la synchronisation et les derniers planteurs. Données fictives."
+    },
+    "contexte": {
+      "eyebrow": "Contexte et objectifs",
+      "title": "Trois exigences de la filière cacao, une seule application.",
+      "description": "Connaître chaque producteur, localiser chaque parcelle et suivre le risque de travail des enfants, y compris en zone rurale sans réseau.",
+      "items": [
+        {
+          "title": "Registre des producteurs",
+          "text": "Une fiche par planteur, rattachée à un site et à un secteur, avec un contrôle des doublons."
+        },
+        {
+          "title": "Géolocalisation des parcelles (EUDR)",
+          "text": "Un point GPS sous 4 ha, un contour au-delà, pour répondre au règlement européen contre la déforestation."
+        },
+        {
+          "title": "Protection de l’enfant (CLMRS)",
+          "text": "Enquêtes ménage et scolarisation, détection de signaux de risque et suivi des cas de remédiation."
+        },
+        {
+          "title": "Suivi annuel des exploitations",
+          "text": "Production, pratiques agricoles et accès aux services, avec une enquête relancée à chaque campagne."
+        },
+        {
+          "title": "Travail en zone rurale",
+          "text": "Saisie complète hors ligne, envoi automatique dès le retour du réseau."
+        }
+      ],
+      "note": "SCPB Survey outille la collecte de ces informations ; l’application ne délivre pas, à elle seule, de certification de conformité."
+    },
+    "roles": {
+      "eyebrow": "Utilisateurs et rôles",
+      "title": "Six rôles, chacun dans son périmètre.",
+      "description": "Les agents ne voient que les sites auxquels l’administrateur les a affectés ; les autres rôles ont une vue sur toute la coopérative.",
+      "headers": {
+        "role": "Rôle",
+        "does": "Ce qu’il fait",
+        "scope": "Périmètre"
+      },
+      "scopes": {
+        "sites": "Ses sites",
+        "all": "Toute la coopérative"
+      },
+      "items": [
+        {
+          "title": "Agent terrain",
+          "text": "Enregistre planteurs et parcelles, recueille le consentement, fait passer les enquêtes, relève le GPS.",
+          "scope": "sites"
+        },
+        {
+          "title": "Responsable de site",
+          "text": "Mêmes actions que l’agent, plus la validation des relevés de parcelles.",
+          "scope": "sites"
+        },
+        {
+          "title": "Responsable durabilité",
+          "text": "Consulte les signalements, suit et clôture les cas de remédiation.",
+          "scope": "all"
+        },
+        {
+          "title": "Référent protection",
+          "text": "Accède aux données sensibles de protection de l’enfant.",
+          "scope": "all"
+        },
+        {
+          "title": "Auditeur",
+          "text": "Consulte en lecture seule, sans rien modifier.",
+          "scope": "all"
+        },
+        {
+          "title": "Administrateur",
+          "text": "Gère utilisateurs, sites, campagnes et questionnaires ; consulte rapports et diagnostic.",
+          "scope": "all"
+        }
+      ],
+      "note": "Un nouveau compte démarre toujours en agent terrain, sans coopérative ; seul l’administrateur attribue les rôles, et personne ne peut changer le sien."
+    },
+    "fonctionnalites": {
+      "eyebrow": "Fonctionnalités",
+      "title": "Le cœur de la collecte est opérationnel.",
+      "description": "Registre, consentement, trois enquêtes et campagnes sont disponibles. La cartographie est en test ; la traçabilité des lots et l’espace auditeur sont encore des maquettes.",
+      "available": {
+        "label": "Disponible",
+        "count": "10 modules",
+        "items": [
+          {
+            "title": "Planteurs",
+            "text": "Fiche producteur, photo, site et secteur, contrôle des doublons"
+          },
+          {
+            "title": "Consentement",
+            "text": "Recueilli une seule fois : accord, signature, photo, téléphones"
+          },
+          {
+            "title": "Enquête ménage",
+            "text": "Le planteur répond pour son ménage ; distances par plages"
+          },
+          {
+            "title": "Scolarisation et protection de l’enfant",
+            "text": "Situation scolaire et activités des enfants du ménage"
+          },
+          {
+            "title": "Enquête annuelle d’exploitation",
+            "text": "Production, pratiques et services, sur la campagne en cours"
+          },
+          {
+            "title": "Campagnes",
+            "text": "Créées par l’administrateur ; enquêtes relancées, anciennes consultables"
+          },
+          {
+            "title": "Partage par site",
+            "text": "Mêmes planteurs, consentements et enquêtes pour les agents du site"
+          },
+          {
+            "title": "Formations et missions",
+            "text": "Formations, séances, missions avec priorité et échéance"
+          },
+          {
+            "title": "Synchronisation",
+            "text": "File d’envoi, réception, résolution des conflits"
+          },
+          {
+            "title": "Administration",
+            "text": "Utilisateurs, affectation aux sites, rapports, diagnostic"
+          }
+        ]
+      },
+      "finalisation": {
+        "label": "En finalisation",
+        "count": "3 modules",
+        "items": [
+          {
+            "title": "Parcelles et cartographie",
+            "text": "Point GPS moyenné ou contour marché, contrôle de précision, surface mesurée, validation par le responsable de site.",
+            "status": "En test sur téléphone"
+          },
+          {
+            "title": "Protection de l’enfant (CLMRS)",
+            "text": "Moteur de règles explicable, score de priorité, cas de remédiation avec journal non modifiable.",
+            "status": "Moteur prêt · branchement aux enquêtes à faire"
+          },
+          {
+            "title": "Questionnaires personnalisés",
+            "text": "Éditeur, publication et affectation par l’administrateur.",
+            "status": "Disponible · diffusion aux téléphones à faire"
+          }
+        ]
+      },
+      "maquette": {
+        "label": "Maquette",
+        "count": "2 modules",
+        "items": [
+          {
+            "title": "Traçabilité des lots",
+            "text": "Post-récolte, mouvements, bordereaux de transport."
+          },
+          {
+            "title": "Espace auditeur",
+            "text": "Synthèse de conformité et export."
+          }
+        ],
+        "text": "Écrans dessinés, pas encore connectés aux données : ils ne sont pas présentés comme livrés."
+      }
+    },
+    "parcours": {
+      "eyebrow": "Parcours terrain",
+      "title": "Du premier contact à la synchronisation.",
+      "description": "Un planteur ne répond qu’une fois au consentement ; ensuite, l’agent enchaîne les enquêtes de la campagne sans redemander l’accord.",
+      "steps": [
+        {
+          "title": "Première connexion",
+          "text": "Avec réseau, une seule fois ; l’application fonctionne ensuite hors ligne."
+        },
+        {
+          "title": "Création du planteur",
+          "text": "Identité, photo, site et secteur ; un doublon possible est signalé."
+        },
+        {
+          "title": "Consentement",
+          "text": "Présentation, accord ou refus, signature, photo, téléphones. Sans accord, les enquêtes restent bloquées."
+        },
+        {
+          "title": "Fiche du planteur",
+          "text": "Les enquêtes de la campagne : « À faire », « En cours » ou « Soumise »."
+        },
+        {
+          "title": "Enquêtes",
+          "text": "Ménage, scolarisation, annuelle : enregistrées au fil de l’eau, reprises là où elles s’étaient arrêtées."
+        },
+        {
+          "title": "Parcelles",
+          "text": "Position relevée par un point GPS ou par un contour."
+        },
+        {
+          "title": "Synchronisation",
+          "text": "Au retour du réseau, envoi des données et réception de celles des collègues du site."
+        },
+        {
+          "title": "Correction",
+          "text": "Une enquête soumise s’ouvre en consultation ; l’agent peut la rouvrir pour la corriger."
+        }
+      ],
+      "highlight": "Étape clé · accord requis"
+    },
+    "apercu": {
+      "eyebrow": "Aperçu de l’application",
+      "title": "Six écrans du quotidien de l’agent.",
+      "description": "Écrans conceptuels aux couleurs de SCPB : noms, identifiants, chiffres et lieux sont fictifs ; aucune donnée d’enfant n’est représentée.",
+      "screens": [
+        {
+          "title": "Accueil agent",
+          "text": "Campagne en cours, état de la synchronisation, derniers planteurs.",
+          "alt": "Écran conceptuel de SCPB Survey, « Accueil agent » : campagne en cours, état de la synchronisation, derniers planteurs. Données fictives."
+        },
+        {
+          "title": "Fiche planteur",
+          "text": "Consentement, enquêtes de la campagne et parcelles.",
+          "alt": "Écran conceptuel de SCPB Survey, « Fiche planteur » : consentement, enquêtes de la campagne et parcelles. Données fictives."
+        },
+        {
+          "title": "Consentement",
+          "text": "Recueilli une seule fois : accord, signature, photo, téléphones.",
+          "alt": "Écran conceptuel de SCPB Survey, « Consentement » : recueilli une seule fois : accord, signature, photo, téléphones. Données fictives."
+        },
+        {
+          "title": "Enquête ménage",
+          "text": "Distances saisies par plages, réponses enregistrées sur le téléphone.",
+          "alt": "Écran conceptuel de SCPB Survey, « Enquête ménage » : distances saisies par plages, réponses enregistrées sur le téléphone. Données fictives."
+        },
+        {
+          "title": "Relevé de parcelle",
+          "text": "Point moyenné ou contour, précision et surface, module en test.",
+          "alt": "Écran conceptuel de SCPB Survey, « Relevé de parcelle » : point moyenné ou contour, précision et surface, module en test. Données fictives."
+        },
+        {
+          "title": "Synchronisation",
+          "text": "File d’envoi, nouvel essai automatique, résolution des conflits.",
+          "alt": "Écran conceptuel de SCPB Survey, « Synchronisation » : file d’envoi, nouvel essai automatique, résolution des conflits. Données fictives."
+        }
+      ],
+      "hint": "Faites glisser pour voir les six écrans →"
+    },
+    "horsLigne": {
+      "eyebrow": "Hors ligne et synchronisation",
+      "title": "Tout se saisit sans réseau ; le réseau ne sert qu’à échanger.",
+      "description": "Chaque saisie est écrite dans la base du téléphone et dans sa file d’envoi. Au retour du réseau, la file part vers le serveur et la réception ramène les données des collègues du site.",
+      "diagramLabel": "Schéma de synchronisation : le téléphone de l’agent (base locale chiffrée, file d’envoi, saisie sans réseau) envoie au serveur central Supabase (authentification, règles d’accès par ligne, stockage des fichiers) et en reçoit les données ; le serveur partage avec les téléphones des collègues du site (mêmes planteurs, mêmes enquêtes, sans les numéros de téléphone) et leur transmet les mises à jour.",
+      "nodes": [
+        {
+          "title": "Téléphone de l’agent",
+          "items": ["Base locale chiffrée", "File d’envoi", "Saisie sans réseau"]
+        },
+        {
+          "title": "Serveur central (Supabase)",
+          "items": ["Authentification", "Règles d’accès par ligne", "Stockage des fichiers"]
+        },
+        {
+          "title": "Téléphones des collègues du site",
+          "items": ["Mêmes planteurs", "Mêmes enquêtes", "Sans les numéros de téléphone"]
+        }
+      ],
+      "links": [
+        {
+          "forward": "Envoi",
+          "back": "Réception"
+        },
+        {
+          "forward": "Partage",
+          "back": "Mises à jour"
+        }
+      ],
+      "cards": [
+        {
+          "title": "Base locale",
+          "text": "Chaque enregistrement est écrit sur le téléphone avec sa file d’envoi, dans la même opération : rien n’est perdu si l’application se ferme."
+        },
+        {
+          "title": "Envoi",
+          "text": "La file part dès que le réseau revient ; en cas d’échec, l’envoi est retenté avec un délai croissant."
+        },
+        {
+          "title": "Réception",
+          "text": "Le téléphone récupère les données de ses sites modifiées depuis le dernier échange : planteurs, parcelles, consentements, enquêtes, campagnes, formations, missions et pièces jointes."
+        },
+        {
+          "title": "Conflits",
+          "text": "Si deux agents modifient la même fiche, le serveur refuse la version la plus ancienne ; l’agent choisit la version à garder."
+        },
+        {
+          "title": "Changement de compte",
+          "text": "Si un autre utilisateur se connecte, les données locales du compte précédent sont effacées, sauf s’il reste des envois en attente."
+        }
+      ]
+    },
+    "securite": {
+      "eyebrow": "Sécurité et protection des données",
+      "title": "Des données chiffrées, un accès limité au rôle et au site.",
+      "description": "Les données sont chiffrées sur le téléphone, et le serveur ne montre à chaque utilisateur que ce que son rôle et ses sites autorisent.",
+      "items": [
+        {
+          "title": "Chiffrement local",
+          "text": "Base du téléphone chiffrée (SQLCipher), clé gardée dans le coffre sécurisé d’Android, sauvegarde automatique désactivée."
+        },
+        {
+          "title": "Contrôle d’accès côté serveur",
+          "text": "Des règles par table limitent lecture et écriture à la coopérative, au site et au rôle. Un auditeur ne peut rien modifier."
+        },
+        {
+          "title": "Rôles attribués par l’administrateur",
+          "text": "Un nouveau compte démarre en agent terrain, sans coopérative ; personne ne peut changer son propre rôle."
+        },
+        {
+          "title": "Numéros de téléphone protégés",
+          "text": "Absents du consentement partagé entre agents ; lisibles seulement par leur auteur et les rôles administrateur, durabilité et protection."
+        },
+        {
+          "title": "Traçabilité des modifications",
+          "text": "Auteur d’origine et heure de chaque modification conservés ; journal non réécrivable pour les cas de remédiation."
+        },
+        {
+          "title": "Validation des relevés",
+          "text": "Seul un responsable de site ou un administrateur peut valider la géométrie d’une parcelle."
+        }
+      ],
+      "alert": {
+        "title": "Données personnelles et protection de l’enfant",
+        "text": "Identité, photo, signature, téléphones, position des parcelles et situation des enfants du ménage sont collectés après consentement et réservés aux rôles autorisés. Aucune certification de conformité n’est revendiquée."
+      }
+    },
+    "architecture": {
+      "eyebrow": "Architecture technique",
+      "title": "Une application autonome sur le téléphone, un serveur pour partager.",
+      "description": "L’application tourne entièrement sur le téléphone ; le serveur authentifie les utilisateurs, stocke les données partagées et applique les règles d’accès.",
+      "items": [
+        {
+          "title": "Application mobile",
+          "text": "Application Android complète, utilisable hors ligne.",
+          "chips": ["Expo SDK 57", "React Native 0.86", "expo-router", "TypeScript"]
+        },
+        {
+          "title": "Données locales",
+          "text": "Base chiffrée sur le téléphone, clé dans le coffre sécurisé Android.",
+          "chips": ["SQLite", "SQLCipher"]
+        },
+        {
+          "title": "Serveur",
+          "text": "Authentification, stockage de fichiers et règles d’accès par ligne.",
+          "chips": ["Supabase", "PostgreSQL"]
+        },
+        {
+          "title": "Logique métier partagée",
+          "text": "Types communs et moteur de règles CLMRS.",
+          "chips": ["Paquets internes"]
+        },
+        {
+          "title": "Géolocalisation",
+          "text": "Point moyenné et contour marché.",
+          "chips": ["expo-location"]
+        },
+        {
+          "title": "Compilation et distribution",
+          "text": "APK Android signé, installé sur les téléphones des agents.",
+          "chips": ["EAS Build", "APK signé"]
+        },
+        {
+          "title": "Qualité",
+          "text": "Contrôles exécutés à chaque évolution du code.",
+          "chips": ["Vérification des types", "Tests automatisés"]
+        }
+      ],
+      "note": "Technologies utilisées par le projet : elles ne sont pas présentées comme des partenaires de ZIIIILO."
+    },
+    "avancement": {
+      "eyebrow": "État d’avancement",
+      "title": "Prêt pour un pilote, avec une feuille de route claire.",
+      "description": "Le cœur de la collecte terrain est prêt : registre, consentement, trois enquêtes, campagnes, partage par site, chiffrement et synchronisation. Le serveur de production est à jour.",
+      "done": {
+        "title": "Réalisé récemment",
+        "items": [
+          "Audit complet de l’application : sécurité renforcée, interface alignée sur l’identité visuelle SCPB",
+          "Chiffrement de la base locale",
+          "Consentement unique par planteur ; le planteur répond à l’enquête ménage",
+          "Distances saisies par plages",
+          "Campagnes d’enquête gérées par l’administrateur",
+          "Partage des données entre agents d’un même site, sans les numéros de téléphone"
+        ]
+      },
+      "next": {
+        "title": "Prochaines étapes",
+        "label": "À venir — non livré",
+        "items": [
+          {
+            "title": "Mise en service du pilote",
+            "text": "Affecter les agents à leurs sites, créer la campagne en cours, installer la nouvelle version et tester à deux agents sur un même site."
+          },
+          {
+            "title": "Cartographie des parcelles",
+            "text": "Terminer les essais sur téléphone, puis livrer dans la version de production."
+          },
+          {
+            "title": "Protection de l’enfant",
+            "text": "Alimenter le moteur CLMRS avec les réponses des enquêtes ménage et scolarisation."
+          },
+          {
+            "title": "Questionnaires personnalisés",
+            "text": "Les envoyer automatiquement sur les téléphones des agents."
+          },
+          {
+            "title": "Formations",
+            "text": "Partager les séances et les participations entre agents."
+          },
+          {
+            "title": "Traçabilité des lots et espace auditeur",
+            "text": "Transformer les maquettes en modules connectés, avec export de conformité EUDR."
+          }
+        ]
+      }
+    },
+    "mentions": {
+      "logoAlt": "SCPB",
+      "title": "Une réalisation de ZIIIILO pour SCPB",
+      "text": "Solution conçue et développée par ZIIIILO pour l’entreprise SCPB (application Android « SCPB Survey »). Statut : pilote en préparation. Droits de propriété intellectuelle : non revendiqués ici.",
+      "action": "Voir les autres réalisations"
+    },
+    "cta": {
+      "title": "Un besoin de collecte terrain ?",
+      "description": "ZIIIILO conçoit des applications mobiles métier capables de fonctionner hors ligne, au plus près des équipes de terrain.",
+      "primary": "Discuter d’un projet avec ZIIIILO",
+      "secondary": "Découvrir nos autres réalisations"
+    }
+  },
+  "etude-ste-scpb": {
+    "hero": {
+      "crumb": "STE-SCPB",
+      "badges": [
+        "Web Engineering · Digital Experience · B2B International",
+        "En production",
+        "Site web corporate international"
+      ],
+      "title": "Une expérience digitale premium pour connecter l’agriculture camerounaise aux marchés internationaux.",
+      "lead": "ZIIIILO a conçu pour STE-SCPB une plateforme corporate multilingue combinant identité visuelle immersive, catalogue de produits, traçabilité et parcours commerciaux B2B.",
+      "primary": "Visiter le site web",
+      "newTab": "(nouvel onglet)",
+      "secondary": "Voir nos autres réalisations",
+      "note": "Réalisation ZIIIILO pour STE-SCPB · site en production · visuels : captures réelles de ste-scpb.com (21/11/2026) ; la vue mobile est un emplacement à compléter.",
+      "visualAlt": "Capture réelle de la page d’accueil de ste-scpb.com, version française, prise le 21/11/2026.",
+      "url": "ste-scpb.com",
+      "chipCapture": "Capture réelle · ste-scpb.com",
+      "chipMobile": "Vue mobile : capture à insérer",
+      "chipShort": "Capture réelle · vue mobile à insérer",
+      "phoneTitle": "Capture mobile à insérer",
+      "phoneText": "Accueil — ste-scpb.com/fr"
+    },
+    "contexte": {
+      "eyebrow": "Contexte",
+      "title": "Digitaliser la présence commerciale d’un exportateur international.",
+      "description": "STE-SCPB exporte depuis Douala des produits agricoles camerounais vers des acheteurs internationaux. Son site devait présenter cette offre avec la même exigence que la relation commerciale elle-même.",
+      "items": [
+        {
+          "title": "Présenter l’offre export",
+          "text": "Un catalogue lisible des familles de produits, avec des fiches techniques consultables avant tout échange."
+        },
+        {
+          "title": "S’adresser à plusieurs marchés",
+          "text": "Des contenus en français, en anglais et en russe pour accueillir des acheteurs de différentes zones."
+        },
+        {
+          "title": "Rendre la démarche lisible",
+          "text": "Des pages consacrées à la traçabilité et à l’EUDR pour expliquer l’approvisionnement simplement."
+        },
+        {
+          "title": "Faciliter le premier contact",
+          "text": "Un accès direct à la demande de devis export, depuis le menu comme depuis chaque fiche produit."
+        }
+      ],
+      "note": "Ces objectifs décrivent le cahier des charges du site. Aucun volume de ventes ni taux de conversion n’est communiqué pour cette réalisation."
+    },
+    "design": {
+      "eyebrow": "Défi design",
+      "title": "Une identité distinctive pour un marché exigeant.",
+      "description": "Le concept « Constellations des Commodities » présente les familles de produits comme des astres reliés entre eux, sur une palette noir et or qui affirme un positionnement premium.",
+      "capture": {
+        "alt": "Capture réelle du catalogue « Nos Produits » de ste-scpb.com : familles de produits disposées en constellation, avec filtres.",
+        "caption": "Capture réelle — page « Nos Produits » du site en production",
+        "url": "ste-scpb.com"
+      },
+      "palette": {
+        "title": "Palette du site STE-SCPB",
+        "items": [
+          {
+            "name": "Noir",
+            "value": "indicative"
+          },
+          {
+            "name": "Or",
+            "value": "#D4A853"
+          },
+          {
+            "name": "Bleu",
+            "value": "indicative"
+          },
+          {
+            "name": "Vert",
+            "value": "indicative"
+          },
+          {
+            "name": "Ambre",
+            "value": "indicative"
+          }
+        ],
+        "text": "Le noir du fond et l’or des actions structurent l’interface ; le bleu, le vert et l’ambre interviennent en accents ponctuels."
+      },
+      "items": [
+        {
+          "title": "Immersion",
+          "text": "Scènes 3D, vidéos d’ambiance et animations au défilement installent l’univers du cacao et du café dès l’accueil."
+        },
+        {
+          "title": "Lisibilité des actions",
+          "text": "L’or est réservé aux appels à l’action, comme « Demander un devis », pour guider le regard sur fond sombre."
+        },
+        {
+          "title": "Cohérence",
+          "text": "Le même langage visuel s’applique aux trois langues et aux deux thèmes, clair et sombre."
+        }
+      ],
+      "note": "La charte présentée ici est celle du client STE-SCPB. Elle est montrée comme élément du projet et ne remplace pas la charte ZIIIILO. Seul l’or #D4A853 est indiqué ; les autres teintes sont représentées à titre indicatif.",
+      "noteShort": "La charte présentée ici est celle du client STE-SCPB. Elle ne remplace pas la charte ZIIIILO. Seul l’or #D4A853 est indiqué ; les autres teintes sont indicatives."
+    },
+    "multilingue": {
+      "eyebrow": "Multilingue",
+      "title": "Une seule plateforme. Trois langues. Plusieurs marchés.",
+      "description": "Les pages sont publiées en français, en anglais et en russe. Les captures ci-dessous montrent la page d’accueil réelle dans chacune des trois versions.",
+      "captures": [
+        {
+          "alt": "Capture réelle de la page d’accueil de ste-scpb.com en français.",
+          "caption": "Français — « Cacao fin du Cameroun »",
+          "url": "ste-scpb.com"
+        },
+        {
+          "alt": "Capture réelle de la page d’accueil de ste-scpb.com en anglais.",
+          "caption": "English — « Fine Cameroon Cocoa »",
+          "url": "ste-scpb.com"
+        },
+        {
+          "alt": "Capture réelle de la page d’accueil de ste-scpb.com en russe.",
+          "caption": "Русский — « Отборное какао из Камеруна »",
+          "url": "ste-scpb.com"
+        }
+      ],
+      "note": "Titres reproduits tels qu’ils s’affichent sur le site en production ; aucune traduction n’a été ajoutée ou réécrite pour cette présentation.",
+      "descriptionShort": "Les pages sont publiées en français, en anglais et en russe. Voici la page d’accueil réelle dans chacune des trois versions.",
+      "noteShort": "Titres reproduits tels qu’ils s’affichent sur le site ; aucune traduction n’a été ajoutée ou réécrite."
+    },
+    "catalogue": {
+      "eyebrow": "Catalogue",
+      "title": "Onze familles de produits dans une expérience de découverte intuitive.",
+      "description": "Le catalogue permet de parcourir l’offre par famille, de rechercher un produit et d’ouvrir sa fiche technique avant de demander un devis.",
+      "captures": [
+        {
+          "alt": "Capture réelle de ste-scpb.com : grille des fiches produits du catalogue.",
+          "caption": "Capture réelle — grille des fiches produits",
+          "url": "ste-scpb.com"
+        },
+        {
+          "alt": "Capture réelle de ste-scpb.com : fiche produit cacao et ses caractéristiques techniques.",
+          "caption": "Capture réelle — fiche produit cacao, caractéristiques techniques",
+          "url": "ste-scpb.com"
+        }
+      ],
+      "items": [
+        {
+          "title": "Recherche et filtres par famille",
+          "text": "Un champ de recherche et une rangée de filtres pour passer d’une famille à l’autre."
+        },
+        {
+          "title": "Fiches techniques consultables",
+          "text": "Les caractéristiques de chaque produit sont accessibles avant tout contact."
+        },
+        {
+          "title": "Devis à portée de clic",
+          "text": "Chaque carte produit propose « Demander un devis »."
+        }
+      ]
+    },
+    "devis": {
+      "eyebrow": "Parcours commercial",
+      "title": "De la découverte produit à la demande de devis.",
+      "description": "Chaque étape rapproche l’acheteur d’un échange qualifié avec l’équipe commerciale de STE-SCPB.",
+      "steps": [
+        {
+          "title": "Visiteur",
+          "text": "Arrivée sur le site, en français, en anglais ou en russe."
+        },
+        {
+          "title": "Catalogue",
+          "text": "Exploration des familles de produits, recherche et filtres."
+        },
+        {
+          "title": "Fiche produit",
+          "text": "Lecture des caractéristiques techniques du produit."
+        },
+        {
+          "title": "Demande de devis",
+          "text": "Formulaire export en plusieurs étapes, envoyé en ligne."
+        },
+        {
+          "title": "Équipe commerciale",
+          "text": "Traitement de la demande par l’équipe STE-SCPB."
+        }
+      ],
+      "highlight": "Étape clé · demande qualifiée",
+      "capture": {
+        "alt": "Capture réelle de ste-scpb.com : formulaire de demande de devis export.",
+        "caption": "Capture réelle — « Demande de Devis Export » : étapes Entreprise, Produits, Logistique, Livraison",
+        "url": "ste-scpb.com"
+      },
+      "chips": {
+        "label": "Informations recueillies",
+        "items": ["Produit", "Quantité", "Destination", "Incoterm", "Certifications"]
+      },
+      "commitments": {
+        "title": "Engagements affichés par le site",
+        "items": [
+          {
+            "title": "Réponse sous 24-48 h",
+            "text": "Délai annoncé sur la page de demande de devis."
+          },
+          {
+            "title": "Devis proforma",
+            "text": "Document commercial transmis en réponse à la demande."
+          },
+          {
+            "title": "COA / Phyto sur demande",
+            "text": "Certificat d’analyse et certificat phytosanitaire disponibles sur demande."
+          }
+        ]
+      },
+      "note": "Les délais et documents cités sont ceux affichés sur le site de STE-SCPB ; ils relèvent de l’entreprise et non de ZIIIILO."
+    },
+    "eudr": {
+      "eyebrow": "Traçabilité et EUDR",
+      "title": "Rendre des informations complexes accessibles et compréhensibles.",
+      "description": "Traçabilité, géolocalisation, réglementation européenne et filière sont expliquées dans des pages dédiées, illustrées et reliées entre elles.",
+      "capture": {
+        "alt": "Capture réelle de la page EUDR de ste-scpb.com consacrée à la conformité de l’approvisionnement.",
+        "caption": "Capture réelle — « Conformité EUDR pour votre approvisionnement cacao »",
+        "url": "ste-scpb.com"
+      },
+      "items": [
+        {
+          "title": "Traçabilité",
+          "text": "Le parcours du produit est présenté par étapes, de la parcelle jusqu’à l’export."
+        },
+        {
+          "title": "Géolocalisation",
+          "text": "Une carte de démonstration situe des parcelles et affiche leur statut."
+        },
+        {
+          "title": "EUDR",
+          "text": "Une page dédiée explique le règlement européen et la démarche d’approvisionnement de STE-SCPB."
+        },
+        {
+          "title": "Chaîne de valeur",
+          "text": "Les étapes de la filière, de la production à l’export, sont mises en récit."
+        },
+        {
+          "title": "CocoaTrack",
+          "text": "Le module de traçabilité de STE-SCPB est présenté avec sa carte et ses statuts."
+        }
+      ],
+      "note": "Le site présente la démarche EUDR de STE-SCPB. Il n’est pas lui-même certifié et ne garantit pas, à lui seul, la conformité juridique des marchandises."
+    },
+    "international": {
+      "eyebrow": "Présence internationale",
+      "title": "Une présence internationale représentée visuellement.",
+      "description": "Le site s’adresse aux acheteurs depuis le Cameroun, affiche ses points de contact à l’international et intègre une cartographie interactive Mapbox.",
+      "capture": {
+        "alt": "Capture réelle de la carte Mapbox intégrée à la page CocoaTrack de ste-scpb.com, avec des données de démonstration.",
+        "caption": "Capture réelle — carte Mapbox intégrée à la page CocoaTrack (données de démonstration)",
+        "url": "ste-scpb.com"
+      },
+      "list": {
+        "title": "Repères affichés sur le site",
+        "items": [
+          {
+            "title": "Base à Douala",
+            "text": "Adresse à Douala-Akwa (Cameroun) indiquée dans le pied de page."
+          },
+          {
+            "title": "Représentation aux États-Unis",
+            "text": "Point de contact à Douglasville (Géorgie) mentionné dans le pied de page."
+          },
+          {
+            "title": "Trois langues",
+            "text": "Français, anglais et russe, accessibles depuis le sélecteur de langue."
+          },
+          {
+            "title": "Cours du marché",
+            "text": "Bandeau de cours du cacao et du café en haut de page."
+          }
+        ]
+      },
+      "note": "La carte montrée est celle de la page CocoaTrack, alimentée par des données de démonstration. Le site ne publie pas de carte des destinations clients ; aucune n’est donc représentée ici."
+    },
+    "contenu": {
+      "eyebrow": "Gestion de contenu",
+      "title": "Un site pensé pour évoluer sans dépendance permanente au développeur.",
+      "description": "Les contenus sont administrés dans Sanity : l’équipe STE-SCPB peut publier et mettre à jour ses pages sans intervention technique systématique.",
+      "schemaLabel": "Schéma conceptuel — ce n’est pas une capture du back-office Sanity",
+      "schema": [
+        {
+          "title": "Équipe STE-SCPB",
+          "text": "Rédige, met à jour et publie les contenus."
+        },
+        {
+          "title": "Sanity CMS",
+          "text": "Centralise les contenus structurés, les médias et leurs versions linguistiques."
+        },
+        {
+          "title": "Site multilingue",
+          "text": "Affiche les pages publiées en français, en anglais et en russe."
+        }
+      ],
+      "items": [
+        {
+          "title": "Autonomie éditoriale",
+          "text": "Actualités, textes et visuels peuvent évoluer au rythme de l’activité commerciale."
+        },
+        {
+          "title": "Contenus structurés",
+          "text": "Chaque type de contenu suit un modèle défini, ce qui garde les pages cohérentes."
+        },
+        {
+          "title": "Trois langues, un même outil",
+          "text": "Les contenus des versions française, anglaise et russe sont administrés depuis le même outil."
+        }
+      ]
+    },
+    "experience": {
+      "eyebrow": "Expérience",
+      "title": "Des technologies modernes au service d’une expérience mémorable.",
+      "description": "Les effets visuels servent la narration du site tout en respectant les préférences d’affichage des visiteurs.",
+      "items": [
+        {
+          "title": "Three.js et React Three Fiber",
+          "text": "Scènes 3D intégrées à l’interface."
+        },
+        {
+          "title": "GSAP",
+          "text": "Animations synchronisées avec le défilement de la page."
+        },
+        {
+          "title": "Vidéos d’ambiance",
+          "text": "Séquences vidéo qui évoquent l’univers du cacao et de l’export."
+        },
+        {
+          "title": "Thèmes clair et sombre",
+          "text": "Bascule entre deux thèmes depuis l’en-tête du site."
+        },
+        {
+          "title": "Responsive",
+          "text": "Mises en page adaptées aux mobiles, aux tablettes et aux ordinateurs."
+        },
+        {
+          "title": "prefers-reduced-motion",
+          "text": "Les animations s’atténuent quand le visiteur a demandé à réduire les mouvements."
+        }
+      ],
+      "capture": {
+        "alt": "Capture réelle de ste-scpb.com affiché avec le thème clair.",
+        "caption": "Capture réelle — thème clair ; le thème sombre apparaît dans les autres captures de cette page",
+        "url": "ste-scpb.com"
+      }
+    },
+    "architecture": {
+      "eyebrow": "Architecture technique",
+      "title": "Une architecture web moderne, performante et évolutive.",
+      "description": "Chaque brique répond à un besoin précis du projet : rendu des pages, expérience visuelle, gestion de contenu, services et exploitation.",
+      "rows": [
+        {
+          "title": "Interface et rendu",
+          "chips": ["Next.js 16", "React 19", "TypeScript", "Tailwind CSS"]
+        },
+        {
+          "title": "Expérience visuelle",
+          "chips": ["Three.js", "React Three Fiber", "GSAP"]
+        },
+        {
+          "title": "Gestion de contenu",
+          "chips": ["Sanity CMS"]
+        },
+        {
+          "title": "Services intégrés",
+          "chips": ["Resend — e-mails", "Mapbox — cartographie"]
+        },
+        {
+          "title": "Hébergement et suivi",
+          "chips": ["Vercel", "Sentry", "Vercel Analytics", "Speed Insights"]
+        }
+      ],
+      "note": "Technologies retenues pour ce projet. Elles forment l’architecture du site et ne sont pas des partenaires commerciaux de ZIIIILO."
+    },
+    "qualite": {
+      "eyebrow": "Qualité",
+      "title": "Performance, référencement, sécurité et accessibilité.",
+      "description": "Quatre axes ont guidé la conception et le développement du site.",
+      "items": [
+        {
+          "title": "Performance",
+          "text": "Objectifs de conception : LCP inférieur à 2,5 s et CLS inférieur à 0,1. Ce sont des cibles, pas des résultats mesurés."
+        },
+        {
+          "title": "Référencement",
+          "text": "Une version de chaque page par langue, avec des contenus structurés et des titres explicites."
+        },
+        {
+          "title": "Sécurité",
+          "text": "Protection anti-robot Cloudflare Turnstile sur l’inscription à la newsletter et suivi des erreurs avec Sentry."
+        },
+        {
+          "title": "Accessibilité",
+          "text": "Prise en compte de la préférence « réduire les animations » et contrastes soignés sur les deux thèmes."
+        }
+      ],
+      "note": "Aucun score Lighthouse ni audit de sécurité certifié n’est revendiqué pour cette réalisation."
+    },
+    "resultat": {
+      "eyebrow": "Résultat",
+      "title": "Une plateforme désormais accessible aux acheteurs internationaux.",
+      "description": "Le site est en production à l’adresse ste-scpb.com. Voici les éléments livrés.",
+      "items": [
+        "Site corporate en français, anglais et russe",
+        "Catalogue de onze familles de produits",
+        "Fiches produits et caractéristiques techniques",
+        "Demande de devis export en plusieurs étapes",
+        "Pages EUDR et CocoaTrack avec carte Mapbox",
+        "Rubriques Actualités et Statistiques",
+        "Thèmes clair et sombre",
+        "Gestion des contenus avec Sanity",
+        "Scènes 3D et animations au défilement"
+      ],
+      "line": "Client : STE-SCPB · Réalisation : ZIIIILO SARL · Statut : en production",
+      "visuals": "Visuels de cette page : captures réelles de ste-scpb.com du 21/11/2026 ; vue mobile à compléter.",
+      "action": "Découvrir le site STE-SCPB",
+      "note": "Aucun chiffre de trafic, de conversion ou de chiffre d’affaires n’est communiqué pour cette réalisation."
+    },
+    "ecosysteme": {
+      "eyebrow": "Écosystème SCPB",
+      "title": "D’autres solutions réalisées pour SCPB.",
+      "description": "Ces réalisations répondent à d’autres besoins de l’entreprise. Elles sont présentées séparément ; aucune intégration technique directe avec le site n’est revendiquée ici.",
+      "items": [
+        {
+          "title": "SCPB Commercial",
+          "text": "Prospection et suivi commercial pour l’export, avec validation humaine des campagnes."
+        },
+        {
+          "title": "Prévisions Cacao & Robusta",
+          "text": "Tableaux de bord de prévision pour les marchés du cacao et du robusta."
+        },
+        {
+          "title": "CocoaTrack",
+          "text": "Module de traçabilité présenté sur le site STE-SCPB, avec sa carte de démonstration."
+        }
+      ],
+      "link": "Voir la réalisation"
+    },
+    "cta": {
+      "title": "Une expertise digitale au service des ambitions internationales.",
+      "description": "À travers la réalisation du site STE-SCPB, ZIIIILO démontre sa capacité à concevoir des expériences digitales professionnelles associant design, développement web, intégrations métiers, contenu multilingue et outils de développement commercial.",
+      "primary": "Voir toutes nos réalisations",
+      "secondary": "Confiez-nous votre projet web"
+    }
+  },
+  "etude-golden-beans": {
+    "hero": {
+      "crumb": "Golden Beans SA",
+      "badges": [
+        "Web Engineering · B2B Commerce · AI Automation",
+        "En production",
+        "Plateforme web B2B bilingue"
+      ],
+      "title": "Une plateforme digitale premium pour connecter le cacao et le café camerounais aux marchés internationaux.",
+      "lead": "ZIIIILO a conçu pour Golden Beans SA une expérience web bilingue associant catalogue produit, traçabilité, conversion commerciale et automatisation des contenus.",
+      "primary": "Visiter Golden Beans",
+      "newTab": "(nouvel onglet)",
+      "secondary": "Explorer nos réalisations",
+      "note": "Réalisation ZIIIILO SARL pour Golden Beans SA · site en production : goldenbeans.cm",
+      "visualAlt": "Capture réelle de la page d’accueil de goldenbeans.cm, version française, prise le 22/11/2026.",
+      "url": "goldenbeans.cm/fr",
+      "chipCapture": "Capture réelle · goldenbeans.cm",
+      "chipMobile": "Vue mobile : rendu réel à 390 px",
+      "phoneAlt": "Capture réelle de la page d’accueil de goldenbeans.cm sur mobile, version française, prise le 22/11/2026.",
+      "badgeShort": "Web Engineering · B2B · AI Automation",
+      "chipShort": "Captures réelles · goldenbeans.cm"
+    },
+    "defi": {
+      "eyebrow": "Le défi",
+      "title": "Construire la confiance avant le premier échange commercial.",
+      "description": "Le commerce international du cacao et du café repose sur la crédibilité. Avant de s’engager, les acheteurs veulent vérifier l’origine, la qualité, la traçabilité, la documentation et les conditions commerciales.",
+      "items": [
+        {
+          "title": "Visibilité internationale",
+          "text": "Présenter l’offre aux acheteurs francophones et anglophones : importateurs, chocolatiers, torréfacteurs, négociants, transformateurs.",
+          "textShort": "Présenter l’offre aux acheteurs francophones et anglophones."
+        },
+        {
+          "title": "Crédibilité et transparence",
+          "text": "Rendre visibles les processus, la traçabilité et les informations documentaires avant tout échange."
+        },
+        {
+          "title": "Acquisition commerciale",
+          "text": "Transformer les visiteurs qualifiés en demandes de devis, d’échantillons ou de contact.",
+          "textShort": "Transformer les visiteurs qualifiés en demandes de devis ou d’échantillons."
+        },
+        {
+          "title": "Des informations fiables, vite",
+          "text": "Produits, caractéristiques, origines, conditions d’export, documents qualité et EUDR en quelques clics.",
+          "textShort": "Produits, origines, conditions d’export et documents en quelques clics."
+        }
+      ],
+      "note": "Ces besoins décrivent le cahier des charges du projet, pas des résultats commerciaux mesurés.",
+      "descriptionShort": "Avant de s’engager, les acheteurs veulent vérifier l’origine, la qualité, la traçabilité, la documentation et les conditions commerciales."
+    },
+    "identite": {
+      "eyebrow": "Identité digitale",
+      "title": "Une expérience premium inspirée des origines du cacao.",
+      "description": "Or, brun cacao et beige, grandes photographies de cacao et de café, titres en serif : l’identité de Golden Beans guide la composition des pages et la hiérarchie visuelle.",
+      "capture": {
+        "alt": "Capture réelle de la page « Notre usine » de goldenbeans.cm : grande photographie, titres en serif et boutons dorés.",
+        "caption": "Capture réelle — page « Notre usine » : photographie, titres serif et accents dorés",
+        "url": "goldenbeans.cm/fr/notre-usine"
+      },
+      "palette": {
+        "title": "Palette du site Golden Beans",
+        "items": [
+          {
+            "name": "Cacao",
+            "value": "#492C0E ≈"
+          },
+          {
+            "name": "Or",
+            "value": "#C9A045 ≈"
+          },
+          {
+            "name": "Beige",
+            "value": "#ECE5D3 ≈"
+          },
+          {
+            "name": "Ivoire",
+            "value": "#FBF8F1 ≈"
+          },
+          {
+            "name": "Brun profond",
+            "value": "#382713 ≈"
+          }
+        ],
+        "text": "Le brun cacao du bandeau, l’or des boutons et les fonds beige-ivoire structurent l’interface. Valeurs relevées sur les captures : approximatives, à confirmer avec la charte officielle.",
+        "textShort": "Valeurs relevées sur les captures : approximatives, à confirmer avec la charte officielle de Golden Beans."
+      },
+      "items": [
+        {
+          "title": "Photographie produit",
+          "text": "Grandes photos de fèves, de poudre et de beurre de cacao, mises en scène sur des fonds chauds."
+        },
+        {
+          "title": "Typographie éditoriale",
+          "text": "Titres en serif avec une italique dorée, textes courants sobres et lisibles.",
+          "textShort": "Titres en serif avec une italique dorée, textes courants sobres."
+        },
+        {
+          "title": "Hiérarchie claire",
+          "text": "Badges, filtres et boutons dorés guident vers la demande de devis et d’échantillon.",
+          "textShort": "Badges, filtres et boutons dorés guident vers le devis et l’échantillon."
+        }
+      ],
+      "note": "La charte présentée ici est celle du client Golden Beans SA. Elle est montrée comme élément du projet et ne remplace pas la charte ZIIIILO.",
+      "descriptionShort": "Or, brun cacao et beige, grandes photographies de cacao et de café, titres en serif : l’identité de Golden Beans guide la composition des pages.",
+      "noteShort": "Charte du client Golden Beans SA, montrée comme élément du projet : elle ne remplace pas la charte ZIIIILO."
+    },
+    "bilingue": {
+      "eyebrow": "Expérience bilingue",
+      "title": "Deux langues. Une même expérience commerciale.",
+      "description": "Chaque page existe en français et en anglais, avec des adresses localisées (/fr, /en), des balises hreflang et des métadonnées traduites : un même parcours pour les acheteurs francophones et anglophones.",
+      "captures": [
+        {
+          "alt": "Capture réelle de l’accueil de goldenbeans.cm en français.",
+          "caption": "Français — « De confiance à l’origine, valorisés dans le monde. »",
+          "url": "goldenbeans.cm/fr"
+        },
+        {
+          "alt": "Capture réelle de l’accueil de goldenbeans.cm en anglais.",
+          "caption": "English — « Trusted at origin, valued worldwide. »",
+          "url": "goldenbeans.cm/en"
+        }
+      ],
+      "note": "Titres reproduits tels qu’ils s’affichent sur le site (captures du 22/11/2026). Le site est publié en français et en anglais.",
+      "descriptionShort": "Pages en français et en anglais, adresses localisées (/fr, /en), balises hreflang et métadonnées traduites.",
+      "noteShort": "Titres reproduits tels qu’ils s’affichent sur le site (captures du 22/11/2026)."
+    },
+    "catalogue": {
+      "eyebrow": "Catalogue B2B",
+      "title": "Un catalogue conçu pour les acheteurs professionnels.",
+      "description": "Six produits principaux — fèves, beurre, poudre et pâte de cacao, cafés Arabica et Robusta — avec filtres par famille et fiches détaillées : spécifications, conditionnement, conditions d’export, documents et traçabilité.",
+      "captures": [
+        {
+          "alt": "Capture réelle du catalogue « Nos produits » de goldenbeans.cm avec les filtres Tous, Cacao et Café.",
+          "caption": "Capture réelle — catalogue « Nos produits » avec les filtres Tous, Cacao, Café",
+          "url": "goldenbeans.cm/fr/produits",
+          "captionShort": "Capture réelle — catalogue avec les filtres Tous, Cacao, Café"
+        },
+        {
+          "alt": "Capture réelle de la fiche Fèves de cacao de goldenbeans.cm : spécifications techniques et documents.",
+          "caption": "Capture réelle — fiche Fèves de cacao : spécifications techniques et documents",
+          "url": "goldenbeans.cm/fr/produits/feves-de-cacao"
+        }
+      ],
+      "items": [
+        {
+          "title": "Filtres par famille",
+          "text": "Tous, Cacao, Café : l’acheteur isole rapidement la gamme qui l’intéresse.",
+          "textShort": "Tous, Cacao, Café : la bonne gamme en un geste."
+        },
+        {
+          "title": "Fiches structurées",
+          "text": "Spécifications, conditionnement, conditions d’export, certifications disponibles, documents et origine.",
+          "textShort": "Spécifications, conditionnement, export, documents, origine."
+        },
+        {
+          "title": "Devis et échantillon en un clic",
+          "text": "Les deux demandes restent accessibles sur chaque fiche produit.",
+          "textShort": "Les deux demandes restent accessibles sur chaque fiche."
+        }
+      ],
+      "descriptionShort": "Six produits principaux, des filtres par famille et des fiches détaillées : spécifications, conditionnement, conditions d’export, documents."
+    },
+    "tracabilite": {
+      "eyebrow": "Traçabilité et EUDR",
+      "title": "Rendre la traçabilité visible et compréhensible.",
+      "description": "De la parcelle au port, le site explique comment chaque lot est documenté et présente la préparation documentaire liée au Règlement (UE) 2023/1115 comme un service d’information et de préparation.",
+      "steps": [
+        {
+          "title": "Parcelle",
+          "text": "Coordonnées GPS et limites parcellaires documentées.",
+          "textShort": "GPS et limites parcellaires."
+        },
+        {
+          "title": "Producteur",
+          "text": "Identité du producteur et données terrain.",
+          "textShort": "Identité et données terrain."
+        },
+        {
+          "title": "Collecte",
+          "text": "Point de collecte et informations de lot.",
+          "textShort": "Point de collecte et lot."
+        },
+        {
+          "title": "Entrepôt",
+          "text": "Réception, contrôle et stockage des lots.",
+          "textShort": "Réception, contrôle, stockage."
+        },
+        {
+          "title": "Conteneur",
+          "text": "Lot export et documents associés.",
+          "textShort": "Lot export et documents."
+        },
+        {
+          "title": "Port",
+          "text": "Embarquement et dossier pour l’acheteur.",
+          "textShort": "Embarquement et dossier."
+        }
+      ],
+      "capture": {
+        "alt": "Capture réelle de la page EUDR de goldenbeans.cm.",
+        "caption": "Capture réelle — page « Préparation documentaire EUDR »",
+        "url": "goldenbeans.cm/fr/conformite-eudr"
+      },
+      "items": [
+        {
+          "title": "Traçabilité parcellaire",
+          "text": "Chaque lot est relié à la parcelle, au producteur, à la collecte, à l’entrepôt et au conteneur.",
+          "textShort": "Chaque lot relié à la parcelle, au producteur, à la collecte, à l’entrepôt et au conteneur."
+        },
+        {
+          "title": "Géolocalisation",
+          "text": "Parcelles et zones de production visualisées à partir de données cartographiques.",
+          "textShort": "Parcelles et zones de production cartographiées."
+        },
+        {
+          "title": "Historique des lots",
+          "text": "Les étapes de chaque lot sont documentées jusqu’à l’export.",
+          "textShort": "Étapes documentées jusqu’à l’export."
+        },
+        {
+          "title": "Contrôles qualité",
+          "text": "Humidité, fermentation, tri des défauts et analyses, détaillés sur la page Qualité.",
+          "textShort": "Humidité, fermentation, tri des défauts, analyses."
+        },
+        {
+          "title": "Préparation documentaire EUDR",
+          "text": "Données d’origine et de parcelles structurées pour aider l’importateur à constituer son dossier de diligence.",
+          "textShort": "Données structurées pour le dossier de diligence de l’importateur."
+        }
+      ],
+      "note": "Démarche d’information et de préparation documentaire : le site ne garantit pas à lui seul chaque donnée terrain ni la conformité de tous les lots ; les certifications « envisagées » gardent ce statut.",
+      "descriptionShort": "De la parcelle au port, chaque lot est documenté ; la préparation documentaire EUDR est présentée comme un service d’information.",
+      "noteShort": "Démarche d’information et de préparation : le site ne garantit pas chaque donnée terrain ni la conformité de tous les lots ; les certifications envisagées gardent ce statut."
+    },
+    "conversion": {
+      "eyebrow": "Conversion commerciale",
+      "title": "Transformer la découverte d’un produit en opportunité B2B.",
+      "description": "Du catalogue à l’équipe commerciale, chaque étape réduit l’effort de l’acheteur : formulaires structurés, accusé de réception automatique et protection anti-spam.",
+      "steps": [
+        {
+          "title": "Catalogue",
+          "text": "Six produits, filtres par famille."
+        },
+        {
+          "title": "Fiche produit",
+          "text": "Spécifications, documents, origine."
+        },
+        {
+          "title": "Devis / Échantillon",
+          "text": "Formulaire structuré et protégé contre le spam.",
+          "textShort": "Formulaire structuré, protégé contre le spam."
+        },
+        {
+          "title": "Notification",
+          "text": "Accusé de réception automatique par e-mail."
+        },
+        {
+          "title": "Équipe commerciale",
+          "text": "Reçoit une demande complète et y répond.",
+          "textShort": "Reçoit une demande complète."
+        }
+      ],
+      "highlight": "Étape clé · demande qualifiée",
+      "capture": {
+        "alt": "Capture réelle du formulaire de demande de devis de goldenbeans.cm.",
+        "caption": "Capture réelle — formulaire « Demander un devis » (champs réels du site)",
+        "url": "goldenbeans.cm/fr/devis",
+        "captionShort": "Capture réelle — formulaire « Demander un devis »"
+      },
+      "chips": {
+        "label": "Informations recueillies",
+        "items": ["Produit", "Volume estimé", "Incoterm", "Destination", "Type de client"]
+      },
+      "list": {
+        "title": "Ce que prévoit le parcours",
+        "items": [
+          {
+            "title": "Estimation indicative",
+            "text": "Mention affichée sur le formulaire : estimation possible, jamais contractuelle.",
+            "textShort": "Estimation possible, jamais contractuelle (mention du formulaire)."
+          },
+          {
+            "title": "Confirmation automatique",
+            "text": "L’acheteur reçoit un accusé de réception par e-mail.",
+            "textShort": "Accusé de réception envoyé par e-mail."
+          },
+          {
+            "title": "Protection anti-spam",
+            "text": "Vérification Cloudflare Turnstile et validation côté serveur.",
+            "textShort": "Cloudflare Turnstile et validation côté serveur."
+          }
+        ]
+      },
+      "note": "Aucun taux de conversion n’est communiqué : ce parcours décrit des fonctionnalités, pas des résultats mesurés.",
+      "descriptionShort": "Formulaires structurés, accusé de réception automatique et protection anti-spam réduisent l’effort de l’acheteur."
+    },
+    "cms": {
+      "eyebrow": "Contenus et CMS",
+      "title": "Une plateforme autonome dans sa gestion quotidienne.",
+      "description": "Articles, produits, régions d’origine, documents, FAQ et contenus bilingues se gèrent dans Sanity Studio, intégré au domaine (goldenbeans.cm/studio). Les modifications publiées apparaissent sur le site sans redéploiement.",
+      "schema": [
+        {
+          "title": "Équipe Golden Beans",
+          "text": "Rédige, met à jour et publie les contenus en français et en anglais.",
+          "textShort": "Rédige et publie en français et en anglais."
+        },
+        {
+          "title": "Sanity Studio",
+          "text": "Intégré au domaine : articles, produits, origines, documents, FAQ.",
+          "textShort": "Articles, produits, origines, documents, FAQ."
+        },
+        {
+          "title": "Site public",
+          "text": "Les pages se mettent à jour sans redéploiement de l’application.",
+          "textShort": "Mis à jour sans redéploiement de l’application."
+        }
+      ],
+      "schemaLabel": "Schéma conceptuel — ce n’est pas une capture du back-office Sanity.",
+      "items": [
+        {
+          "title": "Autonomie éditoriale",
+          "text": "L’équipe publie et corrige sans intervention technique."
+        },
+        {
+          "title": "Contenus structurés",
+          "text": "Produits, régions, documents et FAQ suivent des modèles définis."
+        },
+        {
+          "title": "Newsletter suivie",
+          "text": "Inscriptions confirmées en double opt-in, désinscriptions gérées.",
+          "textShort": "Double opt-in et désinscriptions gérées."
+        }
+      ],
+      "descriptionShort": "Articles, produits, origines, documents, FAQ et contenus bilingues se gèrent dans Sanity Studio, intégré au domaine (goldenbeans.cm/studio), sans redéploiement.",
+      "schemaLabelShort": "Schéma conceptuel — pas une capture du back-office"
+    },
+    "automatisation": {
+      "eyebrow": "Automatisation et IA",
+      "title": "Une veille de marché automatisée, assistée par intelligence artificielle.",
+      "description": "De la collecte d’informations à la publication bilingue et à la diffusion par newsletter, les workflows automatisés simplifient les opérations éditoriales.",
+      "steps": [
+        {
+          "title": "Déclenchement planifié",
+          "text": "Workflow n8n lancé chaque jour à 08 h (heure de Douala).",
+          "titleShort": "Déclenchement",
+          "textShort": "n8n, chaque jour à 08 h."
+        },
+        {
+          "title": "Collecte et analyse",
+          "text": "Informations de marché cacao et café rassemblées et analysées.",
+          "titleShort": "Collecte",
+          "textShort": "Informations de marché."
+        },
+        {
+          "title": "Rédaction assistée par IA",
+          "text": "Brouillon d’article rédigé avec OpenAI.",
+          "titleShort": "Rédaction IA",
+          "textShort": "Brouillon avec OpenAI."
+        },
+        {
+          "title": "Contrôles et doublons",
+          "text": "Vérifications et détection des sujets déjà publiés, même reformulés.",
+          "titleShort": "Contrôles",
+          "textShort": "Vérifications et doublons."
+        },
+        {
+          "title": "Versions FR et EN",
+          "text": "Préparation de l’article dans les deux langues.",
+          "titleShort": "FR et EN",
+          "textShort": "Deux versions préparées."
+        },
+        {
+          "title": "Publication Sanity",
+          "text": "Article enregistré et publié dans le CMS.",
+          "titleShort": "Sanity",
+          "textShort": "Publication dans le CMS."
+        },
+        {
+          "title": "Site web",
+          "text": "L’article apparaît dans la rubrique Ressources.",
+          "titleShort": "Site web",
+          "textShort": "Rubrique Ressources."
+        },
+        {
+          "title": "Newsletter",
+          "text": "Diffusion aux abonnés confirmés, via Resend.",
+          "titleShort": "Newsletter",
+          "textShort": "Envoi via Resend."
+        }
+      ],
+      "highlight": "Étape clé · contrôle",
+      "capture": {
+        "alt": "Capture réelle de la rubrique Ressources de goldenbeans.cm : articles de veille de marché.",
+        "caption": "Capture réelle — rubrique « Ressources » : 73 articles publiés au 22/11/2026, filtre « Veille marché »",
+        "url": "goldenbeans.cm/fr/ressources",
+        "captionShort": "Capture réelle — rubrique « Ressources » : 73 articles au 22/11/2026"
+      },
+      "chips": {
+        "label": "Technologies du workflow",
+        "items": ["n8n", "OpenAI", "Sanity", "Resend"]
+      },
+      "schedule": {
+        "title": "Fréquences paramétrées (heure de Douala)",
+        "items": [
+          {
+            "title": "Veille marché",
+            "text": "Chaque jour à 08 h 00."
+          },
+          {
+            "title": "Relance des inscriptions non confirmées",
+            "text": "Chaque jour à 09 h 15.",
+            "titleShort": "Relance des inscriptions"
+          },
+          {
+            "title": "Cours du café",
+            "text": "Du lundi au vendredi à 14 h 00.",
+            "textShort": "Lundi à vendredi, 14 h 00."
+          },
+          {
+            "title": "Cours du cacao",
+            "text": "Du lundi au vendredi à 18 h 30.",
+            "textShort": "Lundi à vendredi, 18 h 30."
+          }
+        ]
+      },
+      "note": "Heures = paramètres du système, sans garantie de disponibilité des données externes. L’IA assiste la rédaction mais ne garantit pas l’exactitude de chaque information : des contrôles automatiques précèdent la publication.",
+      "noteShort": "Heures = paramètres du système, sans garantie sur les données externes. L’IA assiste la rédaction sans garantir l’exactitude de chaque information : des contrôles automatiques précèdent la publication."
+    },
+    "marche": {
+      "eyebrow": "Données de marché",
+      "title": "Des informations de marché intégrées à l’expérience digitale.",
+      "description": "Cours de référence du cacao et du café, bandeau de prix et graphiques interactifs : l’acheteur dispose du contexte de marché sans quitter le site.",
+      "items": [
+        {
+          "title": "Cours de référence",
+          "text": "Prix actuel, variation sur 24 h et tendance, avec graphiques interactifs.",
+          "textShort": "Prix, variation 24 h et tendance, graphiques interactifs."
+        },
+        {
+          "title": "Bandeau des prix",
+          "text": "Cacao, Arabica et Robusta affichés en continu en tête de page.",
+          "textShort": "Cacao, Arabica, Robusta en tête de page."
+        },
+        {
+          "title": "Actualisation planifiée",
+          "text": "Mise à jour des cours les jours ouvrés (café 14 h, cacao 18 h 30).",
+          "textShort": "Jours ouvrés : café 14 h, cacao 18 h 30."
+        },
+        {
+          "title": "Sources externes",
+          "text": "Références internationales intégrées (widgets TradingView sur la page publique).",
+          "textShort": "Widgets TradingView sur la page publique."
+        },
+        {
+          "title": "Mention indicative",
+          "text": "Repères de marché : les prix Golden Beans sont établis sur devis.",
+          "textShort": "Les prix Golden Beans sont établis sur devis."
+        },
+        {
+          "title": "ECharts",
+          "text": "Bibliothèque de graphiques retenue dans la pile technique du projet.",
+          "textShort": "Bibliothèque de graphiques de la pile technique."
+        }
+      ],
+      "capture": {
+        "alt": "Capture réelle de la page Prix du marché de goldenbeans.cm : cours du cacao et du café avec graphiques.",
+        "caption": "Capture réelle du 22/11/2026 — cours affichés à cette date, à titre indicatif",
+        "url": "goldenbeans.cm/fr/prix-du-marche"
+      },
+      "descriptionShort": "Cours de référence, bandeau de prix et graphiques interactifs : le contexte de marché sans quitter le site."
+    },
+    "cartographie": {
+      "eyebrow": "Cartographie",
+      "title": "Visualiser les origines et les flux d’exportation.",
+      "description": "Une carte Mapbox interactive situe terroirs, zones de production, coopératives et destinations d’export, avec des filtres par produit et par type de point.",
+      "capture": {
+        "alt": "Capture réelle de la carte interactive Mapbox de goldenbeans.cm, avec données de démonstration.",
+        "caption": "Capture réelle — carte Mapbox (données de démonstration, comme l’indique le site)",
+        "url": "goldenbeans.cm/fr/carte",
+        "captionShort": "Capture réelle — carte Mapbox (données de démonstration, mention du site)"
+      },
+      "list": {
+        "title": "Ce que montre la carte",
+        "items": [
+          {
+            "title": "Terroirs et zones de production",
+            "text": "Sud-Ouest, Centre, Ouest et Littoral, reliés aux pages Origines.",
+            "titleShort": "Terroirs et zones",
+            "textShort": "Sud-Ouest, Centre, Ouest et Littoral."
+          },
+          {
+            "title": "Coopératives",
+            "text": "Points de démonstration, signalés comme tels sur le site.",
+            "textShort": "Points de démonstration, signalés comme tels."
+          },
+          {
+            "title": "Destinations export",
+            "text": "Marchés et hubs logistiques : Rotterdam, Anvers, New York, Dubaï.",
+            "textShort": "Rotterdam, Anvers, New York, Dubaï."
+          },
+          {
+            "title": "Navigation cartographique",
+            "text": "Filtres Produit et Type de point, zoom et légende.",
+            "titleShort": "Navigation",
+            "textShort": "Filtres Produit et Type de point, zoom, légende."
+          }
+        ]
+      },
+      "note": "Les données géographiques affichées sont des données de démonstration, à remplacer par des données réelles validées (mention du site). Aucun emplacement privé n’est exposé.",
+      "descriptionShort": "Une carte Mapbox situe terroirs, zones de production, coopératives et destinations d’export, avec des filtres.",
+      "noteShort": "Données géographiques de démonstration, à remplacer par des données réelles validées (mention du site). Aucun emplacement privé n’est exposé."
+    },
+    "architecture": {
+      "eyebrow": "Architecture technologique",
+      "title": "Une architecture moderne, conçue pour évoluer.",
+      "description": "Un frontend Next.js relié à Sanity, des workflows n8n, des services d’e-mail, de cartographie et de données, hébergés sur Vercel derrière Cloudflare. Pas de microservices : des intégrations directes.",
+      "rows": [
+        {
+          "title": "Interface et rendu",
+          "chips": ["Next.js 16", "React 19", "TypeScript", "Tailwind CSS"]
+        },
+        {
+          "title": "Gestion de contenu",
+          "chips": ["Sanity CMS", "Sanity Studio intégré"]
+        },
+        {
+          "title": "Automatisation et IA",
+          "chips": ["n8n", "OpenAI"]
+        },
+        {
+          "title": "Données et cartographie",
+          "chips": ["ECharts", "Mapbox"]
+        },
+        {
+          "title": "Communication",
+          "chips": ["Resend", "Double opt-in", "Désinscriptions"]
+        },
+        {
+          "title": "Sécurité",
+          "chips": [
+            "Cloudflare Turnstile",
+            "HTTPS / HSTS",
+            "Validation serveur",
+            "Tâches planifiées protégées"
+          ]
+        },
+        {
+          "title": "Hébergement et réseau",
+          "chips": ["Vercel (cdg1, Paris)", "Cloudflare DNS"],
+          "titleShort": "Hébergement"
+        }
+      ],
+      "note": "Technologies retenues pour ce projet, présentées comme une architecture intégrée : ce ne sont pas des partenaires de ZIIIILO. SEO : sitemap, robots.txt, hreflang, données structurées, IndexNow, métadonnées localisées.",
+      "descriptionShort": "Next.js relié à Sanity, workflows n8n, e-mail, cartographie et données, hébergés sur Vercel derrière Cloudflare.",
+      "noteShort": "Technologies du projet présentées comme une architecture intégrée : ce ne sont pas des partenaires de ZIIIILO."
+    },
+    "qualite": {
+      "eyebrow": "Qualité",
+      "title": "Performance, SEO international et sécurité.",
+      "description": "Quatre piliers ont guidé la conception et le développement de la plateforme.",
+      "items": [
+        {
+          "title": "Performance",
+          "text": "Optimisation des images, chargement différé et génération des pages.",
+          "textShort": "Images optimisées, chargement différé, génération des pages."
+        },
+        {
+          "title": "SEO international",
+          "text": "Métadonnées localisées, hreflang, sitemap, données structurées et IndexNow.",
+          "textShort": "Métadonnées localisées, hreflang, sitemap, IndexNow."
+        },
+        {
+          "title": "Sécurité",
+          "text": "HTTPS, protection des formulaires (Turnstile) et vérification côté serveur.",
+          "textShort": "HTTPS, formulaires protégés, vérification serveur."
+        },
+        {
+          "title": "Fiabilité",
+          "text": "Tests automatisés et déploiements contrôlés."
+        }
+      ],
+      "note": "Aucun score Lighthouse, aucun SLA ni aucune certification de sécurité n’est revendiqué pour cette réalisation.",
+      "descriptionShort": "Quatre piliers ont guidé la conception et le développement."
+    },
+    "resultat": {
+      "eyebrow": "Résultat",
+      "title": "Une plateforme commerciale complète, accessible aux acheteurs internationaux.",
+      "description": "Le périmètre livré, décrit par ses fonctionnalités et non par des résultats commerciaux.",
+      "items": [
+        "Plus de 25 pages",
+        "Deux langues : français et anglais",
+        "Six produits principaux",
+        "Gestion autonome des contenus (Sanity)",
+        "Formulaires de devis, d’échantillon et de contact",
+        "Newsletter avec double confirmation",
+        "Veille quotidienne automatisée",
+        "Cours de marché cacao et café",
+        "Cartographie interactive Mapbox",
+        "Expérience responsive"
+      ],
+      "line": "Client : Golden Beans SA · Réalisation : ZIIIILO SARL · Statut : en production",
+      "visuals": "Visuels de cette page : captures réelles de goldenbeans.cm prises le 22/11/2026.",
+      "action": "Visiter Golden Beans",
+      "note": "Ces éléments décrivent le périmètre de livraison, pas des résultats commerciaux mesurés.",
+      "descriptionShort": "Le périmètre livré, décrit par ses fonctionnalités.",
+      "itemsShort": [
+        "Plus de 25 pages",
+        "Français et anglais",
+        "Six produits principaux",
+        "Contenus gérés dans Sanity",
+        "Devis, échantillon et contact",
+        "Newsletter à double confirmation",
+        "Veille quotidienne automatisée",
+        "Cours de marché cacao et café",
+        "Cartographie interactive Mapbox",
+        "Expérience responsive"
+      ],
+      "lineShort": "Client : Golden Beans SA · Réalisation : ZIIIILO SARL · En production",
+      "visualsShort": "Visuels : captures réelles de goldenbeans.cm (22/11/2026).",
+      "noteShort": "Périmètre de livraison, pas des résultats commerciaux mesurés."
+    },
+    "cta": {
+      "title": "Nous concevons des expériences digitales qui répondent à de véritables enjeux métiers.",
+      "description": "Golden Beans illustre l’approche de ZIIIILO : réunir design, ingénierie logicielle, données et automatisation pour construire des plateformes numériques adaptées aux besoins opérationnels des entreprises.",
+      "primary": "Voir nos autres projets",
+      "secondary": "Démarrer un projet avec ZIIIILO",
+      "descriptionShort": "Golden Beans illustre l’approche de ZIIIILO : réunir design, ingénierie logicielle, données et automatisation pour construire des plateformes adaptées aux besoins des entreprises."
+    }
+  },
   "etude-ninety-one-foot-academy": {
     "hero": {
       "crumb": "Ninety One Foot Academy",
