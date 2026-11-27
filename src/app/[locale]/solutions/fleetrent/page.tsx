@@ -73,6 +73,7 @@ export default async function FleetRentPage() {
     <>
       <ReadingProgress />
       <ProductHero
+        product
         breadcrumb={
           <Breadcrumb
             theme="dark"
@@ -146,7 +147,7 @@ export default async function FleetRentPage() {
 
       {/* Présentation */}
       <section aria-labelledby="presentation-title" className="py-64 desktop:py-120">
-        <div className="container grid gap-16 tablet:gap-32 desktop:grid-cols-2 desktop:gap-96">
+        <div className="container grid gap-16 tablet:gap-32 desktop:grid-cols-[minmax(0,31.25rem)_minmax(0,1fr)] desktop:gap-96">
           <div className="flex flex-col gap-16">
             <Eyebrowed eyebrow={t("presentation.eyebrow")} />
             <h2 id="presentation-title" className="text-h2 text-text-primary">
@@ -174,7 +175,7 @@ export default async function FleetRentPage() {
             description={t("problem.description")}
             descriptionClassName="hidden tablet:block"
           />
-          <ul className="grid gap-40 tablet:grid-cols-3 tablet:gap-24">
+          <ul className="grid gap-32 tablet:grid-cols-3 tablet:gap-24">
             {problems.map((item, i) => (
               <Reveal as="li" key={item.title} delay={i * 100}>
                 <IconCard
@@ -184,7 +185,7 @@ export default async function FleetRentPage() {
                   headingClassName="text-h5"
                   flatOnMobile
                 >
-                  <p className="text-body-s text-text-secondary">
+                  <p className="text-text-secondary text-body-s">
                     <Short full={item.text} short={item.short} />
                   </p>
                 </IconCard>
@@ -204,17 +205,17 @@ export default async function FleetRentPage() {
             description={t("solution.description")}
             descriptionClassName="hidden tablet:block"
           />
-          <ul className="grid gap-40 tablet:grid-cols-3 tablet:gap-24">
+          <ul className="grid gap-16 tablet:grid-cols-3 tablet:gap-24">
             {bricks.map((item, i) => (
               <Reveal as="li" key={item.title} delay={i * 100}>
                 <IconCard
                   icon={BRICK_ICONS[i]}
                   tone={BRICK_TONES[i]}
                   title={<Short full={item.title} short={item.titleShort} />}
-                  headingClassName="text-h4"
-                  flatOnMobile
+                  headingClassName="max-tablet:text-h5 tablet:text-h4"
+                  largeTile
                 >
-                  <p className="text-body-s text-text-secondary tablet:hidden">{item.short}</p>
+                  <p className="text-text-secondary text-body-s tablet:hidden">{item.short}</p>
                   <CheckList items={item.points} className="max-tablet:hidden" />
                 </IconCard>
               </Reveal>
@@ -237,7 +238,7 @@ export default async function FleetRentPage() {
             description={t("features.description")}
             descriptionShort={t("features.descriptionShort")}
           />
-          <ul className="grid grid-cols-1 gap-12 tablet:grid-cols-2 tablet:gap-16 desktop:grid-cols-4 desktop:gap-20">
+          <ul className="grid grid-cols-1 gap-10 tablet:grid-cols-2 tablet:gap-16 desktop:grid-cols-4 desktop:gap-20">
             {features.map((item, i) => (
               <Reveal as="li" key={item.title} delay={(i % 4) * 80}>
                 <StatusFeatureCard
@@ -256,10 +257,7 @@ export default async function FleetRentPage() {
       </section>
 
       {/* Aperçu de l'interface — desktop uniquement (§7) */}
-      <section
-        aria-labelledby="apercu-title"
-        className="hidden bg-background-subtle py-120 desktop:block"
-      >
+      <section aria-labelledby="apercu-title" className="hidden bg-background-subtle py-120 desktop:block">
         <div className="container flex flex-col gap-48">
           <SectionHeader
             id="apercu-title"
@@ -291,34 +289,37 @@ export default async function FleetRentPage() {
             titleShort={t("model.titleShort")}
           />
           <div className="grid gap-16 tablet:grid-cols-2 tablet:gap-24">
-            <Reveal className="flex flex-col gap-16 rounded-xl bg-primary-subtle p-24 tablet:gap-20 tablet:p-28">
-              <IconTile icon={Building2} tone="blue" size="M" className="max-tablet:hidden" />
+            <Reveal className="flex flex-col gap-12 rounded-xl bg-primary-subtle p-24 tablet:gap-20 tablet:p-32 desktop:rounded-2xl desktop:p-40">
+              <IconTile icon={Building2} tone="blue" size="L" className="max-tablet:hidden" />
               <div className="flex flex-col gap-8">
-                <h3 className="text-h3 text-text-primary">{t("model.agencies.title")}</h3>
-                <p className="text-body-s text-text-secondary max-tablet:hidden">
+                <h3 className="text-h4 text-text-primary tablet:text-h3">{t("model.agencies.title")}</h3>
+                <p className="text-text-secondary text-body-s max-tablet:hidden desktop:text-body-m">
                   {t("model.agencies.subtitle")}
                 </p>
               </div>
-              <CheckList items={agencies} />
+              <CheckList items={agencies} large />
             </Reveal>
             <Reveal
               delay={100}
-              className="relative isolate flex flex-col gap-16 overflow-hidden rounded-xl bg-background-inverse p-24 tablet:gap-20 tablet:p-28"
+              className="relative isolate flex flex-col gap-12 overflow-hidden rounded-xl bg-background-inverse p-24 tablet:gap-20 tablet:p-32 desktop:rounded-2xl desktop:p-40"
             >
-              <IconTile icon={Users} tone="glass" size="M" className="max-tablet:hidden" />
+              <IconTile icon={Users} tone="glass" size="L" className="max-tablet:hidden" />
               <div className="flex flex-col gap-8">
-                <h3 className="text-h3 text-text-inverse">{t("model.clients.title")}</h3>
-                <p className="text-body-s text-text-inverse-muted max-tablet:hidden">
+                <h3 className="text-h4 text-text-inverse tablet:text-h3">{t("model.clients.title")}</h3>
+                <p className="text-text-inverse-muted text-body-s max-tablet:hidden desktop:text-body-m">
                   {t("model.clients.subtitle")}
                 </p>
               </div>
               <CheckList
                 dark
-                items={clients.map((full, i) => <Short key={full} full={full} short={clientsShort[i]} />)}
+                large
+                items={clients.map((full, i) => (
+                  <Short key={full} full={full} short={clientsShort[i]} />
+                ))}
               />
             </Reveal>
           </div>
-          <p className="text-body-xs text-text-muted max-tablet:hidden">{t("model.note")}</p>
+          <p className="text-text-muted text-body-xs max-tablet:hidden">{t("model.note")}</p>
         </div>
       </section>
 

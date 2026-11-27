@@ -36,6 +36,7 @@ export function ProductHero({
   leadShort,
   actions,
   visual,
+  product = false,
 }: {
   breadcrumb: ReactNode;
   badges: ReactNode;
@@ -44,6 +45,8 @@ export function ProductHero({
   leadShort?: string;
   actions?: ReactNode;
   visual: ReactNode;
+  /** Pages produit (15:2677, 90:11553) : visuel de 632 px, H1 mobile au format H1 (32 px). */
+  product?: boolean;
 }) {
   return (
     <section
@@ -53,7 +56,14 @@ export function ProductHero({
       <div aria-hidden className="pointer-events-none absolute inset-0 -z-10">
         <div className="absolute top-[-10%] right-[-20%] size-720 rounded-full bg-[radial-gradient(circle,var(--color-primary-brand)_0%,transparent_60%)] opacity-20" />
       </div>
-      <div className="container grid items-center gap-40 desktop:grid-cols-[minmax(0,1fr)_minmax(0,37rem)] desktop:gap-56">
+      <div
+        className={cn(
+          "container grid items-center gap-40",
+          product
+            ? "desktop:grid-cols-[minmax(0,1fr)_minmax(0,39.5rem)] desktop:gap-48"
+            : "desktop:grid-cols-[minmax(0,1fr)_minmax(0,37rem)] desktop:gap-56",
+        )}
+      >
         <div className="flex flex-col items-start gap-20 desktop:gap-24">
           {breadcrumb}
           <Reveal trigger="mount" delay={100} className="flex flex-wrap gap-8">
@@ -65,14 +75,17 @@ export function ProductHero({
             preset="h2"
             trigger="mount"
             delay={250}
-            className="max-w-[36rem] text-display-l text-text-inverse"
+            className={cn("max-w-[36rem] text-display-l text-text-inverse", product && "max-tablet:text-h1")}
           />
           <RevealLines
             text={lead}
             preset="description"
             trigger="mount"
             delay={650}
-            className={cn("max-w-[36rem] text-body-xl text-text-inverse-muted", leadShort && "max-tablet:hidden")}
+            className={cn(
+              "max-w-[36rem] text-body-xl text-text-inverse-muted",
+              leadShort && "max-tablet:hidden",
+            )}
           />
           {leadShort && (
             <RevealLines
@@ -115,10 +128,13 @@ export function Eyebrowed({ eyebrow, dark = false }: { eyebrow: string; dark?: b
 export function CheckList({
   items,
   dark = false,
+  large = false,
   className,
 }: {
   items: readonly ReactNode[];
   dark?: boolean;
+  /** Desktop : texte Body M (positionnement, 15:3519). */
+  large?: boolean;
   className?: string;
 }) {
   return (
@@ -126,7 +142,11 @@ export function CheckList({
       {items.map((item, i) => (
         <li
           key={i}
-          className={cn("flex items-start gap-12 text-body-s", dark ? "text-text-inverse" : "text-text-secondary")}
+          className={cn(
+            "flex items-start gap-12 text-body-s",
+            large && "desktop:text-body-m",
+            dark ? "text-text-inverse" : "text-text-secondary",
+          )}
         >
           <Check
             aria-hidden
@@ -148,6 +168,7 @@ export function IconCard({
   title,
   headingClassName = "text-h4",
   flatOnMobile = false,
+  largeTile = false,
   children,
   className,
 }: {
@@ -157,18 +178,26 @@ export function IconCard({
   headingClassName?: string;
   /** Mobile : pastille, titre et texte sans carte (24:2741, 24:2791). */
   flatOnMobile?: boolean;
+  /** Pastille L (56 px) sur desktop (piliers 15:3053). */
+  largeTile?: boolean;
   children: ReactNode;
   className?: string;
 }) {
   return (
     <div
       className={cn(
-        "flex h-full flex-col gap-16 rounded-lg border border-border-default bg-surface-default p-24 tablet:gap-20",
-        flatOnMobile && "max-tablet:rounded-none max-tablet:border-0 max-tablet:bg-transparent max-tablet:p-0",
+        "flex h-full flex-col gap-16 rounded-lg border border-border-default bg-surface-default p-20 tablet:gap-20 tablet:p-24 desktop:rounded-xl desktop:p-32",
+        flatOnMobile &&
+          "max-tablet:rounded-none max-tablet:border-0 max-tablet:bg-transparent max-tablet:p-0",
         className,
       )}
     >
-      <IconTile icon={icon} tone={tone} size="M" />
+      <IconTile
+        icon={icon}
+        tone={tone}
+        size="M"
+        className={cn(largeTile && "desktop:size-56 desktop:rounded-lg")}
+      />
       <div className="flex flex-col gap-12">
         <h3 className={cn("text-text-primary", headingClassName)}>{title}</h3>
         {children}
@@ -195,7 +224,7 @@ export function StatusFeatureCard({
   status: FeatureStatus;
 }) {
   return (
-    <div className="flex h-full min-w-0 items-center gap-12 rounded-lg border border-glass-card-border bg-glass-card p-12 tablet:flex-col tablet:items-stretch tablet:gap-16 tablet:p-24">
+    <div className="flex h-full min-h-60 min-w-0 items-center gap-12 rounded-md border border-glass-card-border bg-glass-card px-12 py-8 tablet:flex-col tablet:items-stretch tablet:gap-16 tablet:rounded-lg tablet:p-24">
       <div className="flex items-center gap-12 tablet:justify-between">
         <IconTile icon={icon} tone="glass" size="M" />
         <StatusBadge tone={status.tone} className="max-tablet:hidden">
@@ -203,8 +232,8 @@ export function StatusFeatureCard({
         </StatusBadge>
       </div>
       <div className="flex min-w-0 flex-1 flex-col gap-8">
-        <h3 className="text-h5 text-text-inverse">{title}</h3>
-        <p className="text-body-s text-text-inverse-muted max-tablet:sr-only">{text}</p>
+        <h3 className="text-text-inverse text-label-m tablet:text-h5">{title}</h3>
+        <p className="text-text-inverse-muted text-body-s max-tablet:sr-only">{text}</p>
       </div>
       <StatusBadge tone={status.tone} className="tablet:hidden">
         {status.label}
@@ -228,15 +257,15 @@ export function BuilderBand({
   return (
     <section aria-labelledby="developpe-par-title" className="pb-64 desktop:pb-96">
       <div className="container">
-        <Reveal className="flex flex-col items-center gap-24 rounded-xl border border-border-default bg-background-subtle p-24 text-center tablet:flex-row tablet:gap-32 tablet:p-28 tablet:text-left">
+        <Reveal className="flex flex-col items-start gap-16 rounded-xl border border-border-default bg-background-subtle p-24 tablet:gap-20 tablet:p-32 desktop:flex-row desktop:items-center desktop:gap-40 desktop:rounded-2xl desktop:p-40">
           <span className="flex shrink-0 items-center justify-center rounded-lg border border-border-default bg-surface-default px-20 py-12">
-            <Logo width={112} />
+            <Logo width={144} />
           </span>
           <div className="flex flex-1 flex-col gap-8">
             <h2 id="developpe-par-title" className="text-h4 text-text-primary">
               {title}
             </h2>
-            <p className="text-body-s text-text-secondary">
+            <p className="text-text-secondary text-body-s tablet:text-body-m">
               <Short full={text} short={textShort} />
             </p>
           </div>
