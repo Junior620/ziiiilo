@@ -10346,5 +10346,1498 @@
         }
       ]
     }
+  },
+  "etude-scpb-commercial": {
+    "hero": {
+      "crumb": "SCPB Commercial",
+      "name": "SCPB",
+      "product": "Commercial",
+      "logoAlt": "SCPB",
+      "badges": ["Intelligence artificielle · Automatisation B2B", "Solution métier · statut à confirmer"],
+      "title": "Une nouvelle façon de développer la prospection commerciale internationale.",
+      "lead": "SCPB Commercial centralise la recherche d’acheteurs, la qualification des prospects, la génération d’emails personnalisés par intelligence artificielle et le suivi commercial au sein d’une même plateforme.",
+      "primary": "Voir l’aperçu de la plateforme",
+      "primaryShort": "Voir l’aperçu",
+      "secondary": "Retour aux réalisations",
+      "note": "Réalisation pour l’entreprise SCPB · conception et développement : ZIIIILO (à confirmer) · maquettes conceptuelles, données fictives.",
+      "visualAlt": "Maquette conceptuelle de SCPB Commercial : tableau de bord de prospection et brouillon d’email généré par l’IA en attente d’approbation. Données fictives.",
+      "visualMobileAlt": "Extrait de la maquette conceptuelle du tableau de bord commercial de SCPB Commercial. Données fictives."
+    },
+    "defi": {
+      "eyebrow": "Le défi",
+      "title": "Transformer une prospection complexe en un processus structuré.",
+      "description": "Pour trouver un nouvel acheteur à l’international, une équipe commerciale doit identifier les entreprises, analyser leurs activités, trouver les bons interlocuteurs, rédiger, envoyer, relancer et suivre. Des opérations répétitives qui ralentissent le développement commercial.",
+      "descriptionShort": "Identifier, analyser, rédiger, envoyer, relancer, suivre : des opérations répétitives qui ralentissent le développement commercial.",
+      "before": {
+        "label": "Avant",
+        "title": "Une prospection fragmentée",
+        "items": [
+          {
+            "title": "Recherche dispersée",
+            "text": "Des sources multiples consultées une à une.",
+            "textShort": "Des sources consultées une à une."
+          },
+          {
+            "title": "Saisie manuelle",
+            "text": "Des informations recopiées dans des tableurs."
+          },
+          {
+            "title": "Messages répétitifs",
+            "text": "Un même texte adapté à la main pour chaque acheteur.",
+            "textShort": "Un même texte adapté à la main."
+          },
+          {
+            "title": "Suivi fragmenté",
+            "text": "Réponses et relances réparties entre plusieurs boîtes.",
+            "textShort": "Réponses et relances éparpillées."
+          },
+          {
+            "title": "Difficulté à prioriser les prospects",
+            "text": "Peu de visibilité sur les acheteurs les plus pertinents.",
+            "textShort": "Peu de visibilité sur les acheteurs pertinents."
+          }
+        ]
+      },
+      "after": {
+        "label": "Avec SCPB Commercial",
+        "title": "Un processus structuré",
+        "items": [
+          {
+            "title": "Recherche centralisée",
+            "text": "Pays, secteurs et mots-clés depuis une seule interface.",
+            "textShort": "Pays, secteurs et mots-clés au même endroit."
+          },
+          {
+            "title": "Qualification automatisée",
+            "text": "Cœur de cible, cible secondaire ou hors cible, avec un score.",
+            "textShort": "Catégorie et score pour chaque entreprise."
+          },
+          {
+            "title": "Messages individualisés",
+            "text": "Rédigés par l’IA selon le prospect, la langue et le ton."
+          },
+          {
+            "title": "Approbation humaine",
+            "text": "Aucun premier email envoyé sans validation."
+          },
+          {
+            "title": "Pilotage des campagnes",
+            "text": "Envois, relances et réponses suivis au même endroit.",
+            "textShort": "Envois, relances et réponses suivis ensemble."
+          }
+        ]
+      },
+      "note": "Aucun gain chiffré n’est revendiqué : les effets dépendent de l’usage et restent à mesurer."
+    },
+    "solution": {
+      "eyebrow": "La solution",
+      "title": "Cinq piliers réunis dans une même plateforme.",
+      "description": "SCPB Commercial centralise et automatise les tâches répétitives, tout en maintenant une validation humaine et des garde-fous opérationnels.",
+      "descriptionShort": "La plateforme automatise les tâches répétitives, avec une validation humaine et des garde-fous opérationnels.",
+      "pillars": [
+        {
+          "title": "Prospecter intelligemment",
+          "text": "Recherche d’entreprises par produits, pays, activités et mots-clés.",
+          "textShort": "Recherche par produits, pays, activités et mots-clés."
+        },
+        {
+          "title": "Qualifier les opportunités",
+          "text": "Classement et score de priorité pour chaque entreprise.",
+          "textShort": "Classement et score de priorité."
+        },
+        {
+          "title": "Personnaliser grâce à l’IA",
+          "text": "Emails individualisés, multilingues, dans le ton choisi.",
+          "textShort": "Emails individualisés et multilingues."
+        },
+        {
+          "title": "Garder le contrôle des envois",
+          "text": "Approbation humaine, rythme maîtrisé et garde-fous.",
+          "textShort": "Approbation humaine et garde-fous."
+        },
+        {
+          "title": "Mesurer et exploiter les réponses",
+          "text": "Réponses classées, relances et pilotage des campagnes.",
+          "textShort": "Réponses classées et relances pilotées."
+        }
+      ],
+      "base": "Une base commune : prospects, campagnes, messages, approbations et réponses",
+      "loop": "Les réponses analysées affinent le ciblage suivant"
+    },
+    "fonctionnement": {
+      "eyebrow": "Comment ça fonctionne",
+      "title": "Six étapes, de la recherche au suivi des réponses.",
+      "description": "Recherche → Qualification → Rédaction IA → Approbation → Envoi → Suivi. L’approbation humaine conditionne tout premier envoi.",
+      "descriptionShort": "L’approbation humaine (étape 4) conditionne tout premier envoi.",
+      "highlight": "Étape clé · contrôle humain",
+      "steps": [
+        {
+          "title": "Recherche",
+          "text": "Identification d’entreprises selon les produits, pays, activités et mots-clés."
+        },
+        {
+          "title": "Qualification",
+          "text": "Classement cœur de cible, cible secondaire ou hors cible, avec un score.",
+          "textShort": "Cœur de cible, cible secondaire ou hors cible, avec un score."
+        },
+        {
+          "title": "Rédaction IA",
+          "text": "Un email individualisé selon le prospect, le produit, la langue et le ton."
+        },
+        {
+          "title": "Approbation humaine",
+          "text": "Lire, modifier, régénérer, valider ou rejeter chaque premier email."
+        },
+        {
+          "title": "Envoi",
+          "text": "Envoi depuis le domaine de l’entreprise, relances dans la limite des règles.",
+          "textShort": "Depuis le domaine de l’entreprise ; relances dans la limite des règles."
+        },
+        {
+          "title": "Suivi",
+          "text": "Réponses détectées et classées : intérêt, prix, rendez-vous, refus…",
+          "textShort": "Réponses classées : intérêt, informations, prix, rendez-vous, refus, désinscription."
+        }
+      ],
+      "panel": {
+        "label": "Étape 04 — étape centrale",
+        "title": "Aucun premier email n’est envoyé sans approbation humaine.",
+        "text": "L’IA prépare ; un membre de l’équipe commerciale relit et décide. Les messages approuvés sont ensuite envoyés sous réserve des vérifications et restrictions applicables.",
+        "actions": [
+          "Lire le message",
+          "Le modifier",
+          "Demander une nouvelle rédaction",
+          "Le valider",
+          "Le rejeter"
+        ]
+      }
+    },
+    "apercu": {
+      "eyebrow": "Aperçu de la plateforme",
+      "title": "Six interfaces clés de SCPB Commercial.",
+      "description": "Maquettes conceptuelles réalisées pour le portfolio : ce ne sont pas des captures de l’application, et toutes les données affichées sont fictives.",
+      "descriptionShort": "Extraits recadrés de maquettes conceptuelles : ce ne sont pas des captures de l’application ; données fictives.",
+      "mockups": [
+        {
+          "title": "Tableau de bord",
+          "text": "Prospects identifiés, campagnes, emails en attente de validation et réponses à traiter.",
+          "textShort": "Prospects, campagnes, emails à valider et réponses.",
+          "alt": "Maquette conceptuelle du tableau de bord commercial : prospects identifiés, campagnes actives, emails à valider, prospects par pays et réponses sur huit semaines. Données fictives."
+        },
+        {
+          "title": "Recherche de prospects",
+          "text": "Mots-clés, pays et secteur ; liste d’entreprises, scores de pertinence et filtres.",
+          "textShort": "Mots-clés, pays, secteur, scores et filtres.",
+          "alt": "Maquette conceptuelle de la recherche de prospects : mots-clés, pays, secteur, liste d’entreprises fictives avec catégorie et score. Données fictives."
+        },
+        {
+          "title": "Fiche prospect",
+          "text": "Entreprise fictive, catégorie, informations professionnelles, notes et historique.",
+          "textShort": "Entreprise fictive, catégorie, notes et historique.",
+          "alt": "Maquette conceptuelle d’une fiche prospect : entreprise fictive, catégorie, score, notes internes et historique des interactions. Données fictives."
+        },
+        {
+          "title": "Campagnes IA",
+          "text": "Produit, segment, langue et ton, puis génération de brouillons individualisés.",
+          "textShort": "Produit, segment, langue, ton et génération.",
+          "alt": "Maquette conceptuelle d’une nouvelle campagne : produit, segment, marché, langue et ton, puis brouillons générés à valider. Données fictives."
+        },
+        {
+          "title": "Validation humaine",
+          "text": "Relecture de l’email généré : modifier, régénérer, approuver ou rejeter.",
+          "textShort": "Modifier, régénérer, approuver ou rejeter.",
+          "alt": "Maquette conceptuelle de la validation humaine : aperçu de l’email avant envoi, vérifications et boutons Modifier, Régénérer, Rejeter, Approuver. Données fictives."
+        },
+        {
+          "title": "Suivi commercial",
+          "text": "Réponses classées, prospects intéressés, demandes de prix et alertes.",
+          "textShort": "Réponses classées, demandes de prix et alertes.",
+          "alt": "Maquette conceptuelle du suivi commercial : réponses classées automatiquement, prospects intéressés, demandes de prix et alertes. Données fictives."
+        }
+      ],
+      "featuresTitle": "Fonctionnalités principales",
+      "features": [
+        {
+          "title": "Recherche intelligente de prospects",
+          "text": "Par pays, activité et mots-clés."
+        },
+        {
+          "title": "Fiches entreprises enrichies",
+          "text": "Score, qualification, langue et notes internes.",
+          "textShort": "Score, qualification, langue et notes."
+        },
+        {
+          "title": "Identification des décideurs",
+          "text": "À la demande, à partir de sources professionnelles publiques.",
+          "textShort": "À la demande, sources professionnelles publiques."
+        },
+        {
+          "title": "Segmentation commerciale",
+          "text": "Listes dynamiques par pays, secteurs, scores et statuts.",
+          "textShort": "Listes dynamiques par pays, secteurs, scores."
+        },
+        {
+          "title": "Campagnes assistées par IA",
+          "text": "Produits, segments, langues et tonalités."
+        },
+        {
+          "title": "Validation humaine",
+          "text": "Relecture, modification, régénération et approbation.",
+          "textShort": "Relecture, modification, approbation."
+        },
+        {
+          "title": "Envoi contrôlé et relances",
+          "text": "Rythme d’envoi, vérifications et suivi des tentatives.",
+          "textShort": "Rythme, vérifications, suivi des tentatives."
+        },
+        {
+          "title": "Gestion des réponses",
+          "text": "Centralisation et catégorisation des intentions.",
+          "textShort": "Centralisation et catégorisation."
+        },
+        {
+          "title": "Tableau de bord commercial",
+          "text": "Campagnes, réponses, rebonds, clics et alertes.",
+          "textShort": "Campagnes, réponses, rebonds, clics, alertes."
+        },
+        {
+          "title": "Administration",
+          "text": "Utilisateurs, rôles, paramètres d’envoi et supervision.",
+          "textShort": "Utilisateurs, rôles, paramètres et supervision."
+        }
+      ]
+    },
+    "ia": {
+      "eyebrow": "Une IA sous contrôle humain",
+      "title": "La puissance de l’automatisation. Le discernement de l’humain.",
+      "description": "L’intelligence artificielle prépare les messages ; les utilisateurs gardent le contrôle de leur validation avant le premier envoi.",
+      "descriptionShort": "L’IA prépare les messages ; les utilisateurs gardent le contrôle de leur validation avant le premier envoi.",
+      "chainLabel": "De la génération à l’envoi d’un premier email",
+      "chain": [
+        {
+          "title": "IA génère",
+          "tag": "Automatisé"
+        },
+        {
+          "title": "Commercial vérifie",
+          "tag": "Décision humaine"
+        },
+        {
+          "title": "Commercial approuve",
+          "tag": "Décision humaine"
+        },
+        {
+          "title": "Système contrôle",
+          "tag": "Automatisé"
+        },
+        {
+          "title": "Email envoyé",
+          "tag": "Résultat"
+        }
+      ],
+      "loop": "Si le message est rejeté : modification ou nouvelle rédaction, puis nouvelle vérification.",
+      "principles": [
+        {
+          "title": "L’IA prépare",
+          "text": "Recherche, qualification et premiers brouillons, à l’échelle de plusieurs marchés.",
+          "textShort": "Recherche, qualification et premiers brouillons."
+        },
+        {
+          "title": "L’humain décide",
+          "text": "Chaque premier email est relu, puis approuvé ou rejeté par l’équipe commerciale.",
+          "textShort": "Chaque premier email est relu, puis approuvé ou rejeté."
+        },
+        {
+          "title": "Le système contrôle",
+          "text": "Désinscriptions, exclusions, limites et anomalies vérifiées avant l’envoi.",
+          "textShort": "Désinscriptions, exclusions, limites et anomalies vérifiées."
+        }
+      ],
+      "quote": "Automatiser ne signifie pas abandonner le contrôle."
+    },
+    "technologies": {
+      "eyebrow": "Technologies",
+      "title": "Une architecture conçue pour l’automatisation et l’évolutivité.",
+      "description": "Les technologies et services utilisés par le projet, regroupés par rôle.",
+      "layerLabel": "Couche",
+      "layers": [
+        {
+          "title": "Application & hébergement",
+          "chips": ["Next.js", "Vercel"],
+          "text": "Interface web et déploiement de l’application.",
+          "textShort": "Interface web et déploiement."
+        },
+        {
+          "title": "Données",
+          "chips": ["PostgreSQL", "Supabase"],
+          "text": "Prospects, campagnes, messages et historique."
+        },
+        {
+          "title": "Intelligence artificielle",
+          "chips": ["Claude (Anthropic)", "OpenAI"],
+          "text": "Rédaction des emails individualisés : Claude en fournisseur principal, OpenAI en secours.",
+          "textShort": "Rédaction des emails : Claude en principal, OpenAI en secours."
+        },
+        {
+          "title": "Recherche & collecte",
+          "chips": ["Apify (Google Maps)", "Bright Data · alternative"],
+          "text": "Identification d’entreprises et lecture des sites web."
+        },
+        {
+          "title": "Envoi",
+          "chips": ["Resend", "SPF · DKIM · DMARC"],
+          "text": "Emails depuis le domaine authentifié de l’entreprise."
+        },
+        {
+          "title": "Automatisation",
+          "chips": ["Inngest"],
+          "text": "Files d’attente, traitements asynchrones et reprises en cas d’échec.",
+          "textShort": "Files d’attente, traitements asynchrones et reprises."
+        }
+      ],
+      "note": "Technologies et services utilisés par le projet : ils ne sont pas présentés comme des partenaires officiels de ZIIIILO."
+    },
+    "securite": {
+      "eyebrow": "Sécurité et fiabilité",
+      "title": "Des garde-fous intégrés ou prévus dans la solution.",
+      "description": "Des mécanismes conçus pour limiter les erreurs et les risques, sans constituer une certification ni une garantie de conformité.",
+      "pillars": [
+        {
+          "title": "Contrôle humain",
+          "text": "Validation obligatoire des premiers messages avant tout envoi."
+        },
+        {
+          "title": "Traçabilité",
+          "text": "Suivi des actions, des campagnes et des statuts."
+        },
+        {
+          "title": "Protection de l’envoi",
+          "text": "Vérifications techniques, limitation du rythme et gestion des anomalies."
+        },
+        {
+          "title": "Résilience",
+          "text": "Solutions de secours pour certains fournisseurs et traitement des erreurs."
+        }
+      ],
+      "guardsTitle": "Garde-fous intégrés ou prévus",
+      "guards": [
+        "Approbation humaine avant le premier envoi",
+        "Limitation des contacts par entreprise",
+        "Espacement entre campagnes",
+        "Vérification technique des adresses",
+        "Gestion des désinscriptions",
+        "Liste d’exclusion",
+        "Contrôle des paramètres indispensables",
+        "Arrêt automatique en cas d’anomalies de rebond",
+        "Autorisations par rôle",
+        "Traçabilité des opérations",
+        "Protection des clés d’accès et secrets applicatifs",
+        "Règles d’envoi configurables par pays"
+      ],
+      "alertTitle": "Conformité : validation juridique requise pour chaque marché",
+      "alertText": "Ces mécanismes ne constituent pas une garantie de conformité RGPD ni de légalité dans tous les pays. Les obligations relatives à la prospection électronique et au traitement des données doivent être vérifiées juridiquement pour chaque marché ; une adresse professionnelle publique n’autorise pas automatiquement son utilisation à des fins de prospection.",
+      "alertTextShort": "Ces mécanismes ne garantissent ni la conformité RGPD ni la légalité dans tous les pays. Les obligations de prospection électronique doivent être vérifiées pour chaque marché ; une adresse professionnelle publique n’autorise pas automatiquement son utilisation à des fins de prospection."
+    },
+    "benefices": {
+      "eyebrow": "Bénéfices métiers",
+      "title": "Ce que la plateforme apporte à une équipe commerciale.",
+      "description": "Bénéfices attendus de la conception — aucun indicateur de performance n’est revendiqué à ce stade.",
+      "items": [
+        {
+          "title": "Réduction des tâches répétitives",
+          "text": "Recherche, saisie et premiers brouillons pris en charge par la plateforme.",
+          "textShort": "Recherche, saisie et premiers brouillons pris en charge."
+        },
+        {
+          "title": "Meilleure organisation de la prospection",
+          "text": "Prospects, campagnes et relances structurés dans un même outil.",
+          "textShort": "Prospects, campagnes et relances dans un même outil."
+        },
+        {
+          "title": "Personnalisation multilingue",
+          "text": "Des messages adaptés à chaque prospect, dans sa langue."
+        },
+        {
+          "title": "Priorisation des prospects",
+          "text": "Catégories et scores pour concentrer l’effort sur les acheteurs pertinents.",
+          "textShort": "Catégories et scores pour cibler l’effort."
+        },
+        {
+          "title": "Suivi centralisé",
+          "text": "Réponses classées et alertes réunies dans un tableau de bord.",
+          "textShort": "Réponses classées et alertes réunies."
+        },
+        {
+          "title": "Contrôle des communications commerciales",
+          "text": "Chaque premier message est validé par l’équipe commerciale.",
+          "textShort": "Chaque premier message est validé par l’équipe."
+        }
+      ]
+    },
+    "adaptabilite": {
+      "eyebrow": "Adaptabilité",
+      "title": "Une plateforme pensée au-delà d’un seul secteur.",
+      "description": "Conçue pour un besoin initial du commerce de cacao et de café, SCPB Commercial repose sur une architecture paramétrable, adaptable à d’autres contextes commerciaux.",
+      "descriptionShort": "Conçue pour un besoin initial du commerce de cacao et de café, avec une architecture paramétrable, adaptable à d’autres contextes commerciaux.",
+      "needLabel": "Besoin initial",
+      "needs": ["Fèves de cacao", "Masse de cacao", "Beurre de cacao", "Poudre de cacao", "Café"],
+      "note": "Aucune utilisation dans d’autres secteurs n’est revendiquée à ce jour.",
+      "paramsTitle": "Paramètres configurables",
+      "paramTag": "Paramétrable",
+      "params": [
+        {
+          "title": "Produits",
+          "text": "Cacao et café pour le besoin initial"
+        },
+        {
+          "title": "Marchés",
+          "text": "Zones géographiques ciblées"
+        },
+        {
+          "title": "Pays",
+          "text": "Règles d’envoi par pays"
+        },
+        {
+          "title": "Langues",
+          "text": "Messages multilingues"
+        },
+        {
+          "title": "Segments",
+          "text": "Listes dynamiques"
+        },
+        {
+          "title": "Règles de ciblage",
+          "text": "Critères de qualification et scores"
+        },
+        {
+          "title": "Ton de communication",
+          "text": "Formel, cordial, technique ou premium"
+        },
+        {
+          "title": "Signature et domaine d’envoi",
+          "text": "Propres à l’entreprise utilisatrice"
+        }
+      ]
+    },
+    "mentions": {
+      "title": "Une réalisation présentée par ZIIIILO",
+      "text": "Plateforme conçue pour l’entreprise SCPB, utilisatrice de la solution. Conception et développement : ZIIIILO — mention à confirmer. Statut du projet et droits de propriété intellectuelle : à confirmer.",
+      "action": "Voir les autres réalisations"
+    },
+    "cta": {
+      "title": "Des problématiques métiers aux solutions technologiques concrètes.",
+      "description": "À travers des projets comme SCPB Commercial, ZIIIILO illustre son approche de la transformation digitale : analyser les besoins, concevoir des outils adaptés et mobiliser les technologies modernes pour simplifier les opérations.",
+      "primary": "Confiez-nous votre projet",
+      "secondary": "Voir nos réalisations"
+    }
+  },
+  "etude-staftrack": {
+    "hero": {
+      "crumb": "StafTrack",
+      "nameStart": "Staf",
+      "nameEnd": "Track",
+      "badges": [
+        {
+          "text": "Ressources humaines · Pointage via WhatsApp",
+          "textShort": "RH · Pointage via WhatsApp"
+        },
+        {
+          "text": "Disponible"
+        },
+        {
+          "text": "Solution métier"
+        }
+      ],
+      "title": "Remplacer la feuille de présence par un pointage sur WhatsApp.",
+      "lead": "Les employés pointent leur arrivée et leur départ sur WhatsApp, et le service RH suit tout en direct sur un tableau de bord web. Chaque pointage est vérifié par la position du téléphone, sans application à installer ni matériel à poser.",
+      "leadShort": "Les employés pointent leur arrivée et leur départ sur WhatsApp ; le service RH suit tout en direct. Chaque pointage est vérifié par la position du téléphone, sans application à installer.",
+      "primary": "Voir le fonctionnement",
+      "secondary": "Retour aux réalisations",
+      "note": "Solution réalisée par ZIIIILO pour l’entreprise SCPB · site : staf-track.com · maquettes conceptuelles, données fictives.",
+      "noteShort": "Solution réalisée par ZIIIILO pour l’entreprise SCPB · staf-track.com · maquettes conceptuelles, données fictives.",
+      "visualAlt": "Maquette conceptuelle de StafTrack : tableau de bord RH et conversation WhatsApp de pointage, données fictives.",
+      "visualMobileAlt": "Extrait de la maquette conceptuelle du tableau de bord RH de StafTrack, données fictives."
+    },
+    "probleme": {
+      "eyebrow": "Le problème réglé",
+      "title": "Une feuille de présence laisse passer les erreurs.",
+      "description": "Feuilles de présence et badgeuses laissent passer les erreurs et coûtent du temps au service RH chaque mois.",
+      "before": {
+        "label": "Aujourd’hui",
+        "title": "Une feuille de présence",
+        "items": [
+          {
+            "title": "Feuille de présence",
+            "text": "Signée parfois après coup, ou par un collègue."
+          },
+          {
+            "title": "Retards et absences tardifs",
+            "text": "Connus seulement en fin de mois."
+          },
+          {
+            "title": "Heures sup. contestées",
+            "text": "Déclarées, puis discutées."
+          },
+          {
+            "title": "Demandes sur papier",
+            "text": "Absences et ordres de mission à faire circuler."
+          },
+          {
+            "title": "Totaux ressaisis",
+            "text": "Les totaux de paie sont recopiés à la main."
+          }
+        ]
+      },
+      "after": {
+        "label": "Avec StafTrack",
+        "title": "Un pointage vérifié",
+        "items": [
+          {
+            "title": "Pointage depuis le téléphone",
+            "text": "Sur le lieu de travail, à l’heure réelle."
+          },
+          {
+            "title": "Suivi en direct",
+            "text": "Présents, absents et retards visibles aussitôt."
+          },
+          {
+            "title": "Heures sup. calculées au départ",
+            "text": "Avec le motif de l’employé, validées par la RH."
+          },
+          {
+            "title": "Demandes sur WhatsApp",
+            "text": "Décision RH en un clic, document PDF ou Word généré.",
+            "textShort": "Décision RH en un clic, PDF ou Word généré."
+          },
+          {
+            "title": "Rapport du mois exporté",
+            "text": "En Excel ou PDF, prêt pour la paie."
+          }
+        ]
+      },
+      "note": "Aucun gain chiffré n’est revendiqué : les effets dépendent de l’usage et restent à mesurer."
+    },
+    "fonctionnement": {
+      "eyebrow": "Comment ça marche",
+      "title": "Quelques secondes pour pointer, sans application à installer.",
+      "description": "L’employé touche un bouton dans WhatsApp, ouvre le lien reçu et autorise sa position. Le départ et les pauses suivent le même chemin.",
+      "descriptionShort": "Le départ et les pauses suivent le même chemin.",
+      "highlight": "Étape clé · anti-fraude",
+      "steps": [
+        {
+          "title": "Toucher le bouton",
+          "text": "« Pointer mon arrivée », en haut de la conversation WhatsApp."
+        },
+        {
+          "title": "Ouvrir le lien signé",
+          "text": "Lien personnel, signé numériquement, valable 15 minutes."
+        },
+        {
+          "title": "Autoriser la position",
+          "text": "La position est lue par le navigateur, au moment du pointage."
+        },
+        {
+          "title": "Vérification sur place",
+          "text": "Accepté seulement dans le rayon autorisé du site."
+        },
+        {
+          "title": "Confirmation",
+          "text": "L’employé reçoit la confirmation ; la RH voit le pointage aussitôt."
+        }
+      ],
+      "panel": {
+        "label": "Étape 04 — vérification sur place",
+        "title": "Hors du site, le pointage est refusé.",
+        "text": "Accepté, le pointage est confirmé à l’employé et visible aussitôt par la RH. Fait hors du site, il est refusé et la tentative reste visible pour la RH, avec la distance.",
+        "textShort": "Accepté, il est confirmé à l’employé et visible aussitôt par la RH. Refusé, la tentative reste visible pour la RH, avec la distance.",
+        "accepted": {
+          "title": "Pointage accepté",
+          "text": "Arrivée enregistrée à 07:47 · 38 m du site. Confirmation envoyée sur WhatsApp, visible aussitôt par la RH."
+        },
+        "refused": {
+          "title": "Pointage refusé — hors zone",
+          "text": "Tentative à 340 m du site, hors du rayon autorisé. Elle reste visible pour la RH, avec la distance."
+        }
+      }
+    },
+    "fonctionnalites": {
+      "eyebrow": "Fonctionnalités",
+      "title": "Deux faces, une même plateforme.",
+      "description": "L’employé utilise WhatsApp ; la RH utilise un tableau de bord web protégé par mot de passe.",
+      "descriptionShort": "L’employé utilise WhatsApp ; la RH, un tableau de bord web protégé par mot de passe.",
+      "employee": {
+        "label": "Côté employé",
+        "labelShort": "Côté employé · Sur WhatsApp",
+        "title": "Sur WhatsApp",
+        "items": [
+          {
+            "title": "Pointer arrivée et départ",
+            "text": "Deux boutons en haut de chaque conversation, avec l’état du jour.",
+            "textShort": "Deux boutons en haut de chaque conversation."
+          },
+          {
+            "title": "Pointer sa pause",
+            "text": "Début de pause et retour de pause."
+          },
+          {
+            "title": "Donner un motif",
+            "text": "En cas de retard, de départ anticipé ou d’heures sup.",
+            "textShort": "Retard, départ anticipé ou heures sup."
+          },
+          {
+            "title": "Consulter son historique",
+            "text": "Pointages, absences, heures sup., détail d’un jour.",
+            "textShort": "Pointages, absences, heures sup."
+          },
+          {
+            "title": "Demander une absence",
+            "text": "Et suivre ses missions, sans passer par le bureau RH.",
+            "textShort": "Et suivre ses missions."
+          },
+          {
+            "title": "Recevoir des rappels",
+            "text": "Début et fin de pause, départ oublié en fin de journée.",
+            "textShort": "Pauses, départ oublié en fin de journée."
+          }
+        ]
+      },
+      "rh": {
+        "label": "Côté RH",
+        "labelShort": "Côté RH · Tableau de bord",
+        "title": "Sur le tableau de bord",
+        "items": [
+          {
+            "title": "Tableau de bord",
+            "text": "Présents, absents, retards, missions et autorisations du jour ; tendance sur 30 jours ; bloc « À traiter ».",
+            "textShort": "Jour en cours, tendance 30 jours, « À traiter »."
+          },
+          {
+            "title": "Pointages",
+            "text": "Arrivées et départs, filtres par date, service, statut et employé.",
+            "textShort": "Filtres par date, service, statut, employé."
+          },
+          {
+            "title": "Pauses",
+            "text": "Heures de pause et de retour, pauses trop longues.",
+            "textShort": "Pauses trop longues signalées."
+          },
+          {
+            "title": "Heures supplémentaires",
+            "text": "Calcul au départ (soir, week-end), plafonds, motif, validation en un clic.",
+            "textShort": "Calcul au départ, plafonds, validation."
+          },
+          {
+            "title": "Autorisations d’absence",
+            "text": "Demandes reçues sur WhatsApp, décision RH, document PDF ou Word.",
+            "textShort": "Décision RH, document PDF ou Word."
+          },
+          {
+            "title": "Missions",
+            "text": "Ordres de mission numérotés, jours effectués, récapitulatif pour la paie.",
+            "textShort": "Ordres de mission numérotés, paie."
+          },
+          {
+            "title": "Stagiaires",
+            "text": "Fiche de stage, rappel 7 jours avant la fin, prolongation, attestation, gratifications.",
+            "textShort": "Fiche, rappel de fin, attestation."
+          },
+          {
+            "title": "Employés",
+            "text": "Fiches, matricule automatique, sites, numéros WhatsApp, départs.",
+            "textShort": "Fiches, matricule, sites, numéros."
+          },
+          {
+            "title": "Rapports",
+            "text": "Présence, retards, absences, heures travaillées et sup. ; export Excel et PDF.",
+            "textShort": "Export Excel et PDF par mois."
+          },
+          {
+            "title": "Utilisateurs et paramètres",
+            "text": "Comptes RH avec rôles, sites et rayon de tolérance, horaires, jours fériés.",
+            "textShort": "Rôles, sites, horaires, jours fériés."
+          }
+        ]
+      },
+      "rules": {
+        "title": "Les règles tournent seules",
+        "text": "En arrière-plan, sans action de la RH.",
+        "items": [
+          {
+            "when": "Aucun pointage",
+            "then": "marqué absent"
+          },
+          {
+            "when": "Départ oublié",
+            "then": "clôturé à l’heure de fin prévue"
+          },
+          {
+            "when": "Autorisation ou mission approuvée",
+            "then": "jamais comptée comme absence"
+          }
+        ]
+      }
+    },
+    "apercu": {
+      "eyebrow": "Aperçu de la plateforme",
+      "title": "Le tableau de bord RH et le parcours de l’employé.",
+      "description": "Maquettes conceptuelles réalisées pour le portfolio : ce ne sont pas des captures de l’application, et toutes les données affichées sont fictives.",
+      "descriptionShort": "Extraits recadrés de maquettes conceptuelles : ce ne sont pas des captures de l’application ; données fictives.",
+      "mockups": [
+        {
+          "title": "Tableau de bord RH",
+          "text": "Présents, absents, retards, missions et autorisations ; tendance sur 30 jours ; bloc « À traiter ».",
+          "textShort": "Jour en cours, tendance et « À traiter ».",
+          "alt": "Maquette conceptuelle du tableau de bord RH de StafTrack : présents, absents, retards, taux de présence sur 30 jours et bloc « À traiter », données fictives."
+        },
+        {
+          "title": "Pointages",
+          "text": "Arrivées et départs filtrés par date, service, statut et employé ; tentatives hors zone conservées.",
+          "textShort": "Arrivées, départs, statuts du jour.",
+          "alt": "Maquette conceptuelle de la liste des pointages du jour de StafTrack, avec filtres et statuts, données fictives."
+        },
+        {
+          "title": "Heures supplémentaires",
+          "text": "Calcul au départ, motif de l’employé, plafonds, validation ou refus en un clic.",
+          "textShort": "Motif de l’employé, validation en un clic.",
+          "alt": "Maquette conceptuelle de la validation des heures supplémentaires dans StafTrack, avec plafonds paramétrés, données fictives."
+        },
+        {
+          "title": "Rapport mensuel",
+          "text": "Présence, retards, absences, heures travaillées et sup. ; export Excel et PDF pour la paie.",
+          "textShort": "Totaux par service, exports Excel et PDF.",
+          "alt": "Maquette conceptuelle du rapport mensuel de StafTrack, totaux par service et exports Excel et PDF, données fictives."
+        }
+      ],
+      "employee": {
+        "label": "Côté employé",
+        "title": "Pointer en quelques secondes, depuis WhatsApp.",
+        "items": [
+          "05 — La conversation : boutons d’arrivée et de départ, état du jour, lien signé et rappels.",
+          "06 — La page de pointage : position lue à l’instant, vérifiée par rapport au rayon du site, puis confirmation."
+        ]
+      },
+      "phones": [
+        {
+          "title": "Conversation WhatsApp (illustration)",
+          "text": "Boutons d’arrivée et de départ, lien signé, rappels.",
+          "alt": "Illustration d’une conversation WhatsApp avec l’assistant de pointage StafTrack : boutons « Pointer mon arrivée » et « Pointer mon départ », lien signé et rappel, données fictives."
+        },
+        {
+          "title": "Page de pointage",
+          "text": "Position lue à l’instant et vérifiée par rapport au site.",
+          "alt": "Maquette conceptuelle de la page de pointage StafTrack : position dans la zone autorisée du site et bouton « Confirmer mon arrivée », données fictives."
+        }
+      ]
+    },
+    "securite": {
+      "eyebrow": "Sécurité et anti-fraude",
+      "title": "Accepté seulement sur place, à l’instant, depuis le téléphone de l’employé.",
+      "description": "Chaque pointage est contrôlé au moment même où il est fait.",
+      "pillars": [
+        {
+          "title": "Lien signé, valable 15 minutes",
+          "text": "Chaque lien envoyé sur WhatsApp est signé numériquement : il ne peut être ni fabriqué, ni modifié, ni réutilisé plus tard.",
+          "textShort": "Signé numériquement : impossible à fabriquer, modifier ou réutiliser."
+        },
+        {
+          "title": "Position prise au moment du pointage",
+          "text": "Lue par le navigateur quand l’employé touche le bouton. Une position partagée à l’avance dans WhatsApp est refusée.",
+          "textShort": "Lue par le navigateur ; une position partagée à l’avance est refusée."
+        },
+        {
+          "title": "Zone autorisée par site",
+          "text": "Chaque site a un rayon de tolérance. Hors zone, le pointage est refusé et la tentative enregistrée, avec la distance.",
+          "textShort": "Hors du rayon, pointage refusé et tentative enregistrée avec la distance."
+        },
+        {
+          "title": "Messages WhatsApp authentifiés",
+          "text": "Seuls les messages signés par Meta sont traités."
+        }
+      ],
+      "guardsTitle": "Accès et données",
+      "guards": [
+        {
+          "text": "Comptes RH avec rôles : Administrateur, RH, Direction générale",
+          "textShort": "Comptes RH avec rôles"
+        },
+        {
+          "text": "Actions sensibles réservées à l’administrateur"
+        },
+        {
+          "text": "Données cloisonnées par entreprise"
+        },
+        {
+          "text": "Compte RH valable sur l’adresse de son entreprise uniquement",
+          "desktopOnly": true
+        },
+        {
+          "text": "Position utilisée pour une seule chose : vérifier la présence",
+          "textShort": "Position utilisée pour une seule chose"
+        },
+        {
+          "text": "Aucun suivi en continu"
+        },
+        {
+          "text": "Politique de confidentialité expliquée aux employés",
+          "textShort": "Politique de confidentialité pour les employés"
+        }
+      ],
+      "alertTitle": "Données personnelles : cadre à vérifier pour chaque entreprise",
+      "alertTitleShort": "Données personnelles : cadre à vérifier",
+      "alertText": "La position des employés est une donnée personnelle. Son usage, limité ici à la vérification de présence au moment du pointage, doit respecter la réglementation applicable et être expliqué aux employés. Ces mécanismes ne constituent pas une certification de conformité.",
+      "alertTextShort": "La position des employés est une donnée personnelle : son usage, limité à la vérification de présence, doit respecter la réglementation applicable et être expliqué aux employés. Ce n’est pas une certification de conformité."
+    },
+    "espace": {
+      "eyebrow": "Votre espace",
+      "title": "Votre espace, à vos couleurs.",
+      "description": "Chaque entreprise a son propre espace, isolé des autres, à une adresse dédiée.",
+      "addressLabel": "Adresse dédiée",
+      "address": "votre-entreprise.staf-track.com",
+      "note": "Un groupe peut suivre plusieurs sociétés dans le même espace, avec des filtres par structure dans les listes et les rapports.",
+      "noteShort": "Un groupe peut suivre plusieurs sociétés dans le même espace.",
+      "paramsTitle": "Paramétré par votre administrateur",
+      "paramTag": "Paramétrable",
+      "params": [
+        {
+          "title": "Plusieurs structures",
+          "text": "Filtres par structure dans les listes et les rapports",
+          "textShort": "Filtres par structure dans listes et rapports"
+        },
+        {
+          "title": "Votre marque",
+          "text": "Logo de chaque structure dans l’interface, les pages employé, les PDF et Word",
+          "textShort": "Logo de chaque structure, pages employé, PDF et Word"
+        },
+        {
+          "title": "Sites",
+          "text": "Position et rayon de tolérance de chaque site",
+          "textShort": "Position et rayon de tolérance"
+        },
+        {
+          "title": "Horaires",
+          "text": "Horaires et tolérance de retard"
+        },
+        {
+          "title": "Jours fériés",
+          "text": "Pris en compte dans les calculs"
+        },
+        {
+          "title": "Services",
+          "text": "Organisation de l’entreprise par service",
+          "textShort": "Organisation par service"
+        },
+        {
+          "title": "Comptes RH",
+          "text": "Rôles Administrateur, RH et Direction générale",
+          "textShort": "Administrateur, RH, Direction générale"
+        },
+        {
+          "title": "Un seul numéro WhatsApp",
+          "text": "L’employé est reconnu à son numéro, puis renvoyé vers son espace",
+          "textShort": "L’employé est reconnu à son numéro"
+        }
+      ]
+    },
+    "technologies": {
+      "eyebrow": "Technologie et hébergement",
+      "title": "Une application web hébergée dans le cloud.",
+      "description": "Ni serveur à installer, ni logiciel sur les postes RH : un navigateur suffit.",
+      "descriptionShort": "Un navigateur suffit, sur ordinateur, tablette ou téléphone.",
+      "layerLabel": "Couche",
+      "layers": [
+        {
+          "title": "Application et tableau de bord",
+          "chips": ["Next.js", "Vercel"],
+          "text": "Application web et tableau de bord RH, hébergés sur Vercel.",
+          "textShort": "Application web et tableau de bord RH."
+        },
+        {
+          "title": "Base de données",
+          "chips": ["PostgreSQL", "Supabase"],
+          "text": "Base PostgreSQL hébergée par Supabase.",
+          "textShort": "Base hébergée par Supabase."
+        },
+        {
+          "title": "Connexion des comptes RH",
+          "chips": ["Supabase Auth"],
+          "text": "Si le service de connexion est momentanément injoignable, l’utilisateur RH reste connecté et peut réessayer.",
+          "textShort": "Connexion maintenue si le service est momentanément injoignable."
+        },
+        {
+          "title": "Messagerie",
+          "chips": ["API WhatsApp Business (Meta)"],
+          "text": "API officielle ; les rappels utilisent des modèles de messages validés par Meta.",
+          "textShort": "API officielle ; rappels via modèles validés par Meta."
+        },
+        {
+          "title": "Documents",
+          "chips": ["Excel", "PDF", "Word"],
+          "text": "Exports et documents générés par l’application.",
+          "textShort": "Exports générés par l’application."
+        },
+        {
+          "title": "Utilisation",
+          "chips": ["Ordinateur", "Tablette", "Téléphone"],
+          "text": "Un navigateur suffit. Heures calculées dans le fuseau horaire de Douala.",
+          "textShort": "Heures calculées au fuseau de Douala."
+        }
+      ],
+      "note": "Technologies et services utilisés par le projet : ils ne sont pas présentés comme des partenaires officiels de ZIIIILO."
+    },
+    "miseEnPlace": {
+      "eyebrow": "Mise en place",
+      "title": "Cinq étapes, faites avec votre référent RH.",
+      "steps": [
+        {
+          "title": "Création de votre espace",
+          "text": "Adresse dédiée, logos de vos structures, premier compte administrateur.",
+          "textShort": "Adresse dédiée, logos, premier compte administrateur."
+        },
+        {
+          "title": "Paramétrage",
+          "text": "Sites avec position et rayon, horaires, tolérance de retard, jours fériés, services.",
+          "textShort": "Sites, rayon, horaires, tolérance, jours fériés, services."
+        },
+        {
+          "title": "Employés et comptes RH",
+          "text": "Saisie des employés et de leurs numéros WhatsApp, comptes RH et rôles.",
+          "textShort": "Employés, numéros WhatsApp, comptes RH et rôles."
+        },
+        {
+          "title": "Formation",
+          "text": "Prise en main du tableau de bord, puis message d’accueil aux employés.",
+          "textShort": "Prise en main, puis message d’accueil aux employés."
+        },
+        {
+          "title": "Démarrage",
+          "text": "Premiers pointages suivis ensemble, ajustements des réglages si besoin.",
+          "textShort": "Premiers pointages suivis ensemble, ajustements."
+        }
+      ],
+      "docsTitle": "Documents fournis avec la plateforme",
+      "docsTitleShort": "Documents fournis",
+      "docs": [
+        {
+          "title": "Guide d’utilisation",
+          "text": "Word et PDF, étape par étape, pour la RH et pour les employés.",
+          "textShort": "Word et PDF, pour la RH et les employés."
+        },
+        {
+          "title": "Vidéo de présentation",
+          "text": "75 secondes."
+        },
+        {
+          "title": "Proposition commerciale",
+          "text": "Avec le détail des prix par fonctionnalité.",
+          "textShort": "Détail des prix par fonctionnalité."
+        }
+      ],
+      "alertTitle": "Rappels WhatsApp : modèles à faire valider par Meta",
+      "alertTitleShort": "Rappels WhatsApp : modèles validés par Meta",
+      "alertText": "Les rappels automatiques nécessitent des modèles de messages validés par Meta. Leur validation se fait pendant la mise en place.",
+      "alertTextShort": "Les rappels automatiques nécessitent des modèles de messages validés par Meta, pendant la mise en place."
+    },
+    "benefices": {
+      "eyebrow": "Ce que vous y gagnez",
+      "title": "Des présences fiables, sans effort pour les équipes.",
+      "description": "Bénéfices attendus — aucun indicateur chiffré n’est revendiqué.",
+      "items": [
+        {
+          "title": "Des présences fiables",
+          "text": "Chaque pointage est daté, localisé et rattaché au téléphone de l’employé."
+        },
+        {
+          "title": "Du temps pour la RH",
+          "text": "Plus de feuilles à ramasser ni de totaux à ressaisir : le rapport du mois est prêt pour la paie.",
+          "textShort": "Plus de feuilles ni de totaux à ressaisir : le rapport du mois est prêt."
+        },
+        {
+          "title": "Moins de litiges",
+          "text": "Heures sup., retards et absences reposent sur des données partagées, que l’employé consulte aussi sur WhatsApp.",
+          "textShort": "Des données partagées, que l’employé consulte aussi sur WhatsApp."
+        },
+        {
+          "title": "Une adoption immédiate",
+          "text": "Les équipes utilisent déjà WhatsApp : rien à installer, rien à apprendre.",
+          "textShort": "Les équipes utilisent déjà WhatsApp : rien à installer."
+        }
+      ]
+    },
+    "mentions": {
+      "title": "Une réalisation de ZIIIILO pour SCPB",
+      "text": "Solution conçue et développée par ZIIIILO pour l’entreprise SCPB, utilisatrice de la plateforme. Statut : disponible. Site : staf-track.com.",
+      "action": "Voir les autres réalisations"
+    },
+    "cta": {
+      "title": "Voir StafTrack en conditions réelles",
+      "description": "Une démonstration sur un espace de test, avec vos sites et quelques employés, pour voir le pointage et le tableau de bord en conditions réelles.",
+      "descriptionShort": "Une démonstration sur un espace de test, avec vos sites et quelques employés.",
+      "primary": "Demander une démonstration",
+      "secondary": "Voir nos réalisations"
+    }
+  },
+  "etude-previsions-cacao-robusta": {
+    "hero": {
+      "crumb": "Prévisions Cacao & Robusta",
+      "name": "Cacao & Robusta",
+      "product": "Forecast",
+      "badges": [
+        "Data Science · Commodity Intelligence · Machine Learning",
+        "En ligne",
+        "Solution métier · SCPB",
+        "Aucun horizon validé au 20/11/2026"
+      ],
+      "title": "Les marchés du cacao et du café analysés par la donnée et l’intelligence artificielle.",
+      "lead": "Une plateforme technologique dédiée au suivi des marchés, à la modélisation prédictive et à l’évaluation transparente des prévisions de prix du cacao et du café robusta.",
+      "primary": "Explorer la plateforme",
+      "secondary": "Voir les réalisations ZIIIILO",
+      "note": "Solution réalisée par ZIIIILO pour l’entreprise SCPB · application « SCPB Market Forecast » · maquettes conceptuelles : cours et valeurs de modèle fictifs.",
+      "visualLabel": "Maquette conceptuelle — données fictives",
+      "visualAlt": "Maquette conceptuelle du tableau de bord SCPB Market Forecast : marché du cacao, quatre horizons et courbe de prévision, données fictives.",
+      "visualMobileAlt": "Extrait de la maquette conceptuelle du tableau de bord du cacao, données fictives."
+    },
+    "defi": {
+      "eyebrow": "Le défi",
+      "title": "Un marché volatil. Des décisions complexes.",
+      "description": "Exportateurs, négociants et acheteurs travaillent avec des cours fixés à l’international, sensibles à de nombreux facteurs.",
+      "items": [
+        {
+          "title": "Forte volatilité",
+          "text": "Des prix qui peuvent varier fortement d’une séance à l’autre."
+        },
+        {
+          "title": "Marchés internationaux",
+          "text": "Des cours fixés sur une bourse étrangère, sensibles aux flux mondiaux."
+        },
+        {
+          "title": "Conditions climatiques",
+          "text": "La météo des régions de production pèse sur l’offre."
+        },
+        {
+          "title": "Contrats à terme",
+          "text": "Des échéances qui expirent et se succèdent."
+        },
+        {
+          "title": "Interprétation difficile",
+          "text": "Des signaux nombreux, parfois contradictoires."
+        },
+        {
+          "title": "Incertitude des modèles",
+          "text": "Aucun modèle ne supprime l’incertitude."
+        }
+      ],
+      "illustration": {
+        "label": "Volatilité — illustration",
+        "text": "Une courbe synthétique pour montrer l’amplitude des mouvements, pas un historique de prix.",
+        "alt": "Courbe synthétique illustrant des mouvements de prix amples, sans données réelles.",
+        "note": "Données synthétiques — aucune statistique historique n’est représentée."
+      }
+    },
+    "approche": {
+      "eyebrow": "Notre approche",
+      "title": "Transformer les données de marché en informations exploitables.",
+      "description": "Quatre piliers, de la donnée brute à une information publiée avec son statut de validation.",
+      "pillars": [
+        {
+          "title": "Données de marché structurées",
+          "text": "Cours ICE via Databento, enrichis de signaux complémentaires."
+        },
+        {
+          "title": "Préparation rigoureuse des séries",
+          "text": "Une série continue, sans faux sauts liés aux changements d’échéance."
+        },
+        {
+          "title": "Statistique et Machine Learning",
+          "text": "XGBoost, N-HiTS et Prophet, avec un modèle par horizon."
+        },
+        {
+          "title": "Validation indépendante",
+          "text": "Comparaison à une référence simple avant toute publication comme prévision validée."
+        }
+      ]
+    },
+    "marches": {
+      "eyebrow": "Deux marchés, une plateforme",
+      "title": "Cacao et café robusta, suivis côte à côte.",
+      "description": "Données de marché obtenues via Databento ; mise à jour quotidienne de la dernière séance disponible, selon le calendrier du marché.",
+      "markets": [
+        {
+          "label": "Marché 01",
+          "name": "Cacao",
+          "unit": "GBP / tonne",
+          "curveAlt": "Courbe synthétique de tendance du cacao, sans données réelles."
+        },
+        {
+          "label": "Marché 02",
+          "name": "Café robusta",
+          "unit": "USD / tonne",
+          "curveAlt": "Courbe synthétique de tendance du café robusta, sans données réelles."
+        }
+      ],
+      "rows": [
+        {
+          "label": "Bourse",
+          "value": "ICE Futures Europe, Londres"
+        },
+        {
+          "label": "Historique",
+          "value": "Depuis octobre 2019"
+        },
+        {
+          "label": "Horizons étudiés",
+          "value": "J+1 · J+7 · J+14 · J+30"
+        },
+        {
+          "label": "Indicateurs",
+          "value": "Courbe des échéances, volumes, intérêt ouvert"
+        },
+        {
+          "label": "Modèles",
+          "value": "Dédiés à chaque horizon"
+        }
+      ],
+      "curveNote": "Courbe : illustration synthétique, pas un historique de prix.",
+      "signalsTitle": "Signaux complémentaires utilisés dans les analyses",
+      "signals": [
+        "Courbes des échéances",
+        "Volumes échangés",
+        "Intérêt ouvert",
+        "Météo des régions de production",
+        "Actualités de marché",
+        "Indicateurs complémentaires",
+        "Prix ONCC du café au Cameroun"
+      ]
+    },
+    "historique": {
+      "eyebrow": "Préparation des données",
+      "title": "Un historique continu, sans faux sauts.",
+      "description": "Les contrats à terme expirent régulièrement. Concaténés naïvement, ils créent de fausses variations au changement d’échéance : sur le cacao, ces artefacts pouvaient atteindre environ ±15 % en une séance en 2024.",
+      "series": [
+        {
+          "title": "Série naïve",
+          "tag": "Sauts artificiels",
+          "text": "Les écarts entre échéances apparaissent comme de faux mouvements de prix (repères orange).",
+          "alt": "Courbe synthétique d’une série naïve : deux sauts artificiels aux changements d’échéance, repérés en orange."
+        },
+        {
+          "title": "Série reconstruite",
+          "tag": "Sans rupture artificielle",
+          "text": "Les variations sont mesurées sur un même contrat : le changement d’échéance ne crée pas de saut.",
+          "alt": "Courbe synthétique d’une série reconstruite, continue aux changements d’échéance."
+        }
+      ],
+      "demo": "Démonstration conceptuelle : courbes synthétiques, pas des cours réels.",
+      "steps": [
+        "Suivre une échéance de contrat",
+        "Identifier le contrat le plus échangé",
+        "Passer à l’échéance suivante quand la liquidité le permet",
+        "Ne jamais revenir vers une ancienne échéance",
+        "Mesurer les variations sur un même contrat",
+        "Garder comme dernier point la clôture réelle du contrat suivi"
+      ]
+    },
+    "apercu": {
+      "eyebrow": "Aperçu du tableau de bord",
+      "title": "Six vues pour suivre les marchés et juger les modèles.",
+      "description": "Maquettes conceptuelles inspirées de l’application « SCPB Market Forecast ». Les cours et les valeurs de modèle sont fictifs ; seuls les MAPE du cacao (vue 05) sont des résultats historiques réels, datés du 20/11/2026.",
+      "mockups": [
+        {
+          "title": "Dashboard Cacao",
+          "text": "Dernier cours, quatre horizons avec leur statut, courbe historique et informations de marché.",
+          "alt": "Maquette conceptuelle du tableau de bord du cacao : dernier cours, quatre horizons non validés, historique continu et informations de marché, données fictives."
+        },
+        {
+          "title": "Dashboard Robusta",
+          "text": "Même lecture pour le café robusta, en USD par tonne.",
+          "alt": "Maquette conceptuelle du tableau de bord du café robusta en USD par tonne, données fictives."
+        },
+        {
+          "title": "Courbes de prévision",
+          "text": "Historique, dernier cours connu et trajectoire du modèle, chacun avec son type de trait.",
+          "alt": "Maquette conceptuelle des courbes de prévision du cacao : historique observé, dernier cours connu et trajectoire du modèle non validé, données fictives."
+        },
+        {
+          "title": "Structure du marché",
+          "text": "Courbe des échéances, volumes, intérêt ouvert et contrat suivi.",
+          "alt": "Maquette conceptuelle de la structure du marché du cacao : courbe des échéances, volumes et intérêt ouvert, données fictives."
+        },
+        {
+          "title": "Comparaison des modèles",
+          "text": "MAPE réels du cacao au 20/11/2026 : le modèle reste au-dessus de la référence.",
+          "alt": "Maquette de la comparaison des modèles : MAPE historiques du cacao au 20/11/2026 par horizon, le modèle testé reste au-dessus du dernier cours connu."
+        },
+        {
+          "title": "Historique et suivi",
+          "text": "Journal des prévisions : valeur publiée, valeur du modèle, statut, prix observé et erreur.",
+          "alt": "Maquette conceptuelle du journal des prévisions : valeur publiée, valeur du modèle, statut, prix observé et erreur, données fictives."
+        }
+      ]
+    },
+    "ml": {
+      "eyebrow": "Machine Learning",
+      "title": "Trois approches complémentaires pour étudier les tendances.",
+      "description": "Des modèles dédiés à chaque horizon, qui prédisent des variations relatives en pourcentage plutôt que de mémoriser des niveaux de prix.",
+      "engineLabel": "Moteur",
+      "engines": [
+        {
+          "title": "XGBoost",
+          "text": "Machine Learning sur indicateurs de marché.",
+          "tags": [
+            "Tendances",
+            "Moyennes mobiles",
+            "Variations historiques",
+            "Volatilité",
+            "Volumes",
+            "Saisonnalité"
+          ]
+        },
+        {
+          "title": "N-HiTS",
+          "text": "Réseau de neurones spécialisé dans les séries temporelles, qui modélise leurs différentes structures.",
+          "tags": ["Deep Learning", "Séries temporelles"]
+        },
+        {
+          "title": "Prophet",
+          "text": "Modèle de séries temporelles qui représente les tendances et les effets saisonniers.",
+          "tags": ["Tendances", "Saisonnalité"]
+        }
+      ],
+      "chainLabel": "De la donnée à la publication",
+      "chain": [
+        "Données de marché",
+        "Préparation des données",
+        "Évaluation",
+        "Sélection et contrôle",
+        "Publication"
+      ],
+      "horizonsLabel": "Un modèle dédié par horizon :",
+      "horizons": ["J+1", "J+7", "J+14", "J+30"],
+      "retraining": "Réentraînement chaque semaine, ou plus tôt en cas de choc de marché ou de dégradation. Un modèle nouvellement entraîné est validé avant de remplacer la version en service."
+    },
+    "validation": {
+      "eyebrow": "Une validation sans compromis",
+      "title": "Nous préférons une prévision non validée à une fausse certitude.",
+      "description": "Un modèle complexe n’est pas forcément meilleur qu’une référence simple. Pour les matières premières, cette référence est le dernier cours connu.",
+      "quote": "La confiance se mesure. Elle ne se décrète pas.",
+      "rulesTitle": "Pour qu’un horizon soit validé, le modèle doit :",
+      "rules": [
+        "Réduire l’erreur moyenne d’au moins 10 % par rapport au dernier cours connu.",
+        "Montrer un gain statistiquement robuste : intervalle de confiance par blocs excluant zéro.",
+        "Couvrir au moins six blocs de temps distincts."
+      ],
+      "method": [
+        "Évaluation walk-forward : à chaque date testée, seules les données alors disponibles sont utilisées.",
+        "Règles d’acceptation fixées le 8 octobre 2026, avant la période de test réservée (20 octobre 2026 – 29 janvier 2027, en cours).",
+        "Expérimentation et publication sont séparées : un résultat de modèle n’est publié comme prévision validée qu’après avoir passé ces règles."
+      ],
+      "status": "Résultats historiques au 20 novembre 2026 — Aucun horizon validé à cette date.",
+      "chartTitle": "Cacao · MAPE par horizon (erreur absolue moyenne en pourcentage, plus bas = meilleur)",
+      "chartAlt": "MAPE du cacao par horizon, dernier cours connu puis modèle testé : J+1 2,4 % et 2,6 % ; J+7 7,1 % et 7,9 % ; J+14 10,3 % et 12,8 % ; J+30 16,0 % et 24,4 %.",
+      "legend": ["Dernier cours connu (référence)", "Modèle testé"],
+      "notes": [
+        "85 dates de test, de janvier 2025 à septembre 2026. Une évaluation plus large (290 dates, 2021–2026) confirme que les modèles testés restent moins performants que le dernier cours connu.",
+        "J+14 et J+30 demandent une période plus longue pour atteindre six blocs de validation. L’évaluation détaillée du robusta reste à compléter.",
+        "Le MAPE est une erreur moyenne, pas un taux de précision."
+      ],
+      "publishLabel": "Ce que le site publie :",
+      "publish": [
+        {
+          "badge": "Référence retenue",
+          "text": "dernier cours connu"
+        },
+        {
+          "badge": "Non validé",
+          "text": "résultat du modèle, en complément"
+        }
+      ]
+    },
+    "tracabilite": {
+      "eyebrow": "Traçabilité des prévisions",
+      "title": "Chaque prévision laisse une trace.",
+      "description": "Une prévision est enregistrée au moment de sa publication, puis évaluée par rapport au prix observé lorsque son échéance est atteinte.",
+      "steps": [
+        {
+          "title": "Publication",
+          "text": "Valeur publiée, valeur du modèle et statut, à la date du jour."
+        },
+        {
+          "title": "Enregistrement",
+          "text": "La prévision entre dans le journal avec son horizon et son marché."
+        },
+        {
+          "title": "Échéance atteinte",
+          "text": "À J+1, J+7, J+14 ou J+30, le prix réellement observé est connu."
+        },
+        {
+          "title": "Évaluation",
+          "text": "L’erreur est calculée et rejoint le suivi des performances dans le temps."
+        }
+      ],
+      "values": [
+        "Historique",
+        "Auditabilité",
+        "Transparence",
+        "Suivi des erreurs",
+        "Évaluation dans le temps"
+      ],
+      "journalAlt": "Maquette conceptuelle du journal des prévisions : date de publication, marché, horizon, valeur publiée, statut et erreur, données fictives."
+    },
+    "automatisation": {
+      "eyebrow": "Automatisation",
+      "title": "Une chaîne de traitement automatisée, chaque jour de marché.",
+      "description": "Le traitement porte sur la dernière séance disponible, selon le calendrier du marché : ce n’est pas un flux de cotations en temps réel.",
+      "calendarLabel": "Calendrier du traitement",
+      "days": ["Lun", "Mar", "Mer", "Jeu", "Ven", "Sam", "Dim"],
+      "daysLabel": "Jours de traitement : du mardi au samedi",
+      "times": [
+        {
+          "time": "04:30",
+          "text": "Traitement principal (heure de Douala)"
+        },
+        {
+          "time": "06:30",
+          "text": "Rattrapage automatique si les données attendues manquent"
+        }
+      ],
+      "keyTitle": "Étapes clés",
+      "keyText": "Six grandes étapes, du cours de marché au tableau de bord.",
+      "keySteps": ["Collecte", "Préparation", "Calcul", "Vérification", "Publication", "Monitoring"],
+      "engine": {
+        "title": "Moteur de calcul",
+        "steps": [
+          "Collecte des cours",
+          "Vérification de leur fraîcheur",
+          "Construction des séries",
+          "Calcul des indicateurs",
+          "Exécution des modèles",
+          "Contrôle et sélection du résultat publiable",
+          "Enregistrement des prévisions"
+        ]
+      },
+      "api": {
+        "title": "API",
+        "step": "Mise à disposition via API"
+      },
+      "ui": {
+        "title": "Interface utilisateur",
+        "step": "Actualisation du tableau de bord"
+      },
+      "rolesLabel": "Séparation des rôles",
+      "roles": "Le calcul est effectué en amont par le moteur. L’API met à disposition les résultats déjà enregistrés, et l’interface les affiche sans relancer de calcul à chaque consultation.",
+      "monitoring": "Surveillance continue des traitements et alertes en cas d’anomalie, sur toute la chaîne."
+    },
+    "architecture": {
+      "eyebrow": "Architecture",
+      "title": "Une architecture conçue pour les données et le calcul prédictif.",
+      "description": "Chaque service a sa responsabilité : collecter et calculer, exposer les résultats, les afficher. Technologies utilisées par le projet ; ce ne sont pas des partenaires de ZIIIILO.",
+      "blocks": [
+        {
+          "title": "Sources",
+          "text": "Cours ICE Futures Europe et signaux complémentaires.",
+          "chips": ["Databento", "Météo", "Actualités", "Prix ONCC"]
+        },
+        {
+          "title": "Serveur de calcul",
+          "text": "Préparation des séries, entraînement et exécution des modèles.",
+          "chips": [
+            "Python 3.11",
+            "XGBoost",
+            "NeuralForecast / N-HiTS",
+            "Prophet",
+            "MLflow",
+            "Docker",
+            "Ubuntu 24.04"
+          ]
+        },
+        {
+          "title": "API",
+          "text": "Expose les résultats publiés.",
+          "chips": ["FastAPI", "nginx", "HTTPS", "Redis (cache)"]
+        },
+        {
+          "title": "Interface web",
+          "text": "Tableau de bord consulté par les utilisateurs.",
+          "chips": ["Next.js 14", "Vercel"]
+        },
+        {
+          "title": "Utilisateurs",
+          "text": "Exportateurs, négociants, acheteurs, analystes.",
+          "chips": []
+        }
+      ],
+      "storage": {
+        "title": "Stockage des séries, prévisions et journal",
+        "chips": ["PostgreSQL", "Supabase"],
+        "text": "utilisé par le serveur de calcul et l’API"
+      },
+      "securityTitle": "Sécurité",
+      "security": [
+        "Accès HTTPS",
+        "Administration par clés SSH",
+        "Services internes non exposés publiquement",
+        "Cache protégé",
+        "Secrets exclus des images",
+        "Surveillance des traitements"
+      ],
+      "alertTitle": "Limite d’infrastructure",
+      "alertText": "Le traitement et l’API s’appuient sur un serveur unique : ce n’est pas une architecture haute disponibilité multi-régions."
+    },
+    "benefices": {
+      "eyebrow": "Bénéfices métiers",
+      "title": "Des informations supplémentaires pour nourrir l’analyse.",
+      "description": "Bénéfices attendus de la plateforme, sans gain chiffré revendiqué.",
+      "items": [
+        {
+          "title": "Vision centralisée",
+          "text": "Suivi des marchés du cacao et du robusta au même endroit."
+        },
+        {
+          "title": "Compréhension des tendances",
+          "text": "Analyse du contexte et des indicateurs de marché."
+        },
+        {
+          "title": "Évaluation des modèles",
+          "text": "Visibilité sur leurs performances réelles, comparées à une référence simple."
+        },
+        {
+          "title": "Traçabilité",
+          "text": "Comparaison des prévisions passées avec les prix observés."
+        },
+        {
+          "title": "Aide à la décision",
+          "text": "Des informations supplémentaires pour nourrir l’analyse commerciale."
+        },
+        {
+          "title": "Automatisation",
+          "text": "Actualisation des données sans saisie manuelle quotidienne."
+        }
+      ],
+      "disclaimer": "Les informations et les modèles présentés ne garantissent pas l’évolution future des prix et ne constituent pas un conseil financier personnalisé."
+    },
+    "limites": {
+      "eyebrow": "Limites et évolution",
+      "title": "Une démarche d’amélioration continue.",
+      "description": "Pistes identifiées pour la suite : elles ne sont pas encore livrées.",
+      "tag": "Piste identifiée",
+      "items": [
+        "Intégration de données d’arrivages plus complètes",
+        "Amélioration des signaux de marché",
+        "Évaluation approfondie du robusta",
+        "Extension des périodes de validation",
+        "Étude de fourchettes de risque",
+        "Renforcement de la résilience de l’infrastructure"
+      ]
+    },
+    "mentions": {
+      "title": "Une réalisation de ZIIIILO pour SCPB",
+      "text": "Solution conçue et développée par ZIIIILO pour l’entreprise SCPB (application « SCPB Market Forecast »). Statut : en ligne ; prévisions de modèle non validées au 20/11/2026. Droits de propriété intellectuelle : non revendiqués ici.",
+      "action": "Voir les autres réalisations"
+    },
+    "cta": {
+      "title": "Quand l’ingénierie logicielle rencontre la science des données.",
+      "description": "Cette réalisation illustre la capacité de ZIIIILO à concevoir des solutions métier combinant collecte de données, intelligence artificielle, architectures backend et interfaces web de visualisation.",
+      "primary": "Discuter d’un projet avec ZIIIILO",
+      "secondary": "Découvrir nos autres réalisations"
+    }
   }
 }
